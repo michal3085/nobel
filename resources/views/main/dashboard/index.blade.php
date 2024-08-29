@@ -67,7 +67,7 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <img src="{{asset('/assets/img/icons/lineal/shopping-basket.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">Sprzedaż spółki</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2900</span> <span class="price-duration">plus opłaty</span></div>
@@ -85,7 +85,7 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">Założenie Spółki</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span> <span class="price-duration">plus opłaty</span></div>
@@ -103,7 +103,7 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/handshake.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">Obsługa Prawna</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span><span class="price-value"></span></div>
@@ -121,7 +121,7 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/calculator.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">Obsługa Księgowa</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span><span class="price-value"></span> </div>
