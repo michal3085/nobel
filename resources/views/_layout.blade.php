@@ -36,7 +36,7 @@
                     <!-- /.navbar-other -->
                 </div>
                 <!-- /.d-flex -->
-                    @include('main._menu')
+                    @include('_menu')
                 <!-- /.navbar-collapse-wrapper -->
             </div>
             <!-- /.container -->
