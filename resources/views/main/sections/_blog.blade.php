@@ -1,10 +1,13 @@
 <section class="wrapper bg-light">
     <div class="container pb-14 pb-md-16">
+
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <!-- /.blog -->
                 <div class="blog grid grid-view">
-                    <div class="row isotope gx-md-8 gy-8 mb-8">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Blog</span> </h3>
+                    </div>
+                    <div class="row isotope gx-md-8 gy-8 mb-8 mt-7">
                         <article class="item post col-md-6">
                             <div class="card">
                                 <figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="./assets/img/photos/b4.jpg" alt="" /></a>
