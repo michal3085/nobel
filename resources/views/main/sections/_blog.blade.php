@@ -1,10 +1,9 @@
 <section class="wrapper bg-light">
     <div class="container pb-14 pb-md-16">
-
         <div class="row">
-            <div class="col-lg-10 mx-auto">
+            <div class="col-lg-12 mx-auto"> <!-- Zmiana z col-lg-10 na col-lg-12 -->
                 <div class="blog grid grid-view">
-                    <div class="col-lg-7 text-center text-lg-start">
+                    <div class="col-lg-12 text-center text-lg-start"> <!-- Zmiana z col-lg-7 na col-lg-12 -->
                         <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Blog</span> </h3>
                     </div>
                     <div class="row isotope gx-md-8 gy-8 mb-8 mt-7">
@@ -151,8 +150,6 @@
                     <!-- /.row -->
                 </div>
                 <!-- /.blog -->
-
-                <!-- /nav -->
             </div>
             <!-- /column -->
         </div>
@@ -160,3 +157,4 @@
     </div>
     <!-- /.container -->
 </section>
+
