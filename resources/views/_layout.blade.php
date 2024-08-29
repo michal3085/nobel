@@ -50,10 +50,10 @@
                 <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="slideInDown" data-group="page-title">
                     <h1 class="display-1 text-white fs-60 mb-4 px-md-15 px-lg-0">Ty masz pomysł
                         <span class="underline-3 style-2 yellow"><br>My narzędzia do jego realizacji</span></h1>
-                    <p class="lead fs-24 text-white lh-sm mb-7 mx-md-13 mx-lg-10">We are a creative company that focuses on long term relationships with customers.</p>
-                    <div>
-                        <a class="btn btn-white rounded mb-10 mb-xxl-5">Read More</a>
-                    </div>
+{{--                    <p class="lead fs-24 text-white lh-sm mb-7 mx-md-13 mx-lg-10">We are a creative company that focuses on long term relationships with customers.</p>--}}
+{{--                    <div>--}}
+{{--                        <a class="btn btn-white rounded mb-10 mb-xxl-5">Read More</a>--}}
+{{--                    </div>--}}
                 </div>
                 <!-- /column -->
             </div>
