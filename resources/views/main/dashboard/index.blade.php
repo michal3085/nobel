@@ -85,15 +85,15 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Corporate Plan</h4>
+                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <h4 class="card-title">Założenie Spółki</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                                    <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span> <span class="price-duration">plus opłaty</span></div>
                                     <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                                 </div>
                                 <!--/.prices -->
-                                <p class="mt-7 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
-                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                                <p class="mt-7 mb-8">przez naszych Doradców trwa zaledwie 2-3 tygodnie i obejmuje przygotowanie umowy lub statutu spółki, organizację spotkania u notariusza, opracowanie i złożenie wymaganych formularzy oraz zarejestrowanie spółki w KRS, REGON, NIP i VAT.</p>
+{{--                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>--}}
                             </div>
                             <!--/.card-body -->
                         </div>
@@ -103,15 +103,15 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Corporate Plan</h4>
+                                <img src="./assets/img/icons/lineal/handshake.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <h4 class="card-title">Obsługa Prawna</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span><span class="price-value"></span></div>
                                     <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                                 </div>
                                 <!--/.prices -->
-                                <p class="mt-7 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
-                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                                <p class="mt-7 mb-8">pomagamy w znalezieniu najlepszych rozwiązań prawnych, zapewniających minimalizację ryzyka oraz bezpieczeństwo. Naszym celem jest rzetelne i dokładne zrozumienie potrzeb naszych Klientów oraz współtworzenie ich sukcesu.</p>
+{{--                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>--}}
                             </div>
                             <!--/.card-body -->
                         </div>
@@ -121,15 +121,15 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="pricing card shadow-lg text-center">
                             <div class="card-body">
-                                <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Corporate Plan</h4>
+                                <img src="./assets/img/icons/lineal/calculator.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <h4 class="card-title">Obsługa Księgowa</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span><span class="price-value"></span> </div>
                                     <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                                 </div>
                                 <!--/.prices -->
-                                <p class="mt-7 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
-                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                                <p class="mt-7 mb-8">świadczymy usługi dostosowane do bieżących potrzeb Klientów. Nasza obsługa księgowa ma kompleksowy charakter, obejmujący nie tylko prowadzenie ksiąg, ale również doradztwo związane z wykonywaną działalnością.</p>
+{{--                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>--}}
                             </div>
                             <!--/.card-body -->
                         </div>
