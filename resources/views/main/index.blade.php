@@ -55,7 +55,6 @@
 
 
     @include('main.sections._services')
-
     @include('main.sections._blog')
 
 @endsection
