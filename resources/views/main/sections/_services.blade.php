@@ -12,14 +12,15 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="pricing card shadow-lg text-center">
                         <div class="card-body">
-                            <img src="{{asset('/assets/img/icons/lineal/shopping-basket.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Sprzedaż spółki</h4>
+                            <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">SHELF COMPANY- GOTOWA SPÓŁKA</h4>
                             <div class="prices text-dark">
-                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2900</span> <span class="price-duration">plus opłaty</span></div>
+                                <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1500</span> <span class="price-duration">PLN</span></div>
                                 <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
                             </div>
                             <!--/.prices -->
                             <p class="mt-7 mb-8">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności. Nasza oferta umożliwia nabycie w pełni ukształtowanej spółki, wpisanej do KRS, REGON, NIP oraz VAT-UE, w przeciągu 1-2 dni.</p>
+                            <a href="#" class="btn btn-primary rounded">Poznaj ofertę</a>
                         </div>
                         <!--/.card-body -->
                     </div>
@@ -31,14 +32,18 @@
                     <div class="pricing card shadow-lg text-center">
                         <div class="card-body">
                             <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Założenie Spółki</h4>
+                            <h4 class="card-title">WIRTUALNE BIURO</h4>
                             <div class="prices text-dark">
-                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span> <span class="price-duration">plus opłaty</span></div>
+                                <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">100</span> <span class="price-duration">PLN</span></div>
                                 <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                             </div>
                             <!--/.prices -->
-                            <p class="mt-7 mb-8">przez naszych Doradców trwa zaledwie 2-3 tygodnie i obejmuje przygotowanie umowy lub statutu spółki, organizację spotkania u notariusza, opracowanie i złożenie wymaganych formularzy oraz zarejestrowanie spółki w KRS, REGON, NIP i VAT.</p>
-                            {{--                                <a href="#" class="btn btn-primary rounded">Choose Plan</a>--}}
+                            <p class="mt-7 mb-8">
+                                Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem
+                                lokalu i zatrudnieniem pracowników biurowych do jego obsługi.
+                            </p>
+                            <br>
+                            <a href="#" class="btn btn-primary rounded">Poznaj ofertę</a>
                         </div>
                         <!--/.card-body -->
                     </div>
