@@ -20,7 +20,7 @@
                             </div>
                             <!--/.prices -->
                             <p class="mt-7 mb-8">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności. Nasza oferta umożliwia nabycie w pełni ukształtowanej spółki, wpisanej do KRS, REGON, NIP oraz VAT-UE, w przeciągu 1-2 dni.</p>
-                            <a href="#" class="btn btn-primary rounded">Poznaj ofertę</a>
+                            <a href="{{route('service.readyCompany')}}" class="btn btn-primary rounded">Poznaj ofertę</a>
                         </div>
                         <!--/.card-body -->
                     </div>
