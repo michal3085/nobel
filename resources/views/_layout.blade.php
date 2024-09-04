@@ -11,96 +11,40 @@
     <link rel="shortcut icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="./assets/css/plugins.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/colors/violet.css">
-    <link rel="preload" href="./assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
 </head>
 
 <body>
 <div class="content-wrapper">
-    <header class="wrapper bg-soft-primary">
-        <nav class="navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark">
-            <div class="container justify-content-between align-items-center">
-                <div class="d-flex flex-row w-100 justify-content-between align-items-center d-lg-none">
-                    <div class="navbar-brand"><a href="./index.html">
-                            <img class="logo-dark" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-                            <img class="logo-light" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
-                        </a></div>
-                    <div class="navbar-other ms-auto">
-                        <ul class="navbar-nav flex-row align-items-center">
-                            <li class="nav-item d-lg-none">
-                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-                            </li>
-                        </ul>
-                        <!-- /.navbar-nav -->
-                    </div>
-                    <!-- /.navbar-other -->
-                </div>
-                <!-- /.d-flex -->
+    <header class="wrapper bg-gray">
+        <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
+            <div class="container flex-lg-row flex-nowrap align-items-center">
+                <!--     MENU    -->
                     @include('_menu')
-                <!-- /.navbar-collapse-wrapper -->
+                <!--    /MENU   -->
             </div>
-            <!-- /.container -->
         </nav>
-        <!-- /.navbar -->
     </header>
-    <!-- /header -->
-    <section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-300" data-image-src="./assets/img/photos/bg16.png">
-        <div class="container pt-17 pb-19 pt-md-18 pb-md-17 text-center">
-            <div class="row">
-                <div class="col-lg-8 col-xl-7 col-xxl-6 mx-auto" data-cues="slideInDown" data-group="page-title">
-                    <h1 class="display-1 text-white fs-60 mb-4 px-md-15 px-lg-0">Ty masz pomysł
-                        <span class="underline-3 style-2 yellow"><br>My narzędzia do jego realizacji</span></h1>
-{{--                    <p class="lead fs-24 text-white lh-sm mb-7 mx-md-13 mx-lg-10">We are a creative company that focuses on long term relationships with customers.</p>--}}
-{{--                    <div>--}}
-{{--                        <a class="btn btn-white rounded mb-10 mb-xxl-5">Read More</a>--}}
-{{--                    </div>--}}
-                </div>
-                <!-- /column -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-        <div class="overflow-hidden">
-            <div class="divider text-light mx-n2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60">
-                    <path fill="currentColor" d="M0,0V60H1440V0A5771,5771,0,0,1,0,0Z" />
-                </svg>
-            </div>
+    @include('components.movieBanner')
+
+
+    <section class="wrapper bg-light ">
+        <div class="container py-14 py-md-16">
+            @yield('content')
         </div>
     </section>
-    <!-- /section -->
-{{--    CONTENT--}}
-    @yield('content')
-{{--    /CONTENT--}}
+
 </div>
 <!-- /.content-wrapper -->
-<footer class="bg-light">
-    <div class="container pb-13 pb-md-15">
-        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-14" data-image-src="./assets/img/photos/bg16.png">
-            <div class="card-body p-10 p-xl-12">
-                <div class="row text-center">
-                    <div class="col-xl-11 col-xxl-9 mx-auto">
-                        <h2 class="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
-                        <h3 class="display-3 mb-8 px-lg-8 text-white">We are <span class="underline-3 style-2 yellow">trusted</span> by over 5000+ clients. Join them now and grow your business.</h3>
-                    </div>
-                    <!-- /column -->
-                </div>
-                <!-- /.row -->
-                <div class="d-flex justify-content-center">
-                    <span><a class="btn btn-white rounded">Get Started</a></span>
-                </div>
-            </div>
-            <!--/.card-body -->
-        </div>
-        <!--/.card -->
+<footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
         <div class="row gy-6 gy-lg-0">
             <div class="col-md-4 col-lg-3">
                 <div class="widget">
-                    <img class="mb-4" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+                    <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
                     <p class="mb-4">© <script>
                             document.write(new Date().getUTCFullYear());
                         </script> Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
-                    <nav class="nav social ">
+                    <nav class="nav social social-white">
                         <a href="#"><i class="uil uil-twitter"></i></a>
                         <a href="#"><i class="uil uil-facebook-f"></i></a>
                         <a href="#"><i class="uil uil-dribbble"></i></a>
@@ -114,17 +58,17 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title  mb-3">Get in Touch</h4>
+                    <h4 class="widget-title text-white mb-3">Get in Touch</h4>
                     <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-                    <a href="mailto:#" class="link-body">info@email.com</a><br /> 00 (123) 456 78 90
+                    <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
                 </div>
                 <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title  mb-3">Learn More</h4>
-                    <ul class="list-unstyled text-reset mb-0">
+                    <h4 class="widget-title text-white mb-3">Learn More</h4>
+                    <ul class="list-unstyled  mb-0">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Our Story</a></li>
                         <li><a href="#">Projects</a></li>
@@ -137,12 +81,12 @@
             <!-- /column -->
             <div class="col-md-12 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title  mb-3">Our Newsletter</h4>
+                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
                     <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
                     <div class="newsletter-wrapper">
                         <!-- Begin Mailchimp Signup Form -->
                         <div id="mc_embed_signup2">
-                            <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate>
+                            <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll2">
                                     <div class="mc-field-group input-group form-floating">
                                         <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
