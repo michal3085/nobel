@@ -17,13 +17,11 @@
 
 <body>
 <div class="content-wrapper">
-
-                <!--     MENU    -->
-                    @include('_menu')
-                <!--    /MENU   -->
+    <!--     MENU    -->
+        @include('_menu')
+    <!--    /MENU   -->
 
     @include('components.movieBanner')
-
     <section class="wrapper bg-light ">
         <div class="container py-14 py-md-16">
             @yield('content')
