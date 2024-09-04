@@ -17,17 +17,12 @@
 
 <body>
 <div class="content-wrapper">
-    <header class="wrapper bg-gray">
-        <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
-            <div class="container flex-lg-row flex-nowrap align-items-center">
+
                 <!--     MENU    -->
                     @include('_menu')
                 <!--    /MENU   -->
-            </div>
-        </nav>
-    </header>
-    @include('components.movieBanner')
 
+    @include('components.movieBanner')
 
     <section class="wrapper bg-light ">
         <div class="container py-14 py-md-16">
