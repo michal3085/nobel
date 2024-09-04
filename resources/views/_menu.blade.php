@@ -3,8 +3,8 @@
         <div class="container justify-content-between align-items-center">
             <div class="d-flex flex-row w-100 justify-content-between align-items-center d-lg-none">
                 <div class="navbar-brand"><a href="./index.html">
-                        <img class="logo-dark" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-                        <img class="logo-light" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+                        <img class="logo-dark" src="./assets/img/nobel_black.png" srcset="./assets/img/nobel_black@2x.png 2x" alt="" />
+                        <img class="logo-light" src="./assets/img/nobel_black.png" srcset="./assets/img/nobel_black@2x.png 2x" alt="" />
                     </a></div>
                 <div class="navbar-other ms-auto">
                     <ul class="navbar-nav flex-row align-items-center">
@@ -20,8 +20,8 @@
             <div class="navbar-collapse-wrapper d-flex flex-row align-items-center w-100">
                 <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                     <div class="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-                        <a href="./index.html" class="transition-none d-none d-lg-flex"><img class="logo-dark" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-{{--                            <img class="logo-light" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" /></a>--}}
+                        <a href="./index.html" class="transition-none d-none d-lg-flex"><img class="logo-dark" src="{{asset('/assets/img/logo/nobel_black.png')}}" srcset="{{asset('/assets/img/nobel_black.png')}}" alt="" />
+                            <img class="logo-light" src="{{asset('/assets/img/logo/nobel_black.png')}}" srcset="{{asset('/assets/img/logo/nobel_black.png')}}" alt="" /></a>
                         </a>
                         <h3 class="text-white fs-30 mb-0 d-lg-none">Sandbox</h3>
                         <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
