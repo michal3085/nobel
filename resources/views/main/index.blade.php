@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="wrapper bg-light">
-        <div class="container pb-15 pb-md-17">
+        <div class="container py-13 py-md-17 text-center">
             <br>
 
             @include('main.sections._services')
