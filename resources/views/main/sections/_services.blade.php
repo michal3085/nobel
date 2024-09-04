@@ -1,19 +1,20 @@
-<section class="wrapper bg-light mt-9">
+<section class="wrapper bg-light mt-17">
     <div class="container py-14 py-md-16">
         <div class="pricing-wrapper position-relative mt-n22 mt-md-n24">
             <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
             <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
             <div class="row gy-6 mt-3 mt-md-5">
 
-                <div class="col-lg-7 text-center text-lg-start">
-                    <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Usługi</span> </h3>
-                </div>
+{{--                <div class="col-lg-7 text-center text-lg-start">--}}
+{{--                    <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Usługi</span> </h3>--}}
+{{--                </div>--}}
+
 
                 <div class="col-md-6 col-lg-6">
-                    <div class="pricing card shadow-lg text-center">
+                    <div class="pricing card shadow-xl text-center">
                         <div class="card-body">
                             <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">SHELF COMPANY- GOTOWA SPÓŁKA</h4>
+                            <h4 class="card-title">GOTOWE SPÓŁKI</h4>
                             <div class="prices text-dark">
                                 <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1500</span> <span class="price-duration">PLN</span></div>
                                 <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
@@ -29,7 +30,7 @@
                 <!--/column -->
 
                 <div class="col-md-6 col-lg-6">
-                    <div class="pricing card shadow-lg text-center">
+                    <div class="pricing card shadow-xl text-center">
                         <div class="card-body">
                             <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                             <h4 class="card-title">WIRTUALNE BIURO</h4>
@@ -51,7 +52,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-6">
-                    <div class="pricing card shadow-lg text-center">
+                    <div class="pricing card shadow-xl text-center">
                         <div class="card-body">
                             <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                             <h4 class="card-title">Obsługa Prawna</h4>
@@ -69,7 +70,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-6">
-                    <div class="pricing card shadow-lg text-center">
+                    <div class="pricing card shadow-xl text-center">
                         <div class="card-body">
                             <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                             <h4 class="card-title">Obsługa Księgowa</h4>
