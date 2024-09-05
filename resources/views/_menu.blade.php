@@ -1,4 +1,4 @@
-<header class="wrapper bg-soft-primary tex">
+<header class="wrapper bg-soft-primary">
     <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
         <div class="container justify-content-between align-items-center">
             <div class="d-flex flex-row w-100 justify-content-between align-items-center d-lg-none">
@@ -26,7 +26,7 @@
                         <h3 class="text-white fs-30 mb-0 d-lg-none">Sandbox</h3>
                         <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="w-100 order-1 order-lg-0 d-lg-flex offcanvas-body">
+                    <div class=" order-1 order-lg-0 d-lg-flex offcanvas-body">
                         <ul class="navbar-nav ms-lg-auto">
                             <li class="nav-item dropdown dropdown-mega">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe spolki</a>
