@@ -41,12 +41,13 @@
                         <div class="card-body d-flex flex-column">
                             <div class="mb-auto">
                                 <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Obsługa Prawna</h4>
+                                <h4 class="card-title">Rejestracja spółki</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">pomagamy w znalezieniu najlepszych rozwiązań prawnych, zapewniających minimalizację ryzyka oraz bezpieczeństwo...</p>
+                                <p class="mt-4">Analiza Twoich potrzeb, przygotowanie dokumentów, rejestracja spółki w KRS, obsługa notarialna, wsparcie po rejestracji...</p>
                             </div>
+                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
