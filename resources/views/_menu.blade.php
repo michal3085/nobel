@@ -20,16 +20,16 @@
             <div class="navbar-collapse-wrapper d-flex flex-row align-items-center w-100">
                 <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                     <div class="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-{{--                        <a href="./index.html" class="transition-none d-none d-lg-flex"><img class="logo-dark" src="{{asset('/assets/img/logo/nobel_black.png')}}" srcset="{{asset('/assets/img/nobel_black.png')}}" alt="" />--}}
+                        <a href="./index.html" class="transition-none d-none d-lg-flex"><img class="logo-dark" src="{{asset('/assets/img/logo/nobel_black.png')}}" srcset="{{asset('/assets/img/nobel_black.png')}}" alt="" />
                             <img class="logo-light" src="{{asset('/assets/img/logo/nobel_black.png')}}" alt="" /></a>
-{{--                        </a>--}}
+                        </a>
                         <h3 class="text-white fs-30 mb-0 d-lg-none">Sandbox</h3>
                         <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class=" order-1 order-lg-0 d-lg-flex offcanvas-body">
                         <ul class="navbar-nav ms-lg-auto">
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe spolki</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe biuro</a>
                                 <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
                                     <li class="mega-menu-content mega-menu-scroll">
                                         <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
@@ -258,7 +258,7 @@
                                 <!--/.dropdown-menu -->
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Wirtualne biuro</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
                                         <ul class="dropdown-menu">
@@ -310,56 +310,8 @@
                                     <li class="nav-item"><a class="dropdown-item" href="./onepage.html">One Page</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Projects</a>
-                                <div class="dropdown-menu dropdown-lg">
-                                    <div class="dropdown-lg-content">
-                                        <div>
-                                            <h6 class="dropdown-header">Project Pages</h6>
-                                            <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="./projects.html">Projects I</a></li>
-                                                <li><a class="dropdown-item" href="./projects2.html">Projects II</a></li>
-                                                <li><a class="dropdown-item" href="./projects3.html">Projects III</a></li>
-                                                <li><a class="dropdown-item" href="./projects4.html">Projects IV</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- /.column -->
-                                        <div>
-                                            <h6 class="dropdown-header">Single Projects</h6>
-                                            <ul class="list-unstyled">
-                                                <li><a class="dropdown-item" href="./single-project.html">Single Project I</a></li>
-                                                <li><a class="dropdown-item" href="./single-project2.html">Single Project II</a></li>
-                                                <li><a class="dropdown-item" href="./single-project3.html">Single Project III</a></li>
-                                                <li><a class="dropdown-item" href="./single-project4.html">Single Project IV</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- /.column -->
-                                    </div>
-                                    <!-- /auto-column -->
-                                </div>
-                            </li>
-                        </ul>
-                        <!-- /.navbar-nav -->
-                    </div>
-                    <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
-                        <ul class="navbar-nav me-lg-auto">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe spółki</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="./blog.html">Blog without Sidebar</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="./blog2.html">Blog with Sidebar</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="./blog3.html">Blog with Left Sidebar</a></li>
-                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog Posts</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post.html">Post without Sidebar</a></li>
-                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post2.html">Post with Sidebar</a></li>
-                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post3.html">Post with Left Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Zmiany w KRS</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowa spólka</a>
                                 <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
                                     <li class="mega-menu-content">
                                         <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
@@ -378,76 +330,6 @@
                                                     <span>Call to Action</span>
                                                 </a>
                                             </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/clients.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block4.svg" alt=""></div>
-                                                    <span>Clients</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/contact.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block5.svg" alt=""></div>
-                                                    <span>Contact</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/facts.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block6.svg" alt=""></div>
-                                                    <span>Facts</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/faq.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block7.svg" alt=""></div>
-                                                    <span>FAQ</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/features.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block8.svg" alt=""></div>
-                                                    <span>Features</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/footer.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block9.svg" alt=""></div>
-                                                    <span>Footer</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/hero.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block10.svg" alt=""></div>
-                                                    <span>Hero</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/misc.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block17.svg" alt=""></div>
-                                                    <span>Misc</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/navbar.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block11.svg" alt=""></div>
-                                                    <span>Navbar</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/portfolio.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block12.svg" alt=""></div>
-                                                    <span>Portfolio</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/pricing.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block13.svg" alt=""></div>
-                                                    <span>Pricing</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/process.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block14.svg" alt=""></div>
-                                                    <span>Process</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/team.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block15.svg" alt=""></div>
-                                                    <span>Team</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/testimonials.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block16.svg" alt=""></div>
-                                                    <span>Testimonials</span>
-                                                </a>
-                                            </li>
                                         </ul>
                                         <!--/.row -->
                                     </li>
@@ -455,8 +337,28 @@
                                 </ul>
                                 <!--/.dropdown-menu -->
                             </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
+                        <ul class="navbar-nav me-lg-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Rejestracja spółki</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="dropdown-item" href="./blog.html">Blog without Sidebar</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="./blog2.html">Blog with Sidebar</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="./blog3.html">Blog with Left Sidebar</a></li>
+                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog Posts</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post.html">Post without Sidebar</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post2.html">Post with Sidebar</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="./blog-post3.html">Post with Left Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Zmiany w KRS</a>
                                 <ul class="dropdown-menu mega-menu">
                                     <li class="mega-menu-content">
                                         <div class="row gx-0 gx-lg-3">
@@ -515,6 +417,33 @@
                                             </div>
                                             <!--/column -->
                                         </div>
+                                        <!--/.row -->
+                                    </li>
+                                    <!--/.mega-menu-content-->
+                                </ul>
+                                <!--/.dropdown-menu -->
+                            </li>
+                            <li class="nav-item dropdown dropdown-mega">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
+                                <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+                                    <li class="mega-menu-content">
+                                        <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
+                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/about.html">
+                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block1.svg" alt=""></div>
+                                                    <span>About</span>
+                                                </a>
+                                            </li>
+                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/blog.html">
+                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block2.svg" alt=""></div>
+                                                    <span>Blog</span>
+                                                </a>
+                                            </li>
+                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/call-to-action.html">
+                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block3.svg" alt=""></div>
+                                                    <span>Call to Action</span>
+                                                </a>
+                                            </li>
+                                        </ul>
                                         <!--/.row -->
                                     </li>
                                     <!--/.mega-menu-content-->
