@@ -9,10 +9,12 @@ class ServicesController extends Controller
     public function __construct()
     {
         parent::__construct();
+
+        $this->data['mainMenu'] = 'services';
     }
 
     public function company()
     {
-        return view('services.readyCompany');
+        return view('services.readyCompany', $this->data);
     }
 }
