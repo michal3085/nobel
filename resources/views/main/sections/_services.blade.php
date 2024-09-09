@@ -41,7 +41,7 @@
                         <div class="card-body d-flex flex-column">
                             <div class="mb-auto">
                                 <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Rejestracja spółki</h4>
+                                <h4 class="card-title">REJESTRACJA SPÓŁKI</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
                                 </div>
@@ -57,12 +57,13 @@
                         <div class="card-body d-flex flex-column">
                             <div class="mb-auto">
                                 <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Obsługa Księgowa</h4>
+                                <h4 class="card-title">GOTOWE BIURO</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span></div>
                                 </div>
-                                <p class="mt-4">świadczymy usługi dostosowane do bieżących potrzeb Klientów...</p>
+                                <p class="mt-4">"Gotowe biura" to w pełni wyposażone przestrzenie dostępne od zaraz, idealne dla firm szukających szybkich rozwiązań.</p>
                             </div>
+                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
@@ -73,12 +74,13 @@
                         <div class="card-body d-flex flex-column">
                             <div class="mb-auto">
                                 <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">Obsługa Księgowa</h4>
+                                <h4 class="card-title">ZMIANY W KRS</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD OK</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">świadczymy usługi dostosowane do bieżących potrzeb Klientów...</p>
+                                <p class="mt-4">Mamy ponad 20 lat doświadczenia w rejestracji, sprzedaży i likwidacji spółek oraz zmianach w KRS.</p>
                             </div>
+                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
