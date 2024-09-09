@@ -15,6 +15,8 @@ class ServicesController extends Controller
 
     public function company()
     {
+        $this->data['subMenu'] = 'company';
+
         return view('services.readyCompany', $this->data);
     }
 }
