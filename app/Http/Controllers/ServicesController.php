@@ -22,11 +22,4 @@ class ServicesController extends Controller
     {
         return view('services.' . Arr::get($this->views, $service), $this->data);
     }
-
-    public function company()
-    {
-        $this->data['subMenu'] = 'readyCompany';
-
-        return view('services.readyCompany', $this->data);
-    }
 }
