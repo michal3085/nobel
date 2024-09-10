@@ -6,4 +6,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
-Route::get('/gotowe-spolki', [ServicesController::class, 'company'])->name('service.readyCompany');
+Route::get('/{service}', [ServicesController::class, 'routeDispatch'])->name('service.route.dispatch');
