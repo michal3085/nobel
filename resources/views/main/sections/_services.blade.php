@@ -15,7 +15,7 @@
                                 </div>
                                 <p class="mt-4">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności...</p>
                             </div>
-                            <a href="{{route('service.readyCompany')}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
