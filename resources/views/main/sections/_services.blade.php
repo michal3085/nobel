@@ -31,7 +31,7 @@
                                 </div>
                                 <p class="mt-4">Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem...</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>

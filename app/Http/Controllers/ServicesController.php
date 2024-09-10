@@ -20,6 +20,8 @@ class ServicesController extends Controller
 
     public function routeDispatch($service)
     {
+        $this->data['subMenu'] = $service;
+
         return view('services.' . Arr::get($this->views, $service), $this->data);
     }
 }
