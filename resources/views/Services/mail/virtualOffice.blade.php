@@ -1,7 +1,7 @@
-Prośba o kontakt w sprawie: {{$data['vo_topic']}}<br><br>
+Prośba o kontakt w sprawie: <b>{{$data['vo_topic']}}</b><br><br>
 
-Kontakt do osoby wysyłającej zgłoszenie: {{$data['vo_contact']}}<br><br>
+Kontakt do osoby wysyłającej zgłoszenie: <b>{{$data['vo_contact']}}</b><br><br>
 
 
 Wiadomość:<br><br>
-{{$data['vo_message']}}
+<b>{{$data['vo_message']}}</b>
