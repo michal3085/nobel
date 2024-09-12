@@ -117,10 +117,9 @@
                             <tfoot>
                             <tr>
                                 <th class="w-25"></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
-
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
                             </tr>
                             </tfoot>
                         </table>
@@ -151,6 +150,33 @@
                 } else if (info === '3') {
                     select.value = "PRESTIŻOWY ADRES PLUS";
                 }
+            });
+        });
+
+        $(document).ready(function() {
+            $('#nobel-submit-button').click(function (e) {
+                e.preventDefault();
+
+                $('#nobel-virtual-office-form-id').find("input").removeClass('is-invalid');
+                $('#nobel-virtual-office-form-id').find("select").removeClass('is-invalid');
+
+                $.ajax({
+                    url: "{{ route('service.send.mail') }}",
+                    method: "POST",
+                    async: false,
+                    processData: false,
+                    contetType: false,
+                    cache: false,
+                    dataType: 'json',
+                    data: $('#nobel-virtual-office-form-id').serialize(),
+                    success: function (data) {
+                        $('#modal-virtual-office').modal('hide');
+                        location.reload();
+                    },
+                    error: function (data) {
+
+                    }
+                });
             });
         });
     </script>
