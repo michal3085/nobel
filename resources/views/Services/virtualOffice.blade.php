@@ -39,52 +39,91 @@
                 {{--    PRICE    --}}
                 <div class="container pt-5 pb-5">
                     <p class="lead fs-lg"><span class="underline">Cennik</span></p>
-                    <div class="col-lg-9">
-                        <p> Doskonałym wyborem jest pozostawienie niezmienionego adresu rejestrowego siedziby spółki w tzw.
-                            <a href="#" class="hover">Wirtualnym Biurze.</a></p>
-                    </div>
                     <div class="table-responsive mt-2 mt-lg-0">
                         <table class="table table-borderless table-striped text-center">
                             <thead>
                             <tr>
-                                <th class="w-25"></th>
+                                <th class="text-start">Pakiety</th>
                                 <th>
-                                    <div class="h4 mb-1">Cena</div>
-                                    <div class="fs-15 fw-normal text-secondary">PLN</div>
+                                    <div class="h4 mb-1 text-nowrap">ADRES OSOBISTY<br>
+                                        (osoba fizyczna)
+                                    </div>
+                                    <div class="fs-15 fw-normal text-secondary">100</div>
+                                </th>
+                                <th>
+                                    <div class="h4 mb-1 text-nowrap">PRESTIŻOWY ADRES<br>
+                                        (firma)
+                                    </div>
+                                    <div class="fs-15 fw-normal text-secondary">200</div>
+                                </th>
+                                <th>
+                                    <div class="h4 mb-1">PRESTIŻOWY ADRES PLUS <br>
+                                        (firma)
+                                    </div>
+                                    <div class="fs-15 fw-normal text-secondary">400</div>
                                 </th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td class="option text-start">Spółka bez VAT</td>
-                                <td>1500</td>
+                                <td class="option text-start">ADRES REJESTROWY</td>
+                                <td>-</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
                             </tr>
                             <tr>
-                                <td class="option text-start">Spółka z VAT</td>
-                                <td>3900</td>
+                                <td class="option text-start">ODBIERANIE KORESPONDENCJI oraz przesyłek kurierskich</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
                             </tr>
                             <tr>
-                                <td class="option text-start">Konto bankowe dla gotowej spółki</td>
-                                <td>1000</td>
+                                <td class="option text-start">INFORMOWANIE MAILEM O ODEBRANYCH PRZESYŁAKCH</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
                             </tr>
                             <tr>
-                                <td class="option text-start">Opłata sądowa KRS</td>
-                                <td>300 / 350</td>
+                                <td class="option text-start">SKANOWANIE</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
                             </tr>
                             <tr>
-                                <td class="option text-start">Doradztwo aktualizacje KRS</td>
-                                <td>800</td>
+                                <td class="option text-start">NAZWA FIRMY W HOLU</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
                             </tr>
                             <tr>
-                                <td class="option text-start">System S24 – nabycie</td>
-                                <td>300 / 0</td>
+                                <td class="option text-start">SALA KONFERENCYJNA</td>
+                                <td>60 PLN / H</td>
+                                <td>60 PLN / H</td>
+                                <td>4H w miesiącu</td>
                             </tr>
                             <tr>
-                                <td class="option text-start">podatek PCC (0,5% - wartości na umowie)</td>
-                                <td>ok. 80</td>
+                                <td class="option text-start">INDYWIDUALNY NUMER TELEFONU</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="option text-start">WPISANIE ADRESU W KRS</td>
+                                <td>-</td>
+                                <td>250 PLN*</td>
+                                <td>0 PLN* </td>
                             </tr>
                             </tbody>
+                            <tfoot>
+                            <tr>
+                                <th class="w-25"></th>
+                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
+                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
+                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
+                            </tr>
+                            </tfoot>
                         </table>
+                        * •	Cena nie zawiera opłaty sądowej.
                     </div>
                     <!-- /.table-responsive -->
                 </div>
