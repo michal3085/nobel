@@ -117,9 +117,10 @@
                             <tfoot>
                             <tr>
                                 <th class="w-25"></th>
-                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
-                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
-                                <th><a href="#" class="btn btn-soft-primary rounded-pill mt-1">Choose Plan</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3" data-bs-toggle="modal" data-bs-target="#modal-signin">Zapytaj</a></th>
+
                             </tr>
                             </tfoot>
                         </table>
@@ -131,4 +132,26 @@
             </section>
         </div>
     </section>
+
+    @include('Services._modal')
+    <script>
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach(function(button) {
+            button.addEventListener('click', function() {
+                // Pobierz wartość data-info z klikniętego przycisku
+                const info = this.getAttribute('data-info');
+
+                // Pobierz element select
+                const select = document.getElementById('nobel-vo-topic-id');
+
+                // Ustaw wartość w zależności od data-info
+                if (info === '1') {
+                    select.value = "ADRES OSOBISTY";
+                } else if (info === '2') {
+                    select.value = "PRESTIŻOWY ADRES";
+                } else if (info === '3') {
+                    select.value = "PRESTIŻOWY ADRES PLUS";
+                }
+            });
+        });
+    </script>
 @endsection
