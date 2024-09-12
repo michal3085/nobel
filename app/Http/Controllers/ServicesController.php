@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\Services\MailRequest;
 use Illuminate\Support\Arr;
 
 class ServicesController extends Controller
@@ -26,7 +26,7 @@ class ServicesController extends Controller
         return view('services.' . Arr::get($this->views, $service), $this->data);
     }
 
-    public function sendMail(Request $request)
+    public function sendMail(MailRequest $request)
     {
         dd($request, 'dupa');
     }

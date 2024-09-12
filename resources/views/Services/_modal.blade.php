@@ -9,18 +9,22 @@
                         <h2 class="mb-3 text-start">Wirtualne biuro - skontaktuj się z nami</h2>
                         <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
                             <div class="form-floating mb-4">
-                                <select type="email" class="form-control" name="vo_topic" id="nobel-vo-topic-id">
+                                <select class="form-control" name="vo_topic" id="nobel-vo-topic-id">
                                     <option value="ADRES OSOBISTY">ADRES OSOBISTY</option>
                                     <option value="PRESTIŻOWY ADRES">PRESTIŻOWY ADRES</option>
                                     <option value="PRESTIŻOWY ADRES PLUS">PRESTIŻOWY ADRES PLUS</option>
                                 </select>
                                 <label for="nobel-vo-topic-id">Temat</label>
                             </div>
+                        <div class="form-floating mb-4">
+                            <input class="form-control" name="vo_contact" id="nobel-vo-contact-input">
+                            <label for="nobel-vo-contact-input">e-mail / nr telefonu</label>
+                        </div>
                             <div class="form-floating mb-4">
-                                <textarea class="form-control" name="vo_message" id="textArea" style="height: 200px;"></textarea>
-                                <label for="textArea">Wiadomość</label>
+                                <textarea class="form-control" name="vo_message" id="nobel-vo-text-area" style="height: 200px;"></textarea>
+                                <label for="nobel-vo-text-area">Wiadomość</label>
                             </div>
-                            <a class="btn btn-primary rounded-pill btn-login w-100 mb-2" id="nobel-submit-button">Sign In</a>
+                            <a class="btn btn-primary rounded-pill btn-login w-100 mb-2" id="nobel-submit-button">Wyślij</a>
                         <!-- /form -->
                     </div>
                     <!--/.modal-content -->
