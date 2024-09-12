@@ -159,6 +159,7 @@
 
                 $('#nobel-virtual-office-form-id').find("input").removeClass('is-invalid');
                 $('#nobel-virtual-office-form-id').find("select").removeClass('is-invalid');
+                $('#nobel-virtual-office-form-id').find("textarea").removeClass('is-invalid');
 
                 $.ajax({
                     url: "{{ route('service.send.mail') }}",
@@ -173,8 +174,17 @@
                         $('#modal-virtual-office').modal('hide');
                         location.reload();
                     },
-                    error: function (data) {
+                    error: function (response) {
+                        // Sprawdź, czy odpowiedź zawiera błędy walidacji
+                        if(response.status === 422) {
+                            var errors = response.responseJSON.errors;
 
+                            // Dla każdego pola z błędem dodajemy klasę 'is-invalid'
+                            $.each(errors, function (key, value) {
+                                var inputElement = $('[name="' + key + '"]');
+                                inputElement.addClass('is-invalid');
+                            });
+                        }
                     }
                 });
             });
