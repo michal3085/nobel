@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 
 class ServicesController extends Controller
@@ -23,5 +24,10 @@ class ServicesController extends Controller
         $this->data['subMenu'] = $service;
 
         return view('services.' . Arr::get($this->views, $service), $this->data);
+    }
+
+    public function sendMail(Request $request)
+    {
+        dd($request, 'dupa');
     }
 }
