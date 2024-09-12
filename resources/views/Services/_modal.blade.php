@@ -8,7 +8,6 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         <h2 class="mb-3 text-start">Wirtualne biuro - skontaktuj się z nami</h2>
                         <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
-                        <form class="text-start mb-3">
                             <div class="form-floating mb-4">
                                 <select type="email" class="form-control" name="vo_topic" id="nobel-vo-topic-id">
                                     <option value="ADRES OSOBISTY">ADRES OSOBISTY</option>
@@ -22,7 +21,6 @@
                                 <label for="textArea">Wiadomość</label>
                             </div>
                             <a class="btn btn-primary rounded-pill btn-login w-100 mb-2" id="nobel-submit-button">Sign In</a>
-                        </form>
                         <!-- /form -->
                     </div>
                     <!--/.modal-content -->
