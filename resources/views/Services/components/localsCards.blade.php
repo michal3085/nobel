@@ -23,7 +23,7 @@
                 <div class="project item col-md-6 col-xl-4 product">
                     <div class="card shadow-lg">
                         <figure class="card-img-top itooltip itooltip-purple" title='<h5 class="mb-0">Click to see the project</h5>'>
-                            <a href="./single-project2.html"> <img src="./assets/img/services/wola_panska.jpg" alt="" /></a>
+                            <a href="./single-project2.html"> <img src="./assets/img/services/oxfrod_tower.jpg" alt="" /></a>
                         </figure>
                         <div class="card-body p-7">
                             <div class="post-header">
@@ -40,7 +40,7 @@
                 <div class="project item col-md-6 col-xl-4 product">
                     <div class="card shadow-lg">
                         <figure class="card-img-top itooltip itooltip-yellow" title='<h5 class="mb-0">Click to see the project</h5>'>
-                            <a href="./single-project.html"> <img src="./assets/img/services/mokotow_medical.jpg" alt="" /></a>
+                            <a href="./single-project.html"> <img src="./assets/img/services/oxfrod_tower.jpg" alt="" /></a>
                         </figure>
                         <div class="card-body p-7">
                             <div class="post-header">
