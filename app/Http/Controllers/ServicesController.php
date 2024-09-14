@@ -31,8 +31,6 @@ class ServicesController extends Controller
 
     public function sendMail(MailRequest $request)
     {
-//        Session::flash('success', 'Wiadomość wysłana');
-//        return response()->json(['success' => true], 200);
         if (Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new VirtualOfficeMail($request))) {
             Session::flash('success', 'Wiadomość wysłana');
             return response()->json(['success' => true], 200);

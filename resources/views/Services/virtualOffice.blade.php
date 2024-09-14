@@ -37,8 +37,11 @@
                 <!--/.row -->
 
                 {{--    PRICE    --}}
+                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15">
+                    <span class="underline-3 style-2 yellow">CENNIK</span>
+                </h3>
+
                 <div class="container pt-5 pb-5">
-                    <p class="lead fs-lg"><span class="underline">Cennik</span></p>
                     <div class="table-responsive mt-2 mt-lg-0">
                         <table class="table table-borderless table-striped text-center">
                             <thead>
@@ -131,6 +134,10 @@
             </section>
         </div>
     </section>
+
+    {{--  OFFICES CARDS  --}}
+        @include('Services.components.localsCards')
+    {{--  /OFFICES CARDS  --}}
 
     @include('Services._modal')
     <script>
