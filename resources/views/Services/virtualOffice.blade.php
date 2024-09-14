@@ -28,7 +28,6 @@
                                 <li>Obsługa sekretarska: odbiór połączeń przychodzących oraz odbiór i przekazywanie korespondencji</li>
                                 <li>Sale konferencyjne na spotkania biznesowe</li>
                                 <li>Prestiżowy adres dla Twojej działalności</li>
-                                <li>Prostokąty z lokalizacjami</li>
                             </ul>
                         </div>
                     </div>
