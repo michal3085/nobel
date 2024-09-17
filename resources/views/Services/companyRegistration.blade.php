@@ -11,132 +11,131 @@
             <br>
             <br>
             <section class="wrapper bg-light">
-                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-3">
                     <div class="col-lg-6 order-lg-2 position-relative">
                         <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1" style="bottom: -2.5rem; right: -1.5rem;"></div>
                         <figure class="rounded mb-0"><img src="./assets/img/services/rejestracja_1.jpg" srcset="./assets/img/services/rejestracja_1.jpg 2x" alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-lg-6">
-                        <h3 class="display-6 mb-4">Corporate Design</h3>
-                        <p class="mb-5">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                        <h3 class="display-6 mb-4">Skorzystania z usługi rejestracji spółki, obejmuje:</h3>
                         <div class="row gy-3">
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Aenean quam ornare curabitur blandit consectetur.</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Nullam quis risus eget urna mollis ornare aenean leo.</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span><b>Analizę Twoich potrzeb</b> – wstępna konsultacja</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> –pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
                                 </ul>
                             </div>
                             <!--/column -->
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Etiam porta euismod malesuada mollis nisl ornare sem.</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Vivamus sagittis lacus augue rutrum maecenas.</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
                                 </ul>
                             </div>
                             <!--/column -->
                         </div>
                         <!--/.row -->
-                        <a href="#" class="btn btn-soft-leaf rounded-pill mt-6 mb-0">More Details</a>
                     </div>
                     <!--/column -->
                 </div>
                 <!--/.row -->
 
                 {{--    PRICE    --}}
-                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15">
+                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15 my-2 mt-5"> <!-- Dodano klasę mt-5 -->
                     <span class="underline-3 style-2 yellow">CENNIK</span>
                 </h3>
 
                 <div class="container pt-5 pb-5">
-                    <div class="table-responsive mt-2 mt-lg-0">
-                        <table class="table table-borderless table-striped text-center">
-                            <thead>
-                            <tr>
-                                <th class="text-start">Pakiety</th>
-                                <th>
-                                    <div class="h4 mb-1 text-nowrap">ADRES OSOBISTY<br>
-                                        (osoba fizyczna)
+                    <div class="pricing-wrapper position-relative mt-5 mt-md-6 mb-12 mb-md-15">
+                        <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
+                        <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
+                        <div class="pricing-switcher-wrapper switcher">
+                            <p class="mb-0 pe-3">Monthly</p>
+                            <div class="pricing-switchers">
+                                <div class="pricing-switcher pricing-switcher-active"></div>
+                                <div class="pricing-switcher"></div>
+                                <div class="switcher-button bg-primary"></div>
+                            </div>
+                            <p class="mb-0 ps-3">Yearly</p>
+                        </div>
+                        <div class="row gy-6 mt-3 mt-md-5">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="pricing card text-center">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                        <h4 class="card-title">Basic Plan</h4>
+                                        <div class="prices text-dark">
+                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">9</span> <span class="price-duration">mo</span></div>
+                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
+                                        </div>
+                                        <!--/.prices -->
+                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                            <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly <strong>Reports</strong> </span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
                                     </div>
-                                    <div class="fs-15 fw-normal text-secondary">100</div>
-                                </th>
-                                <th>
-                                    <div class="h4 mb-1 text-nowrap">PRESTIŻOWY ADRES<br>
-                                        (firma)
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.pricing -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-4 popular">
+                                <div class="pricing card text-center">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                        <h4 class="card-title">Premium Plan</h4>
+                                        <div class="prices text-dark">
+                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
+                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
+                                        </div>
+                                        <!--/.prices -->
+                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                            <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
+                                            <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
                                     </div>
-                                    <div class="fs-15 fw-normal text-secondary">200</div>
-                                </th>
-                                <th>
-                                    <div class="h4 mb-1">PRESTIŻOWY ADRES PLUS <br>
-                                        (firma)
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.pricing -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+                                <div class="pricing card text-center">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                        <h4 class="card-title">Corporate Plan</h4>
+                                        <div class="prices text-dark">
+                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
+                                        </div>
+                                        <!--/.prices -->
+                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                            <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
+                                            <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
+                                            <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
+                                            <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
                                     </div>
-                                    <div class="fs-15 fw-normal text-secondary">400</div>
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="option text-start">ADRES REJESTROWY</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">ODBIERANIE KORESPONDENCJI oraz przesyłek kurierskich</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">INFORMOWANIE MAILEM O ODEBRANYCH PRZESYŁAKCH</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">SKANOWANIE</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">NAZWA FIRMY W HOLU</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">SALA KONFERENCYJNA</td>
-                                <td>60 PLN / H</td>
-                                <td>60 PLN / H</td>
-                                <td>4H w miesiącu</td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">INDYWIDUALNY NUMER TELEFONU</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">WPISANIE ADRESU W KRS</td>
-                                <td>-</td>
-                                <td>250 PLN*</td>
-                                <td>0 PLN* </td>
-                            </tr>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                                <th class="w-25"></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                            </tr>
-                            </tfoot>
-                        </table>
-                        * •	Cena nie zawiera opłaty sądowej.
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.pricing -->
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
                     </div>
-                    <!-- /.table-responsive -->
-                </div>
                 {{--    /PRICE    --}}
             </section>
         </div>
