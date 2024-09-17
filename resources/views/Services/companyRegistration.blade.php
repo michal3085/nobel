@@ -60,82 +60,50 @@
                             </div>
                             <p class="mb-0 ps-3">Yearly</p>
                         </div>
-                        <div class="row gy-6 mt-3 mt-md-5">
+                        <!-- Użyj justify-content-center i align-items-center aby wycentrować kolumny -->
+                        <div class="row gy-6 mt-3 mt-md-5 justify-content-center">
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">Basic Plan</h4>
+                                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                        <h4 class="card-title">REJESTRACJA W KRS </h4>
                                         <div class="prices text-dark">
-                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">9</span> <span class="price-duration">mo</span></div>
-                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
+                                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
                                         </div>
-                                        <!--/.prices -->
                                         <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                            <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly <strong>Reports</strong> </span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                                            <li><i class="uil uil-check"></i><span> Przygotowanie dokumentów rejestrowych </span></li>
+                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS </span></li>
+                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC) </span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Kontakt z doradcą bankowym</span></li>
                                         </ul>
-                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
                                     </div>
-                                    <!--/.card-body -->
                                 </div>
-                                <!--/.pricing -->
                             </div>
-                            <!--/column -->
                             <div class="col-md-6 col-lg-4 popular">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
                                         <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">Premium Plan</h4>
+                                        <h4 class="card-title">Pełna rejestracja</h4>
                                         <div class="prices text-dark">
-                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
-                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
-                                        </div>
-                                        <!--/.prices -->
+                                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2000</span></div>
+                                           </div>
                                         <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                            <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                                            <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                                            <li><i class="uil uil-check"></i><span> Przygotowanie dokumentów rejestrowych </span></li>
+                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS </span></li>
+                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC) </span></li>
+                                            <li><i class="uil uil-check"></i><span> Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-check"></i><span> Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span> Kontakt z doradcą bankowym</span></li>
                                         </ul>
-                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
                                     </div>
-                                    <!--/.card-body -->
                                 </div>
-                                <!--/.pricing -->
                             </div>
-                            <!--/column -->
-                            <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
-                                <div class="pricing card text-center">
-                                    <div class="card-body">
-                                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">Corporate Plan</h4>
-                                        <div class="prices text-dark">
-                                            <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
-                                            <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
-                                        </div>
-                                        <!--/.prices -->
-                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                            <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                                            <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                                            <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                                            <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
-                                        </ul>
-                                        <a href="#" class="btn btn-primary rounded-pill">Choose Plan</a>
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!--/.pricing -->
-                            </div>
-                            <!--/column -->
                         </div>
-                        <!--/.row -->
                     </div>
+                </div>
+
                 {{--    /PRICE    --}}
             </section>
         </div>
