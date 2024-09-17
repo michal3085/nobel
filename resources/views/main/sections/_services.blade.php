@@ -47,7 +47,7 @@
                                 </div>
                                 <p class="mt-4">Analiza Twoich potrzeb, przygotowanie dokumentów, rejestracja spółki w KRS, obsługa notarialna, wsparcie po rejestracji...</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>

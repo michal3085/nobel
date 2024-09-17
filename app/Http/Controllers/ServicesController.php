@@ -13,6 +13,7 @@ class ServicesController extends Controller
     private $views = [
         'gotowe-spolki' => 'readyCompany',
         'wirtualne-biuro' => 'virtualOffice',
+        'rejestracja-spolki' => 'companyRegistration',
     ];
 
     public function __construct()
