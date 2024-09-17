@@ -15,7 +15,7 @@
                 <div class="row gx-lg-8 gx-xl-12 gy-10 mb-5 mb-md-10 align-items-center">
                     <div class="col-md-8 col-lg-6 position-relative">
                         <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
-                        <figure class="rounded"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg 2x" alt=""></figure>
+                        <figure class="rounded"><img src="{{asset('assets/img/services/wirtualne_biuro1.jpg')}}" srcset="{{asset('assets/img/services/wirtualne_biuro1.jpg 2x')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-lg-6">
@@ -137,6 +137,62 @@
     {{--  OFFICES CARDS  --}}
         @include('Services.components.localsCards')
     {{--  /OFFICES CARDS  --}}
+
+    <div class="col-lg-12 mb-2 mt-2">
+        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+        <h2 class="display-4 mb-3">Usługa biuro wirtualne to:</h2>
+       <div class="row gy-3 gx-xl-8">
+            <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li><span><i class="uil uil-check"></i><b> Obniżenie kosztów:</b></span>
+                        <br>
+                        <span class="justify-content-center">
+                            Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
+                            jest znacznie tańsze.
+                        </span>
+                    </li>
+                    <li><span><i class="uil uil-check"></i><b> Elastyczność:</b></span>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            Ty i Twoi współpracownicy możecie pracować z dowolnego miejsca w świecie, co ułatwia zarządzanie
+                            czasem i pozwala na dostosowanie się do zmieniających potrzeb biznesowych.
+                        </div>
+                    </li>
+                    <li><span><i class="uil uil-check"></i><b> Bezpieczeństwo:</b></span>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            Wykorzystaj adres rejestrowy dla siedziby swojej firmy, który będzie wykorzystywany na fakturach i
+                            wszelkich innych dokumentach firmowych, zamiast rejestracji firmy pod adresem domowym.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--/column -->
+            <div class="col-xl-6">
+                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <li><span><i class="uil uil-check"></i><b> Profesjonalny wizerunek:</b></span>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet jeśli
+                            nie ma ona fizycznej siedziby. Biznesowy adres rejestrowy siedziby Twojej firmy znajdujący się w
+                            największym mieście w Polsce, obsługa korespondencji, możliwość posiadania numeru telefonu
+                            firmowego stacjonarnego oraz korzystanie z sal konferencyjnych wzmocnią zaufanie Twoich
+                            klientów.
+                        </div>
+                    </li>
+                    <li><span><i class="uil uil-check"></i><b> Skupienie się na działalności biznesowej:</b></span>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            Outsorsuj wykonywanie codziennych zadań biurowych i skup się na istotnych aspektach prowadzenia
+                            firmy.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
 
     @include('Services._modal')
     <script>
