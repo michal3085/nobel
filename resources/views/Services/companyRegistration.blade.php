@@ -108,6 +108,42 @@
         </div>
     </section>
 
+    <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
+        <div class="col-lg-6 position-relative">
+            <div class="shape bg-dot leaf rellax w-17 h-18" data-rellax-speed="1" style="bottom: -2rem; left: -0.7rem;"></div>
+            <figure class="rounded"><img src="./assets/img/services/registration_2.jpg" srcset="./assets/img/services/registration_2.jpg 2x" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-lg-6 col-xxl-5">
+            <h3 class="display-6 mb-7">Może Ci się przydać:</h3>
+            <div class="d-flex flex-row mb-5">
+                <div>
+                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">1</span></span>
+                </div>
+                <div>
+                    <h4 class="mb-1">Księgowość od 550 zł</h4>
+                </div>
+            </div>
+            <div class="d-flex flex-row mb-5">
+                <div>
+                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">2</span></span>
+                </div>
+                <div>
+                    <h4 class="mb-1">Założenie profilu zaufanego ePUAP – 250 zł</h4>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div>
+                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">3</span></span>
+                </div>
+                <div>
+                    <h4 class="mb-1">Uzyskanie numeru PESEL – 750 zł</h4>
+                </div>
+            </div>
+        </div>
+        <!--/column -->
+    </div>
+
     <div class="col-lg-12 mb-2 mt-2">
         <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
         <h2 class="display-4 mb-3">Usługa biuro wirtualne to:</h2>
