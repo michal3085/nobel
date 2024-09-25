@@ -51,16 +51,7 @@
                     <div class="pricing-wrapper position-relative mt-5 mt-md-6 mb-12 mb-md-15">
                         <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
                         <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
-                        <div class="pricing-switcher-wrapper switcher">
-                            <p class="mb-0 pe-3">Monthly</p>
-                            <div class="pricing-switchers">
-                                <div class="pricing-switcher pricing-switcher-active"></div>
-                                <div class="pricing-switcher"></div>
-                                <div class="switcher-button bg-primary"></div>
-                            </div>
-                            <p class="mb-0 ps-3">Yearly</p>
-                        </div>
-                        <!-- Użyj justify-content-center i align-items-center aby wycentrować kolumny -->
+
                         <div class="row gy-6 mt-3 mt-md-5 justify-content-center">
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
@@ -85,7 +76,7 @@
                                 <div class="pricing card text-center">
                                     <div class="card-body">
                                         <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">Pełna rejestracja</h4>
+                                        <h4 class="card-title">PEŁNA REJESTRACJA</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2000</span></div>
                                            </div>
@@ -101,17 +92,21 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="text-start" style="margin-left: 170px;">
+                            <small class="text-start d-inline-block">
+                                Cena nie zawiera<br>
+                                - opłata sądowa KRS 350 zł<br>
+                                - podatek PCC3 (0,5% wartości kapitału) tj. 23 zł przy kapitale 5000 zł
+                            </small>
+                        </div>
                     </div>
                 </div>
 
                 {{--    /PRICE    --}}
+
             </section>
         </div>
     </section>
-
-    {{--  OFFICES CARDS  --}}
-    @include('Services.components.localsCards')
-    {{--  /OFFICES CARDS  --}}
 
     <div class="col-lg-12 mb-2 mt-2">
         <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
