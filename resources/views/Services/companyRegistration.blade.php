@@ -251,12 +251,12 @@
                     <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>
                         <br>
                         <span class="justify-content-center">
-                            <p class="text-success mb-1">ZALETY:</p>
+                            <p class="text-success mb-1"><b>ZALETY:</b></p>
                             Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
                             jest znacznie tańsze.
                         </span>
                         <span class="justify-content-center">
-                            <p class="text-danger mb-1">WADY:</p>
+                            <p class="text-danger mb-1"><b>WADY:</b></p>
                             Ograniczenia w dostosowywaniu umowy spółki w systemie S24.
                         </span>
                     </li>
@@ -268,12 +268,12 @@
                     <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>
                         <br>
                         <span class="justify-content-center">
-                            <p class="text-success mb-1">ZALETY:</p>
-                            możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.
+                            <p class="text-success mb-1"><b>ZALETY:</b></p>
+                            Możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.
                         </span>
                         <span class="justify-content-center">
-                            <p class="text-danger mb-1">WADY:</p>
-                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa
+                            <p class="text-danger mb-1"><b>WADY:</b></p>
+                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa.
                         </span>
                     </li>
 
