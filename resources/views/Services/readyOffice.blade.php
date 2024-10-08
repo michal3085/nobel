@@ -1,0 +1,107 @@
+@extends('_layout')
+
+@section('content')
+    <section class="wrapper bg-light">
+        <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
+            <div class="col-lg-12 text-center text-lg-start">
+                <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
+                    <span class="underline-3 style-2 yellow">GOTOWE BIURO</span>
+                </h3>
+            </div>
+            <br>
+            <br>
+            <section class="wrapper bg-light">
+                <div class="container py-14 py-md-17">
+                    <div class="row mb-8 text-center">
+                        <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                            <h3 class="display-4">ZNAJDŹ SWOJE MIEJSCE U NAS</h3>
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                    <div class="grid grid-view projects-masonry">
+                        <div class="row gx-md-8 gy-10 gy-md-13 isotope">
+                            <div class="project item col-md-6 col-xl-4 product">
+                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/photos/pd1.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-yellow">Coffee</div>--}}
+                                        <h2 class="post-title h3">OXFORD TOWER CH8</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                            <div class="project item col-md-6 col-xl-4 workshop">
+                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/photos/pd2.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-red">Stationary</div>--}}
+                                        <h2 class="post-title h3">WOLA PAŃSKA 96</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                            <div class="project item col-md-6 col-xl-4 still-life">
+                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/photos/pd3.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-orange">Branding</div>--}}
+                                        <h2 class="post-title h3">MOKOTÓW CAROLINA MEDICAL CENTER</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                            <div class="project item col-md-6 col-xl-4 product">
+                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/photos/pd4.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-purple">Product</div>--}}
+                                        <h2 class="post-title h3">Wilanów Herbu Janina 5 HJ5</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                            <div class="project item col-md-6 col-xl-4 product">
+                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/photos/pd5.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-leaf">Print</div>--}}
+                                        <h2 class="post-title h3">Wilanów Klimczaka 15</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                            <div class="project item col-md-6 col-xl-4 workshop">
+                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/photos/pd6.jpg" alt="" /></a></figure>
+                                <div class="project-details d-flex justify-content-center flex-column">
+                                    <div class="post-header">
+{{--                                        <div class="post-category mb-2 text-aqua">Workshop</div>--}}
+                                        <h2 class="post-title h3">Katowice –Sokolska 30 NEW</h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                </div>
+                                <!-- /.project-details -->
+                            </div>
+                            <!-- /.project -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.grid -->
+                </div>
+                <!-- /.container -->
+            </section>
+        </div>
+    </section>
+
+
+@endsection
