@@ -251,8 +251,13 @@
                     <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>
                         <br>
                         <span class="justify-content-center">
+                            <p class="text-success mb-1">ZALETY:</p>
                             Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
                             jest znacznie tańsze.
+                        </span>
+                        <span class="justify-content-center">
+                            <p class="text-danger mb-1">WADY:</p>
+                            Ograniczenia w dostosowywaniu umowy spółki w systemie S24.
                         </span>
                     </li>
                 </ul>
@@ -262,13 +267,14 @@
                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
                     <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>
                         <br>
-                        <div class="d-flex justify-content-center">
-                            Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet jeśli
-                            nie ma ona fizycznej siedziby. Biznesowy adres rejestrowy siedziby Twojej firmy znajdujący się w
-                            największym mieście w Polsce, obsługa korespondencji, możliwość posiadania numeru telefonu
-                            firmowego stacjonarnego oraz korzystanie z sal konferencyjnych wzmocnią zaufanie Twoich
-                            klientów.
-                        </div>
+                        <span class="justify-content-center">
+                            <p class="text-success mb-1">ZALETY:</p>
+                            możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.
+                        </span>
+                        <span class="justify-content-center">
+                            <p class="text-danger mb-1">WADY:</p>
+                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa
+                        </span>
                     </li>
 
                 </ul>
