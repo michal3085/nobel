@@ -63,7 +63,7 @@
                                 </div>
                                 <p class="mt-4">"Gotowe biura" to w pełni wyposażone przestrzenie dostępne od zaraz, idealne dla firm szukających szybkich rozwiązań.</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
