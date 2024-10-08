@@ -244,37 +244,23 @@
 
     <div class="col-lg-12 mb-2 mt-2">
         <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-        <h2 class="display-4 mb-3">Usługa biuro wirtualne to:</h2>
+        <h2 class="display-4 mb-3">Formy Rejestracji Spółki</h2>
         <div class="row gy-3 gx-xl-8">
             <div class="col-xl-6">
                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Obniżenie kosztów:</b></span>
+                    <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>
                         <br>
                         <span class="justify-content-center">
                             Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
                             jest znacznie tańsze.
                         </span>
                     </li>
-                    <li><span><i class="uil uil-check"></i><b> Elastyczność:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Ty i Twoi współpracownicy możecie pracować z dowolnego miejsca w świecie, co ułatwia zarządzanie
-                            czasem i pozwala na dostosowanie się do zmieniających potrzeb biznesowych.
-                        </div>
-                    </li>
-                    <li><span><i class="uil uil-check"></i><b> Bezpieczeństwo:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Wykorzystaj adres rejestrowy dla siedziby swojej firmy, który będzie wykorzystywany na fakturach i
-                            wszelkich innych dokumentach firmowych, zamiast rejestracji firmy pod adresem domowym.
-                        </div>
-                    </li>
                 </ul>
             </div>
             <!--/column -->
             <div class="col-xl-6">
                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Profesjonalny wizerunek:</b></span>
+                    <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>
                         <br>
                         <div class="d-flex justify-content-center">
                             Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet jeśli
@@ -284,13 +270,7 @@
                             klientów.
                         </div>
                     </li>
-                    <li><span><i class="uil uil-check"></i><b> Skupienie się na działalności biznesowej:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Outsorsuj wykonywanie codziennych zadań biurowych i skup się na istotnych aspektach prowadzenia
-                            firmy.
-                        </div>
-                    </li>
+
                 </ul>
             </div>
             <!--/column -->
