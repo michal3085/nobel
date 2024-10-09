@@ -9,22 +9,37 @@
                     <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
 
                     <div class="form-floating mb-4">
-                        <select class="form-control" name="vo_topic" id="nobel-vo-topic-id">
-                            <option value="ADRES OSOBISTY">ADRES OSOBISTY</option>
-                            <option value="PRESTIŻOWY ADRES">PRESTIŻOWY ADRES</option>
-                            <option value="PRESTIŻOWY ADRES PLUS">PRESTIŻOWY ADRES PLUS</option>
-                        </select>
-                        <label for="nobel-vo-topic-id">Temat</label>
-                    </div>
-
-                    <div class="form-floating mb-4">
                         <input class="form-control" name="vo_contact" id="nobel-vo-contact-input">
-                        <label for="nobel-vo-contact-input">e-mail / nr telefonu</label>
+                        <label for="nobel-vo-contact-input">Nazwa</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-floating mb-4">
+                                <input class="form-control nobel-mask-nip" name="krs_nip" id="nobel-vo-contact-input">
+                                <label for="nobel-vo-contact-input">NIP</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-floating mb-4">
+                                <input class="form-control" name="krs_number" id="nobel-vo-contact-input">
+                                <label for="nobel-vo-contact-input">KRS</label>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="form-floating mb-4">
-                        <textarea class="form-control" name="vo_message" id="nobel-vo-text-area" style="height: 200px;"></textarea>
-                        <label for="nobel-vo-text-area">Wiadomość</label>
+                        <textarea class="form-control" name="krs_description" id="nobel-vo-text-area" style="height: 200px;"></textarea>
+                        <label for="nobel-vo-text-area">Opis zmiany</label>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        <input class="form-control" name="krs_mail" id="nobel-vo-contact-input">
+                        <label for="nobel-vo-contact-input">e-mail</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input class="form-control" name="krs_phone" id="nobel-vo-contact-input">
+                        <label for="nobel-vo-contact-input">nr telefonu</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary rounded-pill w-100 mb-2" id="nobel-submit-button">
@@ -40,3 +55,4 @@
     </form>
 </div>
 <!--/.modal -->
+<script src="/assets/js/project.js"></script>
