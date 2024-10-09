@@ -8,3 +8,4 @@ Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('/{service}', [ServicesController::class, 'routeDispatch'])->name('service.route.dispatch');
 Route::post('/sendMail', [ServicesController::class, 'sendMail'])->name('service.send.mail');
+Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('service.send.krs');

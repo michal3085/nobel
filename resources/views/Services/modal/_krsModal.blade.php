@@ -9,7 +9,7 @@
                     <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
 
                     <div class="form-floating mb-4">
-                        <input class="form-control" name="vo_contact" id="nobel-vo-contact-input">
+                        <input class="form-control" name="krs_name" id="nobel-vo-contact-input">
                         <label for="nobel-vo-contact-input">Nazwa</label>
                     </div>
 
@@ -38,7 +38,7 @@
                         <label for="nobel-vo-contact-input">e-mail</label>
                     </div>
                     <div class="form-floating mb-4">
-                        <input class="form-control" name="krs_phone" id="nobel-vo-contact-input">
+                        <input class="form-control nobel-phone-mask" name="krs_phone" id="nobel-vo-contact-input">
                         <label for="nobel-vo-contact-input">nr telefonu</label>
                     </div>
 
