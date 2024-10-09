@@ -16,13 +16,13 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control nobel-mask-nip" name="krs_nip" id="nobel-vo-contact-input">
+                                <input class="form-control nobel-nip-mask" name="krs_nip" id="nobel-vo-contact-input">
                                 <label for="nobel-vo-contact-input">NIP</label>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" name="krs_number" id="nobel-vo-contact-input">
+                                <input class="form-control nobel-krs-mask" name="krs_number" id="nobel-vo-contact-input">
                                 <label for="nobel-vo-contact-input">KRS</label>
                             </div>
                         </div>
