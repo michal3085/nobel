@@ -135,7 +135,8 @@
     </section>
 
     {{--  OFFICES CARDS  --}}
-        @include('Services.components.localsCards')
+{{--        @include('Services.components.localsCards')--}}
+        @include('Services._offices')
     {{--  /OFFICES CARDS  --}}
 
     <div class="col-lg-12 mb-2 mt-2">
