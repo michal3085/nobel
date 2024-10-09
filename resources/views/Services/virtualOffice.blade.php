@@ -213,7 +213,7 @@
         <!--/.row -->
     </div>
 
-    @include('Services._modal')
+    @include('Services.modal._modal')
     <script>
         document.querySelectorAll('[data-bs-toggle="modal"]').forEach(function (button) {
             button.addEventListener('click', function () {
