@@ -80,7 +80,7 @@
                                 </div>
                                 <p class="mt-4">Mamy ponad 20 lat doświadczenia w rejestracji, sprzedaży i likwidacji spółek oraz zmianach w KRS.</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
