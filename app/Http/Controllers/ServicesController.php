@@ -15,6 +15,7 @@ class ServicesController extends Controller
         'wirtualne-biuro' => 'virtualOffice',
         'rejestracja-spolki' => 'companyRegistration',
         'gotowe-biura' => 'readyOffice',
+        'zmiany-krs' => 'krsChanges',
     ];
 
     public function __construct()

@@ -9,23 +9,31 @@
                 </h3>
             </div>
             <br>
-            <p class="mb-4"><b>Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi.</b>
+            <p class="mb-4"><b>Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z
+                    wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi.</b>
 
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-10 mb-5 mb-md-10 align-items-center">
                     <div class="col-md-8 col-lg-6 position-relative">
-                        <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
-                        <figure class="rounded"><img src="{{asset('assets/img/services/wirtualne_biuro1.jpg')}}" srcset="{{asset('assets/img/services/wirtualne_biuro1.jpg 2x')}}" alt=""></figure>
+                        <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1"
+                             style="top: -2rem; left: -1.9rem;"></div>
+                        <figure class="rounded"><img src="{{asset('assets/img/services/wirtualne_biuro1.jpg')}}"
+                                                     srcset="{{asset('assets/img/services/wirtualne_biuro1.jpg 2x')}}"
+                                                     alt=""></figure>
                     </div>
                     <!--/column -->
                     <div class="col-lg-6">
                         <div class="mb-4">
-                            <h4 style="text-align: justify;">W ramach usługi odbierzemy Twoją korespondencję i na życzenie prześlemy skan. Przydzielimy numer telefonu stacjonarnego, odbierzemy połączenie lub przełączymy bezpośrednio do Ciebie,
+                            <h4 style="text-align: justify;">W ramach usługi odbierzemy Twoją korespondencję i na
+                                życzenie prześlemy skan. Przydzielimy numer telefonu stacjonarnego, odbierzemy
+                                połączenie lub przełączymy bezpośrednio do Ciebie,
                                 a także obsłużymy spotkanie w salce konferencyjnej.</h4>
                             <p class="mb-4"><b>Zalety wirtualnego biura:</b></p>
                             <ul>
                                 <li>Indywidualny/prywatny numer telefonu</li>
-                                <li>Obsługa sekretarska: odbiór połączeń przychodzących oraz odbiór i przekazywanie korespondencji</li>
+                                <li>Obsługa sekretarska: odbiór połączeń przychodzących oraz odbiór i przekazywanie
+                                    korespondencji
+                                </li>
                                 <li>Sale konferencyjne na spotkania biznesowe</li>
                                 <li>Prestiżowy adres dla Twojej działalności</li>
                             </ul>
@@ -113,19 +121,22 @@
                                 <td class="option text-start">WPISANIE ADRESU W KRS</td>
                                 <td>-</td>
                                 <td>250 PLN*</td>
-                                <td>0 PLN* </td>
+                                <td>0 PLN*</td>
                             </tr>
                             </tbody>
                             <tfoot>
                             <tr>
                                 <th class="w-25"></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3" data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
+                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"
+                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
+                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"
+                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
                             </tr>
                             </tfoot>
                         </table>
-                        * •	Cena nie zawiera opłaty sądowej.
+                        * • Cena nie zawiera opłaty sądowej.
                     </div>
                     <!-- /.table-responsive -->
                 </div>
@@ -135,14 +146,15 @@
     </section>
 
     {{--  OFFICES CARDS  --}}
-{{--        @include('Services.components.localsCards')--}}
-        @include('Services._offices')
+    {{--        @include('Services.components.localsCards')--}}
+    @include('Services.components._offices')
     {{--  /OFFICES CARDS  --}}
 
     <div class="col-lg-12 mb-2 mt-2">
-        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4"
+             alt=""/>
         <h2 class="display-4 mb-3">Usługa biuro wirtualne to:</h2>
-       <div class="row gy-3 gx-xl-8">
+        <div class="row gy-3 gx-xl-8">
             <div class="col-xl-6">
                 <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
                     <li><span><i class="uil uil-check"></i><b> Obniżenie kosztów:</b></span>
@@ -155,14 +167,16 @@
                     <li><span><i class="uil uil-check"></i><b> Elastyczność:</b></span>
                         <br>
                         <div class="d-flex justify-content-center">
-                            Ty i Twoi współpracownicy możecie pracować z dowolnego miejsca w świecie, co ułatwia zarządzanie
+                            Ty i Twoi współpracownicy możecie pracować z dowolnego miejsca w świecie, co ułatwia
+                            zarządzanie
                             czasem i pozwala na dostosowanie się do zmieniających potrzeb biznesowych.
                         </div>
                     </li>
                     <li><span><i class="uil uil-check"></i><b> Bezpieczeństwo:</b></span>
                         <br>
                         <div class="d-flex justify-content-center">
-                            Wykorzystaj adres rejestrowy dla siedziby swojej firmy, który będzie wykorzystywany na fakturach i
+                            Wykorzystaj adres rejestrowy dla siedziby swojej firmy, który będzie wykorzystywany na
+                            fakturach i
                             wszelkich innych dokumentach firmowych, zamiast rejestracji firmy pod adresem domowym.
                         </div>
                     </li>
@@ -174,8 +188,10 @@
                     <li><span><i class="uil uil-check"></i><b> Profesjonalny wizerunek:</b></span>
                         <br>
                         <div class="d-flex justify-content-center">
-                            Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet jeśli
-                            nie ma ona fizycznej siedziby. Biznesowy adres rejestrowy siedziby Twojej firmy znajdujący się w
+                            Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet
+                            jeśli
+                            nie ma ona fizycznej siedziby. Biznesowy adres rejestrowy siedziby Twojej firmy znajdujący
+                            się w
                             największym mieście w Polsce, obsługa korespondencji, możliwość posiadania numeru telefonu
                             firmowego stacjonarnego oraz korzystanie z sal konferencyjnych wzmocnią zaufanie Twoich
                             klientów.
@@ -184,7 +200,8 @@
                     <li><span><i class="uil uil-check"></i><b> Skupienie się na działalności biznesowej:</b></span>
                         <br>
                         <div class="d-flex justify-content-center">
-                            Outsorsuj wykonywanie codziennych zadań biurowych i skup się na istotnych aspektach prowadzenia
+                            Outsorsuj wykonywanie codziennych zadań biurowych i skup się na istotnych aspektach
+                            prowadzenia
                             firmy.
                         </div>
                     </li>
@@ -197,8 +214,8 @@
 
     @include('Services._modal')
     <script>
-        document.querySelectorAll('[data-bs-toggle="modal"]').forEach(function(button) {
-            button.addEventListener('click', function() {
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach(function (button) {
+            button.addEventListener('click', function () {
                 // Pobierz wartość data-info z klikniętego przycisku
                 const info = this.getAttribute('data-info');
 
@@ -216,7 +233,7 @@
             });
         });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             var $spinner = $('.spinner-border'); // Pobierz spinner raz, aby nie szukać go wielokrotnie
 
             $('#nobel-submit-button').click(function (e) {
@@ -247,7 +264,7 @@
                         $spinner.addClass('d-none');
 
                         // Obsługa błędów walidacji
-                        if(response.status === 422) {
+                        if (response.status === 422) {
                             var errors = response.responseJSON.errors;
 
                             // Dodanie klasy 'is-invalid' dla każdego błędnego pola
