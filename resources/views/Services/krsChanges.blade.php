@@ -64,4 +64,51 @@
     </section>
     @include('Services.modal._krsModal')
 
+    <script>
+        $(document).ready(function () {
+            var $spinner = $('.spinner-border'); // Pobierz spinner raz, aby nie szukać go wielokrotnie
+
+            $('#nobel-submit-button').click(function (e) {
+                e.preventDefault();
+
+                // Pokaż spinner
+                $spinner.removeClass('d-none');
+
+                $('#nobel-krs-form-id').find("input").removeClass('is-invalid');
+                $('#nobel-krs-form-id').find("select").removeClass('is-invalid');
+                $('#nobel-krs-form-id').find("textarea").removeClass('is-invalid');
+
+                $.ajax({
+                    url: "{{ route('service.send.krs') }}",
+                    method: "POST",
+                    dataType: 'json',
+                    data: $('#nobel-krs-form-id').serialize(),
+                    success: function (data) {
+                        // Ukryj spinner po zakończeniu
+                        $spinner.addClass('d-none');
+
+                        // Schowanie modala po sukcesie
+                        $('#modal-krs').modal('hide');
+                        location.reload(); // Odśwież stronę
+                    },
+                    error: function (response) {
+                        // Ukryj spinner w przypadku błędu
+                        $spinner.addClass('d-none');
+
+                        // Obsługa błędów walidacji
+                        if (response.status === 422) {
+                            var errors = response.responseJSON.errors;
+
+                            // Dodanie klasy 'is-invalid' dla każdego błędnego pola
+                            $.each(errors, function (key, value) {
+                                var inputElement = $('[name="' + key + '"]');
+                                inputElement.addClass('is-invalid');
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
 @endsection

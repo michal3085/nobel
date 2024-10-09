@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Services\KrsMailRequest;
 use App\Http\Requests\Services\MailRequest;
 use App\Mail\Services\VirtualOfficeMail;
 use Illuminate\Support\Arr;
@@ -39,5 +40,10 @@ class ServicesController extends Controller
             return response()->json(['success' => true], 200);
         }
         return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zpytania'], 500);
+    }
+
+    public function krsMailSend(KrsMailRequest $request)
+    {
+        dd($request->all());
     }
 }
