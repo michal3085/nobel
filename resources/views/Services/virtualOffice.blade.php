@@ -11,6 +11,7 @@
             <br>
             <p class="mb-4"><b>Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z
                     wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi.</b>
+            </p>
 
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-10 mb-5 mb-md-10 align-items-center">
