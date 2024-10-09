@@ -22,7 +22,7 @@
                     <div class="grid grid-view projects-masonry">
                         <div class="row gx-md-8 gy-10 gy-md-13 isotope">
                             <div class="project item col-md-6 col-xl-4 product">
-                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/photos/pd1.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/offices/ch8.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-yellow">Coffee</div>--}}
@@ -34,7 +34,7 @@
                             </div>
                             <!-- /.project -->
                             <div class="project item col-md-6 col-xl-4 workshop">
-                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/photos/pd2.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/offices/wola96.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-red">Stationary</div>--}}
@@ -46,7 +46,7 @@
                             </div>
                             <!-- /.project -->
                             <div class="project item col-md-6 col-xl-4 still-life">
-                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/photos/pd3.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/offices/Hol_5.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-orange">Branding</div>--}}
@@ -58,7 +58,7 @@
                             </div>
                             <!-- /.project -->
                             <div class="project item col-md-6 col-xl-4 product">
-                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/photos/pd4.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/offices/HJ5-1.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-purple">Product</div>--}}
@@ -70,7 +70,7 @@
                             </div>
                             <!-- /.project -->
                             <div class="project item col-md-6 col-xl-4 product">
-                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/photos/pd5.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/offices/klimczaka-15.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-leaf">Print</div>--}}
@@ -82,7 +82,7 @@
                             </div>
                             <!-- /.project -->
                             <div class="project item col-md-6 col-xl-4 workshop">
-                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/photos/pd6.jpg" alt="" /></a></figure>
+                                <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/offices/kat-sokolska.jpg" alt="" /></a></figure>
                                 <div class="project-details d-flex justify-content-center flex-column">
                                     <div class="post-header">
 {{--                                        <div class="post-category mb-2 text-aqua">Workshop</div>--}}
