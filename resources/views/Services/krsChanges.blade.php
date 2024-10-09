@@ -20,8 +20,10 @@
 
         <div class="row gx-lg-8 gx-xl-12 gy-10 mb-5 mb-md-10 align-items-center"> <!-- Zmniejszono marginesy -->
             <div class="col-md-8 col-lg-6 position-relative">
-                <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
-                <figure class="rounded"><img src="./assets/img/services/krsChanges1.jpg" srcset="./assets/img/services/krsChanges1.jpg 2x" alt=""></figure>
+                <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1"
+                     style="top: -2rem; left: -1.9rem;"></div>
+                <figure class="rounded"><img src="./assets/img/services/krsChanges1.jpg"
+                                             srcset="./assets/img/services/krsChanges1.jpg 2x" alt=""></figure>
             </div>
             <!--/column -->
             <div class="col-lg-6">
@@ -41,7 +43,25 @@
             </div>
             <!--/column -->
         </div>
-    </section>
 
+        <div class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map"
+             data-image-src="./assets/img/map.png">
+            <div class="container py-md-16 py-lg-18">
+                <div class="row">
+                    <div class="col-xl-11 col-xxl-9 mx-auto">
+                        <h3 class="display-4 mb-8 px-lg-8">Pozwól nam wycenić przeprowadzenie Twojej zmiany </h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="d-flex justify-content-center">
+                    <span><a class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                             data-bs-target="#modal-krs">Wyceń</a></span>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+    </section>
+    @include('Services.modal._krsModal')
 
 @endsection
