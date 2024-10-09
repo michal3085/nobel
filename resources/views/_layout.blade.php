@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/colors/violet.css">
     <link rel="preload" href="./assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/project.js"></script>
 </head>
 
 <body>
@@ -117,9 +118,11 @@
     </svg>
 </div>
 @include('components.success')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/theme.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/project.js"></script>
 </body>
 
 </html>
