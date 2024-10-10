@@ -10,7 +10,7 @@
         <div class="grid grid-view projects-masonry">
             <div class="row gx-md-8 gy-10 gy-md-13 isotope">
                 <div class="project item col-md-6 col-xl-4 product">
-                    <figure class="lift rounded mb-6"><a href="./single-project.html"> <img src="./assets/img/offices/ch8.jpg" alt="" /></a></figure>
+                    <figure class="lift rounded mb-6"><a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/ch8.jpg" alt="" /></a></figure>
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-yellow">Coffee</div>--}}

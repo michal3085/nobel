@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
+
+class OfficeController extends Controller
+{
+    private $views = [
+        'oxford-tower' => 'oxfordTower',
+    ];
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->data['mainMenu'] = 'offices';
+    }
+
+    public function routeDispatch($office)
+    {
+        $this->data['subMenu'] = $office;
+
+        return view('office.' . Arr::get($this->views, $office) . '.index', $this->data);
+    }
+}
