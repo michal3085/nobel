@@ -61,6 +61,59 @@
             </div>
             <!-- /.container -->
         </div>
+
+        <div class="col-lg-12 text-center text-lg-start">
+            <h5 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
+                <span class="underline-3 style-2 yellow">CENNIK</span>
+            </h5>
+        </div>
+
+        <div class="row gx-md-8 gx-xl-12 gy-10 mb-15">
+            <div class="col-lg-6">
+                <div class="d-flex flex-row">
+                    <div>
+                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                    </div>
+                    <div>
+                        <h4>Cena usługi od 700+VAT, </h4>
+                        <p class="mb-0">
+                            opłata sądowa dotycząca wniosku o zmianę danych zwyczajowo wynosi 300 zł w systemie S24 lub 350 w systemie PRS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /column -->
+            <div class="col-lg-6">
+                <div class="d-flex flex-row">
+                    <div>
+                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                    </div>
+                    <div>
+                        <h4>Cena usługi wraz z opłata sądową (300/350)  od ok. 1000+VAT i zawiera:</h4>
+                        <p class="mb-0">
+                            Weryfikację:<br>
+                            <ul>
+                                <li>danych i sposobu przeprowadzenia zmiany,</li>
+                                <li>dokumentów wewnętrznych spółki np. notarialnych, a często pośredniczenie w kontaktach z notariuszem,</li>
+                            </ul>
+                            Przygotowanie:<br>
+                            <ul>
+                                <li>niezbędnych dokumentów oraz przedłożenie ich do podpisu,</li>
+                                <li>wniosku sądowego, opłacenie* i wysłanie do właściwego wydziału KRS,</li>
+                            </ul>
+                            Kontrolę KRS::<br>
+                            <ul>
+                                <li>przebieg postępowania sądowego wraz ze złożeniem wniosków ponaglających postępowanie,</li>
+                                <li>przesłanie nowego odpisu z KRS z wprowadzonymi zmianami po zakończeniu postępowania,</li>
+                                <li>przekazanie informacji o następnych obowiązkowych etapach po wprowadzeniu zmiany w KRS takich jak: aktualizacja w rejestrze CRBR, Urzędzie Skarbowym, ZUS, banku. </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </section>
     @include('Services.modal._krsModal')
 
