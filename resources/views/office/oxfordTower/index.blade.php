@@ -5,7 +5,7 @@
         <div class="container pb-3 pb-md-7">
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 yellow">OXFORD TOWER</span>
+                    <span class="underline-3 style-2 yellow">OXFORD TOWER CH8</span>
                 </h3>
             </div>
             <br>
@@ -74,9 +74,5 @@
             </div>
             <!-- /.swiper-container -->
         </div>
-
-        <!-- /.tab-content -->
-
-
     </section>
 @endsection
