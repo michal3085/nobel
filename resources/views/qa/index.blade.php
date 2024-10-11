@@ -10,6 +10,7 @@
             @include('qa.sections.virtualOffice')
             @include('qa.sections.companyRegistration')
             @include('qa.sections.krsChanges')
+            @include('qa.sections.readyOffice')
         </div>
     </section>
 @endsection
