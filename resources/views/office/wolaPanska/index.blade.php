@@ -68,7 +68,10 @@
             <div class="tab-pane fade" id="tab3-2">
                 <div class="col-lg-12">
                     <h3 class="display-4 mb-5 text-end">Wirtualne biuro</h3>
-                    <p class="mb-6">Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być w samym centrum biznesowym stolicy, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie.</p>
+                    <p class="mb-6">Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być w samym centrum biznesowym stolicy, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie.
+                        Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami,znajdują się także kino, muzea i sale zabaw.
+                        500 m2 powierzchni biurowej
+                    </p>
                     <!--/.row -->
                 </div>
             </div>

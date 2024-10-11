@@ -10,6 +10,7 @@ class OfficeController extends Controller
     private $views = [
         'oxford-tower' => 'oxfordTower',
         'wola-panska-96' => 'wolaPanska',
+        'carolina-medical-center' => 'medicalCenter',
     ];
     public function __construct()
     {
