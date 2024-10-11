@@ -70,7 +70,7 @@
                 </div>
                 <!-- /.project -->
                 <div class="project item col-md-6 col-xl-4 workshop">
-                    <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/offices/kat-sokolska.jpg" alt="" /></a></figure>
+                    <figure class="lift rounded mb-6"><a href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}"> <img src="./assets/img/offices/kat-sokolska.jpg" alt="" /></a></figure>
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-aqua">Workshop</div>--}}
