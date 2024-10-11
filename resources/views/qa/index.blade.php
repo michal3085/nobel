@@ -8,6 +8,7 @@
 
             @include('qa.sections.readyCompany')
             @include('qa.sections.virtualOffice')
+            @include('qa.sections.companyRegistration')
 
         </div>
     </section>
