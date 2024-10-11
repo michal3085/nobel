@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\OfficeController;
+use App\Http\Controllers\QuestionAnswerController;
 use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,4 +14,7 @@ Route::post('/sendMail', [ServicesController::class, 'sendMail'])->name('service
 Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('service.send.krs');
 
 // OFFiCES
-Route::get('/offices/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
+Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
+
+// Q&A
+Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');

@@ -66,7 +66,7 @@
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Q&A</a>
+                                <a class="nav-link" href="{{route('faq.index')}}">Q&A</a>
                             </li>
 
                         </ul>
