@@ -12,6 +12,7 @@ class OfficeController extends Controller
         'wola-panska-96' => 'wolaPanska',
         'carolina-medical-center' => 'medicalCenter',
         'herbu-jana-5' => 'hJ5',
+        'wilanow-klimczaka-15' => 'wilanowKlimczaka15',
     ];
     public function __construct()
     {
