@@ -22,7 +22,7 @@
                 </div>
                 <!-- /.project -->
                 <div class="project item col-md-6 col-xl-4 workshop">
-                    <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/offices/wola96.jpg" alt="" /></a></figure>
+                    <figure class="lift rounded mb-6"><a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/wola96.jpg" alt="" /></a></figure>
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-red">Stationary</div>--}}
@@ -34,7 +34,7 @@
                 </div>
                 <!-- /.project -->
                 <div class="project item col-md-6 col-xl-4 still-life">
-                    <figure class="lift rounded mb-6"><a href="./single-project3.html"> <img src="./assets/img/offices/Hol_5.jpg" alt="" /></a></figure>
+                    <figure class="lift rounded mb-6"><a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/Hol_5.jpg" alt="" /></a></figure>
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-orange">Branding</div>--}}
