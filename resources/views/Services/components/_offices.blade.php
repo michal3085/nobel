@@ -46,7 +46,7 @@
                 </div>
                 <!-- /.project -->
                 <div class="project item col-md-6 col-xl-4 product">
-                    <figure class="lift rounded mb-6"><a href="./single-project2.html"> <img src="./assets/img/offices/HJ5-1.jpg" alt="" /></a></figure>
+                    <figure class="lift rounded mb-6"><a href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}"> <img src="./assets/img/offices/HJ5-1.jpg" alt="" /></a></figure>
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-purple">Product</div>--}}
