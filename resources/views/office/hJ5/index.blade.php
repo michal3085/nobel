@@ -71,7 +71,7 @@
             <!--/.tab-pane -->
             <div class="tab-pane fade" id="tab3-2">
                 <div class="col-lg-12">
-                    <h3 class="display-4 mb-5 text-end">Wirtualne biuro</h3>
+                    <h3 class="display-4 mb-5 text-end">Gotowe biuro i Coworking</h3>
                     <p class="mb-6">
                     </p>
                     <!--/.row -->
