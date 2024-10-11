@@ -65,32 +65,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
                             </li>
-                            <li class="nav-item dropdown dropdown-mega">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
-                                <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
-                                    <li class="mega-menu-content">
-                                        <ul class="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/about.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block1.svg" alt=""></div>
-                                                    <span>About</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/blog.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block2.svg" alt=""></div>
-                                                    <span>Blog</span>
-                                                </a>
-                                            </li>
-                                            <li class="col"><a class="dropdown-item" href="./docs/blocks/call-to-action.html">
-                                                    <div class="rounded img-svg d-none d-lg-block p-4 mb-lg-2"><img class="rounded-0" src="./assets/img/demos/block3.svg" alt=""></div>
-                                                    <span>Call to Action</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <!--/.row -->
-                                    </li>
-                                    <!--/.mega-menu-content-->
-                                </ul>
-                                <!--/.dropdown-menu -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Q&A</a>
                             </li>
 
                         </ul>
