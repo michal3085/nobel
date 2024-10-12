@@ -20,14 +20,14 @@ Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name(
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
 
-Route::get('/dashboard', function () {
+Route::get('/user/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/user/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/user/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/user/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
 require __DIR__.'/auth.php';
