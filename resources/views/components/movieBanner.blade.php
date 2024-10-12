@@ -1,4 +1,4 @@
-<section class=" section-frame overflow-hidden video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-80">
+<section class=" section-frame overflow-hidden video-wrapper bg-overlay px-0 mt-0 min-vh-80">
     <video poster="./assets/img/photos/movie2.jpg" src="./assets/media/nobel_movie.mp4" autoplay loop playsinline muted></video>
     <div class="video-content">
         <div class="container text-center">

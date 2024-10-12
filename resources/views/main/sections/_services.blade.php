@@ -15,7 +15,7 @@
                                 </div>
                                 <p class="mt-4">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności...</p>
                             </div>
-                            <a href="{{route('service.readyCompany')}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                                 </div>
                                 <p class="mt-4">Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem...</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                                 </div>
                                 <p class="mt-4">Analiza Twoich potrzeb, przygotowanie dokumentów, rejestracja spółki w KRS, obsługa notarialna, wsparcie po rejestracji...</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                                 </div>
                                 <p class="mt-4">"Gotowe biura" to w pełni wyposażone przestrzenie dostępne od zaraz, idealne dla firm szukających szybkich rozwiązań.</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 </div>
                                 <p class="mt-4">Mamy ponad 20 lat doświadczenia w rejestracji, sprzedaży i likwidacji spółek oraz zmianach w KRS.</p>
                             </div>
-                            <a href="#" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+                            <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
                     </div>
                 </div>
