@@ -13,6 +13,6 @@ class DashboardController extends Controller
     {
         $this->data['mainMenu'] = 'dashboard';
 
-        return view('main.index');
+        return view('main.index', $this->data);
     }
 }

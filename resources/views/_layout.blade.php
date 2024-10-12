@@ -8,11 +8,13 @@
     <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
-    <link rel="shortcut icon" href="./assets/img/favicon.png">
-    <link rel="stylesheet" href="./assets/css/plugins.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/colors/violet.css">
-    <link rel="preload" href="./assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/plugins.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/colors/violet.css">
+    <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/project.js"></script>
 </head>
 
 <body>
@@ -20,8 +22,9 @@
     <!--     MENU    -->
         @include('_menu')
     <!--    /MENU   -->
-
-    @include('components.movieBanner')
+    @if ($mainMenu === 'dashboard')
+        @include('components.movieBanner')
+    @endif
     <section class="wrapper bg-light ">
         <div class="container py-14 py-md-16">
             @yield('content')
@@ -38,7 +41,7 @@
                     <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
                     <p class="mb-4">© <script>
                             document.write(new Date().getUTCFullYear());
-                        </script> Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+                        </script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
                     <nav class="nav social social-white">
                         <a href="#"><i class="uil uil-twitter"></i></a>
                         <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -53,31 +56,35 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                    <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-                    <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
+                    <h4 class="widget-title text-white mb-3">Kontakt</h4>
+                    <address class="pe-xl-15 pe-xxl-17">
+                        Nobel Sp. z o.o.<br>
+                        Plac Defilad 1<br>
+                        00-901 Warszawa<br>
+                    </address>
+                    <a href="mailto:#">nobel@nobel.pro</a><br /> +48 22 499 99 00
                 </div>
                 <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Learn More</h4>
-                    <ul class="list-unstyled  mb-0">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <!-- /.widget -->
+{{--                <div class="widget">--}}
+{{--                    <h4 class="widget-title text-white mb-3">Learn More</h4>--}}
+{{--                    <ul class="list-unstyled  mb-0">--}}
+{{--                        <li><a href="#">About Us</a></li>--}}
+{{--                        <li><a href="#">Our Story</a></li>--}}
+{{--                        <li><a href="#">Projects</a></li>--}}
+{{--                        <li><a href="#">Terms of Use</a></li>--}}
+{{--                        <li><a href="#">Privacy Policy</a></li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--                <!-- /.widget -->--}}
             </div>
             <!-- /column -->
             <div class="col-md-12 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
-                    <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+                    <h4 class="widget-title text-white mb-3">Newsletter</h4>
+                    <p class="mb-5">Dołącz do naszego newslettera aby otrzymywać najnowsze informacje</p>
                     <div class="newsletter-wrapper">
                         <!-- Begin Mailchimp Signup Form -->
                         <div id="mc_embed_signup2">
@@ -85,8 +92,8 @@
                                 <div id="mc_embed_signup_scroll2">
                                     <div class="mc-field-group input-group form-floating">
                                         <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
-                                        <label for="mce-EMAIL2">Email Address</label>
-                                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                                        <label for="mce-EMAIL2">Adres e-mail</label>
+                                        <input type="submit" value="Dołącz" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
                                     </div>
                                     <div id="mce-responses2" class="clear">
                                         <div class="response" id="mce-error-response2" style="display:none"></div>
@@ -114,8 +121,12 @@
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
 </div>
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/theme.js"></script>
+@include('components.success')
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="/assets/js/plugins.js"></script>
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/project.js"></script>
 </body>
 
 </html>
