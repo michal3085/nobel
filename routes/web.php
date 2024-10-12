@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
@@ -26,7 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/user/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/user/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/user/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::get('/blog/create', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/blog/create', [BlogController::class, 'create'])->name('blog.create');
 });
 
 require __DIR__.'/auth.php';

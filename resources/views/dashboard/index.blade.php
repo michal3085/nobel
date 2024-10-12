@@ -2,7 +2,7 @@
 
 @section('buttons')
     <div class="col-auto">
-        <a href="" class="btn btn-success me-1 mb-1">DODAJ</a>
+        <a href="{{route('blog.create')}}" class="btn btn-success me-1 mb-1">DODAJ</a>
     </div>
 @endsection
 
