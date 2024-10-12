@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-class DashboardController extends Controller
+class MainPageController extends Controller
 {
     public function __construct()
     {
@@ -13,6 +11,8 @@ class DashboardController extends Controller
 
     public function index()
     {
-        return view('dashboard', $this->data);
+        $this->data['mainMenu'] = 'dashboard';
+
+        return view('main.index', $this->data);
     }
 }
