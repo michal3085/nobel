@@ -1,6 +1,6 @@
-<section class="wrapper bg-light mt-10">
+<section class="wrapper bg-light mt-1">
     <div class="container py-14 py-md-16">
-        <div class="pricing-wrapper position-relative mt-n22 mt-md-n24">
+        <div class="pricing-wrapper position-relative mt-n22 mt-md-n25">
             <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
             <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
             <div class="row gx-3 gy-6 mt-3 mt-md-5 justify-content-center">
