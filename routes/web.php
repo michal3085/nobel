@@ -1,13 +1,14 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
 use App\Http\Controllers\QuestionAnswerController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/', [MainPageController::class, 'index'])->name('dashboard');
 
 // SERVICES
 Route::get('/{service}', [ServicesController::class, 'routeDispatch'])->name('service.route.dispatch');
@@ -20,14 +21,11 @@ Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name(
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
 
-Route::get('/user/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::middleware('auth')->group(function () {
     Route::get('/user/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/user/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/user/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/user/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 
 require __DIR__.'/auth.php';
