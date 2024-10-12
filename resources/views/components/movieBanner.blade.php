@@ -17,7 +17,7 @@
 </section>
 <div class="row mt-md-n50p mb-n3 mb-md-7">
     <div class="col-xl-10 mx-auto">
-        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg2.jpg" style="opacity: 85%">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg3.jpg" style="opacity: 85%">
             <div class="card-body p-9 p-xl-11">
                 <div class="row align-items-center counter-wrapper gy-8 text-center text-white">
                     <div class="col-6 col-lg-3">
