@@ -1,45 +1,45 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+@extends('dashboard._layout')
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg col-lg-12">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
+@section('buttons')
+    <div class="col-auto">
+        <a href="" class="btn btn-success me-1 mb-1">DODAJ</a>
+    </div>
+@endsection
 
+@section('content')
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Blog [{{$posts->count()}}]</h5>
+            <div class="table-responsive scrollbar ms-n1 ps-1">
+                <table class="table table-sm table-hover fs--1 mb-0">
+                    <thead>
+                    <tr class="row-name">
+                        <th class="text-nowrap text-center">
+                            Lp.
+                        </th>
+                        <th class="text-nowrap text-start">
+                            Tytuł
+                        </th>
+                        <th class="text-nowrap text-start">
+                            Dodano
+                        </th>
+                        <th class="text-nowrap text-start">
+                            Edytuj
+                        </th>
+                        <th class="text-nowrap text-start">
+                            Usuń
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach($posts as $key => $newsletter)
+                        <tr class="align-middle">
 
-                <!-- Tabela -->
-                <div class="overflow-x-auto mt-6">
-                    <table class="w-full table-auto border-collapse border border-slate-500">
-                        <thead>
-                        <tr>
-                            <th class="border border-slate-600">State</th>
-                            <th class="border border-slate-600">City</th>
                         </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td class="border border-slate-700">Indiana</td>
-                            <td class="border border-slate-700">Indianapolis</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-slate-700">Ohio</td>
-                            <td class="border border-slate-700">Columbus</td>
-                        </tr>
-                        <tr>
-                            <td class="border border-slate-700">Michigan</td>
-                            <td class="border border-slate-700">Detroit</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                </div>
-                <!-- Koniec tabeli -->
+                    @endforeach
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-</x-app-layout>
+@endsection
