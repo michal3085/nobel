@@ -11,7 +11,7 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Stwórz nowy post na blogu</h5>
-            <form method="POST" action="" autocomplete="off" enctype="multipart/form-data">
+            <form method="POST" action="{{route('blog.store')}}" autocomplete="off" enctype="multipart/form-data">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <input type="hidden" name="_method" value="POST">
 
