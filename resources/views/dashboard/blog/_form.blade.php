@@ -11,7 +11,7 @@
         <div class="row mb-2">
             <label class="col-12 col-form-label col-form-label-sm">Miniaturka</label>
             <div class="col-12">
-                <input class="form-control form-control-sm @error('nl_template_name') is-invalid @enderror" type="text" name="nl_template_name" value="{{old('nl_template_name', $formObject->nl_template_name)}}">
+                <input class="form-control form-control-sm @error('nl_template_name') is-invalid @enderror" type="file" name="nl_template_name" value="{{old('nl_template_name', $formObject->nl_template_name)}}">
             </div>
         </div>
     </div>
