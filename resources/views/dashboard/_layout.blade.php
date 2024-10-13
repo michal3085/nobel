@@ -9,9 +9,11 @@
     <meta name="author" content="elemis">
     <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
     <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/colors/pink.css">
+    <link rel="stylesheet" href="/vendors/summernote-0.8.18-dist/summernote-lite.css"/>
 </head>
 
 <body>
@@ -35,6 +37,8 @@
 
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
+<script src="/vendors/summernote-0.8.18-dist/summernote-lite.js"></script>
+@yield('adminjs')
 </body>
 
 </html>
