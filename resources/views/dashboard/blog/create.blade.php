@@ -10,7 +10,7 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Stwórz nowy post na blogu</h5>
-
+            @include('dashboard.blog._form', ['formObject' => $blog])
         </div>
     </div>
 @endsection
