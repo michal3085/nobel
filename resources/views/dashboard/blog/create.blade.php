@@ -2,7 +2,7 @@
 
 @section('buttons')
     <div class="col-auto">
-        <a href="" class="btn btn-success me-1 mb-1">Powrót</a>
+        <a href="{{ route('dashboard') }}" class="btn btn-success me-1 mb-1">Powrót</a>
     </div>
 @endsection
 
@@ -16,11 +16,11 @@
                 <input type="hidden" name="_method" value="POST">
 
                 <div class="row">
-                    @include('dashboard.blog._form', ['formObject' => $blog])
+                    @include('dashboard.blog._form', ['formObject' => $post])
                 </div>
 
                 <div class="col-12 d-flex justify-content-end">
-                    <button type="submit" class="btn btn-success me-1 mb-1">ZAPISZ</button>
+                    <button type="submit" class="btn btn-success me-1 mb-1">POBLIKUJ</button>
                 </div>
             </form>
         </div>
