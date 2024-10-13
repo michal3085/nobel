@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('post_title');
             $table->text('post_text');
             $table->string('post_description')->nullable();
+            $table->string('post_image')->nullable();
+            $table->string('post_author');
             $table->rememberToken();
             $table->timestamps();
         });
