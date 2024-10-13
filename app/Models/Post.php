@@ -10,4 +10,14 @@ class Post extends Model
     protected $primaryKey = 'post_id';
     public $timestamps = false;
     public $history = true;
+
+    public $fillable = [
+        'author_id'.
+        'post_title'.
+        'post_text',
+        'post_description'.
+        'post_image',
+        'post_author',
+        'post_active',
+    ];
 }

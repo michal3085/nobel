@@ -56,6 +56,12 @@ return [
             'throw' => false,
         ],
 
+        'blog_files' => [
+            'driver' => 'local',
+            'root' => '../blog',
+            'throw' => false,
+        ],
+
     ],
 
     /*

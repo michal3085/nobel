@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\PostStoreRequest;
 use App\Models\Post;
 
 class BlogController extends Controller
@@ -15,5 +16,10 @@ class BlogController extends Controller
     {
         $this->data['post'] = new Post();
         return view('dashboard.blog.create', $this->data);
+    }
+
+    public function store(PostStoreRequest $request)
+    {
+
     }
 }
