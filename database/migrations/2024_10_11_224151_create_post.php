@@ -15,7 +15,7 @@ return new class extends Migration
             $table->bigIncrements('post_id');
             $table->unsignedBigInteger('author_id');
             $table->string('post_title');
-            $table->text('post_text');
+            $table->longText('post_text');
             $table->string('post_description')->nullable();
             $table->string('post_image')->nullable();
             $table->string('post_author');

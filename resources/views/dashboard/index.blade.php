@@ -14,7 +14,7 @@
                 <table class="table table-sm table-hover fs--1 mb-0">
                     <thead>
                     <tr class="row-name">
-                        <th class="text-nowrap text-center">
+                        <th class="text-nowrap text-start">
                             Lp.
                         </th>
                         <th class="text-nowrap text-start">
@@ -22,6 +22,9 @@
                         </th>
                         <th class="text-nowrap text-start">
                             Dodano
+                        </th>
+                        <th class="text-nowrap text-start">
+                            Autor
                         </th>
                         <th class="text-nowrap text-start">
                             Edytuj
@@ -32,9 +35,22 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($posts as $key => $newsletter)
+                    @foreach($posts as $key => $post)
                         <tr class="align-middle">
-
+                            <td>
+                                {{ $key+1 }}
+                            </td>
+                            <td>
+                                {{$post->post_title}}
+                            </td>
+                            <td>
+                                {{$post->created_at}}
+                            </td>
+                            <td>
+                                {{$post->post_author}}
+                            </td>
+                            <td>X</td>
+                            <td>XX</td>
                         </tr>
                     @endforeach
                     </tbody>
