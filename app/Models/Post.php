@@ -11,6 +11,8 @@ class Post extends Model
     public $timestamps = false;
     public $history = true;
 
+    public const DISK_NAME = 'blog-files';
+
     public $fillable = [
         'author_id'.
         'post_title'.
@@ -20,4 +22,9 @@ class Post extends Model
         'post_author',
         'post_active',
     ];
+
+    public function getPostFileDirectoryPath()
+    {
+        return '/' . $this->post_id . '/';
+    }
 }

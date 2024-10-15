@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\PostStoreRequest;
 use App\Models\Post;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Str;
 
 class BlogController extends Controller
 {
@@ -25,13 +27,26 @@ class BlogController extends Controller
     {
         DB::beginTransaction();
         try {
+            $file = $request->file('post_image');
+            $extension = $file->getClientOriginalExtension();
+            $fileName = Str::uuid() . '.' . $extension;
+
             $post = new Post();
-            $post->fill($request->all());
+            $post->post_title = $request['post_title'];
+            $post->post_text = $request['post_text'];
+            $post->post_description = $request['post_description'];
+            $post->post_image = $fileName;
+            $post->post_author = Auth::user()->name;
+            $post->post_active  = $request['post_active'];
+            $post->author_id = auth()->user()->id;
             $post->save();
+
+            $file->storeAs($post->getPostFileDirectoryPath(), $fileName, Post::DISK_NAME);
         } catch (\Exception $exception) {
+            dd($exception->getMessage());
             DB::rollBack();
             Log::error($exception->getMessage());
-            Session::flash('error', 'Wiadomość nie została wysłana');
+            Session::flash('error', 'Błąd podczas dodawania postu');
             return redirect()->back();
         }
         DB::commit();

@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('post_description')->nullable();
             $table->string('post_image')->nullable();
             $table->string('post_author');
-            $table->boolean('post_active');
+            $table->string('post_active');
             $table->rememberToken();
             $table->timestamps();
 
