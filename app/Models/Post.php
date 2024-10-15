@@ -8,7 +8,7 @@ class Post extends Model
 {
     protected $table = 'post';
     protected $primaryKey = 'post_id';
-    public $timestamps = false;
+    public $timestamps = true;
     public $history = true;
 
     public const DISK_NAME = 'blog-files';

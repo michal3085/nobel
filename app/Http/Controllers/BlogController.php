@@ -43,6 +43,7 @@ class BlogController extends Controller
 
             $file->storeAs($post->getPostFileDirectoryPath(), $fileName, Post::DISK_NAME);
         } catch (\Exception $exception) {
+            dd($exception->getMessage());
             DB::rollBack();
             Log::error($exception->getMessage());
             Session::flash('error', 'Błąd podczas dodawania postu');
