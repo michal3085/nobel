@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
 
 class Post extends Model
 {
@@ -25,6 +26,11 @@ class Post extends Model
 
     public function getPostFileDirectoryPath()
     {
-        return '/' . $this->post_id . '/';
+        return $this->post_id . '/';
+    }
+
+    public function getPostImage()
+    {
+        return Storage::disk(self::DISK_NAME)->url('app/blog_files/' . $this->getPostFileDirectoryPath() . $this->post_image);
     }
 }
