@@ -56,9 +56,9 @@ return [
             'throw' => false,
         ],
 
-        'blog_files' => [
+        'blog-files' => [
             'driver' => 'local',
-            'root' => '../blog',
+            'root' => storage_path('app/blog_files/'),
             'throw' => false,
         ],
 
