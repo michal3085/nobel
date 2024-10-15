@@ -22,7 +22,8 @@ class PostStoreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'post_title' => 'required',
+            'post_text' => 'required',
         ];
     }
 }

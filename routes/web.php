@@ -22,13 +22,18 @@ Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name(
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
 
+// BLOG GUEST
+Route::get('/blog/{post}', [BlogController::class, 'showForGuest'])->name('blog.show.guest');
+
 Route::middleware('auth')->group(function () {
     Route::get('/user/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/user/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/user/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/user/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::get('/blog/create', [BlogController::class, 'create'])->name('blog.create');
-    Route::post('/blog/store', [BlogController::class, 'store'])->name('blog.store');
+    Route::get('/post/create', [BlogController::class, 'create'])->name('blog.create');
+    Route::post('/post/store', [BlogController::class, 'store'])->name('blog.store');
+    Route::get('/post/{post}/edit', [BlogController::class, 'edit'])->name('blog.edit');
+    Route::put('/post/{post}/store', [BlogController::class, 'update'])->name('blog.update');
 });
 
 require __DIR__.'/auth.php';
