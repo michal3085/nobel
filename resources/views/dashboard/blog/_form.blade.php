@@ -21,14 +21,16 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6">
-        <div class="row mb-2">
-            <label class="col-12 col-form-label col-form-label-sm">Miniaturka</label>
-            <div class="col-12">
-                <input class="form-control form-control-sm @error('post_image') is-invalid @enderror" type="file" name="post_image" value="{{old('post_image', $formObject->post_image)}}">
+    @if ($update === false)
+        <div class="col-lg-6">
+            <div class="row mb-2">
+                <label class="col-12 col-form-label col-form-label-sm">Miniaturka</label>
+                <div class="col-12">
+                    <input class="form-control form-control-sm @error('post_image') is-invalid @enderror" type="file" name="post_image" value="{{old('post_image', $formObject->getPostImage())}}">
+                </div>
             </div>
         </div>
-    </div>
+    @endif
 </div>
 <div class="row mb-2">
     <div class="col-lg-12">

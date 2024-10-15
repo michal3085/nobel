@@ -27,9 +27,6 @@
                             Autor
                         </th>
                         <th class="text-nowrap text-start">
-                            Edytuj
-                        </th>
-                        <th class="text-nowrap text-start">
                             Usuń
                         </th>
                     </tr>
@@ -41,7 +38,9 @@
                                 {{ $key+1 }}
                             </td>
                             <td>
-                                {{$post->post_title}}
+                                <a href="{{route('blog.edit', $post)}}">
+                                    {{$post->post_title}}
+                                </a>
                             </td>
                             <td>
                                 {{$post->created_at}}
@@ -49,7 +48,6 @@
                             <td>
                                 {{$post->post_author}}
                             </td>
-                            <td>X</td>
                             <td>XX</td>
                         </tr>
                     @endforeach

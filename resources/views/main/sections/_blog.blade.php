@@ -10,9 +10,9 @@
                         @foreach($posts as $post)
                             <article class="item post col-md-6">
                                 <div class="card h-100 d-flex flex-column">
-                                    <figure class="card-img-top overlay overlay-1 hover-scale">
-                                        <a href="#">
-                                            <img src="{{$post->getPostImage()}}" alt="" class="img-fluid" />
+                                    <figure class="card-img-top overlay overlay-1 hover-scale" style="height: 250px; overflow: hidden;">
+                                        <a href="{{route('blog.show.guest', ['post' => $post])}}">
+                                            <img src="{{$post->getPostImage()}}" alt="" class="img-fluid" style="height: 100%; width: 100%; object-fit: cover;" />
                                         </a>
                                         <figcaption>
                                             <h5 class="from-top mb-0">Read More</h5>
@@ -38,8 +38,6 @@
                                     </div>
                                 </div>
                             </article>
-
-
                             <!-- /.post -->
                         @endforeach
 
