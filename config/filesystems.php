@@ -58,7 +58,7 @@ return [
 
         'blog-files' => [
             'driver' => 'local',
-            'root' => storage_path('app/blog_files/'),
+            'root' => storage_path('app/public/blog_files/'),
             'throw' => false,
         ],
 
