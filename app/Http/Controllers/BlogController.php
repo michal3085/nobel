@@ -23,6 +23,7 @@ class BlogController extends Controller
     public function create()
     {
         $this->data['post'] = new Post();
+
         return view('dashboard.blog.create', $this->data);
     }
 
