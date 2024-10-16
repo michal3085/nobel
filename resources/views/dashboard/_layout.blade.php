@@ -37,6 +37,7 @@
 </div>
 
 @include('components.success')
+@include('components.error')
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
 <script src="/vendors/summernote-0.8.18-dist/summernote-lite.js"></script>
