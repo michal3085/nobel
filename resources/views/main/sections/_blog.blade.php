@@ -47,6 +47,13 @@
 
                     </div>
                     <!-- /.row -->
+                    @if ($showAll === false)
+                        <div class="d-flex justify-content-center">
+                            <span>
+                                <a class="btn btn-primary rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
+                            </span>
+                        </div>
+                    @endif
                 </div>
                 <!-- /.blog -->
             </div>

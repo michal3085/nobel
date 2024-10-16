@@ -23,6 +23,7 @@ Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name(
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
 
 // BLOG GUEST
+Route::get('/blog/all', [BlogController::class, 'showAllGuest'])->name('blog.show.all');
 Route::get('/blog/{post}', [BlogController::class, 'showForGuest'])->name('blog.show.guest');
 
 Route::middleware('auth')->group(function () {

@@ -67,6 +67,15 @@ class BlogController extends Controller
         return view('blog.show', $this->data);
     }
 
+    public function showAllGuest()
+    {
+        $this->data['posts'] = Post::where('post_active', 'true')
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return view('blog.showAll', $this->data);
+    }
+
     public function edit(Post $post)
     {
         $this->data['post'] = $post;
