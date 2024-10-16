@@ -113,4 +113,12 @@ class BlogController extends Controller
         Session::flash('success', 'Post został usunięty');
         return redirect()->route('dashboard');
     }
+
+    public function changeStatus(Post $post)
+    {
+        $newStatus = $post->post_active === 'true' ? 'false' : 'true';
+        $post->update(['post_active' => $newStatus]);
+
+        return redirect()->back()->with('success', 'Status posta został zmieniony');
+    }
 }

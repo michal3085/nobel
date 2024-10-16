@@ -14,11 +14,7 @@ class MainPageController extends Controller
     public function index()
     {
         $this->data['mainMenu'] = 'dashboard';
-        $this->data['posts'] = Post::orderBy('created_at', 'desc')->limit(4)->get();
-
-        foreach ($this->data['posts'] as $post) {
-//            dd($post->getPostImage());
-        }
+        $this->data['posts'] = Post::where('post_active', 'true')->orderBy('created_at', 'desc')->limit(4)->get();
 
         return view('main.index', $this->data);
     }
