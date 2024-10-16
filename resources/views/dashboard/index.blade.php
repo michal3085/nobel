@@ -26,6 +26,9 @@
                         <th class="text-nowrap text-start">
                             Autor
                         </th>
+                        <th class="text-center">
+                            Status (widoczność)
+                        </th>
                         <th class="text-nowrap text-start">
                             Usuń
                         </th>
@@ -47,6 +50,21 @@
                             </td>
                             <td>
                                 {{$post->post_author}}
+                            </td>
+                            <td class="text-center">
+                                <form action="{{ route('blog.change.status', $post) }}" method="POST" style="display:inline;">
+                                    @csrf
+                                    @method('PUT')
+                                    @if ($post->post_active === 'true')
+                                        <button type="submit" class="btn btn-sm text-success">
+                                            <i class="bi bi-eye-fill"></i>
+                                        </button>
+                                    @else
+                                        <button type="submit" class="btn btn-sm text-danger">
+                                            <i class="bi bi-eye-slash-fill"></i>
+                                        </button>
+                                    @endif
+                                </form>
                             </td>
                             <td>
                                 <form action="{{ route('blog.destroy', $post) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
