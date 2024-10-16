@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
@@ -9,12 +9,13 @@
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
     <link rel="shortcut icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/assets/css/plugins.css">
+    <link rel="stylesheet" href="/assets/css/plugins.css">|
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/colors/violet.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/assets/js/project.js"></script>
+    <script src="/vendors/summernote-0.9.0-dist/summernote-lite.css"></script>
 </head>
 
 <body>
@@ -122,11 +123,14 @@
     </svg>
 </div>
 @include('components.success')
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@include('components.error')
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
 <script src="/assets/js/project.js"></script>
+<script src="/vendors/summernote-0.9.0-dist/summernote-lite.js"></script>
+@yield('js')
 </body>
 
 </html>
