@@ -19,6 +19,7 @@
 </head>
 
 <body>
+@include('components._coockies')
 <div class="content-wrapper">
     <!--     MENU    -->
         @include('_menu')
