@@ -6,7 +6,7 @@
             <br>
 
             @include('main.sections._services')
-            @include('main.sections._blog')
+            @include('main.sections._blog', ['showAll' => false])
 
         </div>
     </section>
