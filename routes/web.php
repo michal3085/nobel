@@ -34,6 +34,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/post/store', [BlogController::class, 'store'])->name('blog.store');
     Route::get('/post/{post}/edit', [BlogController::class, 'edit'])->name('blog.edit');
     Route::put('/post/{post}/store', [BlogController::class, 'update'])->name('blog.update');
+    Route::delete('/post/{post}/destroy', [BlogController::class, 'destroy'])->name('blog.destroy');
 });
 
 require __DIR__.'/auth.php';

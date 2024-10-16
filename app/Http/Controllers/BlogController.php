@@ -9,6 +9,9 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
+use PHPMailer\PHPMailer\Exception;
+use Illuminate\Support\Facades\Storage;
+
 
 class BlogController extends Controller
 {
@@ -45,6 +48,9 @@ class BlogController extends Controller
             Session::flash('success', 'Post został zapisany');
         } catch (\Exception $exception) {
             DB::rollBack();
+            if (Storage::disk(Post::DISK_NAME)->exists($post->getPostFileDirectoryPath() . '/' . $fileName)) {
+                Storage::disk(Post::DISK_NAME)->delete($post->getPostFileDirectoryPath() . '/' . $fileName);
+            }
             Log::error($exception->getMessage());
             Session::flash('error', 'Błąd podczas dodawania postu');
             return redirect()->back();
@@ -85,6 +91,25 @@ class BlogController extends Controller
         }
         DB::commit();
         Session::flash('success', 'Post został zaktualizowany');
+        return redirect()->route('dashboard');
+    }
+
+    public function destroy(Post $post)
+    {
+        DB::beginTransaction();
+        try {
+            if (Storage::disk(Post::DISK_NAME)->exists($post->getPostFileDirectoryPath() . '/' . $post->post_image)) {
+                Storage::disk(Post::DISK_NAME)->delete($post->getPostFileDirectoryPath() . '/' . $post->post_image);
+            }
+            $post->delete();
+        } catch (\Exception $exception) {
+            DB::rollBack();
+            Log::error($exception->getMessage());
+            Session::flash('error', 'Błąd podczas usuwania postu');
+            return redirect()->back();
+        }
+        DB::commit();
+        Session::flash('success', 'Post został usunięty');
         return redirect()->route('dashboard');
     }
 }

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/colors/pink.css">
     <link rel="stylesheet" href="/vendors/summernote-0.8.18-dist/summernote-lite.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -35,6 +36,7 @@
     </section>
 </div>
 
+@include('components.success')
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
 <script src="/vendors/summernote-0.8.18-dist/summernote-lite.js"></script>

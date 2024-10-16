@@ -48,7 +48,15 @@
                             <td>
                                 {{$post->post_author}}
                             </td>
-                            <td>XX</td>
+                            <td>
+                                <form action="{{ route('blog.destroy', $post) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-sm text-danger">
+                                        <i class="bi bi-trash3"></i>
+                                    </button>
+                                </form>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>
@@ -56,4 +64,10 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function confirmDelete() {
+            return confirm('Czy na pewno chcesz usunąć?');
+        }
+    </script>
 @endsection
