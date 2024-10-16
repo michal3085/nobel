@@ -1,4 +1,4 @@
-<!-- ELEMENT WYKORZYSTYWANY W /blog/showAll.blade.php i /main/sections/_blog.blade.php -->
+<!-- ELEMENT WYKORZYSTYWANY W /blog/showAll.blade.php i /main/index.blade.php -->
 <section class="wrapper bg-light">
     <div class="container pb-14 pb-md-16">
         <div class="row">
