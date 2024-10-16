@@ -13,11 +13,17 @@ return new class extends Migration
     {
         Schema::create('post', function (Blueprint $table) {
             $table->bigIncrements('post_id');
+            $table->unsignedBigInteger('author_id');
             $table->string('post_title');
-            $table->text('post_text');
+            $table->longText('post_text');
             $table->string('post_description')->nullable();
+            $table->string('post_image')->nullable();
+            $table->string('post_author');
+            $table->string('post_active');
             $table->rememberToken();
             $table->timestamps();
+
+            $table->foreign('author_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
