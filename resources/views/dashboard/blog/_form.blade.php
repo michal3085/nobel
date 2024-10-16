@@ -35,7 +35,7 @@
 <div class="row mb-2">
     <div class="col-lg-12">
         <div class="row mb-2">
-            <label class="col-12 col-form-label col-form-label-sm">Treść maila</label>
+            <label class="col-12 col-form-label col-form-label-sm">Treść posta</label>
             <div class="col-12">
                 <textarea class="form-control @error('post_text') is-invalid @enderror" name="post_text" id="summernote">{{ old('post_text', $formObject->post_text) }}</textarea>
             </div>
