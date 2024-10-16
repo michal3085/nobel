@@ -22,7 +22,7 @@
                                         <div class="card-body d-flex flex-column">
                                             <div class="post-header">
                                                 <div class="post-category text-line h3">
-                                                    <a href="#" class="hover" rel="category">{{$post->post_title}}</a>
+                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover" rel="category">{{$post->post_title}}</a>
                                                 </div>
                                             </div>
                                             <div class="post-content flex-grow-1">
