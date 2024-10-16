@@ -36,12 +36,12 @@ return [
             'throw' => false,
             'permissions' => [
                 'file' => [
-                    'public' => 0644,
-                    'private' => 0600,
+                    'public' => 0775,
+                    'private' => 0775,
                 ],
                 'dir' => [
-                    'public' => 0755,
-                    'private' => 0700,
+                    'public' => 0775,
+                    'private' => 0775,
                 ],
             ],
         ],
@@ -54,12 +54,12 @@ return [
             'throw' => false,
             'permissions' => [
                 'file' => [
-                    'public' => 0644,
-                    'private' => 0600,
+                    'public' => 0775,
+                    'private' => 0775,
                 ],
                 'dir' => [
-                    'public' => 0755,
-                    'private' => 0700,
+                    'public' => 0775,
+                    'private' => 0775,
                 ],
             ],
         ],
