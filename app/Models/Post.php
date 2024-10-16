@@ -31,6 +31,6 @@ class Post extends Model
 
     public function getPostImage()
     {
-        return Storage::disk(self::DISK_NAME)->url('/blog_files/' . $this->getPostFileDirectoryPath() . $this->post_image);
+        return Storage::disk(self::DISK_NAME)->url('blog_files/' . $this->getPostFileDirectoryPath() . $this->post_image);
     }
 }
