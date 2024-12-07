@@ -31,27 +31,30 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe biuro</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">OXFORD TOWER CH8</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">WOLA PAŃSKA 96</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">MOKOTÓW CAROLINA MEDICAL CENTER</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">WILANÓW HERBU JANINA 5 HJ5</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">WILANÓW KLIMCZAKA 15</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">KATOWICE – SOKOLSKA 30 NEW</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="">Śródmieście Piękna 15 <b>!TODO!</b></a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center </a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Wilanów Herbu Janina 5 </a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Katowice Sokolska 30 </a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="">Q&A</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Wirtualne biuro</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">OXFORD TOWER CH8</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">WOLA PAŃSKA 96</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">MOKOTÓW CAROLINA MEDICAL CENTER</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">WILANÓW HERBU JANINA 5 HJ5</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower </a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center </a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a></li>
+{{--                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">WILANÓW HERBU JANINA 5 HJ5</a></li>--}}
+                                    <li class="nav-item"><a class="dropdown-item" href="">Q&A</a></li>
                                 </ul>
                             </li>
-
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Gotowa spółka</a>
+                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
                             </li>
 
                         </ul>
@@ -60,13 +63,13 @@
                     <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
                         <ul class="navbar-nav me-lg-auto">
                             <li class="nav-item">
+                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Gotowa spółka</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółki</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{route('faq.index')}}">Q&A</a>
+                                <a class="nav-link" href="{{route('faq.index')}}">Kontakt</a>
                             </li>
 
                         </ul>
