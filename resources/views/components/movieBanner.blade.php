@@ -26,7 +26,7 @@
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">2000</h3>
+                        <h3 class="counter counter-lg text-white">2358</h3>
                         <p>Sprzedanych spółek</p>
                     </div>
                     <!--/column -->
