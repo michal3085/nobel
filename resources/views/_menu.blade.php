@@ -20,48 +20,71 @@
             <div class="navbar-collapse-wrapper d-flex flex-row align-items-center w-100">
                 <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                     <div class="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
-                        <a href="/" class="transition-none d-none d-lg-flex"><img class="logo-dark" src="{{asset('/assets/img/logo/nobel_black.png')}}" srcset="{{asset('/assets/img/nobel_black.png')}}" alt="" />
-                            <img class="logo-dark" src="{{asset('/assets/img/logo/nobel_black.png')}}" alt="" /></a>
+                        <a href="/" class="transition-none d-none d-lg-flex">
+                            <img class="logo-dark" src="{{asset('/assets/img/logo/logo_purple_121x32.png')}}" alt="" />
                         </a>
                         <h3 class="text-dark fs-30 mb-0 d-lg-none">Nobel</h3>
                         <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class=" order-1 order-lg-0 d-lg-flex offcanvas-body">
-                        <ul class="navbar-nav ms-lg-auto">
+                    <div class="order-1 order-lg-0 d-lg-flex offcanvas-body">
+                        <ul class="navbar-nav ms-lg-auto menu-links">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe biuro</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="">Śródmieście Piękna 15 <b>!TODO!</b></a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center </a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Wilanów Herbu Janina 5 </a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Katowice Sokolska 30 </a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="">Q&A</a></li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="">Śródmieście Piękna 15 <b>!TODO!</b></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Wilanów Herbu Janina 5</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Katowice Sokolska 30</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="">Q&A</a>
+                                    </li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Wirtualne biuro</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower </a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center </a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a></li>
-{{--                                    <li class="nav-item"><a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">WILANÓW HERBU JANINA 5 HJ5</a></li>--}}
-                                    <li class="nav-item"><a class="dropdown-item" href="">Q&A</a></li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="">Q&A</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
                             </li>
-
                         </ul>
-                        <!-- /.navbar-nav -->
                     </div>
                     <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
-                        <ul class="navbar-nav me-lg-auto">
+                        <ul class="navbar-nav me-lg-auto menu-links">
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Gotowa spółka</a>
                             </li>
@@ -71,29 +94,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('faq.index')}}">Kontakt</a>
                             </li>
-
                         </ul>
-                        <!-- /.navbar-nav -->
-                    </div>
-                    <div class="offcanvas-body d-lg-none order-4 mt-auto">
-                        <div class="offcanvas-footer">
-                            <div>
-                                <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                                <br /> 00 (123) 456 78 90 <br />
-                                <nav class="nav social social-white mt-4">
-                                    <a href="#"><i class="uil uil-twitter"></i></a>
-                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                                    <a href="#"><i class="uil uil-instagram"></i></a>
-                                    <a href="#"><i class="uil uil-youtube"></i></a>
-                                </nav>
-                                <!-- /.social -->
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <!-- /.navbar-collapse -->
             </div>
+
             <!-- /.navbar-collapse-wrapper -->
         </div>
         <!-- /.container -->

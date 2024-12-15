@@ -39602,3 +39602,13 @@ footer.bg-dark.angled.upper-start:before {
     position: relative;
   }
 }
+
+.menu-links .nav-link,
+.menu-links .dropdown-item {
+    color: #145A9C !important; /* Kolor tekstu */
+}
+
+.menu-links .nav-link:hover,
+.menu-links .dropdown-item:hover {
+    color: #747ed1 !important; /* Kolor tekstu po najechaniu */
+}
