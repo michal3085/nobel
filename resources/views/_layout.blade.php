@@ -38,49 +38,50 @@
 <footer class="bg-dark text-inverse">
     <div class="container py-13 py-md-15">
         <div class="row gy-6 gy-lg-0">
-            <div class="col-md-4 col-lg-3">
-                <div class="widget">
-                    <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
-                    <p class="mb-4">© <script>
-                            document.write(new Date().getUTCFullYear());
-                        </script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
-                    <nav class="nav social social-white">
-                        <a href="#"><i class="uil uil-twitter"></i></a>
-                        <a href="#"><i class="uil uil-facebook-f"></i></a>
-                        <a href="#"><i class="uil uil-dribbble"></i></a>
-                        <a href="#"><i class="uil uil-instagram"></i></a>
-                        <a href="#"><i class="uil uil-youtube"></i></a>
-                    </nav>
-                    <!-- /.social -->
-                </div>
-                <!-- /.widget -->
-            </div>
+
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
                 <div class="widget">
                     <h4 class="widget-title text-white mb-3">Kontakt</h4>
-                    <address class="pe-xl-15 pe-xxl-17">
-                        Nobel Sp. z o.o.<br>
-                        Plac Defilad 1<br>
-                        00-901 Warszawa<br>
-                    </address>
+                    <div class="d-flex gap-4">
+                        <address>
+                            Nobel Sp. z o.o.<br>
+                            Plac Defilad 1<br>
+                            00-901 Warszawa<br>
+                        </address>
+                        <address>
+                            NIP: 7010225520<br>
+                            KRS: 0000353244<br>
+                        </address>
+                    </div>
+
+                    <div class="d-flex gap-4">
+                        <address>
+                            Nobel sp. z o.o.<br>
+                            Plac Defilad 1<br>
+                            00-901 Warszawa<br>
+                        </address>
+                        <address>
+                            KRS 0000005899<br>
+                            NIP 5213150329<br>
+                        </address>
+                    </div>
                     <a href="mailto:#">nobel@nobel.pro</a><br /> +48 22 499 99 00
                 </div>
-                <!-- /.widget -->
             </div>
+
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
-{{--                <div class="widget">--}}
-{{--                    <h4 class="widget-title text-white mb-3">Learn More</h4>--}}
-{{--                    <ul class="list-unstyled  mb-0">--}}
-{{--                        <li><a href="#">About Us</a></li>--}}
-{{--                        <li><a href="#">Our Story</a></li>--}}
-{{--                        <li><a href="#">Projects</a></li>--}}
-{{--                        <li><a href="#">Terms of Use</a></li>--}}
-{{--                        <li><a href="#">Privacy Policy</a></li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <!-- /.widget -->--}}
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">Nasze linki</h4>
+                    <ul class="list-unstyled  mb-0">
+                        <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
+                        <li><a href="https://ekrs.ms.gov.pl/s24/">e-krs</a></li>
+                        <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
+                        <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
+                    </ul>
+                </div>
+                <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-12 col-lg-3">
@@ -109,6 +110,24 @@
                         <!--End mc_embed_signup-->
                     </div>
                     <!-- /.newsletter-wrapper -->
+                </div>
+                <!-- /.widget -->
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
+                    <p class="mb-4">© <script>
+                            document.write(new Date().getUTCFullYear());
+                        </script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <nav class="nav social social-white">
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-dribbble"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                    <!-- /.social -->
                 </div>
                 <!-- /.widget -->
             </div>
