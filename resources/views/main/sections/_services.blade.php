@@ -11,9 +11,9 @@
                                 <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">GOTOWE SPÓŁKI</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1500</span> <span class="price-duration">PLN</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności...</p>
+                                <p class="mt-4">pozwala na natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności</p>
                             </div>
                             <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
@@ -29,7 +29,7 @@
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">100</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem...</p>
+                                <p class="mt-4">Adres osobisty lub dla Twojej firmy z profesjonalnym wsparciem administracyjnym.</p>
                             </div>
                             <a href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
@@ -43,9 +43,9 @@
                                 <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">REJESTRACJA SPÓŁKI</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">690</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">Analiza Twoich potrzeb, przygotowanie dokumentów, rejestracja spółki w KRS, obsługa notarialna, wsparcie po rejestracji...</p>
+                                <p class="mt-4">profesjonalne wsparcie, aby proces był szybki i bezproblemowy.</p>
                             </div>
                             <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
@@ -59,9 +59,9 @@
                                 <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">GOTOWE BIURO</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">750</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">"Gotowe biura" to w pełni wyposażone przestrzenie dostępne od zaraz, idealne dla firm szukających szybkich rozwiązań.</p>
+                                <p class="mt-4">w pełni wyposażona, elastyczna przestrzeń, oferująca komfort i kompleksowe wsparcie.</p>
                             </div>
                             <a href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
@@ -76,9 +76,9 @@
                                 <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">ZMIANY W KRS</h4>
                                 <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD OK</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
+                                    <div class="price price-show"><span class="price-currency">OD OK</span><span class="price-value">500</span> <span class="price-duration">PLN</span></div>
                                 </div>
-                                <p class="mt-4">Mamy ponad 20 lat doświadczenia w rejestracji, sprzedaży i likwidacji spółek oraz zmianach w KRS.</p>
+                                <p class="mt-4">wieloletnie doświadczenie z zakresu dokonywania wpisów w KRS</p>
                             </div>
                             <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
                         </div>
