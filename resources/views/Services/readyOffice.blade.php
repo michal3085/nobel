@@ -167,6 +167,7 @@
                     </div>
                 </div>
 
+                <h1 class="mb-3 underline-3 style-2 green">Dostarczamy rozwiązania, które ułatwiają życie naszym klientom.</h1>
                 <div class="tab-pane fade show active" id="tab2-1">
                     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
                         <div class="col-lg-6">
@@ -174,7 +175,6 @@
                         </div>
                         <!--/column -->
                         <div class="col-lg-6">
-                            <h2 class="mb-3">Dostarczamy rozwiązania, które ułatwiają życie naszym klientom.</h2>
                             <p style="font-size: 15px;">Biuro serwisowane to w pełni wyposażona przestrzeń do pracy, która łączy komfort,
                                 elastyczność i dogodną lokalizację. Jeśli jesteś samotnym wilkiem, mamy dla Ciebie
                                 idealne biuro jednoosobowe – przestrzeń, w której możesz pracować w ciszy i spokoju. Jeśli
