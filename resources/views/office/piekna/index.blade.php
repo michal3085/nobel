@@ -82,9 +82,9 @@
         </div>
         </div>
 
+        <hr>
 
-
-        <div class="row gx-md-8 gx-xl-12 gy-10 mt-5 mb-3">
+        <div class="row gx-md-8 gx-xl-12 gy-10 mt-2 mb-3">
             <h2>Charakterystyka lokalizacji</h2>
             <div class="col-lg-6">
                 <div class="d-flex flex-row">
@@ -207,9 +207,21 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <div>
+            <p class="mb-6 mt-4">
+                Lokal biurowy przy ul. Pięknej 15 to doskonały wybór dla firm z branży prawniczej,
+                konsultingowej, kreatywnej czy technologicznej, które chcą zyskać nie tylko funkcjonalne
+                miejsce pracy, ale także wizerunkowe atuty wynikające z lokalizacji w prestiżowym miejscu.
+                <br><br>
+                Zapraszamy do kontaktu w celu uzyskania szczegółowych informacji lub umówienia się na
+                prezentację lokalu!
+            </p>
+        </div>
 
-
-
+        <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+            <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Zapytaj o dostępność</a></span>
+        </div>
 
     </section>
 @endsection
