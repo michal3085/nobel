@@ -7,6 +7,7 @@
                 <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
                     <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
                         <div class="card-body d-flex flex-column">
+{{--                            mozna by zrobic te z demo11 --}}
                             <div class="mb-auto">
                                 <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">GOTOWE SPÓŁKI</h4>
