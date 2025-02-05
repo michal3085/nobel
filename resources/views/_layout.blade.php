@@ -9,7 +9,7 @@
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
     <link rel="shortcut icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/assets/css/plugins.css">|
+    <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/colors/violet.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
@@ -20,6 +20,15 @@
 
 <body>
 @include('components._coockies')
+<div class="position-fixed top-0 start-0 p-3" style="z-index: 1050;">
+    <div class="d-flex align-items-center">
+        <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark me-3">nobel@nobel.pro</a>
+        <a href="tel:+48224999900" class="text-decoration-none text-dark">+48 22 499 99 00</a>
+    </div>
+</div>
+
+
+</body>
 <div class="content-wrapper">
     <!--     MENU    -->
         @include('_menu')
