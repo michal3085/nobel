@@ -1,6 +1,6 @@
 <section class="wrapper bg-light">
     <div class="container pb-15 pb-md-17">
-        <div class="row gx-md-5 gy-5 mt-n19 mb-14 mb-md-17 justify-content-center">
+        <div class="row gx-md-5 gy-5 mt-n20 mb-14 mb-md-17 justify-content-center">
             <!-- GOTOWE SPÓŁKI -->
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="card shadow-lg">
@@ -49,7 +49,7 @@
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
+                        <img src="{{asset('/assets/img/icons/lineal/user.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-green mb-3" alt="" />
                         <h4>ZMIANY W KRS</h4>
                         <p class="mb-2">Wieloletnie doświadczenie z zakresu dokonywania wpisów w KRS.</p>
                         <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-green">Poznaj ofertę</a>
