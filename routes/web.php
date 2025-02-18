@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
@@ -21,6 +22,9 @@ Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name(
 
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
+
+// CONTACT
+Route::get('/contact/index', [ContactController::class, 'index'])->name('contact.index');
 
 // BLOG GUEST
 Route::get('/blog/all', [BlogController::class, 'showAllGuest'])->name('blog.show.all');
