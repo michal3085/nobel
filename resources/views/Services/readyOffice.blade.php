@@ -16,7 +16,7 @@
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/budynek_wejscie.jpg" alt="" class="img-fluid" /></a>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
                                         <h5 class="from-top mb-0">Read More</h5>
                                     </figcaption>
@@ -191,7 +191,6 @@
                                 <li><i class="uil uil-check"></i><b>Skalowalność</b> – możliwość zwiększania lub zmniejszania przestrzeni wraz z
                                     rozwojem firmy.</li>
                             </ul>
-                            <a href="#" class="btn btn-fuchsia mt-2">Learn More</a>
                         </div>
                         <!--/column -->
                     </div>
@@ -202,12 +201,18 @@
         </div>
     </section>
 
-    <section class="section-frame overflow-hidden">
-        <div class="wrapper bg-gray">
+    <section class="section-frame overflow-hidden" style="background: linear-gradient(45deg, #f6f7fb, #d1e1f5);">
+        <div class="wrapper bg-transparent">
             <div class="container py-13 py-md-17 text-center">
                 <div class="row">
                     <div class="col-lg-10 col-xxl-8 mx-auto">
-                        <h1 class="display-1 mb-1">Check out some of our awesome projects with creative ideas.</h1>
+                        <h1 class="display-1 mb-4 text-primary" style="font-weight: 700; line-height: 1.2;">
+                            Wybierz nas, abyśmy mogli wspierać każdy etap Twojego rozwoju.
+                        </h1>
+                        <p class="lead mb-5 text-muted" style="font-size: 1.25rem;">
+                            Zaufaj nam, a pomożemy Ci rozwinąć Twój biznes z pasją i profesjonalizmem.
+                        </p>
+                        <a href="{{ route('contact.index') }}" class="btn btn-lg btn-primary">Skontaktuj się z nami</a>
                     </div>
                     <!-- /column -->
                 </div>
@@ -217,4 +222,5 @@
         </div>
         <!-- /.wrapper -->
     </section>
+
 @endsection
