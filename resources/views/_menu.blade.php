@@ -92,7 +92,7 @@
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółki</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('faq.index')}}">Kontakt</a>
+                                <a class="nav-link" href="{{route('contact.index')}}">Kontakt</a>
                             </li>
                         </ul>
                     </div>
