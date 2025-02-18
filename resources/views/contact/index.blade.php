@@ -169,7 +169,62 @@
                 <!-- /column -->
             </div>
             <!-- /.row -->
+
+            <!-- New Section -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h3>ROZPOCZNIJ COŚ NOWEGO<br><span class="display-5">SKONTAKTUJ SIĘ Z NAMI!</span></h3>
+                    <p>Pozostawiając formalności w profesjonalnych rękach będziesz mógł zająć się rozwojem swojego biznesu.</p>
+                </div>
+            </div>
+
         </div>
-        <!-- /.container -->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h3>Nasze biura wirtualne</h3>
+            </div>
+
+            <!-- First Office -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Warszawa - Centrum</h5>
+                        <p class="card-text">Ul. Chałubińskiego 8, 00-613 Warszawa</p>
+                        <p class="card-text">Tel: +48 22 456 19 10</p>
+                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
+                        <p class="card-text">XII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Urząd Skarbowy: ul. Lindleya</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Office -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Warszawa - Wola</h5>
+                        <p class="card-text">Ul. Pańska 96/83, 00-837 Warszawa</p>
+                        <p class="card-text">Tel: +48 22 432 08 10</p>
+                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
+                        <p class="card-text">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Urząd Skarbowy: Warszawa-Wola</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Office -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Warszawa - Mokotów</h5>
+                        <p class="card-text">Ul. Postępu 14, 02-676 Warszawa</p>
+                        <p class="card-text">Tel: +48 22 499 33 44</p>
+                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
+                        <p class="card-text">XIV Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Urząd Skarbowy: Warszawa-Mokotów</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
