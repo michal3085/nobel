@@ -43,9 +43,7 @@
                 <!--/.row -->
 
                 {{--    PRICE    --}}
-                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15 my-2 mt-5"> <!-- Dodano klasę mt-5 -->
-                    <span class="underline-3 style-2 yellow">CENNIK</span>
-                </h3>
+
 
                 <div class="container pt-5 pb-5">
                     <div class="pricing-wrapper position-relative mt-5 mt-md-6 mb-12 mb-md-15">
@@ -53,45 +51,67 @@
                         <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
 
                         <div class="row gy-6 mt-3 mt-md-5 justify-content-center">
+                            <!-- REJESTRACJA W KRS 690 zł -->
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">REJESTRACJA W KRS </h4>
+                                        <h4 class="card-title">REJESTRACJA W KRS</h4>
                                         <div class="prices text-dark">
-                                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
+                                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">690</span></div>
                                         </div>
                                         <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                            <li><i class="uil uil-check"></i><span> Przygotowanie dokumentów rejestrowych </span></li>
-                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS </span></li>
-                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC) </span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span> Kontakt z doradcą bankowym</span></li>
+                                            <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
+                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
+                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- REJESTRACJA W KRS 1000 zł -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="pricing card text-center">
+                                    <div class="card-body">
+                                        <h4 class="card-title">REJESTRACJA W KRS</h4>
+                                        <div class="prices text-dark">
+                                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
+                                        </div>
+                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                            <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
+                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
+                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PEŁNA REJESTRACJA SPÓŁKI 2000 zł -->
                             <div class="col-md-6 col-lg-4 popular">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                        <h4 class="card-title">PEŁNA REJESTRACJA</h4>
+                                        <h4 class="card-title">PEŁNA REJESTRACJA SPÓŁKI</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2000</span></div>
-                                           </div>
+                                        </div>
                                         <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                            <li><i class="uil uil-check"></i><span> Przygotowanie dokumentów rejestrowych </span></li>
-                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS </span></li>
-                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC) </span></li>
-                                            <li><i class="uil uil-check"></i><span> Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span> Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span> Kontakt z doradcą bankowym</span></li>
+                                            <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
+                                            <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
+                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="text-start" style="margin-left: 170px;">
                             <small class="text-start d-inline-block">
                                 Cena nie zawiera<br>
