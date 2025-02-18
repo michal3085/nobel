@@ -20,9 +20,9 @@
 
 <body>
 @include('components._coockies')
-<div class="position-fixed top-0 start-0 p-3" style="z-index: 1050;">
-    <div class="d-flex align-items-center">
-        <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark me-3">nobel@nobel.pro</a>
+<div class="bg-light py-2 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark">nobel@nobel.pro</a>
         <a href="tel:+48224999900" class="text-decoration-none text-dark">+48 22 499 99 00</a>
     </div>
 </div>
