@@ -11,35 +11,29 @@
             <br>
             <br>
             <section class="wrapper bg-light">
-                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-3">
-                    <div class="col-lg-6 order-lg-2 position-relative">
-                        <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1" style="bottom: -2.5rem; right: -1.5rem;"></div>
-                        <figure class="rounded mb-0"><img src="./assets/img/services/rejestracja_1.jpg" srcset="./assets/img/services/rejestracja_1.jpg 2x" alt=""></figure>
+                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
+                    <div class="col-12">
+                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę</h3>
+                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>
                     </div>
-                    <!--/column -->
+
                     <div class="col-lg-6">
-                        <h3 class="display-6 mb-4">Skorzystania z usługi rejestracji spółki, obejmuje:</h3>
-                        <div class="row gy-3">
-                            <div class="col-xl-6">
-                                <ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span><b>Analizę Twoich potrzeb</b> – wstępna konsultacja</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> –pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
-                                </ul>
-                            </div>
-                            <!--/column -->
-                            <div class="col-xl-6">
-                                <ul class="icon-list bullet-bg bullet-soft-leaf mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
-                                </ul>
-                            </div>
-                            <!--/column -->
-                        </div>
-                        <!--/.row -->
+                        <ul class="icon-list bullet-bg bullet-soft-leaf">
+                            <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
+                        </ul>
                     </div>
-                    <!--/column -->
+
+                    <div class="col-lg-6">
+                        <ul class="icon-list bullet-bg bullet-soft-leaf">
+                            <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
+                        </ul>
+                    </div>
                 </div>
+
+
                 <!--/.row -->
 
                 {{--    PRICE    --}}
