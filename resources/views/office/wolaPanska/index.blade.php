@@ -17,25 +17,25 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/wp1.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
+                                <img src="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
                             </figure>
                         </div>
                         <!--/.swiper-slide -->
                         <div class="swiper-slide">
                             <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/wp2.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
+                                <img src="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
                             </figure>
                         </div>
                         <!--/.swiper-slide -->
                         <div class="swiper-slide">
                             <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/wp3.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
+                                <img src="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
                             </figure>
                         </div>
                         <!--/.swiper-slide -->
                         <div class="swiper-slide">
                             <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/wp4.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
+                                <img src="{{asset('assets/img/offices/panska/Recepcja_Pańska_96_3.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
                             </figure>
                         </div>
                     </div>
