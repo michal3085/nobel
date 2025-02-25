@@ -22,11 +22,20 @@
 <body>
 @include('components._coockies')
 <div class="bg-light py-2 border-bottom">
-    <div class="container d-flex justify-content-between align-items-center">
-        <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark">nobel@nobel.pro</a>
-        <a href="tel:+48224999900" class="text-decoration-none text-dark">+48 22 499 99 00</a>
+    <div class="container-fluid d-flex justify-content-end">
+        <div class="d-flex align-items-center gap-3">
+            <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-envelope fs-20 me-2"></i> nobel@nobel.pro
+            </a>
+            <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
+                <i class="bi bi-telephone fs-20 me-2"></i> +48 22 499 99 00
+            </a>
+        </div>
     </div>
 </div>
+
+
+
 
 
 </body>
