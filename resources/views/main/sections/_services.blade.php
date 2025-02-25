@@ -1,6 +1,6 @@
 <section class="wrapper bg-light">
     <div class="container pb-15 pb-md-17">
-        <div class="row gx-md-5 gy-5 mt-n20 mb-14 mb-md-17 justify-content-center">
+        <div class="row gx-md-5 gy-5 mt-n22 mb-10 mb-md-7 justify-content-center">
             <!-- GOTOWE SPÓŁKI -->
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="card shadow-lg h-100">
