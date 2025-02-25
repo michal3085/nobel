@@ -27,6 +27,7 @@
             <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
                 <i class="bi bi-envelope fs-20 me-2"></i> nobel@nobel.pro
             </a>
+            |
             <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
                 <i class="bi bi-telephone fs-20 me-2"></i> +48 22 499 99 00
             </a>
