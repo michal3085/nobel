@@ -6,7 +6,7 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-fuchsia" alt="" />
+                            <i class="bi bi-inboxes fs-40 text-fuchsia"></i>
                         </div>
                         <h4>GOTOWE SPÓŁKI</h4>
                         <p class="mb-2 flex-grow-1 text-center">Pozwala na natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności.</p>
@@ -19,7 +19,7 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-violet" alt="" />
+                            <i class="bi bi-geo-alt fs-40 text-violet"></i>
                         </div>
                         <h4>WIRTUALNE BIURO</h4>
                         <p class="mb-2 flex-grow-1 text-center">Adres osobisty lub dla Twojej firmy z profesjonalnym wsparciem administracyjnym.</p>
@@ -32,7 +32,7 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-orange" alt="" />
+                            <i class="bi bi-display fs-40 text-orange"></i>
                         </div>
                         <h4>REJESTRACJA SPÓŁKI</h4>
                         <p class="mb-2 flex-grow-1 text-center">Profesjonalne wsparcie, aby proces był szybki i bezproblemowy.</p>
@@ -45,7 +45,7 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-green" alt="" />
+                            <i class="bi bi-key fs-40 text-green"></i>
                         </div>
                         <h4>GOTOWE BIURO</h4>
                         <p class="mb-2 flex-grow-1 text-center">W pełni wyposażona, elastyczna przestrzeń, oferująca komfort i kompleksowe wsparcie.</p>
@@ -58,11 +58,11 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <img src="{{asset('/assets/img/icons/lineal/user.svg')}}" class="svg-inject icon-svg icon-svg-sm solid-mono text-green" alt="" />
+                            <i class="bi bi-hourglass fs-40 text-yellow"></i>
                         </div>
                         <h4>ZMIANY W KRS</h4>
                         <p class="mb-2 flex-grow-1 text-center">Wieloletnie doświadczenie z zakresu dokonywania wpisów w KRS.</p>
-                        <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-green mt-auto">Poznaj ofertę</a>
+                        <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-yellow mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
             </div>
