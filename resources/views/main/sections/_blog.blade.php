@@ -1,6 +1,6 @@
 <!-- ELEMENT WYKORZYSTYWANY W /blog/showAll.blade.php i /main/index.blade.php -->
 <section class="wrapper bg-light">
-    <div class="container pb-14 pb-md-16">
+    <div class="container pb-14 pb-md-6">
         <div class="row">
             <div class="col-lg-12 mx-auto"> <!-- Zmiana z col-lg-10 na col-lg-12 -->
                 <div class="blog grid grid-view">

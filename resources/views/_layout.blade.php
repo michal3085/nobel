@@ -25,19 +25,15 @@
     <div class="container-fluid d-flex justify-content-end">
         <div class="d-flex align-items-center gap-3">
             <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-envelope fs-20 me-2"></i> nobel@nobel.pro
+                <i class="bi bi-envelope fs-17 me-2"></i> nobel@nobel.pro
             </a>
             |
             <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-telephone fs-20 me-2"></i> +48 22 499 99 00
+                <i class="bi bi-telephone fs-17 me-2"></i> +48 22 499 99 00
             </a>
         </div>
     </div>
 </div>
-
-
-
-
 
 </body>
 <div class="content-wrapper">
@@ -76,15 +72,6 @@
                     </div>
 
                     <div class="d-flex gap-4">
-                        <address>
-                            Nobel sp. z o.o.<br>
-                            Plac Defilad 1<br>
-                            00-901 Warszawa<br>
-                        </address>
-                        <address>
-                            KRS 0000005899<br>
-                            NIP 5213150329<br>
-                        </address>
                     </div>
                     <a href="mailto:#">nobel@nobel.pro</a><br /> +48 22 499 99 00
                 </div>
