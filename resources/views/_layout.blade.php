@@ -25,15 +25,17 @@
     <div class="container-fluid d-flex justify-content-end">
         <div class="d-flex align-items-center gap-3">
             <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-envelope fs-17 me-2"></i> nobel@nobel.pro
+                <i class="bi bi-envelope fs-12 me-2"> nobel@nobel.pro</i>
             </a>
             |
             <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-telephone fs-17 me-2"></i> +48 22 499 99 00
+                <i class="bi bi-telephone fs-12 me-2"> +48 22 499 99 00</i>
             </a>
         </div>
     </div>
 </div>
+
+
 
 </body>
 <div class="content-wrapper">
@@ -55,7 +57,7 @@
     <div class="container py-13 py-md-15">
         <div class="row gy-6 gy-lg-0">
 
-            <div class="col-md-4 col-lg-3">
+            <div class="col-md-4 col-lg-2">
                 <div class="widget">
                     <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
                     <p class="mb-4">© <script>
@@ -74,7 +76,7 @@
             </div>
 
             <!-- /column -->
-            <div class="col-md-4 col-lg-3">
+            <div class="col-md-4 col-lg-4">
                 <div class="widget">
                     <h4 class="widget-title text-white mb-3">Kontakt</h4>
                     <div class="d-flex gap-4">
