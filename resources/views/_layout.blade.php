@@ -25,17 +25,15 @@
     <div class="container-fluid d-flex justify-content-end">
         <div class="d-flex align-items-center gap-3">
             <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-envelope fs-12 me-2"> nobel@nobel.pro</i>
+                <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12">nobel@nobel.pro</span>
             </a>
             |
             <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-telephone fs-12 me-2"> +48 22 499 99 00</i>
+                <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12">+48 22 499 99 00</span>
             </a>
         </div>
     </div>
 </div>
-
-
 
 </body>
 <div class="content-wrapper">
