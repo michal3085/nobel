@@ -62,8 +62,8 @@
                     <div class="d-flex gap-4">
                         <address>
                             Nobel Sp. z o.o.<br>
-                            Plac Defilad 1<br>
-                            00-901 Warszawa<br>
+                            Ul. Chałubińskiego 8<br>
+                            00-613 Warszawa<br>
                         </address>
                         <address>
                             NIP: 7010225520<br>
