@@ -21,19 +21,36 @@
 
 <body>
 @include('components._coockies')
-<div class="bg-light py-2 border-bottom">
-    <div class="container-fluid d-flex justify-content-end">
-        <div class="d-flex align-items-center gap-3">
-            <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12">nobel@nobel.pro</span>
-            </a>
-            |
-            <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
-                <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12">+48 22 499 99 00</span>
-            </a>
+
+@if (request()->get('color') === 'false' || ! request()->get('color'))
+    <div class="bg-light py-2 border-bottom">
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="d-flex align-items-center gap-3">
+                <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
+                    <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12">nobel@nobel.pro</span>
+                </a>
+                |
+                <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
+                    <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12">+48 22 499 99 00</span>
+                </a>
+            </div>
         </div>
     </div>
-</div>
+@else
+    <div class="bg-dark py-2 border-bottom">
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="d-flex align-items-center gap-3">
+                <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-white d-flex align-items-center">
+                    <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12 text-white">nobel@nobel.pro</span>
+                </a>
+                |
+                <a href="tel:+48224999900" class="text-decoration-none text-white d-flex align-items-center">
+                    <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12 text-white">+48 22 499 99 00</span>
+                </a>
+            </div>
+        </div>
+    </div>
+@endif
 
 </body>
 <div class="content-wrapper">
