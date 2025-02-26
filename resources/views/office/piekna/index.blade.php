@@ -2,62 +2,55 @@
 
 @section('content')
     <section class="wrapper bg-light">
-        <div class="container pb-3 pb-md-7">
-            <div class="col-lg-12 text-center text-lg-start">
-                <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 yellow">Piękna 15</span>
-                </h3>
-            </div>
-            <br>
-        </div>
 
-        <div class="container-fluid px-md-6">
-            <div class="swiper-container blog grid-view" data-margin="30" data-nav="true" data-dots="false" data-items-xxl="3" data-items-md="2" data-items-xs="1">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/piekna/9.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/piekna/lobby.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/piekna/1.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/piekna/2.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
-                            </figure>
-                        </div>
-                        <div class="swiper-slide">
-                            <figure class="rounded overflow-hidden" style="aspect-ratio: 1/1;">
-                                <img src="{{asset('assets/img/offices/piekna/3.jpg')}}" alt="" class="img-fluid w-100 h-100 object-fit-cover" />
-                            </figure>
+        <div class="container py-5">
+            <div class="row mt-6">
+                <div class="col-xl-12 mx-auto">
+                    <div class="projects-tiles">
+                        <!-- /.project -->
+                        <div class="project grid grid-view">
+                            <div class="row g-6 isotope">
+                                <div class="item col-md-6">
+                                    <div class="project-details d-flex justify-content-center flex-column">
+                                        <div class="post-header">
+                                            <div class="post-category text-yellow mb-3">Concept</div>
+                                            <h2 class="underline-3 style-1 orange">Piękna 15</h2>
+                                        </div>
+                                        <!-- /.post-header -->
+                                        <div class="post-content">
+                                            <p>Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
+                                                zlokalizowany w jednej z najbardziej prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
+                                                15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.</p>
+                                        </div>
+                                        <!-- /.post-content -->
+                                    </div>
+                                    <!-- /.project-details -->
+                                </div>
+                                <!-- /.item -->
+                                <div class="item col-md-6">
+                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/piekna/9.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/9.jpg')}}" alt="" /></a>
+                                    </figure>
+                                </div>
+                                <!-- /.item -->
+                                <div class="item col-md-6">
+                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/piekna/lobby.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/lobby.jpg')}}" alt="" /></a>
+                                    </figure>
+                                </div>
+                                <!-- /.item -->
+                                <div class="item col-md-6">
+                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/piekna/1.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/1.jpg')}}" alt="" /></a>
+                                    </figure>
+                                </div>
+                                <!-- /.item -->
+                            </div>
+                            <!-- /.row -->
                         </div>
                     </div>
+                    <!-- /.projects-tiles -->
                 </div>
+                <!-- /column -->
             </div>
-        </div>
-
-        <ul class="nav nav-tabs nav-tabs-basic mb-0 mt-4">
-            <li class="nav-item">
-                <a class="nav-link active" data-bs-toggle="tab" href="#tab3-1">Opis lokalizacji</a>
-            </li>
-        </ul>
-
-
-        <div class="col-lg-12">
-            <p class="mb-6">
-                Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
-                zlokalizowany w jednej z najbardziej prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
-                15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.
-            </p>
+            <!-- /.row -->
         </div>
 
         <div class="card bg-light">
