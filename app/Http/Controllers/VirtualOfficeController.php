@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 
-class OfficeController extends Controller
+class VirtualOfficeController extends Controller
 {
     private $views = [
         'oxford-tower' => 'oxfordTower',
@@ -21,7 +20,7 @@ class OfficeController extends Controller
     {
         parent::__construct();
 
-        $this->data['mainMenu'] = 'offices';
+        $this->data['mainMenu'] = 'virtualOffices';
     }
 
     public function routeDispatch($office)

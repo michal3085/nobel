@@ -11,7 +11,7 @@
 {{--            @include('Services.components._offices')--}}
 
             <section class="wrapper bg-light angled upper-end mb-3">
-                <div class="container py-14 py-md-16">
+                <div class="container pb-5 pb-md-7">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-3">
                             <article>
