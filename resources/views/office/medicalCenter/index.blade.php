@@ -59,6 +59,16 @@
             <!-- /.row -->
         </div>
 
+        <div class="container-fluid px-md-6 mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <iframe class="w-100 d-block" style="height: 450px; border:0;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.7483393312214!2d21.041544959024954!3d52.189671559957986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x19339477da44c6b9!2sSzpitale%20Carolina%20i%20Optimum!5e0!3m2!1spl!2spl!4v1740779867223!5m2!1spl!2spl" >
+                        allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </div>
+        </div>
 
 
 
