@@ -2,6 +2,145 @@
 
 @section('content')
     <section class="wrapper bg-light">
+        <div class="col-lg-12 text-center text-lg-start">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+                <span class="underline-3 style-2 violet">Wirtualne biuro</span>
+            </h3>
+        </div>
+
+        <div class="container pb-5 pb-md-7">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <article>
+                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
+                            <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4.jpg" alt="" class="img-fluid" /></a>
+                            <figcaption>
+                                <h5 class="from-top mb-0">Read More</h5>
+                            </figcaption>
+                        </figure>
+                        <div class="post-header">
+                            <h2 class="post-title h3 mb-3">
+                                <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Oxford Tower
+                                    Śródmieście</a>
+                            </h2>
+                        </div>
+                        <div class="post-footer">
+                            <ul class="post-meta">
+                                <li class="post-date"><span>cena od 1500 PLN</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <article>
+                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
+                            <a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
+                            <figcaption>
+                                <h5 class="from-top mb-0">Read More</h5>
+                            </figcaption>
+                        </figure>
+                        <div class="post-header">
+                            <h2 class="post-title h3 mb-3">
+                                <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Pańska 96
+                                    Wola</a>
+                            </h2>
+                        </div>
+                        <div class="post-footer">
+                            <ul class="post-meta">
+                                <li class="post-date"><span>Cena od 2500 PLN</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <article>
+                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
+                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
+                            <figcaption>
+                                <h5 class="from-top mb-0">Read More</h5>
+                            </figcaption>
+                        </figure>
+                        <div class="post-header">
+                            <h2 class="post-title h3 mb-3">
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Carolina Medical Center Pory 78
+                                    Mokotów</a>
+                            </h2>
+                        </div>
+                        <div class="post-footer">
+                            <ul class="post-meta">
+                                <li class="post-date"><span>cena od 2500</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <article>
+                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
+                            <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}"> <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" /></a>
+                            <figcaption>
+                                <h5 class="from-top mb-0">Read More</h5>
+                            </figcaption>
+                        </figure>
+                        <div class="post-header">
+                            <h2 class="post-title h3 mb-3">
+                                <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 + coworking
+                                    Wilanów</a>
+                            </h2>
+                        </div>
+                        <div class="post-footer">
+                            <ul class="post-meta">
+                                <li class="post-date"><span>cena od 2000</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="row g-4 mt-2 justify-content-center">
+
+
+            </div>
+        </div>
+
+        <div class="tab-pane fade show active" id="tab2-1">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <div class="col-lg-6">
+                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                    <p style="font-size: 15px;">
+                        Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi. W ramach usługi odbierzemy Twoją korespondencję i na
+                        życzenie prześlemy skan. Przydzielimy numer telefonu stacjonarnego, odbierzemy,
+                        połączenie lub przełączymy bezpośrednio do Ciebie,
+                        a także obsłużymy spotkanie w salce konferencyjnej.
+                    </p>
+                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
+                        <li><i class="uil uil-check"></i><b>Indywidualny/prywatny numer telefonu</b></li>
+                        <li><i class="uil uil-check"></i><b>Obsługa sekretarska</b> – odbiór połączeń przychodzących oraz odbiór i przekazywanie korespondencji.</li>
+                        <li><i class="uil uil-check"></i><b>Sale konferencyjne na spotkania biznesowe</b></li>
+                        <li><i class="uil uil-check"></i><b>Prestiżowy adres dla Twojej działalności</b></li></li>
+                    </ul>
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+        </div>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
