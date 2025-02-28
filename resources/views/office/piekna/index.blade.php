@@ -13,12 +13,13 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-yellow mb-3">Concept</div>
-                                            <h2 class="underline-3 style-1 orange">Piękna 15</h2>
+                                            <div class="post-category text-yellow mb-3">Lokalizacja</div>
+                                            <h2 class="underline-3 style-2 orange">Piękna 15</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p>Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
+                                            <p style="text-align: justify">
+                                                Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
                                                 zlokalizowany w jednej z najbardziej prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
                                                 15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.</p>
                                         </div>
