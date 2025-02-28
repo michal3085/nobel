@@ -209,9 +209,6 @@
                         <h1 class="display-1 mb-4 text-primary" style="font-weight: 700; line-height: 1.2;">
                             Wybierz nas, abyśmy mogli wspierać każdy etap Twojego rozwoju.
                         </h1>
-                        <p class="lead mb-5 text-muted" style="font-size: 1.25rem;">
-                            Zaufaj nam, a pomożemy Ci rozwinąć Twój biznes z pasją i profesjonalizmem.
-                        </p>
                         <a href="{{ route('contact.index') }}" class="btn btn-lg btn-primary">Skontaktuj się z nami</a>
                     </div>
                     <!-- /column -->
