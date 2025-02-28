@@ -14,11 +14,11 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">Concept</div>
-                                            <h2 class="underline-3 style-1 yellow">OXFORD TOWER CH8</h2>
+                                            <h2 class="underline-3 style-2 yellow">OXFORD TOWER CH8</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p>W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.</p>
+                                            <p style="text-align: justify">W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.</p>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>

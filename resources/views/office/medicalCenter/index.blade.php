@@ -18,11 +18,9 @@
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p>
+                                            <p style="text-align: justify">
                                                 Biuro usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: Wawer, Wilanów i Ursynów. Piękny widok z 12 pietra na zieloną część miasta oraz na warszawskie City ukoi Twoje zmysły. Serwisowane biura zlokalizowane w Multis Plaza to doskonała propozycja dla tych, którzy cenią pracę z dala od wielkomiejskiego szumu, jednocześnie pozostając w bliskim sąsiedztwie centrum miasta.
-                                                <br>
                                                 Na warszawskim Mokotowie czeka na Ciebie kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
-                                                <br>
                                                 W tej lokalizacji gwarantujemy również Wirtualne Biura.
                                             </p>
                                         </div>
