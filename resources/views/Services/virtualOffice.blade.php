@@ -127,10 +127,120 @@
         </div>
 
 
+        <div class="pricing-wrapper position-relative mt-8">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+                <span class="underline-3 style-2 violet">Cennik</span>
+            </h3>
+            <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
+            <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
+            <div class="row gy-6 mt-3 mt-md-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Adres Osobisty
+                                Osoba Fizyczna</h4>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">100</span> <span class="price-duration">mc</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 popular">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Premium Plan</h4>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 popular">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Premium Plan</h4>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Corporate Plan</h4>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-<br>
+
+        <br>
 <br>
 <br>
 <br>
@@ -142,45 +252,7 @@
 
 
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
-            <div class="col-lg-12 text-center text-lg-start">
-                <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 yellow">WIRTUALNE BIURO</span>
-                </h3>
-            </div>
-            <br>
-            <p class="mb-4"><b>Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z
-                    wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi.</b>
-            </p>
 
-            <section class="wrapper bg-light">
-                <div class="row gx-lg-8 gx-xl-12 gy-10 mb-5 mb-md-10 align-items-center">
-                    <div class="col-md-8 col-lg-6 position-relative">
-                        <div class="shape bg-soft-primary rounded-circle rellax w-20 h-20" data-rellax-speed="1"
-                             style="top: -2rem; left: -1.9rem;"></div>
-                        <figure class="rounded"><img src="{{asset('assets/img/services/wirtualne_biuro1.jpg')}}"
-                                                     srcset="{{asset('assets/img/services/wirtualne_biuro1.jpg 2x')}}"
-                                                     alt=""></figure>
-                    </div>
-                    <!--/column -->
-                    <div class="col-lg-6">
-                        <div class="mb-4">
-                            <h4 style="text-align: justify;">W ramach usługi odbierzemy Twoją korespondencję i na
-                                życzenie prześlemy skan. Przydzielimy numer telefonu stacjonarnego, odbierzemy
-                                połączenie lub przełączymy bezpośrednio do Ciebie,
-                                a także obsłużymy spotkanie w salce konferencyjnej.</h4>
-                            <p class="mb-4"><b>Zalety wirtualnego biura:</b></p>
-                            <ul>
-                                <li>Indywidualny/prywatny numer telefonu</li>
-                                <li>Obsługa sekretarska: odbiór połączeń przychodzących oraz odbiór i przekazywanie
-                                    korespondencji
-                                </li>
-                                <li>Sale konferencyjne na spotkania biznesowe</li>
-                                <li>Prestiżowy adres dla Twojej działalności</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--/column -->
-                </div>
                 <!--/.row -->
 
                 {{--    PRICE    --}}
