@@ -13,6 +13,7 @@
                             <option value="ADRES OSOBISTY">ADRES OSOBISTY</option>
                             <option value="PRESTIŻOWY ADRES">PRESTIŻOWY ADRES</option>
                             <option value="PRESTIŻOWY ADRES PLUS">PRESTIŻOWY ADRES PLUS</option>
+                            <option value="WIRTUALNE BIURO">WIRTUALNE BIURO</option>
                         </select>
                         <label for="nobel-vo-topic-id">Temat</label>
                     </div>
