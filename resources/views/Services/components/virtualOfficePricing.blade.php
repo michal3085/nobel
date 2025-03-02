@@ -8,7 +8,7 @@
         <div class="col-md-6 col-lg-3">
             <div class="pricing card text-center">
                 <div class="card-body">
-                    <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                    <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                     <h4 class="card-title">Adres Osobisty </h4>
                     <h6>Osoba Fizyczna</h6>
                     <div class="prices text-dark">
@@ -35,7 +35,7 @@
         <div class="col-md-6 col-lg-3 popular">
             <div class="pricing card text-center">
                 <div class="card-body">
-                    <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                    <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                     <h4 class="card-title">Prestiżowy Adres </h4>
                     <h6>Firma</h6>
                     <div class="prices text-dark">
@@ -62,7 +62,7 @@
         <div class="col-md-6 col-lg-3 popular">
             <div class="pricing card text-center">
                 <div class="card-body">
-                    <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                    <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                     <h4 class="card-title">Prestiżowy Adres Plus</h4>
                     <h6>Firma</h6>
                     <div class="prices text-dark">
@@ -89,7 +89,7 @@
         <div class="col-md-6 col-lg-3">
             <div class="pricing card text-center">
                 <div class="card-body">
-                    <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                    <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                     <h4 class="card-title">Wirtualne biuro</h4>
                     <h6>Firma</h6>
                     <div class="prices text-dark">
