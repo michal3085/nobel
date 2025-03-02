@@ -131,188 +131,74 @@
 
 
 
+        <section class="wrapper bg-light">
+            <div class="container py-14 py-md-16">
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                    <div class="col-lg-7 order-lg-2">
+                        <div class="row gx-md-5 gy-5">
+                            <div class="col-md-5 offset-md-1 align-self-end">
+                                <div class="card bg-pale-yellow">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/telephone-3.svg" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+                                        <p class="mb-0">Oferujemy przedstawicielstwo w podatku VAT dla podmiotów spoza Unii Europejskiej i wiele innych usług.</p>
+                                    </div>
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 align-self-end">
+                                <div class="card bg-pale-red">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/shield.svg" class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
 
-        <br>
-<br>
-<br>
-<br>
-<br>
+                                        <p class="mb-0">Rejestrację podmiotów gospodarczych w KRS i US</p>
+                                    </div>
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-5">
+                                <div class="card bg-pale-leaf">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/cloud-computing-3.svg" class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
 
+                                        <p class="mb-0">Pomoc w założeniu rachunku firmowego</p>
+                                    </div>
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 align-self-start">
+                                <div class="card bg-pale-primary">
+                                    <div class="card-body">
+                                        <img src="./assets/img/icons/lineal/analytics.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
 
-
-
-
-{{-- stary cennik --}}
-{{--        <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->--}}
-
+                                        <p class="mb-0">Wynajem coworkingu</p>
+                                    </div>
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-5">
+                        <h3 class="display-4 mb-5">CO OFERUJEMY POZA ADRESEM REJESTROWYM:</h3>
+                        <p><b>obsługę prawną, księgową i doradztwo podatkowe</b> Poprowadzimy księgowość dla każdej firmy, oferujemy
+                            obsługę audytów i kontroli podatkowych a doradca podatkowy udzieli wszelkiego wsparcia.</p>
+                    </div>
+                    <!--/column -->
+                </div>
                 <!--/.row -->
-
-                {{--    PRICE    --}}
-{{--                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15">--}}
-{{--                    <span class="underline-3 style-2 yellow">CENNIK</span>--}}
-{{--                </h3>--}}
-
-{{--                <div class="container pt-5 pb-5">--}}
-{{--                    <div class="table-responsive mt-2 mt-lg-0">--}}
-{{--                        <table class="table table-borderless table-striped text-center">--}}
-{{--                            <thead>--}}
-{{--                            <tr>--}}
-{{--                                <th class="text-start">Pakiety</th>--}}
-{{--                                <th>--}}
-{{--                                    <div class="h4 mb-1 text-nowrap">ADRES OSOBISTY<br>--}}
-{{--                                        (osoba fizyczna)--}}
-{{--                                    </div>--}}
-{{--                                    <div class="fs-15 fw-normal text-secondary">100</div>--}}
-{{--                                </th>--}}
-{{--                                <th>--}}
-{{--                                    <div class="h4 mb-1 text-nowrap">PRESTIŻOWY ADRES<br>--}}
-{{--                                        (firma)--}}
-{{--                                    </div>--}}
-{{--                                    <div class="fs-15 fw-normal text-secondary">200</div>--}}
-{{--                                </th>--}}
-{{--                                <th>--}}
-{{--                                    <div class="h4 mb-1">PRESTIŻOWY ADRES PLUS <br>--}}
-{{--                                        (firma)--}}
-{{--                                    </div>--}}
-{{--                                    <div class="fs-15 fw-normal text-secondary">400</div>--}}
-{{--                                </th>--}}
-{{--                            </tr>--}}
-{{--                            </thead>--}}
-{{--                            <tbody>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">ADRES REJESTROWY</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">ODBIERANIE KORESPONDENCJI oraz przesyłek kurierskich</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">INFORMOWANIE MAILEM O ODEBRANYCH PRZESYŁAKCH</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">SKANOWANIE</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">NAZWA FIRMY W HOLU</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">SALA KONFERENCYJNA</td>--}}
-{{--                                <td>60 PLN / H</td>--}}
-{{--                                <td>60 PLN / H</td>--}}
-{{--                                <td>4H w miesiącu</td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">INDYWIDUALNY NUMER TELEFONU</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
-{{--                            </tr>--}}
-{{--                            <tr>--}}
-{{--                                <td class="option text-start">WPISANIE ADRESU W KRS</td>--}}
-{{--                                <td>-</td>--}}
-{{--                                <td>250 PLN*</td>--}}
-{{--                                <td>0 PLN*</td>--}}
-{{--                            </tr>--}}
-{{--                            </tbody>--}}
-{{--                            <tfoot>--}}
-{{--                            <tr>--}}
-{{--                                <th class="w-25"></th>--}}
-{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"--}}
-{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
-{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"--}}
-{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
-{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"--}}
-{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
-{{--                            </tr>--}}
-{{--                            </tfoot>--}}
-{{--                        </table>--}}
-{{--                        * • Cena nie zawiera opłaty sądowej.--}}
-{{--                    </div>--}}
-{{--                    <!-- /.table-responsive -->--}}
-{{--                </div>--}}
-                {{--    /PRICE    --}}
-{{--            </section>--}}
-{{--        </div>--}}
-{{--    </section>--}}
-
-    {{--  OFFICES CARDS  --}}
-    {{--        @include('Services.components.localsCards')--}}
-    @include('Services.components._offices')
-    {{--  /OFFICES CARDS  --}}
-
-    <div class="col-lg-12 mb-2 mt-2">
-        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4"
-             alt=""/>
-        <h2 class="display-4 mb-3">Usługa biuro wirtualne to:</h2>
-        <div class="row gy-3 gx-xl-8">
-            <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Obniżenie kosztów:</b></span>
-                        <br>
-                        <span class="justify-content-center">
-                            Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
-                            jest znacznie tańsze.
-                        </span>
-                    </li>
-                    <li><span><i class="uil uil-check"></i><b> Elastyczność:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Ty i Twoi współpracownicy możecie pracować z dowolnego miejsca w świecie, co ułatwia
-                            zarządzanie
-                            czasem i pozwala na dostosowanie się do zmieniających potrzeb biznesowych.
-                        </div>
-                    </li>
-                    <li><span><i class="uil uil-check"></i><b> Bezpieczeństwo:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Wykorzystaj adres rejestrowy dla siedziby swojej firmy, który będzie wykorzystywany na
-                            fakturach i
-                            wszelkich innych dokumentach firmowych, zamiast rejestracji firmy pod adresem domowym.
-                        </div>
-                    </li>
-                </ul>
             </div>
-            <!--/column -->
-            <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Profesjonalny wizerunek:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Korzystanie z usług wirtualnego biura pozwala firmie zachować profesjonalny wizerunek, nawet
-                            jeśli
-                            nie ma ona fizycznej siedziby. Biznesowy adres rejestrowy siedziby Twojej firmy znajdujący
-                            się w
-                            największym mieście w Polsce, obsługa korespondencji, możliwość posiadania numeru telefonu
-                            firmowego stacjonarnego oraz korzystanie z sal konferencyjnych wzmocnią zaufanie Twoich
-                            klientów.
-                        </div>
-                    </li>
-                    <li><span><i class="uil uil-check"></i><b> Skupienie się na działalności biznesowej:</b></span>
-                        <br>
-                        <div class="d-flex justify-content-center">
-                            Outsorsuj wykonywanie codziennych zadań biurowych i skup się na istotnych aspektach
-                            prowadzenia
-                            firmy.
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--/column -->
-        </div>
-        <!--/.row -->
-    </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <!-- /section -->
+
 @endsection
