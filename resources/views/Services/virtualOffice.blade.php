@@ -137,86 +137,11 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="pricing card text-center">
                         <div class="card-body">
-                            <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Adres Osobisty
-                                Osoba Fizyczna</h4>
+                            <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Adres Osobisty </h4>
+                            <h6>Osoba Fizyczna</h6>
                             <div class="prices text-dark">
                                 <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">100</span> <span class="price-duration">mc</span></div>
-                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">99</span> <span class="price-duration">yr</span></div>
-                            </div>
-                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
-                            </ul>
-                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 popular">
-                    <div class="pricing card text-center">
-                        <div class="card-body">
-                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Premium Plan</h4>
-                            <div class="prices text-dark">
-                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
-                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
-                            </div>
-                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
-                            </ul>
-                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 popular">
-                    <div class="pricing card text-center">
-                        <div class="card-body">
-                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Premium Plan</h4>
-                            <div class="prices text-dark">
-                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">19</span> <span class="price-duration">mo</span></div>
-                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
-                            </div>
-                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong>Adres rejestrowy</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
-                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
-                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
-                            </ul>
-                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="pricing card text-center">
-                        <div class="card-body">
-                            <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                            <h4 class="card-title">Corporate Plan</h4>
-                            <div class="prices text-dark">
-                                <div class="price price-show"><span class="price-currency">$</span><span class="price-value">49</span> <span class="price-duration">mo</span></div>
                                 <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                             </div>
                             <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
@@ -229,6 +154,84 @@
                                 <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
                                 <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
                                 <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 popular">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Prestiżowy Adres </h4>
+                            <h6>Firma</h6>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">200</span> <span class="price-duration">mc</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-check"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 popular">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Prestiżowy Adres Plus</h4>
+                            <h6>Firma</h6>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">300</span> <span class="price-duration">mc</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-check"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> <br>2 h/mc</span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>
+                                <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong> -50%</span></li>
+                            </ul>
+                            <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="pricing card text-center">
+                        <div class="card-body">
+                            <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="card-title">Wirtualne biuro</h4>
+                            <h6>Firma</h6>
+                            <div class="prices text-dark">
+                                <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">400</span> <span class="price-duration">mc</span></div>
+                                <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                <li><i class="uil uil-check"></i><span><strong>Adres rejestrowy</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Skanowanie </strong> </span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Nazwa firmy w holu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Sala konferencyjna</strong> 4 h/mc</span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Indywidualny numer telefonu </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
+                                <li><i class="uil uil-check"></i><span><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>
                             </ul>
                             <a href="#" class="btn btn-violet rounded-pill">Choose Plan</a>
                         </div>
