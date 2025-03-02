@@ -18,7 +18,19 @@
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p style="text-align: justify">W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.</p>
+                                            <p style="text-align: justify">
+                                                @if ($mainMenu === 'virtualOffices')
+                                                    Wirtualne biuro usytuowane w ścisłym centrum Warszawy na 22 piętrze jednego z pierwszych
+                                                    warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca Oxford Tower
+                                                    (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
+                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, hotelu Marriott i Pałacu Kultury i Nauki.
+                                                    W budynku tym poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz
+                                                    wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet
+                                                    tzw. gotowe biuro.
+                                                @else
+                                                    W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
+                                                @endif
+                                            </p>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -61,5 +73,9 @@
                 </div>
             </div>
         </div>
+
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
     </section>
 @endsection
