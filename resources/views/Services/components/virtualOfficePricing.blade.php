@@ -53,7 +53,7 @@
                         <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
                         <li><i class="uil uil-check"></i><span><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>
                     </ul>
-                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
+                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Choose Plan</a>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                         <li><i class="uil uil-check"></i><span><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span><strong> Wszystkie zmiany w KRS </strong> -50%</span></li>
                     </ul>
-                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
+                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Choose Plan</a>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                         <li><i class="uil uil-check"></i><span><strong> Zmiana adresu w KRS </strong></span></li>
                         <li><i class="uil uil-check"></i><span><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>
                     </ul>
-                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
+                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="4"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Choose Plan</a>
                 </div>
             </div>
@@ -132,6 +132,8 @@
                 select.value = "PRESTIŻOWY ADRES";
             } else if (info === '3') {
                 select.value = "PRESTIŻOWY ADRES PLUS";
+            } else if (info === '4') {
+                select.value = "WIRTUALNE BIURO";
             }
         });
     });

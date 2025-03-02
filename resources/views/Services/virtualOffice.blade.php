@@ -142,112 +142,112 @@
 
 
 
-
-        <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
+{{-- stary cennik --}}
+{{--        <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->--}}
 
                 <!--/.row -->
 
                 {{--    PRICE    --}}
-                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 yellow">CENNIK</span>
-                </h3>
+{{--                <h3 class="display-3 mb-2 pe-xl-10 pe-xxl-15">--}}
+{{--                    <span class="underline-3 style-2 yellow">CENNIK</span>--}}
+{{--                </h3>--}}
 
-                <div class="container pt-5 pb-5">
-                    <div class="table-responsive mt-2 mt-lg-0">
-                        <table class="table table-borderless table-striped text-center">
-                            <thead>
-                            <tr>
-                                <th class="text-start">Pakiety</th>
-                                <th>
-                                    <div class="h4 mb-1 text-nowrap">ADRES OSOBISTY<br>
-                                        (osoba fizyczna)
-                                    </div>
-                                    <div class="fs-15 fw-normal text-secondary">100</div>
-                                </th>
-                                <th>
-                                    <div class="h4 mb-1 text-nowrap">PRESTIŻOWY ADRES<br>
-                                        (firma)
-                                    </div>
-                                    <div class="fs-15 fw-normal text-secondary">200</div>
-                                </th>
-                                <th>
-                                    <div class="h4 mb-1">PRESTIŻOWY ADRES PLUS <br>
-                                        (firma)
-                                    </div>
-                                    <div class="fs-15 fw-normal text-secondary">400</div>
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="option text-start">ADRES REJESTROWY</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">ODBIERANIE KORESPONDENCJI oraz przesyłek kurierskich</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">INFORMOWANIE MAILEM O ODEBRANYCH PRZESYŁAKCH</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">SKANOWANIE</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">NAZWA FIRMY W HOLU</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">SALA KONFERENCYJNA</td>
-                                <td>60 PLN / H</td>
-                                <td>60 PLN / H</td>
-                                <td>4H w miesiącu</td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">INDYWIDUALNY NUMER TELEFONU</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>
-                            </tr>
-                            <tr>
-                                <td class="option text-start">WPISANIE ADRESU W KRS</td>
-                                <td>-</td>
-                                <td>250 PLN*</td>
-                                <td>0 PLN*</td>
-                            </tr>
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                                <th class="w-25"></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
-                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"
-                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"
-                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>
-                            </tr>
-                            </tfoot>
-                        </table>
-                        * • Cena nie zawiera opłaty sądowej.
-                    </div>
-                    <!-- /.table-responsive -->
-                </div>
+{{--                <div class="container pt-5 pb-5">--}}
+{{--                    <div class="table-responsive mt-2 mt-lg-0">--}}
+{{--                        <table class="table table-borderless table-striped text-center">--}}
+{{--                            <thead>--}}
+{{--                            <tr>--}}
+{{--                                <th class="text-start">Pakiety</th>--}}
+{{--                                <th>--}}
+{{--                                    <div class="h4 mb-1 text-nowrap">ADRES OSOBISTY<br>--}}
+{{--                                        (osoba fizyczna)--}}
+{{--                                    </div>--}}
+{{--                                    <div class="fs-15 fw-normal text-secondary">100</div>--}}
+{{--                                </th>--}}
+{{--                                <th>--}}
+{{--                                    <div class="h4 mb-1 text-nowrap">PRESTIŻOWY ADRES<br>--}}
+{{--                                        (firma)--}}
+{{--                                    </div>--}}
+{{--                                    <div class="fs-15 fw-normal text-secondary">200</div>--}}
+{{--                                </th>--}}
+{{--                                <th>--}}
+{{--                                    <div class="h4 mb-1">PRESTIŻOWY ADRES PLUS <br>--}}
+{{--                                        (firma)--}}
+{{--                                    </div>--}}
+{{--                                    <div class="fs-15 fw-normal text-secondary">400</div>--}}
+{{--                                </th>--}}
+{{--                            </tr>--}}
+{{--                            </thead>--}}
+{{--                            <tbody>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">ADRES REJESTROWY</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">ODBIERANIE KORESPONDENCJI oraz przesyłek kurierskich</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">INFORMOWANIE MAILEM O ODEBRANYCH PRZESYŁAKCH</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">SKANOWANIE</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">NAZWA FIRMY W HOLU</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">SALA KONFERENCYJNA</td>--}}
+{{--                                <td>60 PLN / H</td>--}}
+{{--                                <td>60 PLN / H</td>--}}
+{{--                                <td>4H w miesiącu</td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">INDYWIDUALNY NUMER TELEFONU</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td><i class="uil uil-check bg-pale-primary text-primary rounded-circle p-1"></i></td>--}}
+{{--                            </tr>--}}
+{{--                            <tr>--}}
+{{--                                <td class="option text-start">WPISANIE ADRESU W KRS</td>--}}
+{{--                                <td>-</td>--}}
+{{--                                <td>250 PLN*</td>--}}
+{{--                                <td>0 PLN*</td>--}}
+{{--                            </tr>--}}
+{{--                            </tbody>--}}
+{{--                            <tfoot>--}}
+{{--                            <tr>--}}
+{{--                                <th class="w-25"></th>--}}
+{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"--}}
+{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
+{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"--}}
+{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
+{{--                                <th><a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"--}}
+{{--                                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zapytaj</a></th>--}}
+{{--                            </tr>--}}
+{{--                            </tfoot>--}}
+{{--                        </table>--}}
+{{--                        * • Cena nie zawiera opłaty sądowej.--}}
+{{--                    </div>--}}
+{{--                    <!-- /.table-responsive -->--}}
+{{--                </div>--}}
                 {{--    /PRICE    --}}
-            </section>
-        </div>
-    </section>
+{{--            </section>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     {{--  OFFICES CARDS  --}}
     {{--        @include('Services.components.localsCards')--}}
