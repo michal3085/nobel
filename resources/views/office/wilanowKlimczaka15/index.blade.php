@@ -66,6 +66,9 @@
             </div>
         </div>
 
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
 
     </section>
 
