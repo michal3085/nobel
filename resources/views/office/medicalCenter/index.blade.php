@@ -70,7 +70,9 @@
             </div>
         </div>
 
-
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
 
             <!--/.tab-pane -->
 {{--            <div class="tab-pane fade" id="tab3-2">--}}
