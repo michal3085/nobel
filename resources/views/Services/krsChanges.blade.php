@@ -1,6 +1,43 @@
 @extends('_layout')
 
 @section('content')
+
+    <section class="wrapper bg-soft-orange w-100 m-0 p-0">
+        <div class="w-100 m-0 p-0">
+            <div class="row gx-0 gy-4 align-items-end w-100 m-0">
+                <div class="col-lg-4">
+                    <h2 class="fs-16 text-uppercase text-line text-orange mb-2">Company Facts</h2>
+                    <h3 class="display-4 mb-0">We are proud of our works</h3>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row align-items-center counter-wrapper gy-3 text-center">
+                        <div class="col-md-4">
+                            <h3 class="counter counter-lg">1000+</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="counter counter-lg">500+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="counter counter-lg">150+</h3>
+                            <p>Awards Won</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    {{--    OLDY GOLDY --}}
     <section class="wrapper bg-light">
         <div class="container pb-3 pb-md-7">
             <div class="col-lg-12 text-center text-lg-start">
