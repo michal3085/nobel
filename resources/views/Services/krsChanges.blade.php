@@ -6,8 +6,8 @@
         <style>
             .image-wrapper {
                 width: 100vw; /* Pełna szerokość widoku */
-                margin-left: calc(-49vw + 50%); /* Centrowanie sekcji */
-                margin-right: calc(-49vw + 50%); /* Centrowanie sekcji */
+                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
             }
         </style>
 
@@ -15,7 +15,7 @@
             <div class="container-fluid py-13 py-md-15"> <!-- Zmiana z container na container-fluid -->
                 <div class="row gx-0 gy-4 align-items-end w-100 m-0">
                     <div class="col-lg-4">
-                        <h2 class="fs-16 text-uppercase text-line text-orange mb-2">ZMIANY W KRS</h2>
+                        <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>
                         <h3 class="display-4 mb-0">Jesteśmy dumni z naszych działań</h3>
                     </div>
                     <div class="col-lg-8">
@@ -41,10 +41,10 @@
 
         <section class="wrapper bg-light">
             <div class="container py-14 py-md-18">
-                <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center mb-10 mb-md-13">
+                <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center ">
                     <div class="col-lg-6 position-relative">
                         <div class="btn btn-circle btn-orange pe-none position-absolute counter-wrapper flex-column d-none d-md-flex" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 170px; height: 170px;">
-                            <h3 class="text-white mb-1 mt-n2"><span class="counter counter-lg">25</span></h3>
+                            <h3 class="text-white mb-1 mt-n3"><span class="counter counter-lg">25</span></h3>
                             <p>Lat doświadczenia</p>
                         </div>
                         <div class="row gx-md-5 gy-5 align-items-center">
@@ -124,8 +124,8 @@
             <div class="container pt-10 pt-md-12 pb-4 pb-md-10">
                 <div class="row gy-10 gy-sm-13 gx-lg-3 mb-12 mb-md-14 align-items-center">
                     <div class="col-md-6 col-lg-5 position-relative">
-                        <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
-                        <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%;"></div>
+                        <div class="shape bg-dot orange rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
+                        <div class="shape rounded bg-soft-orange rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%;"></div>
                         <figure class="rounded"><img src="./assets/img/photos/about7.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
                     </div>
                     <!--/column-->
