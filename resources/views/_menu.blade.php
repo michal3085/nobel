@@ -86,10 +86,12 @@
                     <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
                         <ul class="navbar-nav me-lg-auto menu-links">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Gotowa spółka</a>
+{{--                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Gotowa spółka</a>--}}
+                                <a class="nav-link" href="">Gotowa spółka</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółki</a>
+{{--                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółki</a>--}}
+                                <a class="nav-link" href="">Rejestracja spółki</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('contact.index')}}">Kontakt</a>
