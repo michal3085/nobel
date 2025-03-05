@@ -1,39 +1,43 @@
 @extends('_layout')
 
 @section('content')
+    <section class="wrapper bg-light">
 
-    <section class="wrapper bg-soft-orange w-100 m-0 p-0">
-        <div class="w-100 m-0 p-0">
-            <div class="row gx-0 gy-4 align-items-end w-100 m-0">
-                <div class="col-lg-4">
-                    <h2 class="fs-16 text-uppercase text-line text-orange mb-2">Company Facts</h2>
-                    <h3 class="display-4 mb-0">We are proud of our works</h3>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row align-items-center counter-wrapper gy-3 text-center">
-                        <div class="col-md-4">
-                            <h3 class="counter counter-lg">1000+</h3>
-                            <p>Completed Projects</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h3 class="counter counter-lg">500+</h3>
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h3 class="counter counter-lg">150+</h3>
-                            <p>Awards Won</p>
+        <style>
+            .image-wrapper {
+                width: 100vw; /* Pełna szerokość widoku */
+                margin-left: calc(-49vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-49vw + 50%); /* Centrowanie sekcji */
+            }
+        </style>
+
+        <section class="wrapper image-wrapper bg-soft-orange shadow-sm" style="border-radius: 7%;">
+            <div class="container-fluid py-13 py-md-15"> <!-- Zmiana z container na container-fluid -->
+                <div class="row gx-0 gy-4 align-items-end w-100 m-0">
+                    <div class="col-lg-4">
+                        <h2 class="fs-16 text-uppercase text-line text-orange mb-2">ZMIANY W KRS</h2>
+                        <h3 class="display-4 mb-0">Jesteśmy dumni z naszych działań</h3>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row align-items-center counter-wrapper gy-3 text-center">
+                            <div class="col-md-4">
+                                <h3 class="counter counter-lg text-orange">8000</h3>
+                                <p>Przeprowadzonych zmian</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="counter counter-lg text-orange">4000</h3>
+                                <p>Zarejestrowanych spółek</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3 class="counter counter-lg text-orange">2000</h3>
+                                <p>Sprzedanych spółek</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-
-
-
-
+            <!-- /.container-fluid -->
+        </section>
 
 
 
