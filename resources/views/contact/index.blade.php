@@ -102,7 +102,12 @@
             <!-- Contact Form Section -->
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                    <h2 class="display-4 mb-3 text-center">Skontaktuj się z nami!</h2>
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <h3>ROZPOCZNIJ COŚ NOWEGO<br><span class="display-5">SKONTAKTUJ SIĘ Z NAMI!</span></h3>
+                            <p>Pozostawiając formalności w profesjonalnych rękach będziesz mógł zająć się rozwojem swojego biznesu.</p>
+                        </div>
+                    </div>
                     <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
                         <div class="messages"></div>
                         <div class="row gx-4">
@@ -171,12 +176,6 @@
             <!-- /.row -->
 
             <!-- New Section -->
-            <div class="row mt-5">
-                <div class="col-12 text-center">
-                    <h3>ROZPOCZNIJ COŚ NOWEGO<br><span class="display-5">SKONTAKTUJ SIĘ Z NAMI!</span></h3>
-                    <p>Pozostawiając formalności w profesjonalnych rękach będziesz mógł zająć się rozwojem swojego biznesu.</p>
-                </div>
-            </div>
 
         </div>
         <div class="row mt-5">
