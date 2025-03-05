@@ -110,7 +110,7 @@
                     <div class="col-lg-11 col-xl-10 col-xxl-8 mx-auto">
                         <h2 class="fs-16 text-uppercase text-white mb-3">Pozwól nam wycenić Twoją zmianę</h2>
                         <h3 class="display-4 mb-6 text-white px-lg-5 px-xxl-0">Zacznijmy od KRS, aby wyznaczyć plan działania</h3>
-                        <a href="#" class="btn btn-white rounded-pill mb-0 text-nowrap" data-bs-toggle="modal"
+                        <a href="#" class="btn btn-orange rounded-pill mb-0 text-nowrap" data-bs-toggle="modal"
                            data-bs-target="#modal-krs">Wyceń zmiany</a>
                     </div>
                     <!-- /column -->
@@ -133,7 +133,7 @@
                         <h3 class="display-4 mb-5">Spójrz jak działamy:</h3>
                         <div class="d-flex flex-row mb-5">
                             <div>
-                                <span class="icon btn btn-block btn-soft-primary pe-none me-4"><span class="number fs-18">1</span></span>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number fs-18">1</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">1. Weryfikacja</h4>
@@ -143,7 +143,7 @@
                         </div>
                         <div class="d-flex flex-row mb-5">
                             <div>
-                                <span class="icon btn btn-block btn-soft-primary pe-none me-4"><span class="number fs-18">2</span></span>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number fs-18">2</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">2. Przygotowanie</h4>
@@ -153,7 +153,7 @@
                         </div>
                         <div class="d-flex flex-row">
                             <div>
-                                <span class="icon btn btn-block btn-soft-primary pe-none me-4"><span class="number fs-18">3</span></span>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number fs-18">3</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">3. Kontrola KRS</h4>
