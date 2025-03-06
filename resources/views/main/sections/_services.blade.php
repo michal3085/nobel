@@ -49,7 +49,8 @@
                         </div>
                         <h4>GOTOWA SPÓŁKA</h4>
                         <p class="mb-2 flex-grow-1 text-center">Pozwala na natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności.</p>
-                        <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="more hover link-fuchsia mt-auto">Poznaj ofertę</a>
+{{--                        <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="more hover link-fuchsia mt-auto">Poznaj ofertę</a>--}}
+                        <a href="" class="more hover link-fuchsia mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +63,8 @@
                         </div>
                         <h4>REJESTRACJA SPÓŁKI</h4>
                         <p class="mb-2 flex-grow-1 text-center">Profesjonalne wsparcie, aby proces był szybki i bezproblemowy.</p>
-                        <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="more hover link-orange mt-auto">Poznaj ofertę</a>
+{{--                        <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="more hover link-orange mt-auto">Poznaj ofertę</a>--}}
+                        <a href="" class="more hover link-orange mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
             </div>
