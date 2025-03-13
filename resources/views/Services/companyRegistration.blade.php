@@ -222,6 +222,64 @@
             </div>
             <!--/column -->
         </div>
+
+        <div class="row gy-6 align-items-center mb-14 mb-md-18">
+            <div class="col-lg-4">
+                <h3 class="display-4 mb-5 text-orange">Nasze działania opierają się na dwóch systemach sądowych S24 i PRS</h3>
+
+            </div>
+            <!--/column -->
+            <div class="col-lg-7 offset-lg-1 pricing-wrapper">
+                <div class="row gy-6 mt-5">
+                    <div class="col-md-6">
+                        <div class="pricing card shadow-lg">
+                            <div class="card-body pb-12">
+                                <div class="prices text-dark">
+                                    <div class="price price-show justify-content-start"><span class="price-currency"></span><span class="price-value">S24</span></div>
+                                    <div class="price price-hide price-hidden justify-content-start"><span class="price-currency"></span><span class="price-value">S24</span></div>
+                                </div>
+                                <!--/.prices -->
+                                <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8">
+                                    <li><i class="uil uil-check"></i><span><strong>Szybkość rejestracji spółki</strong> - już w ciągu 1-3 dni otrzymujesz
+KRS, REGON, NIP </span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 350 PLN </span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Brak opaty notarialnej</strong> (oszczędność 500-1000 PLN ) </span></li>
+                                    <li><i class="uil uil-check"></i><span> <strong>Możliwość przeprowadzania późniejszych zmian</strong> tj. zbycie
+udziałów, zmiana umowy spółki, zarządu, adresu i inne, w
+spółce również przez internet (S24),</span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>umowa spółki jest krótka i praktyczna.</strong></span></li>
+                                </ul>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 popular">
+                        <div class="pricing card shadow-lg">
+                            <div class="card-body pb-12">
+                                <div class="prices text-dark">
+                                    <div class="price price-show justify-content-start"><span class="price-currency"></span><span class="price-value">PRS</span></div>
+                                    <div class="price price-hide price-hidden justify-content-start"><span class="price-currency"></span><span class="price-value">PRS</span></div>
+                                </div>
+                                <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8">
+                                    <li><i class="uil uil-check"></i><span><strong>2-4 tygodni w trybie tradycyjnym tj. z udziałem notariusza</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 600 PLN </span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Opłata notarialna</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong> Konieczność wizyty u notariusza </strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Możliwość dostosowania umowy do indywidualnych potrzeb</strong></span></li>
+                                </ul>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!--/.pricing -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
+        </div>
     </section>
 
 
@@ -322,45 +380,45 @@
 {{--        <!--/.row -->--}}
 {{--    </div>--}}
 
-    <div class="col-lg-12 mb-2 mt-2">
-        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
-        <h2 class="display-4 mb-3">Formy Rejestracji Spółki</h2>
-        <div class="row gy-3 gx-xl-8">
-            <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>
-                        <br>
-                        <span class="justify-content-center">
-                            <p class="text-success mb-1"><b>ZALETY:</b></p>
-                            Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co
-                            jest znacznie tańsze.
-                        </span>
-                        <span class="justify-content-center">
-                            <p class="text-danger mb-1"><b>WADY:</b></p>
-                            Ograniczenia w dostosowywaniu umowy spółki w systemie S24.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-            <!--/column -->
-            <div class="col-xl-6">
-                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                    <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>
-                        <br>
-                        <span class="justify-content-center">
-                            <p class="text-success mb-1"><b>ZALETY:</b></p>
-                            Możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.
-                        </span>
-                        <span class="justify-content-center">
-                            <p class="text-danger mb-1"><b>WADY:</b></p>
-                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa.
-                        </span>
-                    </li>
+{{--    <div class="col-lg-12 mb-2 mt-2">--}}
+{{--        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />--}}
+{{--        <h2 class="display-4 mb-3">Formy Rejestracji Spółki</h2>--}}
+{{--        <div class="row gy-3 gx-xl-8">--}}
+{{--            <div class="col-xl-6">--}}
+{{--                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">--}}
+{{--                    <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>--}}
+{{--                        <br>--}}
+{{--                        <span class="justify-content-center">--}}
+{{--                            <p class="text-success mb-1"><b>ZALETY:</b></p>--}}
+{{--                            Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co--}}
+{{--                            jest znacznie tańsze.--}}
+{{--                        </span>--}}
+{{--                        <span class="justify-content-center">--}}
+{{--                            <p class="text-danger mb-1"><b>WADY:</b></p>--}}
+{{--                            Ograniczenia w dostosowywaniu umowy spółki w systemie S24.--}}
+{{--                        </span>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--            <!--/column -->--}}
+{{--            <div class="col-xl-6">--}}
+{{--                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">--}}
+{{--                    <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>--}}
+{{--                        <br>--}}
+{{--                        <span class="justify-content-center">--}}
+{{--                            <p class="text-success mb-1"><b>ZALETY:</b></p>--}}
+{{--                            Możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.--}}
+{{--                        </span>--}}
+{{--                        <span class="justify-content-center">--}}
+{{--                            <p class="text-danger mb-1"><b>WADY:</b></p>--}}
+{{--                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa.--}}
+{{--                        </span>--}}
+{{--                    </li>--}}
 
-                </ul>
-            </div>
-            <!--/column -->
-        </div>
-        <!--/.row -->
-    </div>
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--            <!--/column -->--}}
+{{--        </div>--}}
+{{--        <!--/.row -->--}}
+{{--    </div>--}}
 @endsection
