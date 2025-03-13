@@ -201,15 +201,15 @@
         </div>
     </section>
 
-    <section class="section-frame overflow-hidden" style="background: linear-gradient(45deg, #f6f7fb, #d1e1f5);">
+    <section class="section-frame overflow-hidden" style="background: linear-gradient(45deg, #f6f7fb, #d1f5d2);">
         <div class="wrapper bg-transparent">
             <div class="container py-13 py-md-17 text-center">
                 <div class="row">
                     <div class="col-lg-10 col-xxl-8 mx-auto">
-                        <h1 class="display-1 mb-4 text-primary" style="font-weight: 700; line-height: 1.2;">
+                        <h1 class="display-1 mb-4 text-green" style="font-weight: 700; line-height: 1.2;">
                             Wybierz nas, abyśmy mogli wspierać każdy etap Twojego rozwoju.
                         </h1>
-                        <a href="{{ route('contact.index') }}" class="btn btn-lg btn-primary">Skontaktuj się z nami</a>
+                        <a href="{{ route('contact.index') }}" class="btn btn-lg btn-green">Skontaktuj się z nami</a>
                     </div>
                     <!-- /column -->
                 </div>
