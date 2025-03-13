@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png">
     <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/colors/violet.css">
+    <link rel="stylesheet" href="/assets/css/colors/nobel.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
