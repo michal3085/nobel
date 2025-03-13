@@ -18,7 +18,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <ul class="icon-list bullet-bg bullet-soft-leaf">
+                        <ul class="icon-list bullet-bg bullet-soft-orange">
                             <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <ul class="icon-list bullet-bg bullet-soft-leaf">
+                        <ul class="icon-list bullet-bg bullet-soft-orange">
                             <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
                         </ul>
@@ -53,13 +53,14 @@
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">690</span></div>
                                         </div>
-                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                                             <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
-                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -73,13 +74,15 @@
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
                                         </div>
-                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                                             <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
-                                            <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 1 miesiąc (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
+{{--                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>--}}
                                         </ul>
                                     </div>
                                 </div>
@@ -93,12 +96,13 @@
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2000</span></div>
                                         </div>
-                                        <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
+                                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                                             <li><i class="uil uil-check"></i><span>Przygotowanie dokumentów rejestrowych</span></li>
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 3 miesiące* (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
