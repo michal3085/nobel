@@ -2,18 +2,26 @@
 
 @section('content')
     <section class="wrapper bg-light">
+
         <style>
             .image-wrapper {
-                max-width: 95%; /* Jeszcze szersze, ale nadal nie na pełną szerokość */
-                margin: 0 auto; /* Wyśrodkowanie */
-                border-radius: 7%;
+                width: 100vw; /* Pełna szerokość widoku */
+                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+            }
+        </style>
+        <style>
+            .image-wrapper {
+                width: 100vw; /* Pełna szerokość widoku */
+                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
             }
         </style>
 
-        <section class="wrapper image-wrapper bg-soft-orange shadow-sm image-wrapper">
-            <div class="container py-13 py-md-15">
-                <div class="row gx-0 gy-4 align-items-end">
-                    <div class="col-lg-4 text-center text-lg-start">
+        <section class="wrapper bg-soft-orange shadow-sm" style="border-radius: 7%;">
+            <div class="container-fluid py-13 py-md-15"> <!-- Zmiana z container na container-fluid -->
+                <div class="row gx-0 gy-4 align-items-end w-100 m-0">
+                    <div class="col-lg-4">
                         <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>
                         <h3 class="display-4 mb-0">Jesteśmy dumni z naszych działań</h3>
                     </div>
@@ -35,13 +43,10 @@
                     </div>
                 </div>
             </div>
+            <!-- /.container-fluid -->
         </section>
-    </section>
 
-
-
-
-    <section class="wrapper bg-light">
+        <section class="wrapper bg-light">
             <div class="container py-14 py-md-18">
                 <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center ">
                     <div class="col-lg-6 position-relative">
