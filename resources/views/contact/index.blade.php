@@ -15,18 +15,18 @@
                 <div class="col-xl-12 mx-auto mt-n19">
                     <div class="row gx-4">
                         <!-- Card with Map and Address - First Card -->
-                        <div class="col-lg-6 mb-4">
+                        <div class="col-12 mb-4">
                             <div class="card">
                                 <div class="row gx-0">
-                                    <!-- Map -->
-                                    <div class="col-12">
+                                    <!-- Map - Left Column -->
+                                    <div class="col-md-6">
                                         <div class="map map-full rounded-top rounded-lg-start">
                                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.95533605081!2d21.00140507691321!3d52.226029257952234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecdabd7db4d6f%3A0x7f17e71bca661d25!2sTytusa%20Cha%C5%82ubi%C5%84skiego%208%2C%2000-613%20Warszawa!5e0!3m2!1spl!2spl!4v1739917280179!5m2!1spl!2spl" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
 
-                                    <!-- Address and Contact Info -->
-                                    <div class="col-12 p-10 p-md-11 p-lg-14">
+                                    <!-- Address and Contact Info - Right Column -->
+                                    <div class="col-md-6 p-10 p-md-11 p-lg-14">
                                         <div class="d-flex flex-row">
                                             <div>
                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
@@ -69,18 +69,18 @@
                         </div>
 
                         <!-- Card with Map and Address - Second Card -->
-                        <div class="col-lg-6 mb-4">
+                        <div class="col-12 mb-4">
                             <div class="card">
                                 <div class="row gx-0">
-                                    <!-- Map -->
-                                    <div class="col-12">
+                                    <!-- Map - Left Column -->
+                                    <div class="col-md-6">
                                         <div class="map map-full rounded-top rounded-lg-start">
                                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6442036704766!2d21.00325317691355!3d52.23168165753545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c93a84a83%3A0xa2e1cc1f1b7198de!2sPa%C5%82ac%20Kultury%20i%20Nauki%2C%20plac%20Defilad%201%2C%2000-901%20Warszawa!5e0!3m2!1spl!2spl!4v1739917423055!5m2!1spl!2spl" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
 
-                                    <!-- Address and Contact Info -->
-                                    <div class="col-12 p-10 p-md-11 p-lg-14">
+                                    <!-- Address and Contact Info - Right Column -->
+                                    <div class="col-md-6 p-10 p-md-11 p-lg-14">
                                         <div class="d-flex flex-row">
                                             <div>
                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
@@ -89,6 +89,33 @@
                                                 <h5 class="mb-1">Nobel sp. z o.o.</h5>
                                                 <address>Plac Defilad 1 00-901 Warszawa
                                                     <br class="d-none d-md-block" />KRS 0000005899</address>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1">Telefon</h5>
+                                                <p>+48 22 100 50 70</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1">Infolinia</h5>
+                                                <p>+48 22 200 20 20</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1">E-mail</h5>
+                                                <p class="mb-0"><a href="mailto:support@nobel.pro" class="link-body">support@nobel.pro</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -162,22 +189,15 @@
                             </div>
                             <!-- /column -->
                             <div class="col-12 text-center">
-                                <input type="submit" class="btn btn-primary rounded-pill btn-send mb-3" value="Wyślij">
-                                <p class="text-muted"><strong>*</strong> Pola wymagane</p>
+                                <button type="submit" class="btn btn-primary btn-lg w-100 w-md-auto">Wyślij wiadomość</button>
                             </div>
                             <!-- /column -->
                         </div>
-                        <!-- /.row -->
                     </form>
-                    <!-- /form -->
                 </div>
-                <!-- /column -->
             </div>
-            <!-- /.row -->
-
-            <!-- New Section -->
-
         </div>
+
         <div class="row mt-5">
             <div class="col-12 text-center">
                 <h3>Nasze biura wirtualne</h3>
