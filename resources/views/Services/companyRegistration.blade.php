@@ -168,105 +168,159 @@
 
             </section>
         </div>
-    </section>
 
 
-    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
-        <h2 class="display-4 mb-1 text-center">Rodzaje spółek które rejestrujemy</h2>
-        <p class="lead text-center mb-10 px-md-16 px-lg-0">Pełne wsparcie w zależności od indywidualnych potrzeb i planów biznesowych.
-            Specjalizujemy się w rejestracji:</p>
-        <div class="row">
-            <div class="col-lg-6 mb-0">
-                <div id="accordion-1" class="accordion-wrapper">
-                    <div class="card accordion-item">
-                        <div class="card-header" id="accordion-heading-1-1">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1" aria-expanded="false" aria-controls="accordion-collapse-1-1">Spółki z ograniczoną odpowiedzialnością (Sp. z o.o.)</button>
-                        </div>
-                        <!-- /.card-header -->
-                        <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">
-                            <div class="card-body">
-                                <p>Najpopularniejsza forma działalności gospodarczej w Polsce, łącząca
-                                    ograniczoną odpowiedzialność wspólników z elastycznością zarządzania.</p>
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-10 mb-md-12 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="row gx-md-5 gy-5 align-items-center">
+                    <div class="col-md-6">
+                        <div class="row gx-md-5 gy-5">
+                            <div class="col-md-10 offset-md-2" data-cue="fadeIn" data-delay="300">
+                                <figure class="rounded"><img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt=""></figure>
                             </div>
-                            <!-- /.card-body -->
-                        </div>
-                        <!-- /.collapse -->
-                    </div>
-                    <!-- /.card -->
-                    <div class="card accordion-item">
-                        <div class="card-header" id="accordion-heading-1-2">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2" aria-expanded="false" aria-controls="accordion-collapse-1-2">Spółki akcyjnej (S.A.)</button>
-                        </div>
-                        <!-- /.card-header -->
-                        <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">
-                            <div class="card-body">
-                                <p>Forma prawna dedykowana większym przedsięwzięciom, umożliwiająca
-                                    emisję akcji i pozyskiwanie kapitału na szeroką skalę.</p>
+                            <!--/column -->
+                            <div class="col-md-12" data-cue="fadeIn" data-delay="900">
+                                <figure class="rounded"><img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt=""></figure>
                             </div>
-                            <!-- /.card-body -->
+                            <!--/column -->
                         </div>
-                        <!-- /.collapse -->
+                        <!--/.row -->
                     </div>
-                    <!-- /.card -->
-                    <div class="card accordion-item">
-                        <div class="card-header" id="accordion-heading-1-3">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-3" aria-expanded="false" aria-controls="accordion-collapse-1-3">Spółki jawnej</button>
-                        </div>
-                        <!-- /.card-header -->
-                        <div id="accordion-collapse-1-3" class="collapse" aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">
-                            <div class="card-body">
-                                <p>Prosta forma spółki osobowej, gdzie wspólnicy odpowiadają całym swoim
-                                    majątkiem za zobowiązania spółki.</p>
-                            </div>
-                            <!-- /.card-body -->
-                        </div>
-                        <!-- /.collapse -->
+                    <!--/column -->
+                    <div class="col-md-6" data-cue="fadeIn" data-delay="600">
+                        <figure class="rounded"><img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt=""></figure>
                     </div>
-                    <!-- /.card -->
+                    <!--/column -->
                 </div>
-                <!-- /.accordion-wrapper -->
+                <!--/.row -->
             </div>
             <!--/column -->
             <div class="col-lg-6">
-                <div id="accordion-2" class="accordion-wrapper">
-                    <div class="card accordion-item">
-                        <div class="card-header" id="accordion-heading-2-1">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1" aria-expanded="false" aria-controls="accordion-collapse-2-1">Spółki komandytowej</button>
-                        </div>
-                        <!-- /.card-header -->
-                        <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">
-                            <div class="card-body">
-                                <p>Spółka osobowa, w której co najmniej jeden wspólnik (komandytariusz)
-                                    odpowiada za zobowiązania tylko do wysokości wniesionych wkładów, a
-                                    drugi (komplementariusz) całym swoim majątkiem.</p>
-                            </div>
-                            <!-- /.card-body -->
-                        </div>
-                        <!-- /.collapse -->
+                <h2 class="display-4 mb-3 text-orange">Zapewniamy pełne wsparcie w zależności od Twoich potrzeb i planów biznesowych.</h2>
+                <p class="lead fs-lg">Specjalizujemy się w rejestracji</p>
+                <div class="row gy-3 gx-xl-8">
+                    <div class="col-xl-6">
+                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                            <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością (SP. z o. o.)</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej (S. A.)</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki jawnej</span></li>
+                        </ul>
                     </div>
-                    <!-- /.card -->
-                    <div class="card accordion-item">
-                        <div class="card-header" id="accordion-heading-2-2">
-                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2" aria-expanded="false" aria-controls="accordion-collapse-2-2">Spółki komandytowo-akcyjnej (S.K.A.)</button>
-                        </div>
-                        <!-- /.card-header -->
-                        <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">
-                            <div class="card-body">
-                                <p>Połączenie cech spółki komandytowej i akcyjnej, umożliwiające łączenie zalet
-                                    obu tych form.</p>
-                            </div>
-                            <!-- /.card-body -->
-                        </div>
-                        <!-- /.collapse -->
+                    <!--/column -->
+                    <div class="col-xl-6">
+                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                            <li><span><i class="uil uil-check"></i></span><span>Spółki komandytowej</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej (S. K. A.)</span></li>
+                        </ul>
                     </div>
-                    <!-- /.card -->
+                    <!--/column -->
                 </div>
-                <!-- /.accordion-wrapper -->
+                <div class="text-center mt-4">
+                    <a href="#" class="btn btn-orange rounded">Jestem zainteresowany</a>
+                </div>
+                <!--/.row -->
             </div>
             <!--/column -->
         </div>
-        <!--/.row -->
-    </div>
+    </section>
+
+
+{{--    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">--}}
+{{--        <h2 class="display-4 mb-1 text-center">Rodzaje spółek które rejestrujemy</h2>--}}
+{{--        <p class="lead text-center mb-10 px-md-16 px-lg-0">Pełne wsparcie w zależności od indywidualnych potrzeb i planów biznesowych.--}}
+{{--            Specjalizujemy się w rejestracji:</p>--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-6 mb-0">--}}
+{{--                <div id="accordion-1" class="accordion-wrapper">--}}
+{{--                    <div class="card accordion-item">--}}
+{{--                        <div class="card-header" id="accordion-heading-1-1">--}}
+{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1" aria-expanded="false" aria-controls="accordion-collapse-1-1">Spółki z ograniczoną odpowiedzialnością (Sp. z o.o.)</button>--}}
+{{--                        </div>--}}
+{{--                        <!-- /.card-header -->--}}
+{{--                        <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <p>Najpopularniejsza forma działalności gospodarczej w Polsce, łącząca--}}
+{{--                                    ograniczoną odpowiedzialność wspólników z elastycznością zarządzania.</p>--}}
+{{--                            </div>--}}
+{{--                            <!-- /.card-body -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /.collapse -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.card -->--}}
+{{--                    <div class="card accordion-item">--}}
+{{--                        <div class="card-header" id="accordion-heading-1-2">--}}
+{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2" aria-expanded="false" aria-controls="accordion-collapse-1-2">Spółki akcyjnej (S.A.)</button>--}}
+{{--                        </div>--}}
+{{--                        <!-- /.card-header -->--}}
+{{--                        <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <p>Forma prawna dedykowana większym przedsięwzięciom, umożliwiająca--}}
+{{--                                    emisję akcji i pozyskiwanie kapitału na szeroką skalę.</p>--}}
+{{--                            </div>--}}
+{{--                            <!-- /.card-body -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /.collapse -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.card -->--}}
+{{--                    <div class="card accordion-item">--}}
+{{--                        <div class="card-header" id="accordion-heading-1-3">--}}
+{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-3" aria-expanded="false" aria-controls="accordion-collapse-1-3">Spółki jawnej</button>--}}
+{{--                        </div>--}}
+{{--                        <!-- /.card-header -->--}}
+{{--                        <div id="accordion-collapse-1-3" class="collapse" aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <p>Prosta forma spółki osobowej, gdzie wspólnicy odpowiadają całym swoim--}}
+{{--                                    majątkiem za zobowiązania spółki.</p>--}}
+{{--                            </div>--}}
+{{--                            <!-- /.card-body -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /.collapse -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.card -->--}}
+{{--                </div>--}}
+{{--                <!-- /.accordion-wrapper -->--}}
+{{--            </div>--}}
+{{--            <!--/column -->--}}
+{{--            <div class="col-lg-6">--}}
+{{--                <div id="accordion-2" class="accordion-wrapper">--}}
+{{--                    <div class="card accordion-item">--}}
+{{--                        <div class="card-header" id="accordion-heading-2-1">--}}
+{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1" aria-expanded="false" aria-controls="accordion-collapse-2-1">Spółki komandytowej</button>--}}
+{{--                        </div>--}}
+{{--                        <!-- /.card-header -->--}}
+{{--                        <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <p>Spółka osobowa, w której co najmniej jeden wspólnik (komandytariusz)--}}
+{{--                                    odpowiada za zobowiązania tylko do wysokości wniesionych wkładów, a--}}
+{{--                                    drugi (komplementariusz) całym swoim majątkiem.</p>--}}
+{{--                            </div>--}}
+{{--                            <!-- /.card-body -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /.collapse -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.card -->--}}
+{{--                    <div class="card accordion-item">--}}
+{{--                        <div class="card-header" id="accordion-heading-2-2">--}}
+{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2" aria-expanded="false" aria-controls="accordion-collapse-2-2">Spółki komandytowo-akcyjnej (S.K.A.)</button>--}}
+{{--                        </div>--}}
+{{--                        <!-- /.card-header -->--}}
+{{--                        <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">--}}
+{{--                            <div class="card-body">--}}
+{{--                                <p>Połączenie cech spółki komandytowej i akcyjnej, umożliwiające łączenie zalet--}}
+{{--                                    obu tych form.</p>--}}
+{{--                            </div>--}}
+{{--                            <!-- /.card-body -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /.collapse -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.card -->--}}
+{{--                </div>--}}
+{{--                <!-- /.accordion-wrapper -->--}}
+{{--            </div>--}}
+{{--            <!--/column -->--}}
+{{--        </div>--}}
+{{--        <!--/.row -->--}}
+{{--    </div>--}}
 
     <div class="col-lg-12 mb-2 mt-2">
         <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
