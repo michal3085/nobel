@@ -86,8 +86,6 @@
         </div>
     </div>
 
-
-
     <div class="tab-content mt-6 mt-lg-8">
         <div class="tab-pane fade show active" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
