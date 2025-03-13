@@ -49,7 +49,7 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">REJESTRACJA W KRS</h4>
+                                        <h4 class="card-title text-orange">REJESTRACJA W KRS</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">690</span></div>
                                         </div>
@@ -70,7 +70,7 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">REJESTRACJA W KRS</h4>
+                                        <h4 class="card-title text-orange">REJESTRACJA W KRS</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
                                         </div>
@@ -92,7 +92,7 @@
                             <div class="col-md-6 col-lg-4 popular">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title">PEŁNA REJESTRACJA SPÓŁKI</h4>
+                                        <h4 class="card-title text-orange">PEŁNA REJESTRACJA SPÓŁKI</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2000</span></div>
                                         </div>
@@ -122,45 +122,53 @@
 
                 {{--    /PRICE    --}}
 
+
+                <div class="col-12">
+                    <h3 class="display-6 mb-4 text-orange">Może Ci się przydać</h3>
+                </div>
+
+                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-14 mb-md-18">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">1</span> </div>
+                            </div>
+                            <div>
+                                <h4>Księgowość</h4>
+                                <p class="mb-2">od 500 PLN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">2</span> </div>
+                            </div>
+                            <div>
+                                <h4>Założenie profilu zaufanego ePUAP</h4>
+                                <p class="mb-2">250 PLN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">3</span> </div>
+                            </div>
+                            <div>
+                                <h4>Uzyskanie numeru PESEL</h4>
+                                <p class="mb-2">750 PLN</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+
             </section>
         </div>
     </section>
-
-    <div class="row gx-lg-8 gx-xl-12 gy-10 mb-10 mb-md-10 align-items-center">
-        <div class="col-lg-6 position-relative">
-            <div class="shape bg-dot leaf rellax w-17 h-18" data-rellax-speed="1" style="bottom: -2rem; left: -0.7rem;"></div>
-            <figure class="rounded"><img src="./assets/img/services/registration_2.jpg" srcset="./assets/img/services/registration_2.jpg 2x" alt="" /></figure>
-        </div>
-        <!--/column -->
-        <div class="col-lg-6 col-xxl-5">
-            <h3 class="display-6 mb-7">Może Ci się przydać:</h3>
-            <div class="d-flex flex-row mb-5">
-                <div>
-                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">1</span></span>
-                </div>
-                <div>
-                    <h4 class="mb-1">Księgowość od 550 zł</h4>
-                </div>
-            </div>
-            <div class="d-flex flex-row mb-5">
-                <div>
-                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">2</span></span>
-                </div>
-                <div>
-                    <h4 class="mb-1">Założenie profilu zaufanego ePUAP – 250 zł</h4>
-                </div>
-            </div>
-            <div class="d-flex flex-row">
-                <div>
-                    <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">3</span></span>
-                </div>
-                <div>
-                    <h4 class="mb-1">Uzyskanie numeru PESEL – 750 zł</h4>
-                </div>
-            </div>
-        </div>
-        <!--/column -->
-    </div>
 
 
     <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
