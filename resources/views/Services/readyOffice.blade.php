@@ -180,7 +180,7 @@
                                 idealne biuro jednoosobowe – przestrzeń, w której możesz pracować w ciszy i spokoju. Jeśli
                                 natomiast pracujesz w zespole, oferujemy większe biura 2-3 lub nawet 6 osobowe
                                 zapewniając przestrzeń do efektywnej pracy w grupie.</p>
-                            <ul class="icon-list bullet-bg bullet-soft-fuchsia" style="font-size: 15px;">
+                            <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
                                 <li><i class="uil uil-check"></i><b>Elastyczność</b> – możliwość wynajmu na krótkie okresy, dopasowanie do potrzeb.</li>
                                 <li><i class="uil uil-check"></i><b>Wyposażenie</b> – w pełni umeblowane przestrzenie gotowe do pracy.</li>
                                 <li><i class="uil uil-check"></i><b>Koszty</b> – opłaty zawarte w jednej miesięcznej fakturze (czynsz, media,
