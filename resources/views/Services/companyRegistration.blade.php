@@ -5,7 +5,7 @@
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 yellow">REJESTRACJA SPÓŁKI</span>
+                    <span class="underline-3 style-2 orange">REJESTRACJA SPÓŁKI</span>
                 </h3>
             </div>
             <br>
@@ -13,8 +13,8 @@
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
                     <div class="col-12">
-                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę</h3>
-                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>
+                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku prostych krokach.</h3>
+{{--                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>--}}
                     </div>
 
                     <div class="col-lg-6">
@@ -22,14 +22,13 @@
                             <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-6">
-                        <ul class="icon-list bullet-bg bullet-soft-orange">
-                            <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
-                        </ul>
+                        <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt=""></figure>
                     </div>
                 </div>
 
