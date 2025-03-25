@@ -70,7 +70,7 @@
                     </div>
                     <!--/column -->
                     <div class="col-lg-6">
-                        <h3 class="display-4 mb-5">W przeprowadzaniu kompleksowych zmian w KRS.</h3>
+                        <h3 class="display-4 mb-5">Przeprowadzamy kompleksowe zmiany w KRS</h3>
                         <p class="mb-7">
                             Specjalizujemy się w procesach począwszy od rejestracji i sprzedaży spółek, poprzez
                             aktualizacje, zawieszenia kończąc na likwidacjach i wykreśleniach z KRS. Obsługujemy także
