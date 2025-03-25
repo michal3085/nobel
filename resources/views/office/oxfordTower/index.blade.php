@@ -13,8 +13,8 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-green mb-3">Concept</div>
-                                            <h2 class="underline-3 style-2 yellow">OXFORD TOWER CH8</h2>
+                                            <div class="post-category text-green mb-3">Lokalizacja</div>
+                                            <h2 class="underline-3 style-2 yellow">ŚRÓDMIEŚCIE OXFORD TOWER CH8</h2>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
@@ -44,7 +44,7 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'>
                                         <a href="{{asset('/assets/img/photos/cs4-full.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/6.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
@@ -60,7 +60,7 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'>
                                         <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/6.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
