@@ -5,21 +5,14 @@
 
         <style>
             .image-wrapper {
-                width: 100vw; /* Pełna szerokość widoku */
-                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
-                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
-            }
-        </style>
-        <style>
-            .image-wrapper {
-                width: 100vw; /* Pełna szerokość widoku */
-                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
-                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+                width: 100vw;
+                margin-left: calc(-50vw + 50%);
+                margin-right: calc(-50vw + 50%);
             }
         </style>
 
         <section class="wrapper bg-soft-orange shadow-sm" style="border-radius: 7%;">
-            <div class="container-fluid py-13 py-md-15"> <!-- Zmiana z container na container-fluid -->
+            <div class="container-fluid py-6 py-md-8"> <!-- Zmniejszone paddingi -->
                 <div class="row gx-0 gy-4 align-items-end w-100 m-0">
                     <div class="col-lg-4">
                         <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>
@@ -43,7 +36,6 @@
                     </div>
                 </div>
             </div>
-            <!-- /.container-fluid -->
         </section>
 
         <section class="wrapper bg-light">
