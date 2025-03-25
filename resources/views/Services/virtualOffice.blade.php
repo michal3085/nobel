@@ -119,15 +119,96 @@
                         pełnej obsługi administracyjnej:
                     </p>
                     <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i><b>Indywidualny/prywatny numer telefonu</b></li>
-                        <li><i class="uil uil-check"></i><b>Obsługa sekretarska</b> – odbiór połączeń przychodzących oraz odbiór i przekazywanie korespondencji.</li>
-                        <li><i class="uil uil-check"></i><b>Sale konferencyjne na spotkania biznesowe</b></li>
-                        <li><i class="uil uil-check"></i><b>Prestiżowy adres dla Twojej działalności</b></li></li>
+                        <li><i class="uil uil-check"></i><b>Adres do rejestracji firmy</b> – który możesz umieścić na dokumentach, wizytówkach oraz stronie internetowej.</li>
+                        <li><i class="uil uil-check"></i><b>Odbiór i przechowywanie korespondencji</b> – odbieramy przesyłki i informujemy Cię o każdej nowej wiadomości.</li>
+                        <li><i class="uil uil-check"></i><b>Skanowanie i przekazywanie korespondencji</b> – na życzenie skanujemy dokumenty i wysyłamy je na Twój e-mail.</li>
+                        <li><i class="uil uil-check"></i><b>Obsługa telefoniczna</b> – opcjonalna usługa, dzięki której nasi pracownicy będą odbierać telefony w imieniu Twojej firmy.</li>
+                        <li><i class="uil uil-check"></i><b>Możliwość wynajmu sali konferencyjnej</b> – na spotkania biznesowe, gdy potrzebujesz fizycznej przestrzeni do pracy.</li>
                     </ul>
                 </div>
                 <!--/column -->
             </div>
             <!--/.row -->
+        </div>
+
+        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
+            <div class="col-lg-6">
+                <div class="row gx-md-5 gy-5">
+                    <div class="col-12">
+                        <figure class="rounded mx-md-5"><img src="./assets/img/photos/g8.jpg" srcset="./assets/img/photos/g8@2x.jpg 2x" alt=""></figure>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <figure class="rounded"><img src="./assets/img/photos/g9.jpg" srcset="./assets/img/photos/g9@2x.jpg 2x" alt=""></figure>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <figure class="rounded"><img src="./assets/img/photos/g10.jpg" srcset="./assets/img/photos/g10@2x.jpg 2x" alt=""></figure>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+                <h3 class="display-3 mb-8">Myśl wyjątkowo <span class="underline-3 style-2 yellow">i bądź kreatywny,</span> zyskaj:</h3>
+                <div class="row gy-6">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/solid/lamp.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-fuchsia me-4" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Oszczędność kosztów</h4>
+                                <p class="mb-0">brak konieczności wynajmu tradycyjnej przestrzeni
+                                    biurowej to znaczące obniżenie kosztów prowadzenia działalności.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Profesjonalny wizerunekg</h4>
+                                <p class="mb-0">prestiżowy adres w centrum miasta zwiększa
+                                    wiarygodność Twojej firmy w oczach klientów i kontrahentów.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/solid/puzzle.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-orange me-4" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Elastyczność</h4>
+                                <p class="mb-0">nasza oferta dostosowana jest do Twoich indywidualnych
+                                    potrzeb, możesz wybierać spośród różnych pakietów usług.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/solid/headphone.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-green me-4" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Skoncentruj się na tym, co ważne</h4>
+                                <p class="mb-0">my zajmiemy się obsługą biurową, a
+                                    Ty możesz w pełni skupić się na rozwijaniu swojego biznesu.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
         </div>
 
 
