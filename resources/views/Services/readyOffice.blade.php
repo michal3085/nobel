@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>cena od 1500 PLN</span></li>
+{{--                                        <li class="post-date"><span>cena od 1500 PLN</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>Cena od 2500 PLN</span></li>
+{{--                                        <li class="post-date"><span>Cena od 2500 PLN</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>cena od 2500</span></li>
+{{--                                        <li class="post-date"><span>cena od 2500</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
@@ -115,7 +115,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>cena od 1800</span></li>
+{{--                                        <li class="post-date"><span>cena od 1800</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
@@ -137,7 +137,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>cena od 2000</span></li>
+{{--                                        <li class="post-date"><span>cena od 2000</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
@@ -159,7 +159,7 @@
                                 </div>
                                 <div class="post-footer">
                                     <ul class="post-meta">
-                                        <li class="post-date"><span>cena od 2000</span></li>
+{{--                                        <li class="post-date"><span>cena od 2000</span></li>--}}
                                     </ul>
                                 </div>
                             </article>
