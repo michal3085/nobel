@@ -9,14 +9,14 @@
                 </h3>
             </div>
 {{--            @include('Services.components._offices')--}}
-
-            <section class="wrapper bg-light angled upper-end mb-3">
+<br>
+            <section class="wrapper bg-light angled upper-end mb-3 mt-2">
                 <div class="container pb-5 pb-md-7">
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4.jpg" alt="" class="img-fluid" /></a>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/6.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
                                         <h5 class="from-top mb-0">Read More</h5>
                                     </figcaption>
