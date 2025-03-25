@@ -87,6 +87,18 @@
             </div>
         </div>
 
+        <div class="text-center">
+            <br>
+            <p class="mb-6 mt-5">
+                Zapraszamy do kontaktu w celu uzyskania szczegółowych informacji lub umówienia się na
+                prezentację lokalu!
+            </p>
+        </div>
+
+        <div class="d-flex justify-content-center" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+            <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Zapytaj o dostępność</a></span>
+        </div>
+
         @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')
         @endif
