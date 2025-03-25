@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('newsletter_subscribers', function (Blueprint $table) {
             $table->bigIncrements('newsletter_subscribers_id');
             $table->string('ns_mail_address')->unique();
-            $table->string('ns_active')->default(true);
+            $table->boolean('ns_active')->default(true);
             $table->rememberToken();
             $table->timestamps();
         });
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('newsletter_subscribers');
     }
 };
