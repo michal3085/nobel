@@ -16,21 +16,22 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h2 class="fs-30 fw-bold text-purple">Co zyskujesz?</h2>
-                    <ul class="fs-20 mt-3">
-                        <li><strong class="text-purple">Start biznesu w dniu zakupu</strong> – od dnia zakupu spółki z aktywnym VAT wystawiasz faktury VAT i podpisujesz umowy w imieniu spółki.</li>
-                        <li><strong class="text-purple">Bezpieczeństwo</strong> – gotowa spółka bez historii nie prowadziła wcześniej działalności gospodarczej, przez co masz pewność, że nie jest zadłużona.</li>
-                        <li><strong class="text-purple">Gotowe dokumenty</strong> – otrzymujesz wszystkie numery rejestrowe niezbędne do rozpoczęcia działania tj.: KRS, NIP, REGON, aktywny rachunek bankowy lub EORI, jeżeli tego wymagasz.</li>
-                        <li><strong class="text-purple">Oszczędność czasu</strong> – gotową spółkę otrzymasz za pośrednictwem notariusza lub systemu S24 tj. podpisem elektronicznym, bez wychodzenia z domu.</li>
-                        <li><strong class="text-purple">Gotowe konto bankowe</strong>* dla nabywanej spółki.</li>
-                        <li><strong class="text-purple">Adres rejestrowy</strong> siedziby spółki w tzw. Wirtualnym Biurze.</li>
+                    <ul class="icon-list bullet-bg bullet-soft-violet">
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple ">Start biznesu w dniu zakupu</strong> – od dnia zakupu spółki z aktywnym VAT wystawiasz faktury VAT i podpisujesz umowy w imieniu spółki.</li>
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Bezpieczeństwo</strong> – gotowa spółka bez historii nie prowadziła wcześniej działalności gospodarczej, przez co masz pewność, że nie jest zadłużona.</li>
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Gotowe dokumenty</strong> – otrzymujesz wszystkie numery rejestrowe niezbędne do rozpoczęcia działania tj.: KRS, NIP, REGON, aktywny rachunek bankowy lub EORI, jeżeli tego wymagasz.</li>
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Oszczędność czasu</strong> – gotową spółkę otrzymasz za pośrednictwem notariusza lub systemu S24 tj. podpisem elektronicznym, bez wychodzenia z domu.</li>
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Gotowe konto bankowe</strong>* dla nabywanej spółki.</li>
+                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Adres rejestrowy</strong> siedziby spółki w tzw. Wirtualnym Biurze.</li>
                     </ul>
                 </div>
 
-                <div class="col-lg-6">
-                    <figure class="rounded mb-md-5">
-                        <img src="./assets/img/photos/about18.jpg" srcset="./assets/img/photos/about18@2x.jpg 2x" alt="" class="img-fluid"/>
+                <div class="col-lg-6 d-flex align-items-stretch">
+                    <figure class="rounded mb-md-5 h-100 w-100">
+                        <img src="./assets/img/photos/about18.jpg" srcset="./assets/img/photos/about18@2x.jpg 2x" alt="" class="img-fluid h-100 w-100 object-fit-cover"/>
                     </figure>
                 </div>
+
             </div>
             <!-- /.row -->
         </div>
