@@ -15,6 +15,9 @@
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 yellow">MOKOTÓW CAROLINA MEDICAL CENTER6</h2>
+                                            <div class="mb-3">
+                                                <h3 class="text-yellow">2500 PLN</h3>
+                                            </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
