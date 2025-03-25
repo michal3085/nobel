@@ -13,7 +13,7 @@
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4.jpg" alt="" class="img-fluid" /></a>
+                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/6.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
                                 <h5 class="from-top mb-0">Read More</h5>
                             </figcaption>
@@ -26,7 +26,7 @@
                         </div>
                         <div class="post-footer">
                             <ul class="post-meta">
-                                <li class="post-date"><span>cena od 1500 PLN</span></li>
+{{--                                <li class="post-date"><span>cena od 1500 PLN</span></li>--}}
                             </ul>
                         </div>
                     </article>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="post-footer">
                             <ul class="post-meta">
-                                <li class="post-date"><span>Cena od 2500 PLN</span></li>
+{{--                                <li class="post-date"><span>Cena od 2500 PLN</span></li>--}}
                             </ul>
                         </div>
                     </article>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="post-footer">
                             <ul class="post-meta">
-                                <li class="post-date"><span>cena od 2500</span></li>
+{{--                                <li class="post-date"><span>cena od 2500</span></li>--}}
                             </ul>
                         </div>
                     </article>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="post-footer">
                             <ul class="post-meta">
-                                <li class="post-date"><span>cena od 2000</span></li>
+{{--                                <li class="post-date"><span>cena od 2000</span></li>--}}
                             </ul>
                         </div>
                     </article>
@@ -109,10 +109,14 @@
                 <!--/column -->
                 <div class="col-lg-6">
                     <p style="font-size: 15px;">
-                        Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem lokalu i zatrudnieniem pracowników biurowych do jego obsługi. W ramach usługi odbierzemy Twoją korespondencję i na
-                        życzenie prześlemy skan. Przydzielimy numer telefonu stacjonarnego, odbierzemy,
-                        połączenie lub przełączymy bezpośrednio do Ciebie,
-                        a także obsłużymy spotkanie w salce konferencyjnej.
+                        Wirtualne biuro to usługa, która umożliwia prowadzenie firmy bez konieczności
+                        wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
+                        freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
+                        działalność na skalę krajową lub międzynarodową.
+                    </p>
+                    <p style="font-size: 15px;">
+                        <b>Nasza oferta Wirtualnego Biura</b> to więcej niż tylko adres. Otrzymasz dostęp do
+                        pełnej obsługi administracyjnej:
                     </p>
                     <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
                         <li><i class="uil uil-check"></i><b>Indywidualny/prywatny numer telefonu</b></li>
