@@ -22,8 +22,8 @@
                                         </figure>
                                         <div class="card-body d-flex flex-column">
                                             <div class="post-header">
-                                                <div class="post-category  h3">
-                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover" rel="category" style="color: #f0d91d">{{$post->post_title}}</a>
+                                                <div class="post-category h3">
+                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover text-yellow" rel="category">{{$post->post_title}}</a>
                                                 </div>
                                             </div>
                                             <div class="post-content flex-grow-1">
@@ -51,7 +51,7 @@
                     @if ($showAll === false)
                         <div class="d-flex justify-content-center">
                             <span>
-                                <a class="btn btn-primary rounded-pill" href="{{route('blog.show.all')}}" style="background-color: #f0d91d; border-color: #f0d91d; color: black">Pozostałe posty</a>
+                                <a class="btn btn-yellow rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
                             </span>
                         </div>
                     @endif
