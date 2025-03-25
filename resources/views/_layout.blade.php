@@ -19,6 +19,19 @@
     <script src="/vendors/summernote-0.9.0-dist/summernote-lite.css"></script>
 </head>
 
+<style>
+    .nav.social a i {
+        color: inherit;
+    }
+
+    .nav.social a:nth-child(1) i { color: #1DA1F2; } /* Twitter */
+    .nav.social a:nth-child(2) i { color: #1877F2; } /* Facebook */
+    .nav.social a:nth-child(3) i { color: #EA4C89; } /* Dribbble */
+    .nav.social a:nth-child(4) i { color: #E4405F; } /* Instagram */
+    .nav.social a:nth-child(5) i { color: #FF0000; } /* YouTube */
+</style>
+
+
 <body>
 @include('components._coockies')
 
@@ -74,20 +87,15 @@
 
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
-                    <p class="mb-4">© <script>
-                            document.write(new Date().getUTCFullYear());
-                        </script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
-                    <nav class="nav social social-white">
-                        <a href="#"><i class="uil uil-twitter"></i></a>
-                        <a href="#"><i class="uil uil-facebook-f"></i></a>
-                        <a href="#"><i class="uil uil-dribbble"></i></a>
-                        <a href="#"><i class="uil uil-instagram"></i></a>
-                        <a href="#"><i class="uil uil-youtube"></i></a>
+                    <p class="mb-4">© <script>document.write(new Date().getUTCFullYear());</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <nav class="nav social">
+                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
+                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>
+                        <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
+                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>
                     </nav>
-                    <!-- /.social -->
                 </div>
-                <!-- /.widget -->
             </div>
 
             <!-- /column -->
