@@ -59,6 +59,17 @@
                 </div>
                 <!-- /column -->
             </div>
+            <br>
+            <div class="container-fluid px-md-6 mt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <iframe class="w-100 d-block" style="height: 450px; border:0;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6570268370738!2d20.986935881143296!3d52.23144870522943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8545107441%3A0x511d6b9251ccf73!2sPa%C5%84ska%2096%2C%2000-837%20Warszawa!5e0!3m2!1spl!2spl!4v1742920503337!5m2!1spl!2spl"
+                                allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
             <!-- /.row -->
         </div>
 
