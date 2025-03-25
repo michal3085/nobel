@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 orange">Piękna 15</h2>
+                                            <h2 class="underline-3 style-2 yellow">Śródmieście - Piękna 15</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
@@ -56,12 +56,6 @@
 
         <div class="card bg-light">
         <div class="col-lg-12">
-            <h2>Lokalizacja</h2>
-            <p class="mb-6">
-                Ul. Piękna 15 znajduje się w ścisłym centrum miasta, w pobliżu Placu Konstytucji i Łazienek
-                Królewskich. Okolica charakteryzuje się łatwym dostępem do komunikacji miejskiej
-                (autobusy, tramwaje,
-            </p>
         </div>
 
         <div class="container-fluid px-md-6 mt-4">
@@ -83,7 +77,7 @@
             <div class="col-lg-6">
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                        <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
                     </div>
                     <div>
                         <h4>Powierzchnia</h4>
@@ -95,7 +89,7 @@
             <div class="col-lg-6">
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                        <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
                     </div>
                     <div>
                         <h4>Układ pomieszczeń</h4>
@@ -108,7 +102,7 @@
             <div class="col-lg-6">
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                        <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
                     </div>
                     <div>
                         <h4>Wykończenie</h4>
@@ -121,7 +115,7 @@
             <div class="col-lg-6">
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-sm btn-circle btn-primary pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
+                        <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5"><i class="uil uil-comment-exclamation"></i></span>
                     </div>
                     <div>
                         <h4>Wyposażenie</h4>
@@ -139,7 +133,7 @@
                 <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
                 <div class="d-flex flex-row mb-6">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">1</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">1</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Reprezentacyjny budynek</h4>
@@ -149,7 +143,7 @@
                 </div>
                 <div class="d-flex flex-row mb-6">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">2</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">2</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Dostępność miejsc parkingowych</h4>
@@ -159,7 +153,7 @@
                 </div>
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">3</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">3</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Bezpieczeństwo:</h4>
@@ -173,7 +167,7 @@
                 <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
                 <div class="d-flex flex-row mb-6">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">1</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">1</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Prestiżowa lokalizacja</h4>
@@ -182,7 +176,7 @@
                 </div>
                 <div class="d-flex flex-row mb-6">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">2</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">2</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Bliskość kluczowych instytucji biznesowych</h4>
@@ -192,7 +186,7 @@
                 </div>
                 <div class="d-flex flex-row">
                     <div>
-                        <span class="icon btn btn-circle btn-soft-primary pe-none me-5"><span class="number fs-18">3</span></span>
+                        <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">3</span></span>
                     </div>
                     <div>
                         <h4 class="mb-1">Komfortowe warunki do pracy</h4>
@@ -214,7 +208,7 @@
         </div>
 
         <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Zapytaj o dostępność</a></span>
+            <span><a href="#" class="btn btn-lg btn-yellow rounded-pill me-2">Zapytaj o dostępność</a></span>
         </div>
 
     </section>
