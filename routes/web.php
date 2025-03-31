@@ -1,12 +1,14 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
 use App\Http\Controllers\QuestionAnswerController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainPageController::class, 'index'])->name('dashboard');
@@ -18,9 +20,13 @@ Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('s
 
 // OFFiCES
 Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
+Route::get('/wirtualne/biuro/{office}', [VirtualOfficeController::class, 'routeDispatch'])->name('virtual.office.route.dispatch');
 
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
+
+// CONTACT
+Route::get('/contact/index', [ContactController::class, 'index'])->name('contact.index');
 
 // BLOG GUEST
 Route::get('/blog/all', [BlogController::class, 'showAllGuest'])->name('blog.show.all');

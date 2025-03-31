@@ -14,7 +14,9 @@ class OfficeController extends Controller
         'herbu-jana-5' => 'hJ5',
         'wilanow-klimczaka-15' => 'wilanowKlimczaka15',
         'katowice-sokolska-30' => 'katowiceSokolska30',
+        'piekna' => 'piekna',
     ];
+
     public function __construct()
     {
         parent::__construct();

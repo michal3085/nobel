@@ -21,6 +21,12 @@
             </div>
             <!--/.tab-pane -->
         </div>
+        </div>
+        <div class="d-flex justify-content-center">
+                            <span>
+                                <a class="btn btn-primary rounded-pill" href="/">Powrót</a>
+                            </span>
+        </div>
     </section>
 
 @endsection

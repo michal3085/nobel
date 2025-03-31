@@ -21,8 +21,8 @@
             <div class="card-body p-9 p-xl-11">
                 <div class="row align-items-center counter-wrapper gy-8 text-center text-white">
                     <div class="col-6 col-lg-3">
-                        <h3 class="counter counter-lg text-white">100%</h3>
-                        <p>Wynajętych biur</p>
+                        <h3 class="counter counter-lg text-white">100</h3>
+                        <p>Serwisowanych biur</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">

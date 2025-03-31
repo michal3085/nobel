@@ -8,24 +8,24 @@
                     <h2 class="mb-3 text-start">Zmiany w KRS - wyceń przeprowadzenie zmian</h2>
                     <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
 
-                    <div class="form-floating mb-4">
-                        <input class="form-control" name="krs_name" id="nobel-vo-contact-input">
-                        <label for="nobel-vo-contact-input">Nazwa</label>
-                    </div>
-
                     <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-floating mb-4">
+                                <input class="form-control" name="krs_name" id="nobel-vo-contact-input">
+                                <label for="nobel-vo-contact-input">Nazwa</label>
+                            </div>
+                        </div>
                         <div class="col-lg-6">
                             <div class="form-floating mb-4">
                                 <input class="form-control nobel-nip-mask" name="krs_nip" id="nobel-vo-contact-input">
                                 <label for="nobel-vo-contact-input">NIP</label>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="form-floating mb-4">
-                                <input class="form-control nobel-krs-mask" name="krs_number" id="nobel-vo-contact-input">
-                                <label for="nobel-vo-contact-input">KRS</label>
-                            </div>
-                        </div>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        <input class="form-control nobel-krs-mask" name="krs_number" id="nobel-vo-contact-input">
+                        <label for="nobel-vo-contact-input">KRS</label>
                     </div>
 
                     <div class="form-floating mb-4">
