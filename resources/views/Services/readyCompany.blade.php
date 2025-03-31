@@ -162,4 +162,8 @@
         </div>
         <!--/.tab-pane -->
     </div>
+
+    <div class="mt-4">
+        @include('qa.sections.readyCompany', ['title' => 'Q&A'])
+    </div>
 @endsection

@@ -220,4 +220,8 @@
         <!-- /.wrapper -->
     </section>
 
+    <div class="mt-4">
+        @include('qa.sections.readyOffice', ['title' => 'Q&A'])
+    </div>
+
 @endsection
