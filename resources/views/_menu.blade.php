@@ -52,9 +52,6 @@
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Katowice Sokolska 30</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="">Q&A</a>
-                                    </li>
                                 </ul>
                             </li>
 
@@ -72,9 +69,6 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="">Q&A</a>
                                     </li>
                                 </ul>
                             </li>
