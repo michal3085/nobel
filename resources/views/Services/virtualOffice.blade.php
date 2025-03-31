@@ -280,6 +280,10 @@
             </div>
             <!-- /.container -->
         </section>
+
+        <div class="mt-4">
+            @include('qa.sections.virtualOffice', ['title' => 'Q&A'])
+        </div>
         <!-- /section -->
         <!-- /section -->
 

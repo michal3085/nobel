@@ -169,6 +169,10 @@
             <!-- /.container -->
         </section>
 
+        <div class="mt-2">
+            @include('qa.sections.krsChanges', ['title' => 'Q&A'])
+        </div>
+
 
         @include('Services.modal._krsModal')
 

@@ -281,6 +281,10 @@ spółce również przez internet (S24),</span></li>
         </div>
     </section>
 
+    <div class="mt-4">
+        @include('qa.sections.companyRegistration', ['title' => 'Q&A'])
+    </div>
+
 
 {{--    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">--}}
 {{--        <h2 class="display-4 mb-1 text-center">Rodzaje spółek które rejestrujemy</h2>--}}
