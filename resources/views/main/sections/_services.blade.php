@@ -1,87 +1,70 @@
-<section class="wrapper bg-light mt-1">
-    <div class="container py-14 py-md-16">
-        <div class="pricing-wrapper position-relative mt-n22 mt-md-n25">
-            <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
-            <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
-            <div class="row gx-3 gy-6 mt-3 mt-md-5 justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
-                    <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
-                        <div class="card-body d-flex flex-column">
-                            <div class="mb-auto">
-                                <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">GOTOWE SPÓŁKI</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1500</span> <span class="price-duration">PLN</span></div>
-                                </div>
-                                <p class="mt-4">to doskonała propozycja dla wszystkich osób, którym zależy na natychmiastowym rozpoczęciu działalności...</p>
-                            </div>
-                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+<section class="wrapper bg-light">
+    <div class="container pb-15 pb-md-17">
+        <div class="row gx-md-5 gy-5 mt-n22 justify-content-center">
+            <!-- GOTOWE BIURO -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <div class="mb-3">
+                            <i class="bi bi-key fs-40 text-green"></i>
                         </div>
+                        <h4>GOTOWE BIURO</h4>
+                        <p class="mb-2 flex-grow-1 text-center">W pełni wyposażona, elastyczna przestrzeń, oferująca komfort i kompleksowe wsparcie.</p>
+                        <a href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}" class="more hover link-green mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
-                    <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
-                        <div class="card-body d-flex flex-column">
-                            <div class="mb-auto">
-                                <img src="{{asset('/assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">WIRTUALNE BIURO</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">100</span> <span class="price-duration">PLN</span></div>
-                                </div>
-                                <p class="mt-4">Wirtualne biuro to wygoda, a przede wszystkim redukcja kosztów związanych m.in. z wynajmem...</p>
-                            </div>
-                            <a href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+            </div>
+            <!-- WIRTUALNE BIURO -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <div class="mb-3">
+                            <i class="bi bi-geo-alt fs-40 text-violet"></i>
                         </div>
+                        <h4>WIRTUALNE BIURO</h4>
+                        <p class="mb-2 flex-grow-1 text-center">Adres osobisty lub dla Twojej firmy z profesjonalnym wsparciem administracyjnym.</p>
+                        <a href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}" class="more hover link-violet mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
-                    <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
-                        <div class="card-body d-flex flex-column">
-                            <div class="mb-auto">
-                                <img src="{{asset('/assets/img/icons/lineal/handshake.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">REJESTRACJA SPÓŁKI</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
-                                </div>
-                                <p class="mt-4">Analiza Twoich potrzeb, przygotowanie dokumentów, rejestracja spółki w KRS, obsługa notarialna, wsparcie po rejestracji...</p>
-                            </div>
-                            <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+            </div>
+            <!-- ZMIANY W KRS -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <div class="mb-3">
+                            <i class="bi bi-hourglass fs-40 text-yellow"></i>
                         </div>
+                        <h4>ZMIANY W KRS</h4>
+                        <p class="mb-2 flex-grow-1 text-center">Wieloletnie doświadczenie z zakresu dokonywania wpisów w KRS.</p>
+                        <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-yellow mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
-                    <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
-                        <div class="card-body d-flex flex-column">
-                            <div class="mb-auto">
-                                <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">GOTOWE BIURO</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">Cena usługi do uzgodnienia</span></div>
-                                </div>
-                                <p class="mt-4">"Gotowe biura" to w pełni wyposażone przestrzenie dostępne od zaraz, idealne dla firm szukających szybkich rozwiązań.</p>
-                            </div>
-                            <a href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+            </div>
+            <!-- GOTOWE SPÓŁKI -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <div class="mb-3">
+                            <i class="bi bi-inboxes fs-40 text-purple"></i>
                         </div>
+                        <h4>GOTOWA SPÓŁKA</h4>
+                        <p class="mb-2 flex-grow-1 text-center">Pozwala na natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności.</p>
+                        <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="more hover link-purple mt-auto">Poznaj ofertę</a>
+{{--                        <a href="" class="more hover link-fuchsia mt-auto">Poznaj ofertę</a>--}}
                     </div>
                 </div>
-
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
-                    <div class="pricing card shadow-xl text-center h-100 w-100 d-flex flex-column">
-                        <div class="card-body d-flex flex-column">
-                            <div class="mb-auto">
-                                <img src="{{asset('/assets/img/icons/lineal/calculator.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                                <h4 class="card-title">ZMIANY W KRS</h4>
-                                <div class="prices text-dark">
-                                    <div class="price price-show"><span class="price-currency">OD OK</span><span class="price-value">1000</span> <span class="price-duration">PLN</span></div>
-                                </div>
-                                <p class="mt-4">Mamy ponad 20 lat doświadczenia w rejestracji, sprzedaży i likwidacji spółek oraz zmianach w KRS.</p>
-                            </div>
-                            <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="btn btn-primary rounded mt-4">Poznaj ofertę</a>
+            </div>
+            <!-- REJESTRACJA SPÓŁKI -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body text-center d-flex flex-column align-items-center">
+                        <div class="mb-3">
+                            <i class="bi bi-display fs-40 text-orange"></i>
                         </div>
+                        <h4>REJESTRACJA SPÓŁKI</h4>
+                        <p class="mb-2 flex-grow-1 text-center">Profesjonalne wsparcie, aby proces był szybki i bezproblemowy.</p>
+                        <a href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}" class="more hover link-orange mt-auto">Poznaj ofertę</a>
+{{--                        <a href="" class="more hover link-orange mt-auto">Poznaj ofertę</a>--}}
                     </div>
                 </div>
             </div>

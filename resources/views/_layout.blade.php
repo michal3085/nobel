@@ -9,16 +9,63 @@
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
     <link rel="shortcut icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/assets/css/plugins.css">|
+    <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/colors/violet.css">
+    <link rel="stylesheet" href="/assets/css/colors/nobel.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/assets/js/project.js"></script>
     <script src="/vendors/summernote-0.9.0-dist/summernote-lite.css"></script>
 </head>
 
+<style>
+    .nav.social a i {
+        color: inherit;
+    }
+
+    .nav.social a:nth-child(1) i { color: #1DA1F2; } /* Twitter */
+    .nav.social a:nth-child(2) i { color: #1877F2; } /* Facebook */
+    .nav.social a:nth-child(3) i { color: #EA4C89; } /* Dribbble */
+    .nav.social a:nth-child(4) i { color: #E4405F; } /* Instagram */
+    .nav.social a:nth-child(5) i { color: #FF0000; } /* YouTube */
+</style>
+
+
 <body>
+@include('components._coockies')
+
+@if (request()->get('color') === 'false' || ! request()->get('color'))
+    <div class="bg-light py-2 border-bottom">
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="d-flex align-items-center gap-3">
+                <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-dark d-flex align-items-center">
+                    <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12">nobel@nobel.pro</span>
+                </a>
+                |
+                <a href="tel:+48224999900" class="text-decoration-none text-dark d-flex align-items-center">
+                    <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12">+48 22 499 99 00</span>
+                </a>
+            </div>
+        </div>
+    </div>
+@else
+    <div class="bg-dark py-2 border-bottom">
+        <div class="container-fluid d-flex justify-content-end">
+            <div class="d-flex align-items-center gap-3">
+                <a href="mailto:nobel@nobel.pro" class="text-decoration-none text-white d-flex align-items-center">
+                    <i class="bi bi-envelope fs-12 me-2"></i><span class="fs-12 text-white">nobel@nobel.pro</span>
+                </a>
+                |
+                <a href="tel:+48224999900" class="text-decoration-none text-white d-flex align-items-center">
+                    <i class="bi bi-telephone fs-12 me-2"></i><span class="fs-12 text-white">+48 22 499 99 00</span>
+                </a>
+            </div>
+        </div>
+    </div>
+@endif
+
+</body>
 <div class="content-wrapper">
     <!--     MENU    -->
         @include('_menu')
@@ -27,7 +74,7 @@
         @include('components.movieBanner')
     @endif
     <section class="wrapper bg-light ">
-        <div class="container py-14 py-md-16">
+        <div class="container py-14 py-md-10">
             @yield('content')
         </div>
     </section>
@@ -37,49 +84,54 @@
 <footer class="bg-dark text-inverse">
     <div class="container py-13 py-md-15">
         <div class="row gy-6 gy-lg-0">
-            <div class="col-md-4 col-lg-3">
+
+            <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <!--            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />-->
-                    <p class="mb-4">© <script>
-                            document.write(new Date().getUTCFullYear());
-                        </script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
-                    <nav class="nav social social-white">
-                        <a href="#"><i class="uil uil-twitter"></i></a>
-                        <a href="#"><i class="uil uil-facebook-f"></i></a>
-                        <a href="#"><i class="uil uil-dribbble"></i></a>
-                        <a href="#"><i class="uil uil-instagram"></i></a>
-                        <a href="#"><i class="uil uil-youtube"></i></a>
+                    <p class="mb-4">© <script>document.write(new Date().getUTCFullYear());</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <nav class="nav social">
+                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
+                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>
+                        <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
+                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>
                     </nav>
-                    <!-- /.social -->
                 </div>
-                <!-- /.widget -->
             </div>
+
             <!-- /column -->
-            <div class="col-md-4 col-lg-3">
+            <div class="col-md-4 col-lg-4">
                 <div class="widget">
                     <h4 class="widget-title text-white mb-3">Kontakt</h4>
-                    <address class="pe-xl-15 pe-xxl-17">
-                        Nobel Sp. z o.o.<br>
-                        Plac Defilad 1<br>
-                        00-901 Warszawa<br>
-                    </address>
+                    <div class="d-flex gap-4">
+                        <address>
+                            Nobel Sp. z o.o.<br>
+                            Ul. Chałubińskiego 8<br>
+                            00-613 Warszawa<br>
+                        </address>
+                        <address>
+                            NIP: 7010225520<br>
+                            KRS: 0000353244<br>
+                        </address>
+                    </div>
+
+                    <div class="d-flex gap-4">
+                    </div>
                     <a href="mailto:#">nobel@nobel.pro</a><br /> +48 22 499 99 00
                 </div>
-                <!-- /.widget -->
             </div>
+
             <!-- /column -->
             <div class="col-md-4 col-lg-3">
-{{--                <div class="widget">--}}
-{{--                    <h4 class="widget-title text-white mb-3">Learn More</h4>--}}
-{{--                    <ul class="list-unstyled  mb-0">--}}
-{{--                        <li><a href="#">About Us</a></li>--}}
-{{--                        <li><a href="#">Our Story</a></li>--}}
-{{--                        <li><a href="#">Projects</a></li>--}}
-{{--                        <li><a href="#">Terms of Use</a></li>--}}
-{{--                        <li><a href="#">Privacy Policy</a></li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <!-- /.widget -->--}}
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">Nasze linki</h4>
+                    <ul class="list-unstyled  mb-0">
+                        <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
+                        <li><a href="https://ekrs.ms.gov.pl/s24/">e-krs</a></li>
+                        <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
+                        <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
+                    </ul>
+                </div>
+                <!-- /.widget -->
             </div>
             <!-- /column -->
             <div class="col-md-12 col-lg-3">

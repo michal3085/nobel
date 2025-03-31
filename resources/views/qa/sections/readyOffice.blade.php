@@ -1,4 +1,4 @@
-<h5 class="display-6 mb-3 text-center">- GOTOWE BIURO -</h5>
+<h5 class="display-6 mb-3 text-center">@if (isset($title)) {{ $title }} @else - GOTOWE BIURO - @endif</h5>
 <div class="row">
     <div class="col-lg-6 mb-0">
         <div id="accordion-1" class="accordion-wrapper">

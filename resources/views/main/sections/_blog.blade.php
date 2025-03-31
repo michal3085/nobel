@@ -1,6 +1,6 @@
-<!-- ELEMENT WYKORZYSTYWANY W /blog/showAll.blade.php i /main/sections/_blog.blade.php -->
+<!-- ELEMENT WYKORZYSTYWANY W /blog/showAll.blade.php i /main/index.blade.php -->
 <section class="wrapper bg-light">
-    <div class="container pb-14 pb-md-16">
+    <div class="container pb-14 pb-md-6">
         <div class="row">
             <div class="col-lg-12 mx-auto"> <!-- Zmiana z col-lg-10 na col-lg-12 -->
                 <div class="blog grid grid-view">
@@ -10,7 +10,7 @@
                     <div class="row isotope gx-md-8 gy-8 mb-8 mt-7">
                         @if ($posts->count() > 0)
                             @foreach($posts as $post)
-                                <article class="item post col-md-6">
+                                <article class="item post col-md-4">
                                     <div class="card h-100 d-flex flex-column">
                                         <figure class="card-img-top overlay overlay-1 hover-scale" style="height: 250px; overflow: hidden;">
                                             <a href="{{route('blog.show.guest', ['post' => $post])}}">
@@ -22,8 +22,8 @@
                                         </figure>
                                         <div class="card-body d-flex flex-column">
                                             <div class="post-header">
-                                                <div class="post-category text-line h3">
-                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover" rel="category">{{$post->post_title}}</a>
+                                                <div class="post-category h3">
+                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover text-yellow" rel="category">{{$post->post_title}}</a>
                                                 </div>
                                             </div>
                                             <div class="post-content flex-grow-1">
@@ -51,7 +51,7 @@
                     @if ($showAll === false)
                         <div class="d-flex justify-content-center">
                             <span>
-                                <a class="btn btn-primary rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
+                                <a class="btn btn-yellow rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
                             </span>
                         </div>
                     @endif
