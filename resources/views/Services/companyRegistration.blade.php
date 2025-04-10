@@ -200,8 +200,8 @@
                 <div class="row gy-3 gx-xl-8">
                     <div class="col-xl-6">
                         <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                            <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością (SP. z o. o.)</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej (S. A.)</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki jawnej</span></li>
                         </ul>
                     </div>
@@ -209,14 +209,14 @@
                     <div class="col-xl-6">
                         <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
                             <li><span><i class="uil uil-check"></i></span><span>Spółki komandytowej</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej (S. K. A.)</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej</span></li>
                         </ul>
                     </div>
                     <!--/column -->
                 </div>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-orange rounded">Jestem zainteresowany</a>
-                </div>
+{{--                <div class="text-center mt-4">--}}
+{{--                    <a href="#" class="btn btn-orange rounded">Jestem zainteresowany</a>--}}
+{{--                </div>--}}
                 <!--/.row -->
             </div>
             <!--/column -->
