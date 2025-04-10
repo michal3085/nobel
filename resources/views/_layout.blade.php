@@ -104,7 +104,7 @@
                     <h4 class="widget-title text-white mb-3">Kontakt</h4>
                     <div class="d-flex gap-4">
                         <address>
-                            Nobel Sp. z o.o.<br>
+                            Nobel.pro Sp. z o.o.<br>
                             Ul. Chałubińskiego 8<br>
                             00-613 Warszawa<br>
                         </address>
