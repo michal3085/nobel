@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Nobel.pro sp. z o.o.</h5>
-                                                <address>Ul. Chałubińskiego 8 <br> 00-613 Warszawa <br class="d-none d-md-block" />KRS: 0000353244</address>
+                                                <address>ul. Chałubińskiego 8 <br> 00-613 Warszawa <br class="d-none d-md-block" />KRS: 0000353244</address>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
