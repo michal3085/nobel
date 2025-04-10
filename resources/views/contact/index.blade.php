@@ -210,8 +210,8 @@
                         <h5 class="card-title">Warszawa - Centrum</h5>
                         <p class="card-text">ul. Chałubińskiego 8 <br> 00-613 Warszawa</p>
                         <p class="card-text">Tel: +48 22 456 19 10</p>
-                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
-                        <p class="card-text">XII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Email: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
+                        <p class="card-text" style="font-size: 14px;">XII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
                         <p class="card-text" style="font-size: 15px;">Trzeci Urząd Skarbowy Warszawa-Śródmieście</p>
                     </div>
                 </div>
@@ -224,8 +224,8 @@
                         <h5 class="card-title">Warszawa - Wola</h5>
                         <p class="card-text">ul. Pańska 96/83 <br> 00-837 Warszawa</p>
                         <p class="card-text">Tel: +48 22 432 08 10</p>
-                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
-                        <p class="card-text">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Email: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
+                        <p class="card-text" style="font-size: 14px;">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
                         <p class="card-text">Urząd Skarbowy Warszawa-Wola</p>
                     </div>
                 </div>
@@ -238,8 +238,8 @@
                         <h5 class="card-title">Warszawa - Mokotów</h5>
                         <p class="card-text">ul. Pory 78 <br> 02-757 Warszawa</p>
                         <p class="card-text">Tel: +48 22 499 33 44</p>
-                        <p class="card-text">Email: <a href="mailto:Biuro.p@nobel.pro">Biuro.p@nobel.pro</a></p>
-                        <p class="card-text">XIV Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
+                        <p class="card-text">Email: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
+                        <p class="card-text" style="font-size: 14px;">XIV Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
                         <p class="card-text">Urząd Skarbowy Warszawa-Mokotów</p>
                     </div>
                 </div>
