@@ -101,7 +101,7 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.925659864882!2d21.042755516067466!3d52.19022397975312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x623876d7ca77603f!2sNobel%20-%20biura%20do%20wynaj%C4%99cia%2C%20coworking%2C%20wirtualne%20biuro!5e0!3m2!1spl!2spl!4v1607354256104!5m2!1spl!2spl"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.9398552250823!2d21.0783524!3d52.153603499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d69587dd79d%3A0x290d77a9039c1fd2!2sHerbu%20Janina%205%2C%2002-972%20Warszawa!5e0!3m2!1spl!2spl!4v1744270401405!5m2!1spl!2spl"
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>

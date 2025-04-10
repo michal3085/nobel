@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW CAROLINA MEDICAL CENTER6</h2>
+                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW CAROLINA MEDICAL CENTER</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-yellow">od 2500 PLN</h3>
                                             </div>

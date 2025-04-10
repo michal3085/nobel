@@ -32,6 +32,9 @@
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe biuro</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
+                                        <a class="dropdown-item green" href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}">GOTOWE BIURO</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
                                     </li>
                                     <li class="nav-item">
@@ -47,7 +50,7 @@
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Wilanów Herbu Janina 5</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a>
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 | coworking</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Katowice Sokolska 30</a>
@@ -58,6 +61,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Wirtualne biuro</a>
                                 <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}">WIRTUALNE BIURO</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
                                     </li>

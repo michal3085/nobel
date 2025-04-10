@@ -18,7 +18,7 @@
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
-                                            <h3 class="text-green">1500 PLN</h3>
+                                            <h3 class="text-green">od 1500 PLN</h3>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
