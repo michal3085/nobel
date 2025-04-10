@@ -212,7 +212,7 @@
                         <p class="card-text">Tel: +48 22 456 19 10</p>
                         <p class="card-text">Email: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
-                        <p class="card-text" style="font-size: 15px;">Trzeci Urząd Skarbowy Warszawa-Śródmieście</p>
+                        <p class="card-text" style="font-size: 14px;">Trzeci Urząd Skarbowy Warszawa-Śródmieście</p>
                     </div>
                 </div>
             </div>
