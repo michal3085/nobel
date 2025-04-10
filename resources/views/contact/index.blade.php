@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Nobel.pro sp. z o.o.</h5>
-                                                <address>Ul. Chałubińskiego 8 00-613 Warszawa <br class="d-none d-md-block" />KRS: 0000353244</address>
+                                                <address>Ul. Chałubińskiego 8 <br> 00-613 Warszawa <br class="d-none d-md-block" />KRS: 0000353244</address>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -87,7 +87,7 @@
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Nobel sp. z o.o.</h5>
-                                                <address>Plac Defilad 1 00-901 Warszawa
+                                                <address>Plac Defilad 1 <br> 00-901 Warszawa
                                                     <br class="d-none d-md-block" />KRS 0000005899</address>
                                             </div>
                                         </div>
@@ -97,7 +97,7 @@
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">Telefon</h5>
-                                                <p>+48 22 100 50 70</p>
+                                                <p>+48 22 499 99 00</p>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -106,7 +106,7 @@
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">Infolinia</h5>
-                                                <p>+48 22 200 20 20</p>
+                                                <p>+48 22 499 22 99</p>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -115,7 +115,7 @@
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
-                                                <p class="mb-0"><a href="mailto:support@nobel.pro" class="link-body">support@nobel.pro</a></p>
+                                                <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">nobel@nobel.pro</a></p>
                                             </div>
                                         </div>
                                     </div>
