@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section class="wrapper bg-soft-purple p-5" style="border-radius: 10px;">
+    <section class="wrapper p-5" style="border-radius: 10px;">
         <div class="container-fluid px-lg-5 pt-10 pt-md-14 pb-14 pb-md-0">
             <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
                 <div class="col-lg-12">
