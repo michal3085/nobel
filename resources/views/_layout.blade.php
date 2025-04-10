@@ -126,7 +126,7 @@
                     <h4 class="widget-title text-white mb-3">Nasze linki</h4>
                     <ul class="list-unstyled  mb-0">
                         <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
-                        <li><a href="https://ekrs.ms.gov.pl/s24/">e-krs</a></li>
+                        <li><a href="https://ekrs.ms.gov.pl/s24/">E-KRS</a></li>
                         <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
                         <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
                     </ul>
