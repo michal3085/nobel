@@ -12,7 +12,7 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-blue mb-3">Lokalizacja</div>
+                                            <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 bluew">WOLA PAŃSKA 96</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-blue">od 2500 PLN</h3>

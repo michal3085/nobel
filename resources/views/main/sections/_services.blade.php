@@ -48,7 +48,7 @@
                             <i class="bi bi-inboxes fs-40 text-purple"></i>
                         </div>
                         <h4>GOTOWA SPÓŁKA</h4>
-                        <p class="mb-2 flex-grow-1 text-center">Pozwala na natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności.</p>
+                        <p class="mb-2 flex-grow-1 text-center">Natychmiastowe rozpoczęcie działalności gospodarczej bez zbędnych formalności.</p>
                         <a href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}" class="more hover link-purple mt-auto">Poznaj ofertę</a>
 {{--                        <a href="" class="more hover link-fuchsia mt-auto">Poznaj ofertę</a>--}}
                     </div>

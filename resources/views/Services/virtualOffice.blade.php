@@ -83,7 +83,7 @@
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 + coworking
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 | coworking
                                     Wilanów</a>
                             </h2>
                         </div>

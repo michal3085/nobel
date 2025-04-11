@@ -13,7 +13,7 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-green mb-3">Lokalizacja</div>
+                                            <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 yellow">ŚRÓDMIEŚCIE OXFORD TOWER CH8</h2>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
