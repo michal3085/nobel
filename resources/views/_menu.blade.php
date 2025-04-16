@@ -29,11 +29,12 @@
                     <div class="order-1 order-lg-0 d-lg-flex offcanvas-body">
                         <ul class="navbar-nav ms-lg-auto menu-links">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Gotowe biuro</a>
+                                <a id="gotoweBiuroToggle"
+                                   class="nav-link dropdown-toggle"
+                                   href="{{ route('service.route.dispatch', ['service' => 'gotowe-biura']) }}">
+                                    Gotowe biuro
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item green" href="{{route('service.route.dispatch', ['service' => 'gotowe-biura'])}}">GOTOWE BIURO</a>
-                                    </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
                                     </li>
@@ -59,11 +60,12 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Wirtualne biuro</a>
+                                <a id="wirtualneBiuroToggle"
+                                   class="nav-link dropdown-toggle"
+                                   href="{{ route('service.route.dispatch', ['service' => 'wirtualne-biuro']) }}">
+                                    Wirtualne biuro
+                                </a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('service.route.dispatch', ['service' => 'wirtualne-biuro'])}}">WIRTUALNE BIURO</a>
-                                    </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
                                     </li>
@@ -74,7 +76,7 @@
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 + coworking</a>
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 | coworking</a>
                                     </li>
                                 </ul>
                             </li>
@@ -107,3 +109,25 @@
     </nav>
     <!-- /.navbar -->
 </header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const handleDropdownAndRedirect = (id) => {
+            const el = document.getElementById(id);
+            if (!el) return;
+
+            el.addEventListener('click', function (e) {
+                e.preventDefault();
+                const dropdown = new bootstrap.Dropdown(el);
+                dropdown.show();
+
+                setTimeout(() => {
+                    window.location.href = el.href;
+                }, 250);
+            });
+        };
+
+        handleDropdownAndRedirect('wirtualneBiuroToggle');
+        handleDropdownAndRedirect('gotoweBiuroToggle');
+    });
+</script>
