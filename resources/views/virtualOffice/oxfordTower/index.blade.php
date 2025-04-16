@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">Concept</div>
-                                            <h2 class="underline-3 style-2 yellow">OXFORD TOWER CH8</h2>
+                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">

@@ -23,8 +23,7 @@
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Oxford Tower
-                                            Śródmieście</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
                                     </h2>
                                 </div>
                                 <div class="post-footer">
@@ -86,8 +85,7 @@
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Carolina Medical Center Pory 78
-                                            Mokotów</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
                                     </h2>
                                 </div>
                                 <div class="post-footer">
@@ -131,7 +129,7 @@
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 + coworking
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 | coworking
                                             Wilanów</a>
                                     </h2>
                                 </div>

@@ -21,7 +21,19 @@
                                             <p style="text-align: justify">
                                                 Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
                                                 zlokalizowany w jednej z najbardziej prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
-                                                15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.</p>
+                                                15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.
+                                            </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-yellow rounded-pill me-2 nobel-contact-button"
+                                                       data-office="ŚRÓDMIEŚCIE PIĘKNA 15"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -207,10 +219,7 @@
             </p>
         </div>
 
-        <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-yellow rounded-pill me-2">Zapytaj o dostępność</a></span>
-        </div>
-
     </section>
+    @include('Services.modal._officesModal')
 @endsection
 

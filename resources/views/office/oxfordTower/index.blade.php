@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 yellow">ŚRÓDMIEŚCIE OXFORD TOWER CH8</h2>
+                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
@@ -35,6 +35,17 @@
                                                     W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
                                                 @endif
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-green rounded-pill me-2 nobel-contact-button"
+                                                       data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -87,20 +98,10 @@
             </div>
         </div>
 
-        <div class="text-center">
-            <br>
-            <p class="mb-6 mt-5">
-                Zapraszamy do kontaktu w celu uzyskania szczegółowych informacji lub umówienia się na
-                prezentację lokalu!
-            </p>
-        </div>
-
-        <div class="d-flex justify-content-center" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Zapytaj o dostępność</a></span>
-        </div>
-
         @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')
         @endif
     </section>
+
+    @include('Services.modal._officesModal')
 @endsection
