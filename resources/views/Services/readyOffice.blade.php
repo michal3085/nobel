@@ -16,9 +16,9 @@
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/6.jpg" alt="" class="img-fluid" /></a>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -39,7 +39,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'piekna'])}}"> <img src="./assets/img/offices/piekna/lobby.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -60,7 +60,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -81,7 +81,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -104,7 +104,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}"> <img src="./assets/img/offices/HJ5/HJ5-above-nobel-2.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -126,7 +126,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}"> <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
@@ -148,7 +148,7 @@
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
                                     <a href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}"> <img src="./assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-32.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
-                                        <h5 class="from-top mb-0">Read More</h5>
+                                        <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
                                 </figure>
                                 <div class="post-header">
