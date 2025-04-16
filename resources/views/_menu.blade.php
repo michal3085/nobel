@@ -36,7 +36,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="">Śródmieście Piękna 15</a>
@@ -45,7 +45,7 @@
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center</a>
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Wilanów Herbu Janina 5</a>
@@ -67,13 +67,13 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Oxford Tower</a>
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Carolina Medical Center</a>
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 | coworking</a>
