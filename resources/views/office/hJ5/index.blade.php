@@ -26,6 +26,17 @@
                                                 Czeka na Ciebie  25 klimatyzowanych biur, które urzekają oryginalnym charakterem.
                                                 W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-sky rounded-pill me-2 nobel-contact-button"
+                                                       data-office="HERBU JANINA 5 WILANÓW"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -108,6 +119,8 @@
             </div>
         </div>
     </section>
+
+    @include('Services.modal._officesModal')
 @endsection
 
 @section('js')

@@ -23,6 +23,17 @@
                                             <p style="text-align: justify">
                                                 Ta nowoczesna przestrzeń biurowa jest idealnym miejscem dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, sale konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę. Lokalizacja ta to doskonały wybór zarówno dla startupów, jak i dla większych firm szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się Katowicach.
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-blue rounded-pill me-2 nobel-contact-button"
+                                                       data-office="HERBU JANINA 5 WILANÓW"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -107,4 +118,5 @@
 
     </section>
 
+    @include('Services.modal._officesModal')
 @endsection
