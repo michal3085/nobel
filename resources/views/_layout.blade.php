@@ -87,7 +87,7 @@
 
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <p class="mb-4">© <script>document.write(new Date().getUTCFullYear());</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <p class="mb-4" style="font-size: 12px;">© <script>document.write(new Date().getUTCFullYear());</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
                     <nav class="nav social">
                         <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>
                         <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
