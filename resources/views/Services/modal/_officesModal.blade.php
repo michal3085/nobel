@@ -12,7 +12,7 @@
                         <select class="form-control" name="office_topic" id="nobel-office-topic-id">
                             <option value="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8">ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8</option>
                             <option value="ŚRÓDMIEŚCIE PIĘKNA 15">ŚRÓDMIEŚCIE PIĘKNA 15</option>
-                            <option value="PAŃSKA 96 WOLA">ŚRÓDMIEŚCIE PIĘKNA 15</option>
+                            <option value="PAŃSKA 96 WOLA">PAŃSKA 96 WOLA</option>
                             <option value="MOKOTÓW PORY 78">MOKOTÓW PORY 78</option>
                             <option value="HERBU JANINA 5 WILANÓW">HERBU JANINA 5 WILANÓW</option>
                             <option value="KLIMCZAKA 15 WILANÓW">KLIMCZAKA 15 WILANÓW</option>

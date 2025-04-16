@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW CAROLINA MEDICAL CENTER</h2>
+                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW PORY 78</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-yellow">od 2500 PLN</h3>
                                             </div>
@@ -30,6 +30,17 @@
                                                     W tej lokalizacji gwarantujemy również Wirtualne Biura.
                                                 @endif
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-yellow rounded-pill me-2 nobel-contact-button"
+                                                       data-office="MOKOTÓW PORY 78"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -87,4 +98,5 @@
 {{--            </div>--}}
     </section>
 
+    @include('Services.modal._officesModal')
 @endsection

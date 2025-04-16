@@ -26,6 +26,17 @@
                                                 Wynajem dedykowanego biurka w większej przestrzeni jest idealnym rozwiązaniem dla osób i firm poszukujących taniego, ale elastycznego i inspirującego miejsca do pracy w pobliżu miejsca zamieszkania.
                                                 Ponadto, coworking w Wilanowie to również świetna okazja do nawiązywania wartościowych kontaktów biznesowych i współpracy z innymi profesjonalistami.
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
+                                                       data-office="KLIMCZAKA 15 WILANÓW"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -75,4 +86,5 @@
 
     </section>
 
+    @include('Services.modal._officesModal')
 @endsection

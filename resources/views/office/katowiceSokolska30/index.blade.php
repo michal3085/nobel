@@ -27,7 +27,7 @@
                                                 <span>
                                                     <a href="#"
                                                        class="btn btn-sm btn-blue rounded-pill me-2 nobel-contact-button"
-                                                       data-office="HERBU JANINA 5 WILANÓW"
+                                                       data-office="SOKOLSKA 30 KATOWICE"
                                                        data-bs-toggle="modal"
                                                        data-bs-target="#modal-offices">
                                                         Zapytaj o dostępność
