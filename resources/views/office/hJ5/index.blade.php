@@ -54,7 +54,7 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-11.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-11.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-5.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-5.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->

@@ -118,8 +118,7 @@
                     </div>
                     <div>
                         <h4>Wykończenie</h4>
-                        <p class="mb-0">wysoki standard – lokal jest świeżo odnowiony, z eleganckimi
-                            wykończeniami i nowoczesnym designem.</p>
+                        <p class="mb-0">wysoki standard – lokal jest świeżo odnowiony.</p>
                     </div>
                 </div>
             </div>

@@ -39,7 +39,7 @@
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="">Śródmieście Piękna 15</a>
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'piekna'])}}">Śródmieście Piękna 15</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>

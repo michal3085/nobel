@@ -15,7 +15,7 @@
                                             <div class="post-category text-blue mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 blue">KATOWICE SOKOLSKA 30</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-blue">od 2000 PLN</h3>
+                                                <h3 class="text-blue">od 1400 PLN</h3>
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
