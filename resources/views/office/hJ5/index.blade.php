@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-sky mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5 HJ5</h2>
+                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-sky">od 1800 PLN</h3>
                                             </div>
@@ -22,7 +22,7 @@
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tutaj o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
+                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tu o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
                                                 Czeka na Ciebie  25 klimatyzowanych biur, które urzekają oryginalnym charakterem.
                                                 W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
                                             </p>

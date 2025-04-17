@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-sky mb-3">Gotowe biuro</div>
-                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5 HJ5</h2>
+                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
