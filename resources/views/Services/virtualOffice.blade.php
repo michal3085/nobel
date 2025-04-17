@@ -129,6 +129,9 @@
             <!--/.row -->
         </div>
 
+        @include('Services.components.virtualOfficePricing')
+
+
         <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
             <div class="col-lg-6">
                 <div class="row gx-md-5 gy-5">
@@ -208,8 +211,6 @@
             </div>
             <!--/column -->
         </div>
-
-        @include('Services.components.virtualOfficePricing')
 
         <section class="wrapper bg-light">
             <div class="container py-14 py-md-16">
