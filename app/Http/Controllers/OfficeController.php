@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Office\MailRequest;
+use App\Mail\Office\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class OfficeController extends Controller
 {
@@ -34,6 +37,10 @@ class OfficeController extends Controller
 
     public function sendMail(MailRequest $request)
     {
-        dd($request);
+        if (Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new ContactMail($request))) {
+            Session::flash('success', 'Wiadomość wysłana');
+            return response()->json(['success' => true], 200);
+        }
+        return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zpytania'], 500);
     }
 }

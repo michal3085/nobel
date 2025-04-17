@@ -13,12 +13,14 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    private $data;
+
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -26,8 +28,12 @@ class ContactMail extends Mailable
      */
     public function envelope(): Envelope
     {
+        $subject = '[GOTOWE BIURO] - zapytanie z formularza';
+        if ($this->data['formType'] === 'virtualOffices') {
+            $subject = '[WIRTUALNE BIURO] - zapytanie z formularza';
+        }
         return new Envelope(
-            subject: 'Contact Mail',
+            subject: $subject,
         );
     }
 
@@ -37,7 +43,10 @@ class ContactMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'office.mail.contactMail',
+            with: [
+                'data' => $this->data
+            ],
         );
     }
 
