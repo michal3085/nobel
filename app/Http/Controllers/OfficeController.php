@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\Office\MailRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 
@@ -29,5 +30,10 @@ class OfficeController extends Controller
         $this->data['subMenu'] = $office;
 
         return view('office.' . Arr::get($this->views, $office) . '.index', $this->data);
+    }
+
+    public function sendMail(MailRequest $request)
+    {
+        dd($request);
     }
 }

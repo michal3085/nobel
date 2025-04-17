@@ -20,6 +20,7 @@ Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('s
 
 // OFFiCES
 Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
+Route::post('/sendOfficeMail', [OfficeController::class, 'sendMail'])->name('office.send.mail');
 Route::get('/wirtualne/biuro/{office}', [VirtualOfficeController::class, 'routeDispatch'])->name('virtual.office.route.dispatch');
 
 // Q&A

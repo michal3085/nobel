@@ -36,24 +36,69 @@
                         Wyślij
                     </button>
                 </div>
-                <!--/.modal-content -->
             </div>
-            <!--/.modal-body -->
         </div>
-        <!--/.modal-dialog -->
     </form>
 </div>
+
+<!-- CSRF token do <head> -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const buttons = document.querySelectorAll('.nobel-contact-button');
         const select = document.getElementById('nobel-office-topic-id');
+        const $form = $('#modal-offices-form-id');
+        const $spinner = $('.spinner-border');
 
+        // Ustawienie CSRF tokena dla AJAX
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+            }
+        });
+
+        // Przypisz temat do selecta z buttona
         buttons.forEach(button => {
             button.addEventListener('click', function () {
                 const office = this.dataset.office;
                 if (select && office) {
                     select.value = office;
+                }
+            });
+        });
+
+        // Obsługa wysyłki
+        $('#nobel-submit-button').click(function (e) {
+            e.preventDefault();
+
+            // Pokaż spinner
+            $spinner.removeClass('d-none');
+
+            // Wyczyść walidację
+            $form.find("input, select, textarea").removeClass('is-invalid');
+
+            $.ajax({
+                url: "{{ route('office.send.mail') }}",
+                method: "POST",
+                dataType: 'json',
+                data: $form.serialize(),
+                success: function (data) {
+                    $spinner.addClass('d-none');
+                    $('#modal-offices').modal('hide');
+                    location.reload();
+                },
+                error: function (response) {
+                    $spinner.addClass('d-none');
+
+                    if (response.status === 422) {
+                        var errors = response.responseJSON.errors;
+
+                        $.each(errors, function (key, value) {
+                            var inputElement = $('[name="' + key + '"]');
+                            inputElement.addClass('is-invalid');
+                        });
+                    }
                 }
             });
         });
