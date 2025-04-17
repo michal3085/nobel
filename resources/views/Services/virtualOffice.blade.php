@@ -13,15 +13,14 @@
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/6.jpg" alt="" class="img-fluid" /></a>
+                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Oxford Tower
-                                    Śródmieście</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -36,7 +35,7 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
@@ -57,12 +56,12 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Carolina Medical Center Pory 78
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78
                                     Mokotów</a>
                             </h2>
                         </div>
@@ -78,7 +77,7 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}"> <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">

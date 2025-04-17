@@ -36,7 +36,7 @@
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'piekna'])}}"> <img src="./assets/img/offices/piekna/lobby.jpg" alt="" class="img-fluid" /></a>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'piekna'])}}"> <img src="./assets/img/offices/piekna/piekna.jpg" alt="" class="img-fluid" /></a>
                                     <figcaption>
                                         <h5 class="from-top mb-0">Zobacz</h5>
                                     </figcaption>
