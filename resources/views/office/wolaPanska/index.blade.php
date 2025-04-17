@@ -1,6 +1,7 @@
 @extends('_layout')
 
 @section('content')
+    @include('Services.modal._officesModal')
     <section class="wrapper bg-light">
         <div class="container py-5">
             <div class="row mt-6">
@@ -103,6 +104,4 @@
 {{--            </div>--}}
             <!--/.tab-pane -->
     </section>
-
-    @include('Services.modal._officesModal')
 @endsection

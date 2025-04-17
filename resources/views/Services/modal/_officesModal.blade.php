@@ -33,7 +33,7 @@
                         <label for="nobel-office-text-area">Wiadomość</label>
                     </div>
 
-                    <button type="submit" class="btn btn-primary rounded-pill w-100 mb-2" id="nobel-submit-button">
+                    <button type="submit" class="btn btn-primary rounded-pill w-100 mb-2" id="nobel-office-submit-button">
                         <span class="spinner-border spinner-border-sm me-2 d-none" role="status" aria-hidden="true"></span>
                         Wyślij
                     </button>
@@ -71,7 +71,7 @@
         });
 
         // Obsługa wysyłki
-        $('#nobel-submit-button').click(function (e) {
+        $('#nobel-office-submit-button').click(function (e) {
             e.preventDefault();
 
             // Pokaż spinner
