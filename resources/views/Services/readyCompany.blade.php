@@ -3,7 +3,7 @@
 @section('content')
 
     <section class="wrapper p-5" style="border-radius: 10px;">
-        <div class="container-fluid px-lg-5 pt-10 pt-md-14 pb-14 pb-md-0">
+        <div class="container-fluid px-lg-5 pt-10 pt-md-14 pb-14 pb-md-0 mt-n5">
             <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
                 <div class="col-lg-12">
                     <h3 class="display-1 fs-45 lh-xxs mb-4 fw-bold text-purple">
@@ -74,7 +74,7 @@
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
                         <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-purple mb-3" alt="" />
-                        <h4 class="card-title">Gotowa Spółka z Wirtualnym Biurem (pół roku)</h4>
+                        <h4 class="card-title">Gotowa Spółka z adresem</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
@@ -95,23 +95,23 @@
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
-                    <h2 class="mb-3 text-purple">Nasze gotowe spółki</h2>
-                    <p>Nasze spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS
-                        możemy dokonać w tym systemie lub notarialnie.
-                        Nasze wieloletnie doświadczenie pomaga nam pewnie działać w obu systemach sądowych i z
-                        sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.</p>
+{{--                    <h2 class="mb-3 text-purple">Nasze gotowe spółki</h2>--}}
+                    <p>Spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS możemy
+                        dokonać w tym systemie lub notarialnie. Nasze wieloletnie doświadczenie pomaga nam pewnie działać w
+                        obu systemach sądowych i z sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.</p>
                     <p>
                         Jedynym założycielem i udziałowcem w gotowych spółkach jest Nobel. Zapewniamy, że
                         założone przez nas spółki nigdy nie prowadziły żadnej działalności gospodarczej, nie
                         posiadają żadnych aktywów, nie zatrudniają osób, ani nie posiadają żadnych zobowiązań.
                     </p>
+                    <b>Każda spółka posiada: </b>
                     <ul class="icon-list bullet-bg bullet-soft-fuchsia">
                         <li><i class="uil uil-check bg-purple text-white"></i>Adres siedziby w Warszawie</li>
                         <li><i class="uil uil-check bg-purple text-white"></i>Kapitał zakładowy 5000 zł</li>
                         <li><i class="uil uil-check bg-purple text-white"></i>Numer KRS</li>
                         <li><i class="uil uil-check bg-purple text-white"></i>Numer REGON</li>
                         <li><i class="uil uil-check bg-purple text-white"></i>Pełna rejestracja dla celów podatkowych (CIT, VAT/VAT EU)</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i>Dostosowujemy dane w KRS, tj. skład zarządu, wspólnicy, nazwa, PKD itp.</li>
+{{--                        <li><i class="uil uil-check bg-purple text-white"></i>Dostosowujemy dane w KRS, tj. skład zarządu, wspólnicy, nazwa, PKD itp.</li>--}}
                     </ul>
                 </div>
                 <!--/column -->
