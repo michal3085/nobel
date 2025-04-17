@@ -18,6 +18,7 @@
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
@@ -45,6 +46,7 @@
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
@@ -72,6 +74,7 @@
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
@@ -99,6 +102,7 @@
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
