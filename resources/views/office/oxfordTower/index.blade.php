@@ -18,19 +18,16 @@
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
-                                            <h3 class="text-green">od 1500 PLN</h3>
+                                            @if ($mainMenu !== 'virtualOffices')
+                                                <h3 class="text-green">od 1500 PLN</h3>
+                                            @endif
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro usytuowane w ścisłym centrum Warszawy na 22 piętrze jednego z pierwszych
-                                                    warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca Oxford Tower
-                                                    (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
-                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, hotelu Marriott i Pałacu Kultury i Nauki.
-                                                    W budynku tym poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz
-                                                    wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet
-                                                    tzw. gotowe biuro.
+                                                    Wirtualne biuro w ścisłym centrum Warszawy na <b>22 piętrze</b> jednego z pierwszych warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca <b>Oxford Tower</b> (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
+                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, Warsaw Presidential Hotel (kiedyś Marriott) i Pałacu Kultury i Nauki. W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
                                                 @else
                                                     W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
                                                     <br>
