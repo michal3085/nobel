@@ -6,7 +6,7 @@
             <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-3">
                 <div class="col-lg-12 text-center text-lg-start">
                     <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
-                        <span class="underline-3 style-2 orange">ZMIANY W KRS</span>
+                        <span class="underline-3 style-2 orange">Zmiany w KRS</span>
                     </h3>
                 </div>
             </div>

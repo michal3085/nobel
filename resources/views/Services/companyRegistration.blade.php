@@ -5,7 +5,7 @@
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 orange">REJESTRACJA SPÓŁKI</span>
+                    <span class="underline-3 style-2 orange">Rejestracja spółki</span>
                 </h3>
             </div>
             <br>
