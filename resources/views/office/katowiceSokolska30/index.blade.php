@@ -21,7 +21,8 @@
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Ta nowoczesna przestrzeń biurowa jest idealnym miejscem dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, sale konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę. Lokalizacja ta to doskonały wybór zarówno dla startupów, jak i dla większych firm szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się Katowicach.
+                                                <b>Nowoczesna przestrzeń biurowa</b> dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, salę konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę.
+                                                <b>Lokalizacja</b> ta to doskonały wybór zarówno dla <b>startupów</b>, jak i dla <b>większych firm</b> szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się <b>Katowicach</b>.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
