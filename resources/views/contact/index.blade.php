@@ -11,7 +11,7 @@
             <br>
         </div>
         <div class="container pb-3 pb-md-7">
-            <div class="row mb-14 mb-md-16">
+            <div class="row mb-14 mb-md-12">
                 <div class="col-xl-12 mx-auto mt-n19">
                     <div class="row gx-4">
                         <!-- Card with Map and Address - First Card -->
@@ -33,7 +33,7 @@
                                             </div>
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Nobel.pro sp. z o.o.</h5>
-                                                <address>ul. Chałubińskiego 8 <br> 00-613 Warszawa <br class="d-none d-md-block" />KRS: 0000353244</address>
+                                                <address>ul. Chałubińskiego 8 <br> 00-613 Warszawa <br class="d-none d-md-block" />NIP: 7010225520</address>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -45,15 +45,15 @@
                                                 <p>+48 22 499 99 00</p>
                                             </div>
                                         </div>
-                                        <div class="d-flex flex-row">
-                                            <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
-                                            </div>
-                                            <div>
-                                                <h5 class="mb-1">Infolinia</h5>
-                                                <p>+48 22 499 22 99</p>
-                                            </div>
-                                        </div>
+{{--                                        <div class="d-flex flex-row">--}}
+{{--                                            <div>--}}
+{{--                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>--}}
+{{--                                            </div>--}}
+{{--                                            <div>--}}
+{{--                                                <h5 class="mb-1">Infolinia</h5>--}}
+{{--                                                <p>+48 22 499 22 99</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
                                         <div class="d-flex flex-row">
                                             <div>
                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
@@ -61,6 +61,17 @@
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">nobel@nobel.pro</a></p>
+                                            </div>
+                                        </div>
+                                            <br>
+                                        <div class="d-flex flex-row">
+                                            <div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-university"></i> </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1" style="font-size: 15px;">Bank Millennium S.A.</h5>
+                                                <p class="mb-0">IBAN: PL 77 1160 2202 0000 0001 5966 5298</p>
+                                                <p class="mb-0">SWIFT: BIGBPLPW</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,7 +99,7 @@
                                             <div class="align-self-start justify-content-start">
                                                 <h5 class="mb-1">Nobel sp. z o.o.</h5>
                                                 <address>Plac Defilad 1 <br> 00-901 Warszawa
-                                                    <br class="d-none d-md-block" />KRS 0000005899</address>
+                                                    <br class="d-none d-md-block" />NIP: 5213150329</address>
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row">
@@ -100,15 +111,15 @@
                                                 <p>+48 22 499 99 00</p>
                                             </div>
                                         </div>
-                                        <div class="d-flex flex-row">
-                                            <div>
-                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
-                                            </div>
-                                            <div>
-                                                <h5 class="mb-1">Infolinia</h5>
-                                                <p>+48 22 499 22 99</p>
-                                            </div>
-                                        </div>
+{{--                                        <div class="d-flex flex-row">--}}
+{{--                                            <div>--}}
+{{--                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-phone-volume"></i> </div>--}}
+{{--                                            </div>--}}
+{{--                                            <div>--}}
+{{--                                                <h5 class="mb-1">Infolinia</h5>--}}
+{{--                                                <p>+48 22 499 22 99</p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
                                         <div class="d-flex flex-row">
                                             <div>
                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-envelope"></i> </div>
@@ -116,6 +127,17 @@
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
                                                 <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">nobel@nobel.pro</a></p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="d-flex flex-row">
+                                            <div>
+                                                <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-university"></i> </div>
+                                            </div>
+                                            <div>
+                                                <h5 class="mb-1" style="font-size: 15px;">Bank Millennium S.A.</h5>
+                                                <p class="mb-0">IBAN: PL 06 1160 2202 0000 0002 4444 8553</p>
+                                                <p class="mb-0">SWIFT: BIGBPLPW</p>
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +151,7 @@
             <!-- Contact Form Section -->
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                    <div class="row mt-5">
+                    <div class="row mt-1">
                         <div class="col-12 text-center">
                             <h3>ROZPOCZNIJ COŚ NOWEGO<br><span class="display-5">SKONTAKTUJ SIĘ Z NAMI!</span></h3>
                             <p>Pozostawiając formalności w profesjonalnych rękach będziesz mógł zająć się rozwojem swojego biznesu.</p>
@@ -199,8 +221,10 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-12 text-center">
-                <h3>Nasze biura wirtualne</h3>
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h3><span class="display-5">Nasze biura wirtualne</span></h3>
+                </div>
             </div>
 
             <!-- First Office -->
