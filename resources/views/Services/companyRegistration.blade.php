@@ -57,8 +57,9 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wirtualne biuro (możliwość podpisania umowy)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
@@ -78,8 +79,9 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 1 miesiąc (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na <b>3</b> miesiące (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
 {{--                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>--}}
                                         </ul>
@@ -100,8 +102,9 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na <b>6</b> miesięcy (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
                                     </div>
