@@ -124,6 +124,10 @@
             </div>
         </div>
 
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
+
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
@@ -134,10 +138,6 @@
                 </div>
             </div>
         </div>
-
-        @if ($mainMenu === 'virtualOffices')
-            @include('Services.components.virtualOfficePricing')
-        @endif
     </section>
 
     @include('Services.modal._officesModal')

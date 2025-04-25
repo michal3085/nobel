@@ -75,6 +75,11 @@
                 <!-- /column -->
             </div>
             <br>
+
+            @if ($mainMenu === 'virtualOffices')
+                @include('Services.components.virtualOfficePricing')
+            @endif
+
             <div class="container-fluid px-md-6 mt-5">
                 <div class="row">
                     <div class="col-12">
@@ -87,10 +92,6 @@
             </div>
             <!-- /.row -->
         </div>
-
-        @if ($mainMenu === 'virtualOffices')
-            @include('Services.components.virtualOfficePricing')
-        @endif
 
 
             <!--/.tab-pane -->
