@@ -62,7 +62,7 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
@@ -70,7 +70,7 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
