@@ -3,11 +3,16 @@
 @section('content')
 
     <section class="wrapper p-5" style="border-radius: 10px;">
-        <div class="container-fluid px-lg-5 pt-10 pt-md-14 pb-14 pb-md-0 mt-n5">
+        <div class="container pb-5 pb-md-7">
             <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
+                <div class="col-lg-12 text-center text-lg-start">
+                    <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
+                        <span class="underline-3 style-2 purple">GOTOWA SPÓŁKA</span>
+                    </h3>
+                </div>
                 <div class="col-lg-12">
                     <h3 class="display-1 fs-45 lh-xxs mb-4 fw-bold text-purple">
-                        Gotowa spółka to najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.
+                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.
                     </h3>
                 </div>
             </div>
@@ -166,4 +171,6 @@
     <div class="mt-4">
         @include('qa.sections.readyCompany', ['title' => 'Q&A'])
     </div>
+
+    @include('Services.modal._readyCompanyModal')
 @endsection

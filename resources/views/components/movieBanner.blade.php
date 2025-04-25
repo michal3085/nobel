@@ -22,22 +22,22 @@
                 <div class="row align-items-center counter-wrapper gy-8 text-center text-white">
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">100</h3>
-                        <p>Serwisowanych biur</p>
+                        <p>serwisowanych biur</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">2000</h3>
-                        <p>Sprzedanych spółek</p>
+                        <p>sprzedanych spółek</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">4000</h3>
-                        <p>Zarejestrowanych spółek</p>
+                        <p>zarejestrowanych spółek</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">8000</h3>
-                        <p>Zmian w KRS</p>
+                        <p>zmian w KRS</p>
                     </div>
                     <!--/column -->
                 </div>

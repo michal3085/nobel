@@ -101,6 +101,41 @@
 
         @include('Services.components.virtualOfficePricing')
 
+        <hr class="bg-violet border-2 border-top border-violet"/>
+
+        <div class="tab-pane fade show active mt-15" id="tab2-1">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                {{--                <div class="col-lg-6">--}}
+                {{--                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>--}}
+                {{--                </div>--}}
+                <!--/column -->
+                {{--                <div class="col-lg-6">--}}
+                <div class="col-lg-12">
+                    <p style="font-size: 18px; text-align: justify;">
+                        <b>Wirtualne biuro</b> to usługa, która umożliwia prowadzenie firmy bez konieczności
+                        wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
+                        freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
+                        działalność na skalę krajową lub międzynarodową.
+                    </p>
+
+                    <p style="font-size: 15px;">
+                        <b>Wirtualnego Biuro</b> to więcej niż tylko adres. Otrzymasz dostęp do
+                        pełnej obsługi administracyjnej:
+                    </p>
+                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
+                        <li><i class="uil uil-check"></i><b>Adres do rejestracji firmy</b> – który możesz umieścić na dokumentach, wizytówkach oraz stronie internetowej.</li>
+                        <li><i class="uil uil-check"></i><b>Odbiór i przechowywanie korespondencji</b> – odbieramy przesyłki i informujemy Cię o każdej nowej wiadomości.</li>
+                        <li><i class="uil uil-check"></i><b>Skanowanie i przekazywanie korespondencji</b> – na życzenie skanujemy dokumenty i wysyłamy je na Twój e-mail.</li>
+                        <li><i class="uil uil-check"></i><b>Obsługa telefoniczna</b> – opcjonalna usługa, dzięki której nasi pracownicy będą odbierać telefony w imieniu Twojej firmy.</li>
+                        <li><i class="uil uil-check"></i><b>Możliwość wynajmu sali konferencyjnej</b> – na spotkania biznesowe, gdy potrzebujesz fizycznej przestrzeni do pracy.</li>
+                    </ul>
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+        </div>
+
+        <hr class="bg-violet border-2 border-top border-violet"/>
 
         <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
             <div class="col-lg-6">
@@ -143,7 +178,7 @@
                                 <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
                             </div>
                             <div>
-                                <h4 class="mb-1">Profesjonalny wizerunekg</h4>
+                                <h4 class="mb-1">Profesjonalny wizerunek</h4>
                                 <p class="mb-0">prestiżowy adres w centrum miasta zwiększa
                                     wiarygodność Twojej firmy w oczach klientów i kontrahentów.</p>
                             </div>
@@ -255,38 +290,6 @@
             </div>
             <!-- /.container -->
         </section>
-
-        <div class="tab-pane fade show active" id="tab2-1">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-{{--                <div class="col-lg-6">--}}
-{{--                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>--}}
-{{--                </div>--}}
-                <!--/column -->
-{{--                <div class="col-lg-6">--}}
-                <div class="col-lg-12">
-                    <p style="font-size: 18px; text-align: justify;">
-                        Wirtualne biuro to usługa, która umożliwia prowadzenie firmy bez konieczności
-                        wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
-                        freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
-                        działalność na skalę krajową lub międzynarodową.
-                    </p>
-
-                    <p style="font-size: 15px;">
-                        <b>Wirtualnego Biuro</b> to więcej niż tylko adres. Otrzymasz dostęp do
-                        pełnej obsługi administracyjnej:
-                    </p>
-                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i><b>Adres do rejestracji firmy</b> – który możesz umieścić na dokumentach, wizytówkach oraz stronie internetowej.</li>
-                        <li><i class="uil uil-check"></i><b>Odbiór i przechowywanie korespondencji</b> – odbieramy przesyłki i informujemy Cię o każdej nowej wiadomości.</li>
-                        <li><i class="uil uil-check"></i><b>Skanowanie i przekazywanie korespondencji</b> – na życzenie skanujemy dokumenty i wysyłamy je na Twój e-mail.</li>
-                        <li><i class="uil uil-check"></i><b>Obsługa telefoniczna</b> – opcjonalna usługa, dzięki której nasi pracownicy będą odbierać telefony w imieniu Twojej firmy.</li>
-                        <li><i class="uil uil-check"></i><b>Możliwość wynajmu sali konferencyjnej</b> – na spotkania biznesowe, gdy potrzebujesz fizycznej przestrzeni do pracy.</li>
-                    </ul>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
-        </div>
 
         <div class="mt-4">
             @include('qa.sections.virtualOffice', ['title' => 'Q&A'])

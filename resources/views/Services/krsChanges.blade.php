@@ -2,6 +2,15 @@
 
 @section('content')
     <section class="wrapper bg-light">
+        <div class="container pb-5 pb-md-7">
+            <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-3">
+                <div class="col-lg-12 text-center text-lg-start">
+                    <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
+                        <span class="underline-3 style-2 orange">ZMIANY W KRS</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
 
         <style>
             .image-wrapper {
@@ -15,22 +24,22 @@
             <div class="container-fluid py-6 py-md-8"> <!-- Zmniejszone paddingi -->
                 <div class="row gx-0 gy-4 align-items-end w-100 m-0">
                     <div class="col-lg-4">
-                        <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>
+{{--                        <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>--}}
                         <h3 class="display-4 mb-0">Jesteśmy dumni z naszych działań</h3>
                     </div>
                     <div class="col-lg-8">
                         <div class="row align-items-center counter-wrapper gy-3 text-center">
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">8000</h3>
-                                <p>Przeprowadzonych zmian</p>
+                                <p>przeprowadzonych zmian</p>
                             </div>
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">4000</h3>
-                                <p>Zarejestrowanych spółek</p>
+                                <p>zarejestrowanych spółek</p>
                             </div>
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">2000</h3>
-                                <p>Sprzedanych spółek</p>
+                                <p>sprzedanych spółek</p>
                             </div>
                         </div>
                     </div>
