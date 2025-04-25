@@ -86,6 +86,44 @@
             <!-- /.row -->
         </div>
 
+        <style>
+            .image-wrapper {
+                width: 100vw; /* Pełna szerokość widoku */
+                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+            }
+        </style>
+
+        <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{asset('assets/img/offices/oxf/new/virtualy-spacer.jpg')}}">
+            <div class="container-fluid py-16 py-md-18"> <!-- Zmiana z container na container-fluid -->
+                <div class="row gy-6 gy-lg-0">
+                    <div class="row text-center">
+                        <div class="col-lg-12 col-xl-10 col-xxl-8 mx-auto">
+                            <h3 class="display-4 mb-6 text-white px-lg-5 px-xxl-0">Wirtualny spacer</h3>
+                            <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                                Otwórz wirtualny spacer
+                            </button>
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </section>
+        <div class="modal fade" id="virtualTourModal" tabindex="-1" aria-labelledby="virtualTourModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="https://vision360.pl/spacery/ch8_nobel/start.html" class="w-100" style="height: 600px; border: none;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
