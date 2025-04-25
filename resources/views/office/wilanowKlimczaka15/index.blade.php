@@ -16,17 +16,23 @@
                                             <div class="post-category text-purple mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 purple">Wilanów Klimczaka 15</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-purple">od 2000 PLN</h3>
+                                                @if ($mainMenu !== 'virtualOffices')
+                                                    <h3 class="text-purple">od 2000 PLN</h3>
+                                                @endif
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
+                                                @if ($mainMenu === 'virtualOffices')
+                                                    Lokalizacja w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka.
+                                                    W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy <b>Coworking w Wilanowie</b> lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro
+                                                @else
                                                 Lokalizacja w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka. W przestrzeni oprócz <b>gotowych do pracy gabinetów</b> znajdziesz także <b>przestrzeń coworkingową</b>, którą możesz dzielić ze znajomymi sąsiadami z osiedla.
-
                                                 Wynajem dedykowanego biurka w większej przestrzeni jest idealnym rozwiązaniem dla osób i firm poszukujących niedrogiego, ale elastycznego i inspirującego miejsca do pracy w pobliżu miejsca zamieszkania. Ponadto, <b>coworking w Wilanowie</b> to również świetna okazja do nawiązywania wartościowych kontaktów biznesowych i współpracy z innymi profesjonalistami.
                                                 <br>
                                                 W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
+                                                @endif
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>

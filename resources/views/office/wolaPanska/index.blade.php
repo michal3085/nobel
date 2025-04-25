@@ -16,16 +16,17 @@
                                             <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 blue">Wola Pańska 96</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-blue">od 2500 PLN</h3>
+                                                @if ($mainMenu !== 'virtualOffices')
+                                                    <h3 class="text-blue">od 2500 PLN</h3>
+                                                @endif
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być w samym centrum biznesowym stolicy, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie.
-                                                    Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami,znajdują się także kino, muzea i sale zabaw.
-                                                    500 m2 powierzchni biurowej
+                                                    Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być <b>w samym centrum biznesowym stolicy</b>, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie. Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami, znajdują się także kino, muzea i sale zabaw.
+                                                    W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
                                                 @else
                                                 Pańska 96 to ponad <b>25 w pełni umeblowanych gabinetów na 600 m2 powierzchni</b>. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w <b>topowej lokalizacji przy ul. Pańskiej 96</b>, naprzeciwko kultowej Fabryki Norblina.
                                                 Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.
