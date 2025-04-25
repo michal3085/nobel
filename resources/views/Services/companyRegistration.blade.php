@@ -242,11 +242,11 @@
                                     <li><i class="uil uil-check"></i><span><strong>Szybkość rejestracji spółki</strong> - już w ciągu 1-3 dni otrzymujesz
 KRS, REGON, NIP </span></li>
                                     <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 350 PLN </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>Brak opaty notarialnej</strong> (oszczędność 500-1000 PLN ) </span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Brak opłaty notarialnej</strong> (oszczędność 500-1000 PLN ) </span></li>
                                     <li><i class="uil uil-check"></i><span> <strong>Możliwość przeprowadzania późniejszych zmian</strong> tj. zbycie
 udziałów, zmiana umowy spółki, zarządu, adresu i inne, w
 spółce również przez internet (S24),</span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>umowa spółki jest krótka i praktyczna.</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Umowa spółki jest krótka i praktyczna.</strong></span></li>
                                 </ul>
                             </div>
                             <!--/.card-body -->
