@@ -25,6 +25,8 @@
                                                 Lokalizacja położona  w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka. W przestrzeni oprócz gotowych do pracy gabinetów znajdziesz także przestrzeń coworkingową, którą możesz dzielić ze znajomymi sąsiadami z osiedla.
                                                 Wynajem dedykowanego biurka w większej przestrzeni jest idealnym rozwiązaniem dla osób i firm poszukujących taniego, ale elastycznego i inspirującego miejsca do pracy w pobliżu miejsca zamieszkania.
                                                 Ponadto, coworking w Wilanowie to również świetna okazja do nawiązywania wartościowych kontaktów biznesowych i współpracy z innymi profesjonalistami.
+                                                <br>
+                                                W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
