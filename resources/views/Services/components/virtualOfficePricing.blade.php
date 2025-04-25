@@ -4,8 +4,8 @@
     </h3>
     <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
     <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
-    <div class="row gy-6 mt-3 mt-md-5">
-        <div class="col-md-6 col-lg-3">
+    <div class="row gy-6 mt-3 mt-md-5 justify-content-center">
+        <div class="col-md-6 col-lg-4">
             <div class="pricing card text-center">
                 <div class="card-body">
                     <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
@@ -25,8 +25,8 @@
                         <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Nazwa firmy w holu </span></li>
                         <li class="text-muted"><i class="uil uil-check"></i><span style="font-size: 15px;"> Sala konferencyjna 60 zł/h</span></li>
                         <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Indywidualny numer telefonu</span></li>
-{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
-{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong></span></li>--}}
+                        {{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
+                        {{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 popular">
+        <div class="col-md-6 col-lg-4 popular">
             <div class="pricing card text-center">
                 <div class="card-body">
                     <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
@@ -54,8 +54,8 @@
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Nazwa firmy w holu</span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;"> Sala konferencyjna <strong>60 zł/h</strong></span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;">Indywidualny numer telefonu </span></li>
-{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
-{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
+                        {{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
+                        {{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
             <div class="pricing card text-center">
                 <div class="card-body">
                     <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
@@ -83,8 +83,8 @@
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Nazwa firmy w holu </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sala konferencyjna<strong> 4 h/mc</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Indywidualny numer telefonu</span></li>
-{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
-{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>--}}
+                        {{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
+                        {{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="4"
                        data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
@@ -93,6 +93,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-12 mt-10" data-image-src="./assets/img/photos/bg16.png">
     <div class="card-body p-10 p-xl-12">
