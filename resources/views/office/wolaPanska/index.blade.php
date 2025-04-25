@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 blue">WOLA PAŃSKA 96</h2>
+                                            <h2 class="underline-3 style-2 blue">Wola Pańska 96</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-blue">od 2500 PLN</h3>
                                             </div>
@@ -27,8 +27,7 @@
                                                     Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami,znajdują się także kino, muzea i sale zabaw.
                                                     500 m2 powierzchni biurowej
                                                 @else
-                                                Marzysz o wygodnym biurze w doskonałej lokalizacji? Cenisz sobie doskonały dojazd do miejsca pracy? Gotowe Biuro przy Pańskiej 96 spełni Twoje wszelkie oczekiwania.
-                                                Pańska 96 to ponad 20 w pełni umeblowanych gabinetów. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w topowej lokalizacji przy ul. Pańskiej 96, naprzeciwko kultowej Fabryki Norblina.
+                                                Pańska 96 to ponad <b>25 w pełni umeblowanych gabinetów na 600 m2 powierzchni</b>. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w <b>topowej lokalizacji przy ul. Pańskiej 96</b>, naprzeciwko kultowej Fabryki Norblina.
                                                 Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.
                                                     <br>
                                                     W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Wirtualne Biuro</b></a>.
