@@ -53,7 +53,7 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-5.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-5.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
