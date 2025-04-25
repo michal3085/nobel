@@ -94,6 +94,21 @@
     </div>
 </div>
 
+<div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-12 mt-10" data-image-src="./assets/img/photos/bg16.png">
+    <div class="card-body p-10 p-xl-12">
+        <div class="row text-center">
+            <div class="col-xl-11 col-xxl-9 mx-auto">
+                <h3 class="display-1 mb-8 px-lg-8 text-white" style="font-size: 25px;">
+                    Firmom oferujemy pełen zakres usług związanych ze zmianami <br> w KRS w systemach PRS i S24. <br><br> Nasze wsparcie obejmuje przygotowanie uchwał, umów zbycia udziałów/akcji oraz dopilnowanie ostatecznej aktualizacji wpisów <br> w KRS.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!--/.card-body -->
+</div>
+
 @include('Services.modal._modal')
 <script>
     document.querySelectorAll('[data-bs-toggle="modal"]').forEach(function (button) {

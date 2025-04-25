@@ -3,7 +3,7 @@
 @section('content')
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
-            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
                 <span class="underline-3 style-2 violet">Wirtualne biuro</span>
             </h3>
         </div>
