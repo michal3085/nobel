@@ -250,7 +250,7 @@
                         <p class="card-text">Tel: +48 22 432 08 10</p>
                         <p class="card-text">E-mail: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
-                        <p class="card-text">Urząd Skarbowy Warszawa-Wola</p>
+                        <p class="card-text" style="font-size: 14px;">Urząd Skarbowy Warszawa-Wola</p>
                     </div>
                 </div>
             </div>
@@ -264,7 +264,7 @@
                         <p class="card-text">Tel: +48 22 456 18 90</p>
                         <p class="card-text">E-mail: <a href="mailto:biuro.c@nobel.pro">biuro.c@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
-                        <p class="card-text">Urząd Skarbowy Warszawa-Mokotów</p>
+                        <p class="card-text" style="font-size: 14px;">Urząd Skarbowy Warszawa-Mokotów</p>
                     </div>
                 </div>
             </div>
