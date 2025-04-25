@@ -18,6 +18,7 @@
                             <option value="MOKOTÓW PORY 78">MOKOTÓW PORY 78</option>
                             <option value="HERBU JANINA 5 WILANÓW">HERBU JANINA 5 WILANÓW</option>
                             <option value="KLIMCZAKA 15 WILANÓW">KLIMCZAKA 15 WILANÓW</option>
+                            <option value="KLIMCZAKA 15 WILANÓW COWORKING">KLIMCZAKA 15 WILANÓW COWORKING</option>
                             <option value="SOKOLSKA 30 KATOWICE">SOKOLSKA 30 KATOWICE</option>
                         </select>
                         <label for="nobel-office-topic-id">Temat</label>
