@@ -13,7 +13,7 @@
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
                     <div class="col-12">
-                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku prostych krokach.</h3>
+                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku krokach.</h3>
 {{--                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>--}}
                     </div>
 
@@ -21,7 +21,7 @@
                         <ul class="icon-list bullet-bg bullet-soft-orange">
                             <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji.</span></li>
                             <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
                         </ul>
@@ -134,7 +134,7 @@
                             </div>
                             <div>
                                 <h4>Księgowość</h4>
-                                <p class="mb-2">od 500 PLN</p>
+                                <p class="mb-2">od 550 PLN</p>
                             </div>
                         </div>
                     </div>
