@@ -95,7 +95,7 @@
 </div>
 
 
-<div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-12 mt-10" data-image-src="{{asset('/assets/img/photos/bg16.png')}}">
+<div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-12 mt-10" data-image-src="{{asset('/assets/img/photos/bg-bw.jpg')}}">
     <div class="card-body p-10 p-xl-12">
         <div class="row text-center">
             <div class="col-xl-11 col-xxl-9 mx-auto">
