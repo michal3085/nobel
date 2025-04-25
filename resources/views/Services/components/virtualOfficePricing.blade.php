@@ -16,19 +16,20 @@
                         <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                     </div>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres do korespondencji</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłkach</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Indywidualny numer telefonu </strong></span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong></span></li>
+                        <li class="text-muted"><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
+                        <li class="text-muted"><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Indywidualny numer telefonu </strong></span></li>
+{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
+{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="1"
-                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Wynajmij</a>
+                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
                 </div>
             </div>
         </div>
@@ -45,46 +46,19 @@
                     </div>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres do korespondencji</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłkach</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Sala konferencyjna</strong> 60 zł/h</span></li>
                         <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Indywidualny numer telefonu </strong></span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>
+{{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
+{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="2"
-                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Wynajmij</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 popular">
-            <div class="pricing card text-center">
-                <div class="card-body">
-                    <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
-                    <h4 class="card-title">Prestiżowy Adres Plus</h4>
-                    <h6>Firma</h6>
-                    <div class="prices text-dark">
-                        <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">300</span> <span class="price-duration">mc</span></div>
-                        <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">199</span> <span class="price-duration">yr</span></div>
-                    </div>
-                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Sala konferencyjna</strong> 2 h/mc</span></li>
-                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Indywidualny numer telefonu </strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong> -50%</span></li>
-                    </ul>
-                    <a class="btn btn-soft-primary rounded-pill mt-1" data-info="3"
-                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Wynajmij</a>
+                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
                 </div>
             </div>
         </div>
@@ -96,23 +70,24 @@
                     <h4 class="card-title">Wirtualne biuro</h4>
                     <h6>Firma</h6>
                     <div class="prices text-dark">
-                        <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">400</span> <span class="price-duration">mc</span></div>
+                        <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">370</span> <span class="price-duration">mc</span></div>
                         <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                     </div>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres rejestrowy</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Adres do korespondencji</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Odbieranie korespondencji oraz przesyłek kurierskich</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłakch</strong></span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>Informowanie mailem o odebranych przesyłkach</strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Skanowanie </strong> </span></li>
+                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong>e-Doręczenia</strong> </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Nazwa firmy w holu </strong></span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Sala konferencyjna</strong> 4 h/mc</span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Indywidualny numer telefonu </strong></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>
-                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>
+{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong>- 0 PLN<sup>*</sup></span></li>--}}
+{{--                        <li><i class="uil uil-check"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong> - 0 PLN <sup>**</sup></span></li>--}}
                     </ul>
                     <a class="btn btn-soft-primary rounded-pill mt-1" data-info="4"
-                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Wynajmij</a>
+                       data-bs-toggle="modal" data-bs-target="#modal-virtual-office">Zamów pakiet</a>
                 </div>
             </div>
         </div>
