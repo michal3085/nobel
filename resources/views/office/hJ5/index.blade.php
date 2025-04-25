@@ -23,8 +23,7 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tu o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
-                                                Czeka na Ciebie  25 klimatyzowanych biur, które urzekają oryginalnym charakterem.
-                                                W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
+                                                <b>25 klimatyzowanych biur</b>, które urzekają oryginalnym charakterem. W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>

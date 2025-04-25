@@ -14,7 +14,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW PORY 78</h2>
+                                            <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-yellow">od 2500 PLN</h3>
                                             </div>
@@ -25,9 +25,7 @@
                                                 @if ($mainMenu === 'virtualOffices')
                                                     Wirtualne biuro na Mokotowie to doskonała opcja dla firm pragnących skorzystać z prestiżowego adresu w jednej z najbardziej pożądanych dzielnic Warszawy. Mokotów jest znany z doskonałej infrastruktury, bliskości do centrum miasta oraz licznych parków, co czyni go idealnym miejscem do prowadzenia działalności biznesowej.
                                                 @else
-                                                    Biuro usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: Wawer, Wilanów i Ursynów. Piękny widok z 12 pietra na zieloną część miasta oraz na warszawskie City ukoi Twoje zmysły. Serwisowane biura zlokalizowane w Multis Plaza to doskonała propozycja dla tych, którzy cenią pracę z dala od wielkomiejskiego szumu, jednocześnie pozostając w bliskim sąsiedztwie centrum miasta.
-                                                    Na warszawskim Mokotowie czeka na Ciebie kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
-                                                    W tej lokalizacji gwarantujemy również Wirtualne Biura.
+                                                    Serwisowane biura zlokalizowane w Multis Plaza usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: <b>Wawer, Wilanów i Ursynów</b>. Na warszawskim Mokotowie czeka na Ciebie <b>kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna</b>. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
                                                     <br>
                                                     W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
                                                 @endif
