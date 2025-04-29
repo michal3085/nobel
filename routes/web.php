@@ -48,6 +48,6 @@ Route::middleware('auth')->group(function () {
 });
 
 // READY COMPANY
-Route::post('/sendOfficeMail', [ReadyCompanyController::class, 'sendMail'])->name('readyCompany.send.mail');
+Route::post('/readyCompanyMail', [ReadyCompanyController::class, 'sendMail'])->name('readyCompany.send.mail');
 
 require __DIR__.'/auth.php';
