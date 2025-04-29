@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="/assets/css/plugins.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/styleV2.css">
     <link rel="stylesheet" href="/assets/css/colors/pink.css">
     <link rel="stylesheet" href="/vendors/summernote-0.8.18-dist/summernote-lite.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
