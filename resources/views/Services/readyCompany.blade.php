@@ -54,7 +54,7 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span></div>
                         </div>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka bez VAT">KUP</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2500</span></div>
                         </div>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka z VAT/VAT UE">KUP</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa Spółka z adresem">KUP</a>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
 use App\Http\Controllers\QuestionAnswerController;
+use App\Http\Controllers\ReadyCompanyController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VirtualOfficeController;
@@ -45,5 +46,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/post/{post}/destroy', [BlogController::class, 'destroy'])->name('blog.destroy');
     Route::put('/post/{post}/changeStatus', [BlogController::class, 'changeStatus'])->name('blog.change.status');
 });
+
+// READY COMPANY
+Route::post('/sendOfficeMail', [ReadyCompanyController::class, 'sendMail'])->name('readyCompany.send.mail');
 
 require __DIR__.'/auth.php';

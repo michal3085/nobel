@@ -8,7 +8,7 @@
                 class="btn btn-sm btn-soft-{{ $color }} rounded-pill mb-1"
             >
                 <i class="uil uil-arrow-left me-1"></i>
-                <span class="d-none d-sm-inline">@if ($mainMenu === 'virtualOffices') Wirtualne Biuro @else Gotowe Biuro @endif</span>
+                <span class="d-none d-sm-inline">@if ($mainMenu === 'virtualOffices') Wirtualne Biuro @else Gotowe Biura @endif</span>
             </a>
         </div>
     </div>
