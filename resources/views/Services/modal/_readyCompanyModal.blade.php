@@ -5,7 +5,7 @@
             <div class="modal-content text-center">
                 <div class="modal-body">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <h2 class="mb-3 text-start">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else GOTOWE BIURO @endif - skontaktuj się z nami</h2>
+                    <h2 class="mb-3 text-start">Gotowa spółka</h2>
                     <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
 
                     <input type="hidden" name="formType" value="@if ($mainMenu === 'virtualOffices') virtualOffice @else readyOffice @endif">
