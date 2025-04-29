@@ -85,11 +85,8 @@
                 data: $form.serialize(),
                 success: function (data) {
                     $spinner.addClass('d-none');
-                    $submitBtn.prop('disabled', false);
-                    $('#modal-ready-company').modal('hide');
-                    // Możesz dodać powiadomienie o sukcesie
-                    alert('Wiadomość została wysłana!');
-                    $form[0].reset();
+                    $('#modal-offices').modal('hide');
+                    location.reload();
                 },
                 error: function (response) {
                     $spinner.addClass('d-none');

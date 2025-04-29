@@ -13,12 +13,14 @@ class ReadyCompanyMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    private $data;
+
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -27,7 +29,7 @@ class ReadyCompanyMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Ready Company Mail',
+            subject: '[Gotowa spółka] - zapytanie z formularza',
         );
     }
 
@@ -37,7 +39,10 @@ class ReadyCompanyMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'Services.mail.readyCompany',
+            with: [
+                'data' => $this->data
+            ],
         );
     }
 
