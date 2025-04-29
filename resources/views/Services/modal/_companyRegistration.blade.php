@@ -11,7 +11,7 @@
                     <input type="hidden" name="formType" value="@if ($mainMenu === 'virtualOffices') virtualOffice @else readyOffice @endif">
 
                     <div class="form-floating mb-4">
-                        <select class="form-control" name="rc_topic" id="nobel-office-topic-id">
+                        <select class="form-control" name="cr_topic" id="nobel-office-topic-id">
                             <option value="REJESTRACJA W KRS">REJESTRACJA W KRS</option>
                             <option value="REJESTRACJA W KRS +">REJESTRACJA W KRS +</option>
                             <option value="PEŁNA REJESTRACJA SPÓŁKI">PEŁNA REJESTRACJA SPÓŁKI</option>
@@ -20,12 +20,12 @@
                     </div>
 
                     <div class="form-floating mb-4">
-                        <input class="form-control" name="rc_contact" id="nobel-company-registration-contact-input">
+                        <input class="form-control" name="cr_contact" id="nobel-company-registration-contact-input">
                         <label for="nobel-company-registration-input">e-mail / nr telefonu</label>
                     </div>
 
                     <div class="form-floating mb-4">
-                        <textarea class="form-control" name="rc_message" id="nobel-company-registration-text-area" style="height: 200px;"></textarea>
+                        <textarea class="form-control" name="cr_message" id="nobel-company-registration-text-area" style="height: 200px;"></textarea>
                         <label for="nobel-company-registration-text-area">Wiadomość</label>
                     </div>
 
@@ -79,7 +79,7 @@
             $form.find("input, select, textarea").removeClass('is-invalid');
 
             $.ajax({
-                url: "{{ route('readyCompany.send.mail') }}",
+                url: "{{ route('companyRegistration.send.mail') }}",
                 method: "POST",
                 dataType: 'json',
                 data: $form.serialize(),
