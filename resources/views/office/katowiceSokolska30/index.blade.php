@@ -1,6 +1,8 @@
 @extends('_layout')
 
 @section('content')
+    @include('office._returnButton', ['color' => 'blue'])
+
     <section class="wrapper bg-light">
         <div class="container py-5">
             <div class="row mt-6">
