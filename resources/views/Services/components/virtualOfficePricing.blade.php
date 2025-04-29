@@ -1,78 +1,4 @@
-<style>
-    .wlepka-okragla {
-        position: absolute;
-        top: -25px;
-        right: -25px;
-        width: 140px;
-        height: 140px;
-        background: #f8f3e6;
-        color: #5a4a3a;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 15px;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 1.3;
-        z-index: 10;
-        box-shadow:
-            0 6px 20px rgba(0, 0, 0, 0.1),
-            inset 0 0 0 3px #e8d9b5,
-            0 0 0 4px rgba(232, 217, 181, 0.3);
-        border: 2px solid #e8d9b5;
-        background-image:
-            radial-gradient(circle at center, #fff9ee 0%, #f1e8d6 100%);
-        transform: rotate(15deg);
-        transition: all 0.3s ease;
-    }
 
-    .wlepka-okragla:hover {
-        transform: rotate(5deg) scale(1.05);
-        box-shadow:
-            0 8px 25px rgba(0, 0, 0, 0.15),
-            inset 0 0 0 3px #d6c29c,
-            0 0 0 6px rgba(232, 217, 181, 0.4);
-    }
-
-    .wlepka-okragla::before {
-        content: "";
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        right: -5px;
-        bottom: -5px;
-        border-radius: 50%;
-        border: 2px dashed rgba(168, 144, 96, 0.4);
-        z-index: -1;
-        animation: rotate 20s linear infinite;
-    }
-
-    .wlepka-okragla img {
-        width: 36px;
-        height: 36px;
-        margin-top: 8px;
-        filter: drop-shadow(0 2px 3px rgba(0,0,0,0.2));
-    }
-
-    @keyframes rotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-
-    /* Dodatkowe style dla karty */
-    .pricing.card {
-        position: relative;
-        overflow: visible;
-        transition: transform 0.3s;
-    }
-
-    .pricing.card:hover {
-        transform: translateY(-5px);
-    }
-</style>
 
 
 <div class="pricing-wrapper position-relative mt-8">
@@ -113,7 +39,7 @@
 
         <div class="col-md-6 col-lg-4 popular">
             <div class="pricing card text-center">
-                <div class="wlepka-okragla">
+                <div class="ribbon-rounded">
                     Zmiana<br>adresu w<br>KRS gratis
                     <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
                 </div>
@@ -146,7 +72,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="pricing card text-center">
-                <div class="wlepka-okragla">
+                <div class="ribbon-rounded">
                     Zmiana<br>adresu w<br>KRS gratis
                     <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
                 </div>
