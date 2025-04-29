@@ -61,7 +61,7 @@
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Pory 78 Mokotów</a>
                             </h2>
                         </div>
                         <div class="post-footer">
