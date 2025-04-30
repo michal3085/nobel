@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
@@ -51,5 +52,8 @@ Route::middleware('auth')->group(function () {
 // READY COMPANY
 Route::post('/readyCompanyMail', [ReadyCompanyController::class, 'sendMail'])->name('readyCompany.send.mail');
 Route::post('/companyRegistrationMail', [CompanyRegistrationController::class, 'sendMail'])->name('companyRegistration.send.mail');
+
+// NEWSLETTER
+Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'])->name('newsletter.add.subscriber');
 
 require __DIR__.'/auth.php';
