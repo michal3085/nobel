@@ -10,7 +10,7 @@ class NewsletterController extends Controller
 {
     public function index()
     {
-        $this->data['newsletters'] = Newsletter::all();
+        $this->data['newsletters'] = Newsletter::orderBy('created_at', 'desc')->get();
 
         return view('dashboard.newsletter.index', $this->data);
     }
