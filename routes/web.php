@@ -47,6 +47,11 @@ Route::middleware('auth')->group(function () {
     Route::put('/post/{post}/store', [BlogController::class, 'update'])->name('blog.update');
     Route::delete('/post/{post}/destroy', [BlogController::class, 'destroy'])->name('blog.destroy');
     Route::put('/post/{post}/changeStatus', [BlogController::class, 'changeStatus'])->name('blog.change.status');
+
+    // NEWSLETTER
+    Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
+    Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
+    Route::delete('/newsletter/subscriber/{subscriber}/delete', [SubscribersController::class, 'delete'])->name('newsletter.subscriber.delete');
 });
 
 // READY COMPANY
@@ -55,8 +60,5 @@ Route::post('/companyRegistrationMail', [CompanyRegistrationController::class, '
 
 // NEWSLETTER
 Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'])->name('newsletter.add.subscriber');
-Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
-Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
-Route::delete('/newsletter/subscriber/{subscriber}/delete', [SubscribersController::class, 'delete'])->name('newsletter.subscriber.delete');
 
 require __DIR__.'/auth.php';

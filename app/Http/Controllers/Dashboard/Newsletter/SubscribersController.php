@@ -41,12 +41,22 @@ class SubscribersController extends Controller
         $newStatus = $subscriber->ns_active === 1 ? 0 : 1;
         $subscriber->update(['ns_active' => $newStatus]);
 
-        return redirect()->back()->with('success', 'Status posta został zmieniony');
+        return redirect()->back()->with('success', 'Status został zmieniony');
     }
 
     public function delete(Subscriber $subscriber)
     {
-        $subscriber->delete();
-        return redirect()->back()->with('success', 'E-mail usunięty');
+        DB::beginTransaction();
+        try {
+            $subscriber->delete();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie usuwania subskrypcji');
+        }
+        DB::commit();
+
+        return redirect()->back()->with('success', 'Subskrypcja usunięta');
     }
 }
