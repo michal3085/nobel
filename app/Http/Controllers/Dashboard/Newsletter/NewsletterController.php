@@ -21,4 +21,9 @@ class NewsletterController extends Controller
 
         return view('dashboard.newsletter.create', $this->data);
     }
+
+    public function store(Request $request)
+    {
+
+    }
 }
