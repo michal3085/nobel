@@ -55,5 +55,7 @@ Route::post('/companyRegistrationMail', [CompanyRegistrationController::class, '
 
 // NEWSLETTER
 Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'])->name('newsletter.add.subscriber');
+Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
+Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
 
 require __DIR__.'/auth.php';

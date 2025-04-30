@@ -18,10 +18,10 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu">
-                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Newsletter</a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item" href="/services.html">Services I</a></li>
-                                            <li class="nav-item"><a class="dropdown-item" href="/services2.html">Services II</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.subscriber.index') }}">Subskrybenci</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="/services2.html">Newsletter</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item"><a class="dropdown-item" href="/pricing.html">Pricing</a></li>

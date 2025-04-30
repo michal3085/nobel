@@ -5,14 +5,19 @@ namespace App\Http\Controllers\Dashboard\Newsletter;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\SubscriberRequest;
 use App\Models\Newsletter\Subscriber;
-use Illuminate\Http\Request;
 use DB;
-use Illuminate\Support\Facades\Auth;
-use Log;
 use Exception;
+use Log;
 
 class SubscribersController extends Controller
 {
+    public function index()
+    {
+        $this->data['subscribers'] = Subscriber::orderBy('created_at', 'desc')->get();
+
+        return view('dashboard.newsletter.subscribers.index', $this->data);
+    }
+
     public function store(SubscriberRequest $request)
     {
         DB::beginTransaction();
@@ -29,5 +34,13 @@ class SubscribersController extends Controller
         DB::commit();
 
         return redirect()->back()->withInput()->with('success', 'Newsletter dodany');
+    }
+
+    public function status(Subscriber $subscriber)
+    {
+        $newStatus = $subscriber->ns_active === 1 ? 0 : 1;
+        $subscriber->update(['ns_active' => $newStatus]);
+
+        return redirect()->back()->with('success', 'Status posta został zmieniony');
     }
 }
