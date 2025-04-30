@@ -18,7 +18,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="dropdown-item" href="/pricing.html">Blog</a></li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{ route('dashboard') }}">Blog</a></li>
                                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Newsletter</a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.subscriber.index') }}">Subskrybenci</a></li>
