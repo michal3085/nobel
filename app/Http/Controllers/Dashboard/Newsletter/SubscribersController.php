@@ -43,4 +43,10 @@ class SubscribersController extends Controller
 
         return redirect()->back()->with('success', 'Status posta został zmieniony');
     }
+
+    public function delete(Subscriber $subscriber)
+    {
+        $subscriber->delete();
+        return redirect()->back()->with('success', 'E-mail usunięty');
+    }
 }

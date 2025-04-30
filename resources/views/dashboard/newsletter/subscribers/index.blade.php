@@ -1,9 +1,7 @@
 @extends('dashboard._layout')
 
 @section('buttons')
-    <div class="col-auto">
-        <a href="{{route('blog.create')}}" class="btn btn-success me-1 mb-1">DODAJ</a>
-    </div>
+
 @endsection
 
 @section('content')
@@ -59,13 +57,13 @@
                                 </form>
                             </td>
                             <td>
-{{--                                <form action="{{ route('blog.destroy', $post) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">--}}
-{{--                                    @csrf--}}
-{{--                                    @method('DELETE')--}}
-{{--                                    <button type="submit" class="btn btn-sm text-danger">--}}
-{{--                                        <i class="bi bi-trash3"></i>--}}
-{{--                                    </button>--}}
-{{--                                </form>--}}
+                                <form action="{{ route('newsletter.subscriber.delete', $subscriber) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-sm text-danger">
+                                        <i class="bi bi-trash3"></i>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach
