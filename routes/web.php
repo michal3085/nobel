@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\Dashboard\Newsletter\NewsletterController;
 use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
@@ -49,6 +50,15 @@ Route::middleware('auth')->group(function () {
     Route::put('/post/{post}/changeStatus', [BlogController::class, 'changeStatus'])->name('blog.change.status');
 
     // NEWSLETTER
+    Route::get('/newsletter/list', [NewsletterController::class, 'index'])->name('newsletter.index');
+    Route::get('/newsletter/create', [NewsletterController::class, 'create'])->name('newsletter.create');
+    Route::post('/newsletter/store', [NewsletterController::class, 'store'])->name('newsletter.store');
+    Route::get('/newsletter/edit', [NewsletterController::class, 'store'])->name('newsletter.store');
+    Route::put('/newsletter/update', [NewsletterController::class, 'update'])->name('newsletter.update');
+    Route::put('/newsletter/{newsletter}/status', [NewsletterController::class, 'status'])->name('newsletter.status');
+    Route::delete('/newsletter/{newsletter}/delete', [NewsletterController::class, 'delete'])->name('newsletter.delete');
+
+    // NEWSLETTER - Subscribers
     Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
     Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
     Route::delete('/newsletter/subscriber/{subscriber}/delete', [SubscribersController::class, 'delete'])->name('newsletter.subscriber.delete');
