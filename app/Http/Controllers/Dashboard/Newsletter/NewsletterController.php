@@ -3,8 +3,12 @@
 namespace App\Http\Controllers\Dashboard\Newsletter;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Newsletter\NewsletterStoreRequest;
 use App\Models\Newsletter;
 use Illuminate\Http\Request;
+use DB;
+use Exception;
+use Log;
 
 class NewsletterController extends Controller
 {
@@ -22,8 +26,29 @@ class NewsletterController extends Controller
         return view('dashboard.newsletter.create', $this->data);
     }
 
-    public function store(Request $request)
+    public function store(NewsletterStoreRequest $request)
     {
+        DB::beginTransaction();
+        try {
+            $newsletter = new Newsletter();
+            $newsletter->fill($request->validated());
+            $newsletter->save();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
 
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie dodawania newslettera');
+        }
+        DB::commit();
+
+        return redirect()->route('newsletter.edit', ['newsletter' => $newsletter])
+            ->with('success', 'Newsletter dodany');
+    }
+
+    public function edit(Newsletter $newsletter)
+    {
+        $this->data['newsletter'] = $newsletter;
+
+        return view('dashboard.newsletter.edit', $this->data);
     }
 }

@@ -15,8 +15,8 @@
             <label class="col-12 col-form-label col-form-label-sm">Status</label>
             <div class="col-12">
                 <select class="form-select" name="newsletter_active">
-                    <option value="true">Aktywny</option>
-                    <option value="false">Nieaktywny</option>
+                    <option value="1">Aktywny</option>
+                    <option value="0">Nieaktywny</option>
                 </select>
             </div>
         </div>
