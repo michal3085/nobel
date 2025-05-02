@@ -57,6 +57,7 @@ Route::middleware('auth')->group(function () {
     Route::put('/newsletter/{newsletter}/update', [NewsletterController::class, 'update'])->name('newsletter.update');
     Route::put('/newsletter/{newsletter}/status', [NewsletterController::class, 'status'])->name('newsletter.status');
     Route::delete('/newsletter/{newsletter}/delete', [NewsletterController::class, 'delete'])->name('newsletter.delete');
+    Route::get('/newsletter/{newsletter}/send', [NewsletterController::class, 'send'])->name('newsletter.send');
 
     // NEWSLETTER - Subscribers
     Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');

@@ -33,7 +33,7 @@ class SubscribersController extends Controller
         }
         DB::commit();
 
-        return redirect()->back()->withInput()->with('success', 'Newsletter dodany');
+        return redirect()->back()->withInput()->with('success', 'NewsletterMail dodany');
     }
 
     public function status(Subscriber $subscriber)

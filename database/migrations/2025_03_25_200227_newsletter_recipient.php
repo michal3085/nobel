@@ -15,6 +15,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('newsletter_id');
             $table->unsignedBigInteger('newsletter_subscribers_id');
+            $table->text('newsletter_send_status');
             $table->timestamp('sent_at')->nullable();
             $table->timestamps();
 

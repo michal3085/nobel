@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Newsletter\NewsletterStoreRequest;
 use App\Http\Requests\Newsletter\NewsletterUpdateRequest;
 use App\Models\Newsletter;
+use App\Services\Newsletter\SendService;
 use DB;
 use Exception;
 use Illuminate\Support\Facades\Auth;
@@ -45,7 +46,7 @@ class NewsletterController extends Controller
         DB::commit();
 
         return redirect()->route('newsletter.edit', ['newsletter' => $newsletter])
-            ->with('success', 'Newsletter dodany');
+            ->with('success', 'NewsletterMail dodany');
     }
 
     public function edit(Newsletter $newsletter)
@@ -73,7 +74,7 @@ class NewsletterController extends Controller
         DB::commit();
 
         return redirect()->route('newsletter.edit', ['newsletter' => $newsletter])
-            ->with('success', 'Newsletter zaktualizowany');
+            ->with('success', 'NewsletterMail zaktualizowany');
     }
 
     public function status(Newsletter $newsletter)
@@ -97,6 +98,11 @@ class NewsletterController extends Controller
         }
         DB::commit();
 
-        return redirect()->back()->with('success', 'Newsletter usunięty');
+        return redirect()->back()->with('success', 'NewsletterMail usunięty');
+    }
+
+    public function send(Newsletter $newsletter, SendService $sendService)
+    {
+        $sendService->doService($newsletter);
     }
 }

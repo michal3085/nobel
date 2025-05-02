@@ -29,6 +29,9 @@
                         <th class="text-center">
                             Aktywny
                         </th>
+                        <th class="text-center">
+                            Wysyłka
+                        </th>
                         <th class="text-nowrap text-start">
                             Usuń
                         </th>
@@ -65,6 +68,11 @@
                                         </button>
                                     @endif
                                 </form>
+                            </td>
+                            <td class="text-center">
+                                <a href="{{ route('newsletter.send', $newsletter) }}">
+                                    <i class="bi bi-send text-success"></i>
+                                </a>
                             </td>
                             <td>
                                 <form action="{{ route('newsletter.delete', $newsletter) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
