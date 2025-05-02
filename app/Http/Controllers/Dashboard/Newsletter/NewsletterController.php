@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Dashboard\Newsletter;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Newsletter\NewsletterStoreRequest;
+use App\Http\Requests\Newsletter\NewsletterUpdateRequest;
 use App\Models\Newsletter;
 use Illuminate\Http\Request;
 use DB;
@@ -50,5 +51,25 @@ class NewsletterController extends Controller
         $this->data['newsletter'] = $newsletter;
 
         return view('dashboard.newsletter.edit', $this->data);
+    }
+
+    public function update(NewsletterUpdateRequest $request, Newsletter $newsletter)
+    {
+        DB::beginTransaction();
+
+        try {
+            $newsletter->fill($request->validated());
+            $newsletter->save();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd podczas aktualizacji newslettera');
+        }
+
+        DB::commit();
+
+        return redirect()->route('newsletter.edit', ['newsletter' => $newsletter])
+            ->with('success', 'Newsletter zaktualizowany');
     }
 }

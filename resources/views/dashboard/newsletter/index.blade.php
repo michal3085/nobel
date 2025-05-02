@@ -41,7 +41,9 @@
                                 {{ $key+1 }}
                             </td>
                             <td>
-                                {{$newsletter->newsletter_subject}}
+                                <a href="{{ route('newsletter.edit', $newsletter) }}">
+                                    {{$newsletter->newsletter_subject}}
+                                </a>
                             </td>
                             <td>
                                 {{$newsletter->newsletter_author}}
