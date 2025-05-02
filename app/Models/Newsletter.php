@@ -19,5 +19,6 @@ class Newsletter extends Model
         'newsletter_body',
         'newsletter_subject',
         'newsletter_active',
+        'newsletter_author',
     ];
 }

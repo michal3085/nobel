@@ -18,7 +18,7 @@ class NewsletterUpdateRequest extends FormRequest
             'newsletter_body' => 'required',
             'newsletter_subject' => [
                 'required',
-                Rule::unique('newsletter', 'newsletter_subject')->ignore($this->newsletter->newsletter_id, 'newsletter_id')
+                Rule::unique('newsletter', 'newsletter_subject')->ignore($this->newsletter->newsletter_id, 'newsletter_id'),
             ],
             'newsletter_active' => 'required',
         ];

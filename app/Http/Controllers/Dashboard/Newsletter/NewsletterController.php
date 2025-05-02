@@ -9,6 +9,7 @@ use App\Models\Newsletter;
 use Illuminate\Http\Request;
 use DB;
 use Exception;
+use Illuminate\Support\Facades\Auth;
 use Log;
 
 class NewsletterController extends Controller
@@ -32,9 +33,11 @@ class NewsletterController extends Controller
         DB::beginTransaction();
         try {
             $newsletter = new Newsletter();
+            $newsletter->newsletter_author = Auth::user()->name;
             $newsletter->fill($request->validated());
             $newsletter->save();
         } catch (Exception $e) {
+            dd($e->getMessage());
             Log::error($e->getMessage());
             DB::rollBack();
 
@@ -58,6 +61,7 @@ class NewsletterController extends Controller
         DB::beginTransaction();
 
         try {
+            $newsletter->newsletter_author = Auth::user()->name;
             $newsletter->fill($request->validated());
             $newsletter->save();
         } catch (Exception $e) {
