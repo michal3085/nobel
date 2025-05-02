@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Newsletter\NewsletterStoreRequest;
 use App\Http\Requests\Newsletter\NewsletterUpdateRequest;
 use App\Models\Newsletter;
-use Illuminate\Http\Request;
 use DB;
 use Exception;
 use Illuminate\Support\Facades\Auth;
@@ -75,5 +74,29 @@ class NewsletterController extends Controller
 
         return redirect()->route('newsletter.edit', ['newsletter' => $newsletter])
             ->with('success', 'Newsletter zaktualizowany');
+    }
+
+    public function status(Newsletter $newsletter)
+    {
+        $newStatus = $newsletter->newsletter_active === 1 ? 0 : 1;
+        $newsletter->update(['newsletter_active' => $newStatus]);
+
+        return redirect()->back()->with('success', 'Status został zmieniony');
+    }
+
+    public function delete(Newsletter $newsletter)
+    {
+        DB::beginTransaction();
+        try {
+            $newsletter->delete();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie usuwania newslettera');
+        }
+        DB::commit();
+
+        return redirect()->back()->with('success', 'Newsletter usunięty');
     }
 }
