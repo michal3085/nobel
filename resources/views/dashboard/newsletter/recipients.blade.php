@@ -35,9 +35,7 @@
                                 {{ $key+1 }}
                             </td>
                             <td>
-                                <a href="">
-                                    {{$recipient->getSubscriberMail()}}
-                                </a>
+                                {{$recipient->getSubscriberMail()}}
                             </td>
                             <th>
                                 {{ $recipient->created_at }}
