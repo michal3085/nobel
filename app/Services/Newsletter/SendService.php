@@ -21,7 +21,7 @@ class SendService
                 // Wyślij mail
                 Mail::to($subscriber->ns_mail_address)->send(new NewsletterMail($newsletter));
 
-                // Zapisz OK do recipient
+                // Zapisz sukses do recipient
                 Recipient::create([
                     'newsletter_id' => $newsletter->newsletter_id,
                     'newsletter_subscribers_id' => $subscriber->newsletter_subscribers_id,

@@ -15,5 +15,8 @@ class Recipient extends Model
     public $history = true;
 
     public $fillable = [
+        'newsletter_id',
+        'newsletter_subscribers_id',
+        'newsletter_send_status',
     ];
 }
