@@ -70,9 +70,15 @@
                                 </form>
                             </td>
                             <td class="text-center">
-                                <a href="{{ route('newsletter.send', $newsletter) }}">
-                                    <i class="bi bi-send text-success"></i>
-                                </a>
+                                @if($newsletter->hasBeenSent())
+                                    <a href="{{ route('newsletter.sentList', $newsletter) }}">
+                                        <i class="bi bi-list-check text-success"></i>
+                                    </a>
+                                @else
+                                    <a href="{{ route('newsletter.send', $newsletter) }}">
+                                        <i class="bi bi-send text-success"></i>
+                                    </a>
+                                @endif
                             </td>
                             <td>
                                 <form action="{{ route('newsletter.delete', $newsletter) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">

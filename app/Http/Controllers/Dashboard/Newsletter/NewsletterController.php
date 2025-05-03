@@ -106,4 +106,12 @@ class NewsletterController extends Controller
 
         return redirect()->back()->with('success', 'Wysyłka zakończona');
     }
+
+    public function sentList(Newsletter $newsletter)
+    {
+        $this->data['newsletter'] = $newsletter;
+        $this->data['recipients'] = $newsletter->relationRecipients;
+
+        return view('dashboard.newsletter.recipients', $this->data);
+    }
 }

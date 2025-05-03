@@ -19,4 +19,14 @@ class Recipient extends Model
         'newsletter_subscribers_id',
         'newsletter_send_status',
     ];
+
+    public function relationSubscriber()
+    {
+        return $this->belongsTo(Subscriber::class, 'newsletter_subscribers_id', 'newsletter_subscribers_id');
+    }
+
+    public function getSubscriberMail()
+    {
+        return $this->relationSubscriber->ns_mail_address;
+    }
 }
