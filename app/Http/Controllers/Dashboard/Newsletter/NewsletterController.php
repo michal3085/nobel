@@ -59,7 +59,6 @@ class NewsletterController extends Controller
     public function update(NewsletterUpdateRequest $request, Newsletter $newsletter)
     {
         DB::beginTransaction();
-
         try {
             $newsletter->newsletter_author = Auth::user()->name;
             $newsletter->fill($request->validated());
