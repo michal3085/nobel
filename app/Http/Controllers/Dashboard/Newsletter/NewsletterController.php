@@ -103,5 +103,7 @@ class NewsletterController extends Controller
     public function send(Newsletter $newsletter, SendService $sendService)
     {
         $sendService->doService($newsletter);
+
+        return redirect()->back()->with('success', 'Wysyłka zakończona');
     }
 }
