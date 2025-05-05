@@ -4,7 +4,6 @@
     @include('office._returnButton', ['color' => 'sky'])
 
     <section class="wrapper bg-light">
-
         <div class="container py-5">
             <div class="row mt-6">
                 <div class="col-xl-12 mx-auto">

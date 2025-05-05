@@ -292,7 +292,7 @@
         </section>
 
         <div class="mt-4">
-            @include('qa.sections.virtualOffice', ['title' => 'Q&A'])
+            @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])
         </div>
         <!-- /section -->
         <!-- /section -->

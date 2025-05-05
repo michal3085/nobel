@@ -187,7 +187,7 @@
         </section>
 
         <div class="mt-2">
-            @include('qa.sections.krsChanges', ['title' => 'Q&A'])
+            @include('qa.display', ['section' => 'krsChanges', 'title' => 'Q&A'])
         </div>
 
 

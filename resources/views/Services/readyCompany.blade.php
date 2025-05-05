@@ -169,7 +169,7 @@
     </div>
 
     <div class="mt-4">
-        @include('qa.sections.readyCompany', ['title' => 'Q&A'])
+        @include('qa.display', ['section' => 'readyCompany', 'title' => 'Q&A'])
     </div>
 
     @include('Services.modal._readyCompanyModal')

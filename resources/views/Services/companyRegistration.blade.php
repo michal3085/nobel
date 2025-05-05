@@ -294,7 +294,7 @@ spółce również przez internet (S24),</span></li>
     </section>
 
     <div class="mt-4">
-        @include('qa.sections.companyRegistration', ['title' => 'Q&A'])
+        @include('qa.display', ['section' => 'companyRegistration', 'title' => 'Q&A'])
     </div>
 
     @include('Services.modal._companyRegistration')
