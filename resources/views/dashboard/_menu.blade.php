@@ -25,8 +25,12 @@
                                             <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.index') }}">Newsletter</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a class="dropdown-item" href="/pricing.html">Pricing</a></li>
-                                    <li class="nav-item"><a class="dropdown-item" href="/onepage.html">One Page</a></li>
+                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.subscriber.index') }}">Subskrybenci</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.index') }}">Newsletter</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>

@@ -64,6 +64,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
     Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
     Route::delete('/newsletter/subscriber/{subscriber}/delete', [SubscribersController::class, 'delete'])->name('newsletter.subscriber.delete');
+
+    // Q&A
+    Route::get('/qa/list', [QuestionAnswerController::class, 'index'])->name('qa.index');
 });
 
 // READY COMPANY
