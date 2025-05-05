@@ -15,6 +15,6 @@ class QuestionAnswerController extends Controller
 
     public function index()
     {
-        return view('qa.index', $this->data);
+        dd('ads');
     }
 }
