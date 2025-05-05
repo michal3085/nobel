@@ -5,13 +5,13 @@ use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Dashboard\Newsletter\NewsletterController;
 use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
+use App\Http\Controllers\Dashboard\QuestionAnswerController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
-use App\Http\Controllers\QuestionAnswerController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ReadyCompanyController;
 use App\Http\Controllers\ServicesController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('qa_section_name');
             $table->string('qa_section_code');
             $table->boolean('qa_section_active')->default(true);
+            $table->timestamps();
         });
     }
 

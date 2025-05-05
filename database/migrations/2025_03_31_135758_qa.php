@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('qa_title');
             $table->text('qa_text');
             $table->boolean('qa_active')->default(true);
+            $table->string('qa_author');
+            $table->timestamps();
         });
     }
 
@@ -25,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('qa');
     }
 };
