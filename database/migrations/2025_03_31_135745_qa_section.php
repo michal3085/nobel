@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('qa_section', function (Blueprint $table) {
             $table->bigIncrements('qa_section_id');
             $table->string('qa_section_name');
+            $table->string('qa_section_code');
             $table->boolean('qa_section_active')->default(true);
         });
     }

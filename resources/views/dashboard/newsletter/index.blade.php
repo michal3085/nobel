@@ -32,6 +32,9 @@
                         <th class="text-center">
                             Wysyłka
                         </th>
+                        <th>
+                            Szczegóły wysyłki
+                        </th>
                         <th class="text-nowrap text-start">
                             Usuń
                         </th>
@@ -70,13 +73,16 @@
                                 </form>
                             </td>
                             <td class="text-center">
+                                @if ($newsletter->newsletter_active === 1)
+                                    <a href="{{ route('newsletter.send', $newsletter) }}">
+                                        <i class="bi bi-send text-success"></i>
+                                    </a>
+                                @endif
+                            </td>
+                            <td class="text-center">
                                 @if($newsletter->hasBeenSent())
                                     <a href="{{ route('newsletter.sentList', $newsletter) }}">
                                         <i class="bi bi-list-check text-success"></i>
-                                    </a>
-                                @else
-                                    <a href="{{ route('newsletter.send', $newsletter) }}">
-                                        <i class="bi bi-send text-success"></i>
                                     </a>
                                 @endif
                             </td>

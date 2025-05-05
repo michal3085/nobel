@@ -11,7 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('qa', function (Blueprint $table) {
+            $table->bigIncrements('qa_id');
+            $table->unsignedBigInteger('qa_section_id');
+            $table->string('qa_title');
+            $table->text('qa_text');
+            $table->boolean('qa_active')->default(true);
+        });
     }
 
     /**
