@@ -2,7 +2,7 @@
 
 @section('buttons')
     <div class="col-auto">
-        <a href="{{ route('newsletter.index') }}" class="btn btn-success me-1 mb-1">Powrót</a>
+        <a href="{{ route('qa.index') }}" class="btn btn-success me-1 mb-1">Powrót</a>
     </div>
 @endsection
 
