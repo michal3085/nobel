@@ -17,6 +17,36 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
+-----
+
+# PLIK .env
+- [ ] Nazwa strony - w pliku .env należy określić nazwę strony która potem będzie wykorzystywana min. w mailingu:
+```
+APP_NAME=NOBEL
+```
+- [ ] Ustawiamy stronę w wersji produkcyjnej:
+```
+APP_ENV=production
+```
+- [ ] URL aplikacji - ważne aby to ustawić - aplikacja czasem bedzie z tego korzystać:
+```
+APP_URL=http://nobel-demo.pl
+```
+- [ ] konfigurujemy dane skrzynki mailowej:
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.costam.pl
+MAIL_PORT=587
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=
+MAIL_FROM_NAME="${APP_NAME}"
+```
+- [ ] Konfiguracja adresu mailowego na który będą przychodzić wiadomości od użytkowników strony, np.: z formularzy kontaktowych
+```
+CONTACT_OFFICE_MAIL_TO='jakis@wasz.mail'
+```
 - [ ] Konfiguracja Bazy Danych w pliku .env, korzystałem z MySQL
 
 ```
@@ -27,6 +57,8 @@ DB_DATABASE=nobel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+- --------------------
+# MIGRACJA BAZY DANYCH
 
 - [ ] Migracje i seedy
 - [ ] w pliku ../database/seeders/UserTableSeeder należy utworzyć użytkowników - jest tam przykładowy użytkownik

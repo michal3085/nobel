@@ -37,7 +37,7 @@ class OfficeController extends Controller
 
     public function sendMail(MailRequest $request)
     {
-        if (Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new ContactMail($request))) {
+        if (Mail::to(env('CONTACT_OFFICE_MAIL_TO'))->send(new ContactMail($request))) {
             Session::flash('success', 'Wiadomość wysłana');
             return response()->json(['success' => true], 200);
         }

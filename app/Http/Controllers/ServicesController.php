@@ -37,7 +37,7 @@ class ServicesController extends Controller
 
     public function sendMail(MailRequest $request)
     {
-        if (Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new VirtualOfficeMail($request))) {
+        if (Mail::to(env('CONTACT_OFFICE_MAIL_TO'))->send(new VirtualOfficeMail($request))) {
             Session::flash('success', 'Wiadomość wysłana');
             return response()->json(['success' => true], 200);
         }
@@ -47,7 +47,7 @@ class ServicesController extends Controller
     public function krsMailSend(KrsMailRequest $request)
     {
         try {
-            Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new KrsMail($request));
+            Mail::to(env('CONTACT_OFFICE_MAIL_TO'))->send(new KrsMail($request));
             Session::flash('success', 'Wiadomość wysłana');
         } catch (\Exception $exception) {
             Log::info('[ZMIANY W KRS] - WYSYŁKA MAILA');

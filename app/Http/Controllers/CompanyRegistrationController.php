@@ -11,7 +11,7 @@ class CompanyRegistrationController extends Controller
 {
     public function sendMail(CompanyRegistrationMailRequest $request)
     {
-        if (Mail::to(env('VIRTUAL_OFFICE_MAIL_TO'))->send(new CompanyRegistrationMail($request))) {
+        if (Mail::to(env('CONTACT_OFFICE_MAIL_TO'))->send(new CompanyRegistrationMail($request))) {
             Session::flash('success', 'Wiadomość wysłana');
             return response()->json(['success' => true], 200);
         }
