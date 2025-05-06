@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Dashboard;
+namespace App\Http\Controllers\Dashboard\QA;
 
 use App\Http\Controllers\Controller;
+use App\Models\QA\QASection;
 
 class QuestionAnswerController extends Controller
 {
@@ -11,6 +12,9 @@ class QuestionAnswerController extends Controller
         parent::__construct();
 
         $this->data['mainMenu'] = 'q&a';
+        $this->data['sections'] = QASection::where('qa_section_active', 1)
+            ->orderBy('qa_section_name', 'DESC')
+            ->get();
     }
 
     public function index()

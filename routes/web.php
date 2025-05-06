@@ -5,7 +5,8 @@ use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Dashboard\Newsletter\NewsletterController;
 use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
-use App\Http\Controllers\Dashboard\QuestionAnswerController;
+use App\Http\Controllers\Dashboard\QA\QaSectionController;
+use App\Http\Controllers\Dashboard\QA\QuestionAnswerController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
@@ -67,6 +68,11 @@ Route::middleware('auth')->group(function () {
 
     // Q&A
     Route::get('/qa/list', [QuestionAnswerController::class, 'index'])->name('qa.index');
+
+    // Q&A SECTIONS
+    Route::get('/qa/sections', [QaSectionController::class, 'index'])->name('qa.sections.index');
+    Route::get('/qa/section/{section}/edit', [QaSectionController::class, 'edit'])->name('qa.sections.edit');
+    Route::get('/qa/section/{section}/status', [QaSectionController::class, 'status'])->name('qa.sections.status');
 });
 
 // READY COMPANY

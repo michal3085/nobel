@@ -19,4 +19,14 @@ class QASection extends Model
         'qa_section_code',
         'qa_section_active',
     ];
+
+    public function relationQuestionAnswers()
+    {
+        return $this->hasMany(QuestionAnswer::class, 'qa_section_id', 'qa_section_id');
+    }
+
+    public function getThreadsCount()
+    {
+        return $this->relationQuestionAnswers->count();
+    }
 }
