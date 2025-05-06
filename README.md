@@ -17,6 +17,17 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
+-----
+
+# PLIK .env
+- [ ] Nazwa strony - w pliku .env należy określić nazwę strony która potem będzie wykorzystywana min. w mailingu:
+```
+APP_NAME=NOBEL
+```
+- [ ] Ustawiamy stronę w wersji produkcyjnej:
+```
+APP_ENV=production
+```
 - [ ] Konfiguracja Bazy Danych w pliku .env, korzystałem z MySQL
 
 ```
@@ -27,6 +38,9 @@ DB_DATABASE=nobel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+- [ ] Konfiguracja Bazy Danych w pliku .env, korzystałem z MySQL
+- --------------------
+# MIGRACJA BAZY DANYCH
 
 - [ ] Migracje i seedy
 - [ ] w pliku ../database/seeders/UserTableSeeder należy utworzyć użytkowników - jest tam przykładowy użytkownik
