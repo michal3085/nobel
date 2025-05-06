@@ -91,4 +91,20 @@ class QuestionAnswerController extends Controller
         return redirect()->route('qa.edit', ['thread' => $thread])
             ->with('success', 'Wątek został zaktualizowany');
     }
+
+    public function delete(QuestionAnswer $thread)
+    {
+        DB::beginTransaction();
+        try {
+            $thread->delete();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie usuwania wątku');
+        }
+        DB::commit();
+
+        return redirect()->back()->with('success', 'Wątek usunięty');
+    }
 }

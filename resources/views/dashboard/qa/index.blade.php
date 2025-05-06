@@ -50,7 +50,15 @@
                                         @endif
                                     </form>
                                 </td>
-                                <td>asd</td>
+                                <td>
+                                    <form action="{{ route('qa.delete', $thread) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-sm text-danger">
+                                            <i class="bi bi-trash3"></i>
+                                        </button>
+                                    </form>
+                                </td>
                             </tr>
                         @endforeach
                         </tbody>

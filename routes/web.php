@@ -73,6 +73,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/qa/thread/{thread}/edit', [QuestionAnswerController::class, 'edit'])->name('qa.edit');
     Route::put('/qa/thread/{thread}/status', [QuestionAnswerController::class, 'status'])->name('qa.status');
     Route::put('/qa/thread/{thread}/update', [QuestionAnswerController::class, 'update'])->name('qa.update');
+    Route::delete('/qa/thread/{thread}/delete', [QuestionAnswerController::class, 'delete'])->name('qa.delete');
 
     // Q&A SECTIONS
     Route::get('/qa/sections', [QaSectionController::class, 'index'])->name('qa.sections.index');
