@@ -80,3 +80,10 @@ php artisan migrate
 ```
 php artisan db:seed
 ```
+# Kilka pomocnych linków:
+
+- [ ] do instalacji aplikacji na serwerze napisanych w frameworku Laravel korzystam z tej instrukcji:
+- [d-hosting - INSTALACJA LARAVEL](https://dhosting.pl/pomoc/baza-wiedzy/jak-zainstalowac-laravel-na-serwerze/).
+####
+- [ ] dokumentacja Laravel - wersja aplikacji 11, najnowsza to 12:
+- [Dokumentacja Laravel 11](https://laravel.com/docs/11.x).
