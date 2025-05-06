@@ -68,6 +68,7 @@ Route::middleware('auth')->group(function () {
 
     // Q&A
     Route::get('/qa/list', [QuestionAnswerController::class, 'index'])->name('qa.index');
+    Route::get('/qa/thread/{thread}/edit', [QuestionAnswerController::class, 'edit'])->name('qa.edit');
 
     // Q&A SECTIONS
     Route::get('/qa/sections', [QaSectionController::class, 'index'])->name('qa.sections.index');

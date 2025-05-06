@@ -28,7 +28,7 @@
                                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item"><a class="dropdown-item" href="{{ route('qa.sections.index') }}">Sekcje</a></li>
-                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.index') }}">Q&A - zarządzanie</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('qa.index') }}">Q&A - zarządzanie</a></li>
                                         </ul>
                                     </li>
                                 </ul>

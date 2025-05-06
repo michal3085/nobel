@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Dashboard\QA;
 
 use App\Http\Controllers\Controller;
 use App\Models\QA\QASection;
+use App\Models\QA\QuestionAnswer;
 
 class QuestionAnswerController extends Controller
 {
@@ -19,6 +20,6 @@ class QuestionAnswerController extends Controller
 
     public function index()
     {
-        dd('ads');
+        return view('dashboard.qa.index', $this->data);
     }
 }

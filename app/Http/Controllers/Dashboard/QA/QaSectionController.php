@@ -20,7 +20,7 @@ class QaSectionController extends Controller
 
     public function index()
     {
-        return view('dashboard.qa.sections', $this->data);
+        return view('dashboard.qa.sections.index', $this->data);
     }
 
     public function status(QASection $section)
