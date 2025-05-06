@@ -5,7 +5,7 @@
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 orange">REJESTRACJA SPÓŁKI</span>
+                    <span class="underline-3 style-2 orange">Rejestracja spółki</span>
                 </h3>
             </div>
             <br>
@@ -13,7 +13,7 @@
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
                     <div class="col-12">
-                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku prostych krokach.</h3>
+                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku krokach.</h3>
 {{--                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>--}}
                     </div>
 
@@ -21,7 +21,7 @@
                         <ul class="icon-list bullet-bg bullet-soft-orange">
                             <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji, uzyskaniem numeru REGON, NIP.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji.</span></li>
                             <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
                         </ul>
@@ -57,10 +57,14 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check bullet-soft-red"></i><span>Wirtualne biuro (możliwość podpisania umowy)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
+                                        <div class="mt-auto w-100">
+                                            <a href="#" class="btn btn-orange rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-company-registration" data-office="REJESTRACJA W KRS">ZAREJESTRUJ</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +73,7 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="pricing card text-center">
                                     <div class="card-body">
-                                        <h4 class="card-title text-orange">REJESTRACJA W KRS</h4>
+                                        <h4 class="card-title text-orange">REJESTRACJA W KRS +</h4>
                                         <div class="prices text-dark">
                                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1000</span></div>
                                         </div>
@@ -78,11 +82,15 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check bullet-soft-red"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 1 miesiąc (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na <b>3</b> miesiące (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
 {{--                                            <li><i class="uil uil-times bullet-soft-red"></i><span>Kontakt z doradcą bankowym</span></li>--}}
                                         </ul>
+                                        <div class="mt-auto w-100">
+                                            <a href="#" class="btn btn-orange rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-company-registration" data-office="REJESTRACJA W KRS +">ZAREJESTRUJ</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -100,10 +108,14 @@
                                             <li><i class="uil uil-check"></i><span>Rejestracja spółki w KRS</span></li>
                                             <li><i class="uil uil-check"></i><span>Zgłoszenie spółki w Urzędzie Skarbowym (NIP, VAT, PCC)</span></li>
                                             <li><i class="uil uil-check"></i><span>Wpis w rejestrze CRBR</span></li>
-                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na 3 miesiące (nieobowiązkowe)</span></li>
-                                            <li><i class="uil uil-check"></i><span>Konsultacje z księgowością</span></li>
+                                            <li><i class="uil uil-check"></i><span>Wirtualne biuro na <b>6</b> miesięcy (nieobowiązkowe)</span></li>
+                                            <li><i class="uil uil-check"></i><span>e-Doręczenia</span></li>
+                                            <li><i class="uil uil-check"></i><span>Konsultacja z księgowością</span></li>
                                             <li><i class="uil uil-check"></i><span>Kontakt z doradcą bankowym</span></li>
                                         </ul>
+                                        <div class="mt-auto w-100">
+                                            <a href="#" class="btn btn-orange rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-company-registration" data-office="PEŁNA REJESTRACJA SPÓŁKI">ZAREJESTRUJ</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +146,7 @@
                             </div>
                             <div>
                                 <h4>Księgowość</h4>
-                                <p class="mb-2">od 500 PLN</p>
+                                <p class="mb-2">od 550 PLN</p>
                             </div>
                         </div>
                     </div>
@@ -200,8 +212,8 @@
                 <div class="row gy-3 gx-xl-8">
                     <div class="col-xl-6">
                         <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
-                            <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością (SP. z o. o.)</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej (S. A.)</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki jawnej</span></li>
                         </ul>
                     </div>
@@ -209,14 +221,14 @@
                     <div class="col-xl-6">
                         <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
                             <li><span><i class="uil uil-check"></i></span><span>Spółki komandytowej</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej (S. K. A.)</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej</span></li>
                         </ul>
                     </div>
                     <!--/column -->
                 </div>
-                <div class="text-center mt-4">
-                    <a href="#" class="btn btn-orange rounded">Jestem zainteresowany</a>
-                </div>
+{{--                <div class="text-center mt-4">--}}
+{{--                    <a href="#" class="btn btn-orange rounded">Jestem zainteresowany</a>--}}
+{{--                </div>--}}
                 <!--/.row -->
             </div>
             <!--/column -->
@@ -242,11 +254,11 @@
                                     <li><i class="uil uil-check"></i><span><strong>Szybkość rejestracji spółki</strong> - już w ciągu 1-3 dni otrzymujesz
 KRS, REGON, NIP </span></li>
                                     <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 350 PLN </span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>Brak opaty notarialnej</strong> (oszczędność 500-1000 PLN ) </span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Brak opłaty notarialnej</strong> (oszczędność 500-1000 PLN ) </span></li>
                                     <li><i class="uil uil-check"></i><span> <strong>Możliwość przeprowadzania późniejszych zmian</strong> tj. zbycie
 udziałów, zmiana umowy spółki, zarządu, adresu i inne, w
 spółce również przez internet (S24),</span></li>
-                                    <li><i class="uil uil-check"></i><span><strong>umowa spółki jest krótka i praktyczna.</strong></span></li>
+                                    <li><i class="uil uil-check"></i><span><strong>Umowa spółki jest krótka i praktyczna.</strong></span></li>
                                 </ul>
                             </div>
                             <!--/.card-body -->
@@ -282,146 +294,8 @@ spółce również przez internet (S24),</span></li>
     </section>
 
     <div class="mt-4">
-        @include('qa.sections.companyRegistration', ['title' => 'Q&A'])
+        @include('qa.display', ['section' => 'companyRegistration', 'title' => 'Q&A'])
     </div>
 
-
-{{--    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">--}}
-{{--        <h2 class="display-4 mb-1 text-center">Rodzaje spółek które rejestrujemy</h2>--}}
-{{--        <p class="lead text-center mb-10 px-md-16 px-lg-0">Pełne wsparcie w zależności od indywidualnych potrzeb i planów biznesowych.--}}
-{{--            Specjalizujemy się w rejestracji:</p>--}}
-{{--        <div class="row">--}}
-{{--            <div class="col-lg-6 mb-0">--}}
-{{--                <div id="accordion-1" class="accordion-wrapper">--}}
-{{--                    <div class="card accordion-item">--}}
-{{--                        <div class="card-header" id="accordion-heading-1-1">--}}
-{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1" aria-expanded="false" aria-controls="accordion-collapse-1-1">Spółki z ograniczoną odpowiedzialnością (Sp. z o.o.)</button>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.card-header -->--}}
-{{--                        <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">--}}
-{{--                            <div class="card-body">--}}
-{{--                                <p>Najpopularniejsza forma działalności gospodarczej w Polsce, łącząca--}}
-{{--                                    ograniczoną odpowiedzialność wspólników z elastycznością zarządzania.</p>--}}
-{{--                            </div>--}}
-{{--                            <!-- /.card-body -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /.collapse -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.card -->--}}
-{{--                    <div class="card accordion-item">--}}
-{{--                        <div class="card-header" id="accordion-heading-1-2">--}}
-{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2" aria-expanded="false" aria-controls="accordion-collapse-1-2">Spółki akcyjnej (S.A.)</button>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.card-header -->--}}
-{{--                        <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">--}}
-{{--                            <div class="card-body">--}}
-{{--                                <p>Forma prawna dedykowana większym przedsięwzięciom, umożliwiająca--}}
-{{--                                    emisję akcji i pozyskiwanie kapitału na szeroką skalę.</p>--}}
-{{--                            </div>--}}
-{{--                            <!-- /.card-body -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /.collapse -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.card -->--}}
-{{--                    <div class="card accordion-item">--}}
-{{--                        <div class="card-header" id="accordion-heading-1-3">--}}
-{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-3" aria-expanded="false" aria-controls="accordion-collapse-1-3">Spółki jawnej</button>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.card-header -->--}}
-{{--                        <div id="accordion-collapse-1-3" class="collapse" aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">--}}
-{{--                            <div class="card-body">--}}
-{{--                                <p>Prosta forma spółki osobowej, gdzie wspólnicy odpowiadają całym swoim--}}
-{{--                                    majątkiem za zobowiązania spółki.</p>--}}
-{{--                            </div>--}}
-{{--                            <!-- /.card-body -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /.collapse -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.card -->--}}
-{{--                </div>--}}
-{{--                <!-- /.accordion-wrapper -->--}}
-{{--            </div>--}}
-{{--            <!--/column -->--}}
-{{--            <div class="col-lg-6">--}}
-{{--                <div id="accordion-2" class="accordion-wrapper">--}}
-{{--                    <div class="card accordion-item">--}}
-{{--                        <div class="card-header" id="accordion-heading-2-1">--}}
-{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1" aria-expanded="false" aria-controls="accordion-collapse-2-1">Spółki komandytowej</button>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.card-header -->--}}
-{{--                        <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">--}}
-{{--                            <div class="card-body">--}}
-{{--                                <p>Spółka osobowa, w której co najmniej jeden wspólnik (komandytariusz)--}}
-{{--                                    odpowiada za zobowiązania tylko do wysokości wniesionych wkładów, a--}}
-{{--                                    drugi (komplementariusz) całym swoim majątkiem.</p>--}}
-{{--                            </div>--}}
-{{--                            <!-- /.card-body -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /.collapse -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.card -->--}}
-{{--                    <div class="card accordion-item">--}}
-{{--                        <div class="card-header" id="accordion-heading-2-2">--}}
-{{--                            <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2" aria-expanded="false" aria-controls="accordion-collapse-2-2">Spółki komandytowo-akcyjnej (S.K.A.)</button>--}}
-{{--                        </div>--}}
-{{--                        <!-- /.card-header -->--}}
-{{--                        <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">--}}
-{{--                            <div class="card-body">--}}
-{{--                                <p>Połączenie cech spółki komandytowej i akcyjnej, umożliwiające łączenie zalet--}}
-{{--                                    obu tych form.</p>--}}
-{{--                            </div>--}}
-{{--                            <!-- /.card-body -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /.collapse -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.card -->--}}
-{{--                </div>--}}
-{{--                <!-- /.accordion-wrapper -->--}}
-{{--            </div>--}}
-{{--            <!--/column -->--}}
-{{--        </div>--}}
-{{--        <!--/.row -->--}}
-{{--    </div>--}}
-
-{{--    <div class="col-lg-12 mb-2 mt-2">--}}
-{{--        <img src="{{asset('./assets/img/icons/lineal/megaphone.svg')}}" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />--}}
-{{--        <h2 class="display-4 mb-3">Formy Rejestracji Spółki</h2>--}}
-{{--        <div class="row gy-3 gx-xl-8">--}}
-{{--            <div class="col-xl-6">--}}
-{{--                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">--}}
-{{--                    <li><span><i class="uil uil-check"></i><b> Rejestracja online S24:</b></span>--}}
-{{--                        <br>--}}
-{{--                        <span class="justify-content-center">--}}
-{{--                            <p class="text-success mb-1"><b>ZALETY:</b></p>--}}
-{{--                            Zamiast ponosić koszty związane z wynajmem tradycyjnego biura, korzystaj z wirtualnego biura, co--}}
-{{--                            jest znacznie tańsze.--}}
-{{--                        </span>--}}
-{{--                        <span class="justify-content-center">--}}
-{{--                            <p class="text-danger mb-1"><b>WADY:</b></p>--}}
-{{--                            Ograniczenia w dostosowywaniu umowy spółki w systemie S24.--}}
-{{--                        </span>--}}
-{{--                    </li>--}}
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--            <!--/column -->--}}
-{{--            <div class="col-xl-6">--}}
-{{--                <ul class="icon-list bullet-bg bullet-soft-primary mb-0">--}}
-{{--                    <li><span><i class="uil uil-check"></i><b> Rejestracja Aktem Notarialnym:</b></span>--}}
-{{--                        <br>--}}
-{{--                        <span class="justify-content-center">--}}
-{{--                            <p class="text-success mb-1"><b>ZALETY:</b></p>--}}
-{{--                            Możliwość dostosowania umowy spółki oraz zapisów do potrzeb przedsiębiorstwa.--}}
-{{--                        </span>--}}
-{{--                        <span class="justify-content-center">--}}
-{{--                            <p class="text-danger mb-1"><b>WADY:</b></p>--}}
-{{--                            Dłuższy czas rejestracji 7-30 dni, wyższe koszty: opłata notarialna 600 - 2000 zł, 600 zł opłata sądowa.--}}
-{{--                        </span>--}}
-{{--                    </li>--}}
-
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--            <!--/column -->--}}
-{{--        </div>--}}
-{{--        <!--/.row -->--}}
-{{--    </div>--}}
+    @include('Services.modal._companyRegistration')
 @endsection

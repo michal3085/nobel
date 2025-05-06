@@ -3,7 +3,7 @@
 @section('content')
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
-            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
                 <span class="underline-3 style-2 violet">Wirtualne biuro</span>
             </h3>
         </div>
@@ -13,15 +13,14 @@
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/6.jpg" alt="" class="img-fluid" /></a>
+                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Oxford Tower
-                                    Śródmieście</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -36,7 +35,7 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
@@ -57,13 +56,12 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Carolina Medical Center Pory 78
-                                    Mokotów</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Pory 78 Mokotów</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -78,12 +76,12 @@
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}"> <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 + coworking
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 | coworking
                                     Wilanów</a>
                             </h2>
                         </div>
@@ -101,21 +99,27 @@
             </div>
         </div>
 
-        <div class="tab-pane fade show active" id="tab2-1">
+        @include('Services.components.virtualOfficePricing')
+
+        <hr class="bg-violet border-2 border-top border-violet"/>
+
+        <div class="tab-pane fade show active mt-15" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                <div class="col-lg-6">
-                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>
-                </div>
+                {{--                <div class="col-lg-6">--}}
+                {{--                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>--}}
+                {{--                </div>--}}
                 <!--/column -->
-                <div class="col-lg-6">
-                    <p style="font-size: 15px;">
-                        Wirtualne biuro to usługa, która umożliwia prowadzenie firmy bez konieczności
+                {{--                <div class="col-lg-6">--}}
+                <div class="col-lg-12">
+                    <p style="font-size: 18px; text-align: justify;">
+                        <b>Wirtualne biuro</b> to usługa, która umożliwia prowadzenie firmy bez konieczności
                         wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
                         freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
                         działalność na skalę krajową lub międzynarodową.
                     </p>
+
                     <p style="font-size: 15px;">
-                        <b>Nasza oferta Wirtualnego Biura</b> to więcej niż tylko adres. Otrzymasz dostęp do
+                        <b>Wirtualnego Biuro</b> to więcej niż tylko adres. Otrzymasz dostęp do
                         pełnej obsługi administracyjnej:
                     </p>
                     <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
@@ -130,6 +134,8 @@
             </div>
             <!--/.row -->
         </div>
+
+        <hr class="bg-violet border-2 border-top border-violet"/>
 
         <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
             <div class="col-lg-6">
@@ -172,7 +178,7 @@
                                 <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
                             </div>
                             <div>
-                                <h4 class="mb-1">Profesjonalny wizerunekg</h4>
+                                <h4 class="mb-1">Profesjonalny wizerunek</h4>
                                 <p class="mb-0">prestiżowy adres w centrum miasta zwiększa
                                     wiarygodność Twojej firmy w oczach klientów i kontrahentów.</p>
                             </div>
@@ -211,8 +217,6 @@
             <!--/column -->
         </div>
 
-        @include('Services.components.virtualOfficePricing')
-
         <section class="wrapper bg-light">
             <div class="container py-14 py-md-16">
                 <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -222,7 +226,7 @@
                                 <div class="card bg-pale-yellow">
                                     <div class="card-body">
                                         <img src="./assets/img/icons/lineal/telephone-3.svg" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
-                                        <p class="mb-0">Oferujemy przedstawicielstwo w podatku VAT dla podmiotów spoza Unii Europejskiej i wiele innych usług.</p>
+                                        <p class="mb-0">Przedstawicielstwo w podatku VAT dla podmiotów spoza Unii Europejskiej i wiele innych usług.</p>
                                     </div>
                                     <!--/.card-body -->
                                 </div>
@@ -258,7 +262,7 @@
                                     <div class="card-body">
                                         <img src="./assets/img/icons/lineal/analytics.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
 
-                                        <p class="mb-0">Wynajem coworkingu</p>
+                                        <p class="mb-0">Wynajem gotowego biura lub coworkingu</p>
                                     </div>
                                     <!--/.card-body -->
                                 </div>
@@ -271,8 +275,14 @@
                     <!--/column -->
                     <div class="col-lg-5">
                         <h3 class="display-4 mb-5">CO OFERUJEMY POZA ADRESEM REJESTROWYM:</h3>
-                        <p><b>obsługę prawną, księgową i doradztwo podatkowe</b> Poprowadzimy księgowość dla każdej firmy, oferujemy
-                            obsługę audytów i kontroli podatkowych a doradca podatkowy udzieli wszelkiego wsparcia.</p>
+                        <ul>
+                            <li>Księgowość</li>
+                            <li><b>Obsługę prawną</b></li>
+                            <li><b>Doradztwo podatkowe</b></li>
+                            <li>Obsługę audytów i kontroli podatkowych</li>
+                        </ul>
+{{--                        <p><b>obsługę prawną, księgową i doradztwo podatkowe</b> Poprowadzimy księgowość dla każdej firmy, oferujemy--}}
+{{--                            obsługę audytów i kontroli podatkowych a doradca podatkowy udzieli wszelkiego wsparcia.</p>--}}
                     </div>
                     <!--/column -->
                 </div>
@@ -282,7 +292,7 @@
         </section>
 
         <div class="mt-4">
-            @include('qa.sections.virtualOffice', ['title' => 'Q&A'])
+            @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])
         </div>
         <!-- /section -->
         <!-- /section -->

@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('newsletter', function (Blueprint $table) {
             $table->bigIncrements('newsletter_id');
-            $table->longText('newsletter_body')->unique();
-            $table->string('newsletter_subject');
+            $table->longText('newsletter_body');
+            $table->string('newsletter_subject')->unique();
             $table->boolean('newsletter_active')->default(true);
+            $table->string('newsletter_author');
             $table->rememberToken();
             $table->timestamps();
         });

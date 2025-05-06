@@ -1,6 +1,8 @@
 @extends('_layout')
 
 @section('content')
+    @include('office._returnButton', ['color' => 'yellow'])
+
     <section class="wrapper bg-light">
 
         <div class="container py-5">
@@ -14,14 +16,26 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 yellow">Śródmieście - Piękna 15</h2>
+                                            <h2 class="underline-3 style-2 yellow">Śródmieście Piękna 15</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Oferujemy do wynajęcia przestronny i nowoczesny lokal biurowy o powierzchni 73 m²,
-                                                zlokalizowany w jednej z najbardziej prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
-                                                15. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.</p>
+                                                Przestronny i <b>nowoczesny</b> lokal biurowy o powierzchni 73 m²,
+                                                zlokalizowany w jednej z najbardziej <b>prestiżowych lokalizacji Warszawy – przy ulicy Pięknej
+                                                15</b>. To idealne miejsce dla firm, które cenią sobie elegancję, wygodę i dostęp do serca stolicy.
+                                            </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-yellow rounded-pill me-2 nobel-contact-button"
+                                                       data-office="ŚRÓDMIEŚCIE PIĘKNA 15"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -29,17 +43,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/piekna/9.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/9.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/piekna/9.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/9.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/piekna/lobby.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/lobby.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/piekna/lobby.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/lobby.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/piekna/1.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/piekna/1.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/piekna/1.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -106,8 +120,7 @@
                     </div>
                     <div>
                         <h4>Wykończenie</h4>
-                        <p class="mb-0">wysoki standard – lokal jest świeżo odnowiony, z eleganckimi
-                            wykończeniami i nowoczesnym designem.</p>
+                        <p class="mb-0">wysoki standard – lokal jest świeżo odnowiony.</p>
                     </div>
                 </div>
             </div>
@@ -207,10 +220,7 @@
             </p>
         </div>
 
-        <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-yellow rounded-pill me-2">Zapytaj o dostępność</a></span>
-        </div>
-
     </section>
+    @include('Services.modal._officesModal')
 @endsection
 

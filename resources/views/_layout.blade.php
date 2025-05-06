@@ -10,7 +10,7 @@
     <title>NOBEL - Gotowe Rozwiązania</title>
     <link rel="shortcut icon" href="/assets/img/favicon.png">
     <link rel="stylesheet" href="/assets/css/plugins.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/styleV2.css">
     <link rel="stylesheet" href="/assets/css/colors/nobel.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -25,9 +25,9 @@
     }
 
     .nav.social a:nth-child(1) i { color: #1DA1F2; } /* Twitter */
-    .nav.social a:nth-child(2) i { color: #1877F2; } /* Facebook */
+    .nav.social a:nth-child(2) i { color: #1877F2; } /* Facebook in use */
     .nav.social a:nth-child(3) i { color: #EA4C89; } /* Dribbble */
-    .nav.social a:nth-child(4) i { color: #E4405F; } /* Instagram */
+    .nav.social a:nth-child(4) i { color: #E4405F; } /* Instagram in use */
     .nav.social a:nth-child(5) i { color: #FF0000; } /* YouTube */
 </style>
 
@@ -87,13 +87,13 @@
 
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <p class="mb-4">© <script>document.write(new Date().getUTCFullYear());</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <p class="mb-4" style="font-size: 12px;">© 2025</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
                     <nav class="nav social">
-                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>
+{{--                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>--}}
                         <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
-                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>
+{{--                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>--}}
                         <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
-                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>
+{{--                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>--}}
                     </nav>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     <h4 class="widget-title text-white mb-3">Kontakt</h4>
                     <div class="d-flex gap-4">
                         <address>
-                            Nobel Sp. z o.o.<br>
+                            Nobel.pro Sp. z o.o.<br>
                             Ul. Chałubińskiego 8<br>
                             00-613 Warszawa<br>
                         </address>
@@ -126,7 +126,7 @@
                     <h4 class="widget-title text-white mb-3">Nasze linki</h4>
                     <ul class="list-unstyled  mb-0">
                         <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
-                        <li><a href="https://ekrs.ms.gov.pl/s24/">e-krs</a></li>
+                        <li><a href="https://ekrs.ms.gov.pl/s24/">E-KRS</a></li>
                         <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
                         <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
                     </ul>
@@ -140,23 +140,22 @@
                     <p class="mb-5">Dołącz do naszego newslettera aby otrzymywać najnowsze informacje</p>
                     <div class="newsletter-wrapper">
                         <!-- Begin Mailchimp Signup Form -->
-                        <div id="mc_embed_signup2">
-                            <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll2">
+                            <form action="{{ route('newsletter.add.subscriber') }}" method="post" class="validate dark-fields">
+                                @csrf
+
                                     <div class="mc-field-group input-group form-floating">
-                                        <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                                        <input type="email" value="" name="ns_mail_address" class="required email form-control" placeholder="Email Address">
                                         <label for="mce-EMAIL2">Adres e-mail</label>
-                                        <input type="submit" value="Dołącz" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                                        <input type="submit" value="Dołącz" name="subscribe" class="btn btn-primary ">
                                     </div>
-                                    <div id="mce-responses2" class="clear">
-                                        <div class="response" id="mce-error-response2" style="display:none"></div>
-                                        <div class="response" id="mce-success-response2" style="display:none"></div>
-                                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                                    <div class="clear"></div>
-                                </div>
+{{--                                    <div id="mce-responses2" class="clear">--}}
+{{--                                        <div class="response" id="mce-error-response2" style="display:none"></div>--}}
+{{--                                        <div class="response" id="mce-success-response2" style="display:none"></div>--}}
+{{--                                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->--}}
+{{--                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>--}}
+{{--                                    <div class="clear"></div>--}}
+
                             </form>
-                        </div>
                         <!--End mc_embed_signup-->
                     </div>
                     <!-- /.newsletter-wrapper -->

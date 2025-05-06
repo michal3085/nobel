@@ -50,7 +50,7 @@
                     <div class="project-details d-flex justify-content-center flex-column">
                         <div class="post-header">
                             {{--                                        <div class="post-category mb-2 text-purple">Product</div>--}}
-                            <h2 class="post-title h3">Wilanów Herbu Janina 5 HJ5</h2>
+                            <h2 class="post-title h3">Wilanów Herbu Janina 5</h2>
                         </div>
                         <!-- /.post-header -->
                     </div>

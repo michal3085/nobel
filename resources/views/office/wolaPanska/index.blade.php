@@ -1,6 +1,10 @@
 @extends('_layout')
 
 @section('content')
+    @include('Services.modal._officesModal')
+
+    @include('office._returnButton', ['color' => 'blue'])
+
     <section class="wrapper bg-light">
         <div class="container py-5">
             <div class="row mt-6">
@@ -12,24 +16,38 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-blue mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 bluew">WOLA PAŃSKA 96</h2>
+                                            <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
+                                            <h2 class="underline-3 style-2 blue">Wola Pańska 96</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-blue">2500 PLN</h3>
+                                                @if ($mainMenu !== 'virtualOffices')
+                                                    <h3 class="text-blue">od 2500 PLN</h3>
+                                                @endif
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być w samym centrum biznesowym stolicy, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie.
-                                                    Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami,znajdują się także kino, muzea i sale zabaw.
-                                                    500 m2 powierzchni biurowej
+                                                    Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być <b>w samym centrum biznesowym stolicy</b>, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie. Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami, znajdują się także kino, muzea i sale zabaw.
+                                                    W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
                                                 @else
-                                                Marzysz o wygodnym biurze w doskonałej lokalizacji? Cenisz sobie doskonały dojazd do miejsca pracy? Gotowe Biuro przy Pańskiej 96 spełni Twoje wszelkie oczekiwania.
-                                                Pańska 96 to ponad 20 w pełni umeblowanych gabinetów. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w topowej lokalizacji przy ul. Pańskiej 96, naprzeciwko kultowej Fabryki Norblina.
-                                                Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.</p>
+                                                Pańska 96 to ponad <b>25 w pełni umeblowanych gabinetów na 600 m2 powierzchni</b>. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w <b>topowej lokalizacji przy ul. Pańskiej 96</b>, naprzeciwko kultowej Fabryki Norblina.
+                                                Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.
+                                                    <br>
+                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Wirtualne Biuro</b></a>.
                                             @endif
+                                            </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-blue rounded-pill me-2 nobel-contact-button"
+                                                       data-office="PAŃSKA 96 WOLA"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -37,17 +55,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -60,6 +78,11 @@
                 <!-- /column -->
             </div>
             <br>
+
+            @if ($mainMenu === 'virtualOffices')
+                @include('Services.components.virtualOfficePricing')
+            @endif
+
             <div class="container-fluid px-md-6 mt-5">
                 <div class="row">
                     <div class="col-12">
@@ -72,10 +95,6 @@
             </div>
             <!-- /.row -->
         </div>
-
-        @if ($mainMenu === 'virtualOffices')
-            @include('Services.components.virtualOfficePricing')
-        @endif
 
 
             <!--/.tab-pane -->
@@ -91,5 +110,4 @@
 {{--            </div>--}}
             <!--/.tab-pane -->
     </section>
-
 @endsection

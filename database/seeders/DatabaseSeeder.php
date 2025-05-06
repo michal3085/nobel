@@ -14,11 +14,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         (new UserTableSeeder())->run();
-        // User::factory(10)->create();
-
-//        User::factory()->create([
-//            'name' => 'Test User',
-//            'email' => 'test@example.com',
-//        ]);
+        (new QASectionSeeder())->run();
+        (new qaCompanyRegistrationSeeder())->run();
+        (new qaKrsChangesSeeder())->run();
+        (new qaReadyCompanySeeder())->run();
+        (new qaReadyOfficeSeeder())->run();
+        (new qaVirtualOfficeSeeder())->run();
     }
 }

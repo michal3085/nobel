@@ -1,6 +1,8 @@
 @extends('_layout')
 
 @section('content')
+    @include('office._returnButton', ['color' => 'blue'])
+
     <section class="wrapper bg-light">
         <div class="container py-5">
             <div class="row mt-6">
@@ -12,17 +14,29 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-blue mb-3">Gotowe biuro</div>
+                                            <div class="post-category text-blue mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 blue">KATOWICE SOKOLSKA 30</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-blue">od 2000 PLN</h3>
+                                                <h3 class="text-blue">od 1400 PLN</h3>
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Ta nowoczesna przestrzeń biurowa jest idealnym miejscem dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, sale konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę. Lokalizacja ta to doskonały wybór zarówno dla startupów, jak i dla większych firm szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się Katowicach.
+                                                <b>Nowoczesna przestrzeń biurowa</b> dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, salę konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę.
+                                                <b>Lokalizacja</b> ta to doskonały wybór zarówno dla <b>startupów</b>, jak i dla <b>większych firm</b> szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się <b>Katowicach</b>.
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-blue rounded-pill me-2 nobel-contact-button"
+                                                       data-office="SOKOLSKA 30 KATOWICE"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -30,17 +44,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-16.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-16.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-16.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-16.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-3.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-3.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-3.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-3.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-6.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-6.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-6.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-6.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -107,4 +121,5 @@
 
     </section>
 
+    @include('Services.modal._officesModal')
 @endsection

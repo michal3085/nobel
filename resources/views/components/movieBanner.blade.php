@@ -1,5 +1,5 @@
 <section class=" section-frame overflow-hidden video-wrapper px-0 mt-0 min-vh-80">
-    <video poster="/assets/media/nobel_movie.mp4" src="/assets/media/nobel_movie.mp4" autoplay loop playsinline muted></video>
+    <video poster="/assets/media/nobel_fast.mp4" src="/assets/media/nobel_fast.mp4" autoplay loop playsinline muted></video>
     <div class="video-content">
         <div class="container text-center">
             <div class="row">
@@ -22,22 +22,22 @@
                 <div class="row align-items-center counter-wrapper gy-8 text-center text-white">
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">100</h3>
-                        <p>Serwisowanych biur</p>
+                        <p>serwisowanych biur</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">2000</h3>
-                        <p>Sprzedanych spółek</p>
+                        <p>sprzedanych spółek</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">4000</h3>
-                        <p>Zarejestrowanych spółek</p>
+                        <p>zarejestrowanych spółek</p>
                     </div>
                     <!--/column -->
                     <div class="col-6 col-lg-3">
                         <h3 class="counter counter-lg text-white">8000</h3>
-                        <p>Zmian w KRS</p>
+                        <p>zmian w KRS</p>
                     </div>
                     <!--/column -->
                 </div>

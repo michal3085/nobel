@@ -1,6 +1,8 @@
 @extends('_layout')
 
 @section('content')
+    @include('office._returnButton', ['color' => 'yellow'])
+
     <section class="wrapper bg-light">
 
         <div class="container py-5">
@@ -13,23 +15,37 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-yellow mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 yellow">MOKOTÓW CAROLINA MEDICAL CENTER6</h2>
+                                            <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
+                                            <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-yellow">od 2500 PLN</h3>
+                                                @if ($mainMenu !== 'virtualOffices')
+                                                    <h3 class="text-yellow">od 2500 PLN</h3>
+                                                @endif
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na Mokotowie to doskonała opcja dla firm pragnących skorzystać z prestiżowego adresu w jednej z najbardziej pożądanych dzielnic Warszawy. Mokotów jest znany z doskonałej infrastruktury, bliskości do centrum miasta oraz licznych parków, co czyni go idealnym miejscem do prowadzenia działalności biznesowej.
+                                                    Wirtualne biuro na <b>Mokotowie</b> to doskonała opcja dla firm pragnących skorzystać z prestiżowego adresu w jednej z najbardziej pożądanych dzielnic Warszawy.
+                                                    Mokotów jest znany z doskonałej infrastruktury, bliskości do centrum miasta oraz licznych parków, co czyni go idealnym <b>miejscem do prowadzenia działalności biznesowej</b>.
                                                 @else
-                                                    Biuro usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: Wawer, Wilanów i Ursynów. Piękny widok z 12 pietra na zieloną część miasta oraz na warszawskie City ukoi Twoje zmysły. Serwisowane biura zlokalizowane w Multis Plaza to doskonała propozycja dla tych, którzy cenią pracę z dala od wielkomiejskiego szumu, jednocześnie pozostając w bliskim sąsiedztwie centrum miasta.
-                                                    Na warszawskim Mokotowie czeka na Ciebie kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
-                                                    W tej lokalizacji gwarantujemy również Wirtualne Biura.
+                                                    Serwisowane biura zlokalizowane w Multis Plaza usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: <b>Wawer, Wilanów i Ursynów</b>. Na warszawskim Mokotowie czeka na Ciebie <b>kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna</b>. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
+                                                    <br>
+                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
                                                 @endif
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-yellow rounded-pill me-2 nobel-contact-button"
+                                                       data-office="MOKOTÓW PORY 78"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -37,17 +53,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/carolina/SALKA_12P.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/SALKA_12P.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/carolina/biuro_84.2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/biuro_84.2.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -62,6 +78,10 @@
             <!-- /.row -->
         </div>
 
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
+
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
@@ -73,10 +93,6 @@
             </div>
         </div>
 
-        @if ($mainMenu === 'virtualOffices')
-            @include('Services.components.virtualOfficePricing')
-        @endif
-
             <!--/.tab-pane -->
 {{--            <div class="tab-pane fade" id="tab3-2">--}}
 {{--                <div class="col-lg-12">--}}
@@ -87,4 +103,5 @@
 {{--            </div>--}}
     </section>
 
+    @include('Services.modal._officesModal')
 @endsection

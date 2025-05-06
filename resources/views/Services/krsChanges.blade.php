@@ -2,6 +2,15 @@
 
 @section('content')
     <section class="wrapper bg-light">
+        <div class="container pb-5 pb-md-7">
+            <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-3">
+                <div class="col-lg-12 text-center text-lg-start">
+                    <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
+                        <span class="underline-3 style-2 orange">Zmiany w KRS</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
 
         <style>
             .image-wrapper {
@@ -15,22 +24,22 @@
             <div class="container-fluid py-6 py-md-8"> <!-- Zmniejszone paddingi -->
                 <div class="row gx-0 gy-4 align-items-end w-100 m-0">
                     <div class="col-lg-4">
-                        <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>
+{{--                        <h2 class="fs-16 text-uppercase text-line text-orange mb-n12">ZMIANY W KRS</h2>--}}
                         <h3 class="display-4 mb-0">Jesteśmy dumni z naszych działań</h3>
                     </div>
                     <div class="col-lg-8">
                         <div class="row align-items-center counter-wrapper gy-3 text-center">
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">8000</h3>
-                                <p>Przeprowadzonych zmian</p>
+                                <p>przeprowadzonych zmian</p>
                             </div>
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">4000</h3>
-                                <p>Zarejestrowanych spółek</p>
+                                <p>zarejestrowanych spółek</p>
                             </div>
                             <div class="col-md-4">
                                 <h3 class="counter counter-lg text-orange">2000</h3>
-                                <p>Sprzedanych spółek</p>
+                                <p>sprzedanych spółek</p>
                             </div>
                         </div>
                     </div>
@@ -71,25 +80,33 @@
                     <!--/column -->
                     <div class="col-lg-6">
                         <h3 class="display-4 mb-5">Przeprowadzamy kompleksowe zmiany w KRS</h3>
-                        <p class="mb-7">
-                            Specjalizujemy się w procesach począwszy od rejestracji i sprzedaży spółek, poprzez
-                            aktualizacje, zawieszenia kończąc na likwidacjach i wykreśleniach z KRS. Obsługujemy także
-                            fundacje i stowarzyszenia oraz wszelkie inne podmioty wpisane do rejestru KRS.
-                            <br><br>
+                        <p class="mb-7"  style="text-align: justify;">
+                            Specjalizujemy się w procesach począwszy od rejestracji i sprzedaży spółek, poprzez aktualizacje,
+                            zawieszenia kończąc na likwidacjach i wykreśleniach z KRS. Obsługujemy także fundacje i stowarzyszenia
+                            oraz wszelkie inne podmioty wpisane do rejestru KRS.
+                            <br>
+                            W przypadku zmian w których niezbędne jest uzyskanie dokumentów potwierdzonych przez
+                            notariusza np. zbycie udziałów, zmiana umowy spółki w formie aktu notarialnego,
+                            zwyczajowo kontaktujemy się z notariuszem w imieniu klienta i ustalamy cały zakres
+                            <br>
                             <b>Najczęstsze aktualizacje dotyczą:</b>
                         </p>
                         <div class="row gy-3">
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-orange mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Zmiany adresu siedziby lub nazwy firmy</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Zmiany wspólników lub podwyższenia kapitału</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany adresu siedziby</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiana nazwy firmy</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany wspólników</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiana podwyższenia kapitału</span></li>
                                 </ul>
                             </div>
                             <!--/column -->
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-orange mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span>Zmiany członków zarządu lub sposobu reprezentacji</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Zmiany przedmiotu działalności (PKD) lub umowy spółki</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany członków zarządu</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany sposobu reprezentacji</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany przedmiotu działalności (PKD)</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany umowy spółki</span></li>
                                 </ul>
                             </div>
                             <!--/column -->
@@ -137,7 +154,7 @@
                             <div>
                                 <h4 class="mb-1">1. Weryfikacja</h4>
                                 <p class="mb-0">- danych i sposobu przeprowadzenia zmiany,</p>
-                                <p class="mb-0">- dokumentów wewnętrznych spółki np. notarialnych, a często pośredniczenie w kontaktach z notariuszem,</p>
+                                <p class="mb-0">- wszelkich dokumentów wewnętrznych spółki,</p>
                             </div>
                         </div>
                         <div class="d-flex flex-row mb-5">
@@ -170,7 +187,7 @@
         </section>
 
         <div class="mt-2">
-            @include('qa.sections.krsChanges', ['title' => 'Q&A'])
+            @include('qa.display', ['section' => 'krsChanges', 'title' => 'Q&A'])
         </div>
 
 

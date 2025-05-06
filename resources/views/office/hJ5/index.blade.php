@@ -1,8 +1,9 @@
 @extends('_layout')
 
 @section('content')
-    <section class="wrapper bg-light">
+    @include('office._returnButton', ['color' => 'sky'])
 
+    <section class="wrapper bg-light">
         <div class="container py-5">
             <div class="row mt-6">
                 <div class="col-xl-12 mx-auto">
@@ -14,7 +15,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-sky mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5 HJ5</h2>
+                                            <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5</h2>
                                             <div class="mb-3">
                                                 <h3 class="text-sky">od 1800 PLN</h3>
                                             </div>
@@ -22,10 +23,20 @@
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tutaj o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
-                                                Czeka na Ciebie  25 klimatyzowanych biur, które urzekają oryginalnym charakterem.
-                                                W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
+                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tu o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
+                                                <b>25 klimatyzowanych biur</b>, które urzekają oryginalnym charakterem. W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-sky rounded-pill me-2 nobel-contact-button"
+                                                       data-office="HERBU JANINA 5 WILANÓW"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -33,17 +44,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'><a href="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'><a href="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'><a href="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-11.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-11.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" alt="" /></a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -101,13 +112,15 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.925659864882!2d21.042755516067466!3d52.19022397975312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x623876d7ca77603f!2sNobel%20-%20biura%20do%20wynaj%C4%99cia%2C%20coworking%2C%20wirtualne%20biuro!5e0!3m2!1spl!2spl!4v1607354256104!5m2!1spl!2spl"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.9398552250823!2d21.0783524!3d52.153603499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d69587dd79d%3A0x290d77a9039c1fd2!2sHerbu%20Janina%205%2C%2002-972%20Warszawa!5e0!3m2!1spl!2spl!4v1744270401405!5m2!1spl!2spl"
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>
             </div>
         </div>
     </section>
+
+    @include('Services.modal._officesModal')
 @endsection
 
 @section('js')

@@ -1,6 +1,8 @@
 @extends('_layout')
 
 @section('content')
+    @include('office._returnButton', ['color' => 'green'])
+
     <section class="wrapper bg-light">
 
         <div class="container py-5">
@@ -13,28 +15,38 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-green mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 yellow">ŚRÓDMIEŚCIE OXFORD TOWER CH8</h2>
+                                            <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
+                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
-                                            <h3 class="text-green">1500 PLN</h3>
+                                            @if ($mainMenu !== 'virtualOffices')
+                                                <h3 class="text-green">od 1500 PLN</h3>
+                                            @endif
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro usytuowane w ścisłym centrum Warszawy na 22 piętrze jednego z pierwszych
-                                                    warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca Oxford Tower
-                                                    (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
-                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, hotelu Marriott i Pałacu Kultury i Nauki.
-                                                    W budynku tym poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz
-                                                    wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet
-                                                    tzw. gotowe biuro.
+                                                    Wirtualne biuro w ścisłym centrum Warszawy na <b>22 piętrze</b> jednego z pierwszych warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca <b>Oxford Tower</b> (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
+                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, Warsaw Presidential Hotel (kiedyś Marriott) i Pałacu Kultury i Nauki. W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
                                                 @else
-                                                    W pełni wyposażone biura w samym sercu Warszawy. Doskonała lokalizacja – kultowy biurowiec przy ulicy Chałubińskiego 8. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
+                                                    W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
+                                                    <br>
+                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
                                                 @endif
                                             </p>
+                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                                <span>
+                                                    <a href="#"
+                                                       class="btn btn-sm btn-green rounded-pill me-2 nobel-contact-button"
+                                                       data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8"
+                                                       data-bs-toggle="modal"
+                                                       data-bs-target="#modal-offices">
+                                                        Zapytaj o dostępność
+                                                    </a>
+                                                </span>
+                                            </div>
                                         </div>
                                         <!-- /.post-content -->
                                     </div>
@@ -42,7 +54,7 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Purus Tellus Magna</h5>'>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="{{asset('/assets/img/photos/cs4-full.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2">
                                             <img src="{{asset('assets/img/offices/oxf/6.jpg')}}" alt="" />
                                         </a>
@@ -50,17 +62,17 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Fusce Ipsum Vestibulum</h5>'>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded" title='<h5 class="mb-0">Condimentum Parturient Ligula</h5>'>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" />
+                                            <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
                                         </a>
                                     </figure>
                                 </div>
@@ -76,6 +88,48 @@
             <!-- /.row -->
         </div>
 
+        <style>
+            .image-wrapper {
+                width: 100vw; /* Pełna szerokość widoku */
+                margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+                margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+            }
+        </style>
+
+        <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="{{asset('assets/img/offices/oxf/new/virtualy-spacer.jpg')}}">
+            <div class="container-fluid py-16 py-md-18"> <!-- Zmiana z container na container-fluid -->
+                <div class="row gy-6 gy-lg-0">
+                    <div class="row text-center">
+                        <div class="col-lg-12 col-xl-10 col-xxl-8 mx-auto">
+                            <h3 class="display-4 mb-6 text-white px-lg-5 px-xxl-0">Wirtualny spacer</h3>
+                            <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#virtualTourModal">
+                                Otwórz wirtualny spacer
+                            </button>
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </section>
+        <div class="modal fade" id="virtualTourModal" tabindex="-1" aria-labelledby="virtualTourModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="https://vision360.pl/spacery/ch8_nobel/start.html" class="w-100" style="height: 600px; border: none;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @if ($mainMenu === 'virtualOffices')
+            @include('Services.components.virtualOfficePricing')
+        @endif
+
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
@@ -86,21 +140,7 @@
                 </div>
             </div>
         </div>
-
-        <div class="text-center">
-            <br>
-            <p class="mb-6 mt-5">
-                Zapraszamy do kontaktu w celu uzyskania szczegółowych informacji lub umówienia się na
-                prezentację lokalu!
-            </p>
-        </div>
-
-        <div class="d-flex justify-content-center" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-            <span><a href="#" class="btn btn-lg btn-primary rounded-pill me-2">Zapytaj o dostępność</a></span>
-        </div>
-
-        @if ($mainMenu === 'virtualOffices')
-            @include('Services.components.virtualOfficePricing')
-        @endif
     </section>
+
+    @include('Services.modal._officesModal')
 @endsection

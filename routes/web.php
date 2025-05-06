@@ -1,13 +1,18 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\Dashboard\Newsletter\NewsletterController;
+use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
+use App\Http\Controllers\Dashboard\QA\QaSectionController;
+use App\Http\Controllers\Dashboard\QA\QuestionAnswerController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
-use App\Http\Controllers\QuestionAnswerController;
-use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ReadyCompanyController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +25,7 @@ Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('s
 
 // OFFiCES
 Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
+Route::post('/sendOfficeMail', [OfficeController::class, 'sendMail'])->name('office.send.mail');
 Route::get('/wirtualne/biuro/{office}', [VirtualOfficeController::class, 'routeDispatch'])->name('virtual.office.route.dispatch');
 
 // Q&A
@@ -43,6 +49,43 @@ Route::middleware('auth')->group(function () {
     Route::put('/post/{post}/store', [BlogController::class, 'update'])->name('blog.update');
     Route::delete('/post/{post}/destroy', [BlogController::class, 'destroy'])->name('blog.destroy');
     Route::put('/post/{post}/changeStatus', [BlogController::class, 'changeStatus'])->name('blog.change.status');
+
+    // NEWSLETTER
+    Route::get('/newsletter/list', [NewsletterController::class, 'index'])->name('newsletter.index');
+    Route::get('/newsletter/create', [NewsletterController::class, 'create'])->name('newsletter.create');
+    Route::post('/newsletter/store', [NewsletterController::class, 'store'])->name('newsletter.store');
+    Route::get('/newsletter/{newsletter}/edit', [NewsletterController::class, 'edit'])->name('newsletter.edit');
+    Route::put('/newsletter/{newsletter}/update', [NewsletterController::class, 'update'])->name('newsletter.update');
+    Route::put('/newsletter/{newsletter}/status', [NewsletterController::class, 'status'])->name('newsletter.status');
+    Route::delete('/newsletter/{newsletter}/delete', [NewsletterController::class, 'delete'])->name('newsletter.delete');
+    Route::get('/newsletter/{newsletter}/send', [NewsletterController::class, 'send'])->name('newsletter.send');
+    Route::get('/newsletter/{newsletter}/sent/list', [NewsletterController::class, 'sentList'])->name('newsletter.sentList');
+
+    // NEWSLETTER - Subscribers
+    Route::get('/newsletter/subscribers', [SubscribersController::class, 'index'])->name('newsletter.subscriber.index');
+    Route::put('/newsletter/subscriber/{subscriber}/status', [SubscribersController::class, 'status'])->name('newsletter.subscriber.status');
+    Route::delete('/newsletter/subscriber/{subscriber}/delete', [SubscribersController::class, 'delete'])->name('newsletter.subscriber.delete');
+
+    // Q&A
+    Route::get('/qa/list', [QuestionAnswerController::class, 'index'])->name('qa.index');
+    Route::get('/qa/{section}/create', [QuestionAnswerController::class, 'create'])->name('qa.create');
+    Route::post('/qa/store', [QuestionAnswerController::class, 'store'])->name('qa.store');
+    Route::get('/qa/thread/{thread}/edit', [QuestionAnswerController::class, 'edit'])->name('qa.edit');
+    Route::put('/qa/thread/{thread}/status', [QuestionAnswerController::class, 'status'])->name('qa.status');
+    Route::put('/qa/thread/{thread}/update', [QuestionAnswerController::class, 'update'])->name('qa.update');
+    Route::delete('/qa/thread/{thread}/delete', [QuestionAnswerController::class, 'delete'])->name('qa.delete');
+
+    // Q&A SECTIONS
+    Route::get('/qa/sections', [QaSectionController::class, 'index'])->name('qa.sections.index');
+    Route::get('/qa/section/{section}/edit', [QaSectionController::class, 'edit'])->name('qa.sections.edit');
+    Route::get('/qa/section/{section}/status', [QaSectionController::class, 'status'])->name('qa.sections.status');
 });
+
+// READY COMPANY
+Route::post('/readyCompanyMail', [ReadyCompanyController::class, 'sendMail'])->name('readyCompany.send.mail');
+Route::post('/companyRegistrationMail', [CompanyRegistrationController::class, 'sendMail'])->name('companyRegistration.send.mail');
+
+// NEWSLETTER
+Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'])->name('newsletter.add.subscriber');
 
 require __DIR__.'/auth.php';
