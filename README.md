@@ -28,6 +28,10 @@ APP_NAME=NOBEL
 ```
 APP_ENV=production
 ```
+- [ ] URL aplikacji - ważne aby to ustawić - aplikacja czasem bedzie z tego korzystać:
+```
+APP_URL=http://nobel-demo.pl
+```
 - [ ] konfigurujemy dane skrzynki mailowej:
 ```
 MAIL_MAILER=smtp
