@@ -16,7 +16,7 @@
                         <ul class="navbar-nav">
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Moduły</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item"><a class="dropdown-item" href="{{ route('dashboard') }}">Blog</a></li>
                                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Newsletter</a>
@@ -25,12 +25,7 @@
                                             <li class="nav-item"><a class="dropdown-item" href="{{ route('newsletter.index') }}">Newsletter</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Q&A</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('qa.sections.index') }}">Sekcje</a></li>
-                                            <li class="nav-item"><a class="dropdown-item" href="{{ route('qa.index') }}">Q&A - zarządzanie</a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="nav-item"><a class="dropdown-item" href="{{ route('qa.index') }}">Q&A</a></li>
                                 </ul>
                             </li>
                         </ul>
