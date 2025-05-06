@@ -8,7 +8,14 @@
     @foreach($sections as $key => $section)
         <div class="card mb-2">
             <div class="card-body">
-                <h5 class="card-title">{{ $section->qa_section_name }} - Wątki: {{ $section->getThreadsCount() }}</h5>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h5 class="card-title mb-0">
+                        {{ $section->qa_section_name }} - Wątki: {{ $section->getThreadsCount() }}
+                    </h5>
+                    <div class="col-auto">
+                        <a href="{{ route('qa.create', $section) }}" class="btn btn-success btn-sm">DODAJ</a>
+                    </div>
+                </div>
                 <div class="table-responsive scrollbar ms-n1 ps-1">
                     <table class="table table-sm table-hover fs--1 mb-0">
                         <thead>

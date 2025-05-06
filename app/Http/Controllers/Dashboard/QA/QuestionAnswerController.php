@@ -28,6 +28,35 @@ class QuestionAnswerController extends Controller
         return view('dashboard.qa.index', $this->data);
     }
 
+    public function create(QASection $section)
+    {
+        $this->data['thread'] = new QuestionAnswer();
+        $this->data['thread']->qa_section_id = $section->qa_section_id;
+
+        return view('dashboard.qa.create', $this->data);
+    }
+
+    public function store(QaThreadRequest $request)
+    {
+        DB::beginTransaction();
+        try {
+            $thread = new QuestionAnswer();
+            $thread->qa_author = Auth::user()->name;
+            $thread->fill($request->validated());
+            $thread->save();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd podczas dodawania wątku');
+        }
+
+        DB::commit();
+
+        return redirect()->route('qa.edit', ['thread' => $thread])
+            ->with('success', 'Wątek został dodany');
+    }
+
     public function edit(QuestionAnswer $thread)
     {
         $this->data['thread'] = $thread;

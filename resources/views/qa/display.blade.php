@@ -17,7 +17,7 @@
                          class="collapse"
                          aria-labelledby="accordion-heading-{{ $section }}-{{ $index }}-1">
                         <div class="card-body">
-                            <p>{{ $faq->qa_text }}</p>
+                            <p>{!! $faq->qa_text !!}</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                          class="collapse"
                          aria-labelledby="accordion-heading-{{ $section }}-{{ $index }}-2">
                         <div class="card-body">
-                            <p>{{ $faq->qa_text }}</p>
+                            <p>{!! $faq->qa_text !!}</p>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,6 @@ class NewsletterController extends Controller
             $newsletter->fill($request->validated());
             $newsletter->save();
         } catch (Exception $e) {
-            dd($e->getMessage());
             Log::error($e->getMessage());
             DB::rollBack();
 
