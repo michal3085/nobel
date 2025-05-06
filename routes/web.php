@@ -33,6 +33,7 @@ Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->n
 
 // CONTACT
 Route::get('/contact/index', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 // BLOG GUEST
 Route::get('/blog/all', [BlogController::class, 'showAllGuest'])->name('blog.show.all');

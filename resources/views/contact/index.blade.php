@@ -157,7 +157,9 @@
                             <p>Pozostawiając formalności w profesjonalnych rękach będziesz mógł zająć się rozwojem swojego biznesu.</p>
                         </div>
                     </div>
-                    <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+                    <form class="contact-form" method="post" action="{{ route('contact.send') }}">
+                        @csrf
+                        @method('POST')
                         <div class="messages"></div>
                         <div class="row gx-4">
                             <div class="col-md-6">
@@ -189,13 +191,14 @@
                             <!-- /column -->
                             <div class="col-md-6">
                                 <div class="form-select-wrapper mb-4">
-                                    <select class="form-select" id="form-select" name="department" required>
+                                    <select class="form-select" id="form-select" name="topic" required>
                                         <option selected disabled value="">Wybierz temat</option>
-                                        <option value="Sales">Gotowe biuro</option>
-                                        <option value="Marketing">Wirtualne biuro</option>
-                                        <option value="Customer Support">Zmiany w KRS</option>
-                                        <option value="Customer Support">Gotowa spółka</option>
-                                        <option value="Customer Support">Rejestracja spółki</option>
+                                        <option value="Gotowe biuro">Gotowe biuro</option>
+                                        <option value="Wirtualne biuro">Wirtualne biuro</option>
+                                        <option value="Zmiany w KRS">Zmiany w KRS</option>
+                                        <option value="Gotowa spółka">Gotowa spółka</option>
+                                        <option value="Rejestracja spółki">Rejestracja spółki</option>
+                                        <option value="Inny">Inny</option>
                                     </select>
                                     <div class="valid-feedback"> Looks good! </div>
                                     <div class="invalid-feedback"> Wybierz temat </div>
