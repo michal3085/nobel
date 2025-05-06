@@ -13,25 +13,37 @@
                     <table class="table table-sm table-hover fs--1 mb-0">
                         <thead>
                         <tr class="row-name">
-                            <th class="text-nowrap text-start">
-                                Lp.
-                            </th>
-                            <th class="text-nowrap text-start">
-                                Temat
-                            </th>
+                            <th class="text-nowrap text-start">Lp.</th>
+                            <th class="text-nowrap text-start">Temat</th>
+                            <th class="text-center">Aktywny</th>
+                            <th>Usuń</th>
                         </tr>
                         </thead>
                         <tbody>
                         @foreach($section->relationQuestionAnswers as $key => $thread)
                             <tr class="align-middle">
-                                <td>
-                                    {{ $key+1 }}
-                                </td>
-                                <td>
+                                <td>{{ $key + 1 }}</td>
+                                <td class="text-start">
                                     <a href="{{ route('qa.edit', $thread) }}">
                                         {{ $thread->qa_title }}
                                     </a>
                                 </td>
+                                <td class="text-center">
+                                    <form action="{{ route('qa.status', $thread) }}" method="POST" style="display:inline;">
+                                        @csrf
+                                        @method('PUT')
+                                        @if ($thread->qa_active === 1)
+                                            <button type="submit" class="btn btn-sm text-success">
+                                                <i class="bi bi-eye-fill"></i>
+                                            </button>
+                                        @else
+                                            <button type="submit" class="btn btn-sm text-danger">
+                                                <i class="bi bi-eye-slash-fill"></i>
+                                            </button>
+                                        @endif
+                                    </form>
+                                </td>
+                                <td>asd</td>
                             </tr>
                         @endforeach
                         </tbody>

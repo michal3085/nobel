@@ -3,8 +3,13 @@
 namespace App\Http\Controllers\Dashboard\QA;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\QA\QaThreadRequest;
 use App\Models\QA\QASection;
 use App\Models\QA\QuestionAnswer;
+use DB;
+use Exception;
+use Illuminate\Support\Facades\Auth;
+use Log;
 
 class QuestionAnswerController extends Controller
 {
@@ -21,5 +26,40 @@ class QuestionAnswerController extends Controller
     public function index()
     {
         return view('dashboard.qa.index', $this->data);
+    }
+
+    public function edit(QuestionAnswer $thread)
+    {
+        $this->data['thread'] = $thread;
+
+        return view('dashboard.qa.edit', $this->data);
+    }
+
+    public function status(QuestionAnswer $thread)
+    {
+        $newStatus = $thread->qa_active === 1 ? 0 : 1;
+        $thread->update(['qa_active' => $newStatus]);
+
+        return redirect()->back()->with('success', 'Status został zmieniony');
+    }
+
+    public function update(QaThreadRequest $request, QuestionAnswer $thread)
+    {
+        DB::beginTransaction();
+        try {
+            $thread->qa_author = Auth::user()->name;
+            $thread->fill($request->validated());
+            $thread->save();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd podczas aktualizacji wątku');
+        }
+
+        DB::commit();
+
+        return redirect()->route('qa.edit', ['thread' => $thread])
+            ->with('success', 'Wątek został zaktualizowany');
     }
 }
