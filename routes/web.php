@@ -12,11 +12,12 @@ use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\OfficeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ReadyCompanyController;
+use App\Http\Controllers\RegAndPoliticsController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [MainPageController::class, 'index'])->name('dashboard');
+Route::get('/', [MainPageController::class, 'index'])->name('main');
 
 // SERVICES
 Route::get('/{service}', [ServicesController::class, 'routeDispatch'])->name('service.route.dispatch');
@@ -88,5 +89,8 @@ Route::post('/companyRegistrationMail', [CompanyRegistrationController::class, '
 
 // NEWSLETTER
 Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'])->name('newsletter.add.subscriber');
+
+// REG'S AND POLITICS
+Route::get('/politics/private', [RegAndPoliticsController::class, 'privatePolitics'])->name('politics.private');
 
 require __DIR__.'/auth.php';
