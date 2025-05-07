@@ -8,7 +8,16 @@
     <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
-    <link rel="shortcut icon" href="{{asset('/assets/img/logo/favicon.png')}}">
+
+    <!-- Domyślne favicon (dla przeglądarek, które nie obsługują prefers-color-scheme) -->
+    <link rel="shortcut icon" href="{{asset('/assets/img/logo/favicon.png')}}" id="default-favicon">
+
+    <!-- Favicon dla trybu jasnego -->
+    <link rel="icon" href="{{asset('/assets/img/logo/favicon_black.png')}}" media="(prefers-color-scheme: light)">
+
+    <!-- Favicon dla trybu ciemnego -->
+    <link rel="icon" href="{{asset('/assets/img/logo/favicon.png')}}" media="(prefers-color-scheme: dark)">
+
     <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/styleV2.css">
     <link rel="stylesheet" href="/assets/css/colors/nobel.css">
