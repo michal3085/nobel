@@ -8,7 +8,7 @@
     <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
     <meta name="author" content="elemis">
     <title>NOBEL - Gotowe Rozwiązania</title>
-    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    <link rel="shortcut icon" href="{{asset('/assets/img/logo/favicon.png')}}">
     <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/styleV2.css">
     <link rel="stylesheet" href="/assets/css/colors/nobel.css">
