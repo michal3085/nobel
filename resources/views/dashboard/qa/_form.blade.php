@@ -4,7 +4,11 @@
         <div class="row mb-2">
             <label class="col-12 col-form-label col-form-label-sm">Tytuł</label>
             <div class="col-12">
-                <input class="form-control form-control-sm @error('qa_title') is-invalid @enderror" type="text" name="qa_title" value="{{old('qa_title', $formObject->qa_title)}}">
+                <input class="form-control form-control-sm @error('qa_title') is-invalid @enderror"
+                       type="text"
+                       name="qa_title"
+                       id="qa_title"
+                       value="{{ old('qa_title', $formObject->qa_title) }}">
             </div>
         </div>
     </div>
@@ -41,18 +45,39 @@
         <div class="row mb-2">
             <label class="col-12 col-form-label col-form-label-sm">Treść newslettera</label>
             <div class="col-12">
-                <textarea class="form-control @error('qa_text') is-invalid @enderror" name="qa_text" id="summernote">{{ old('qa_text', $formObject->qa_text) }}</textarea>
+                <textarea class="form-control @error('qa_text') is-invalid @enderror"
+                          name="qa_text"
+                          id="summernote">{{ old('qa_text', $formObject->qa_text) }}</textarea>
             </div>
         </div>
     </div>
 </div>
 
-
 <script>
     $(document).ready(function() {
-        $('#summernote').summernote({
-            height: 500
+        const previewTitle = document.getElementById('preview-title');
+        const previewContent = document.getElementById('preview-content');
+        const titleInput = document.getElementById('qa_title');
+        const summernote = $('#summernote');
+
+        // Inicjalizacja Summernote
+        summernote.summernote({
+            height: 500,
+            callbacks: {
+                onChange: function(contents) {
+                    previewContent.innerHTML = contents.trim() || 'Brak treści';
+                }
+            }
         });
+
+        // Aktualizacja podglądu tytułu
+        titleInput.addEventListener('input', () => {
+            previewTitle.textContent = titleInput.value.trim() || 'Brak tytułu';
+        });
+
+        // Ustawienie początkowej wartości
+        previewTitle.textContent = titleInput.value.trim() || 'Brak tytułu';
+        previewContent.innerHTML = summernote.summernote('code').trim() || 'Brak treści';
     });
 </script>
 
