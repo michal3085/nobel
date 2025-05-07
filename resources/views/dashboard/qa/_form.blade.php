@@ -29,8 +29,8 @@
             <label class="col-12 col-form-label col-form-label-sm">Status</label>
             <div class="col-12">
                 <select class="form-select" name="qa_active">
-                    <option value="1">Aktywny</option>
-                    <option value="0">Nieaktywny</option>
+                    <option value="1" @if(old('qa_active', $formObject->qa_active) === 1) selected @endif>Aktywny</option>
+                    <option value="0" @if(old('qa_active', $formObject->qa_active) === 0) selected @endif>Nieaktywny</option>
                 </select>
             </div>
         </div>

@@ -25,6 +25,7 @@ class QaThreadRequest extends FormRequest
             'qa_section_id' => 'required',
             'qa_title' => 'required',
             'qa_text' => 'required',
+            'qa_active' => 'required',
         ];
     }
 
@@ -34,6 +35,7 @@ class QaThreadRequest extends FormRequest
             'qa_section_id' => 'Sekcja',
             'qa_title' => 'Tytuł',
             'qa_text' => 'Treść',
+            'qa_active' => 'Status',
         ];
     }
 }
