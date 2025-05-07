@@ -129,6 +129,7 @@
                         <li><a href="https://ekrs.ms.gov.pl/s24/">E-KRS</a></li>
                         <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
                         <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
+                        <li><a href="{{ route('politics.private') }}">Polityka Prywatności</a></li>
                     </ul>
                 </div>
                 <!-- /.widget -->
