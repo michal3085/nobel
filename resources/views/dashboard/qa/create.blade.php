@@ -24,7 +24,7 @@
                 </div>
             </form>
             <div class="col-12">
-                @include('dashboard.qa._previev')
+                @include('dashboard.qa._preview')
             </div>
         </div>
     </div>
