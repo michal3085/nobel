@@ -11,6 +11,12 @@
             <br>
         </div>
 
+        <div class="container-fluid p-0">
+            <div class="banner">
+                <img src="{{$post->getPostImage()}}" class="img-fluid w-100 rounded" alt="{{$post->post_title}}" style="height: 250px; object-fit: cover;">
+            </div>
+        </div>
+
         <!-- /.nav-tabs -->
         <div class="tab-content mt-2">
             <div class="tab-pane fade show active" id="tab3-1">
@@ -18,15 +24,14 @@
                     <p class="mb-6">
                         {!! $post->post_text !!}
                     </p>
+                </div>
+                <!--/.tab-pane -->
             </div>
-            <!--/.tab-pane -->
-        </div>
         </div>
         <div class="d-flex justify-content-center">
-                            <span>
-                                <a class="btn btn-primary rounded-pill" href="/">Powrót</a>
-                            </span>
+            <span>
+                <a class="btn btn-primary rounded-pill" href="/">Powrót</a>
+            </span>
         </div>
     </section>
-
 @endsection
