@@ -17,7 +17,7 @@
                                                 <img src="{{$post->getPostImage()}}" alt="" class="img-fluid" style="height: 100%; width: 100%; object-fit: cover;" />
                                             </a>
                                             <figcaption>
-                                                <h5 class="from-top mb-0">Read More</h5>
+                                                <h5 class="from-top mb-0">Dowiedź się więcej</h5>
                                             </figcaption>
                                         </figure>
                                         <div class="card-body d-flex flex-column">
@@ -48,10 +48,16 @@
 
                     </div>
                     <!-- /.row -->
-                    @if ($showAll === false)
+                    @if ($showAll === false && $posts->count() > 0)
                         <div class="d-flex justify-content-center">
                             <span>
                                 <a class="btn btn-yellow rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
+                            </span>
+                        </div>
+                    @else
+                        <div class="d-flex justify-content-center">
+                            <span>
+                                <a class="btn btn-yellow rounded-pill" href="{{route('main')}}">Strona główna</a>
                             </span>
                         </div>
                     @endif

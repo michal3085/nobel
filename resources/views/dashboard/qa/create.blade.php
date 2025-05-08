@@ -23,6 +23,9 @@
                     <button type="submit" class="btn btn-success me-1 mb-1">PUBLIKUJ</button>
                 </div>
             </form>
+            <div class="col-12">
+                @include('dashboard.qa._preview')
+            </div>
         </div>
     </div>
 @endsection
