@@ -7,7 +7,7 @@
                     <div class="col-lg-12 text-center text-lg-start"> <!-- Zmiana z col-lg-7 na col-lg-12 -->
                         <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Blog</span> </h3>
                     </div>
-                    <div class="row isotope gx-md-8 gy-8 mb-8 mt-7">
+                    <div class="row isotope gx-md-8 gy-8 mb-9 mt-7">
                         @if ($posts->count() > 0)
                             @foreach($posts as $post)
                                 <article class="item post col-md-4">
