@@ -79,7 +79,7 @@
     <!--     MENU    -->
         @include('_menu')
     <!--    /MENU   -->
-    @if ($mainMenu === 'dashboard')
+    @if (isset($mainMenu) && $mainMenu === 'dashboard')
         @include('components.movieBanner')
     @endif
     <section class="wrapper bg-light ">

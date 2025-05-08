@@ -32,7 +32,13 @@ class ServicesController extends Controller
     {
         $this->data['subMenu'] = $service;
 
-        return view('Services.' . Arr::get($this->views, $service), $this->data);
+        $view = Arr::get($this->views, $service);
+
+        if (! $view) {
+            abort(404);
+        }
+
+        return view('Services.' . $view, $this->data);
     }
 
     public function sendMail(MailRequest $request)
