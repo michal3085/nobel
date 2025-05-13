@@ -5,6 +5,9 @@
 @endsection
 
 @section('content')
+    <p>
+        * Autor = admin, oznacza ze wpis został dodany przy instalacji strony.
+    </p>
     @foreach($sections as $key => $section)
         <div class="card mb-2">
             <div class="card-body">
@@ -22,6 +25,7 @@
                         <tr class="row-name">
                             <th class="text-nowrap text-start">Lp.</th>
                             <th class="text-nowrap text-start">Temat</th>
+                            <th class="text-nowrap text-start">Autor</th>
                             <th class="text-center">Aktywny</th>
                             <th>Usuń</th>
                         </tr>
@@ -34,6 +38,9 @@
                                     <a href="{{ route('qa.edit', $thread) }}">
                                         {{ $thread->qa_title }}
                                     </a>
+                                </td>
+                                <td>
+                                    {{ $thread->qa_author }}
                                 </td>
                                 <td class="text-center">
                                     <form action="{{ route('qa.status', $thread) }}" method="POST" style="display:inline;">
