@@ -11,7 +11,7 @@
                         @if ($posts->count() > 0)
                             @foreach($posts as $post)
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm border">
+                                    <div class="card h-100 shadow-sm border" style="border-color: rgba(0,0,0,0.1) !important;">
                                         <a href="{{ route('blog.show.guest', ['post' => $post]) }}" class="text-decoration-none">
                                             <div class="ratio ratio-16x9 bg-light overflow-hidden rounded-top">
                                                 <img
