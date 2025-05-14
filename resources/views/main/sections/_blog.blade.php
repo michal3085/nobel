@@ -7,45 +7,45 @@
                     <div class="col-lg-12 text-center text-lg-start"> <!-- Zmiana z col-lg-7 na col-lg-12 -->
                         <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Blog</span> </h3>
                     </div>
-                    <div class="row isotope gx-md-8 gy-8 mb-9 mt-7">
+                    <div class="row g-4 mt-2 mb-3">
                         @if ($posts->count() > 0)
                             @foreach($posts as $post)
-                                <article class="item post col-md-4">
-                                    <div class="card h-100 d-flex flex-column">
-                                        <figure class="card-img-top overlay overlay-1 hover-scale" style="height: 250px; overflow: hidden;">
-                                            <a href="{{route('blog.show.guest', ['post' => $post])}}">
-                                                <img src="{{$post->getPostImage()}}" alt="" class="img-fluid" style="height: 100%; width: 100%; object-fit: cover;" />
-                                            </a>
-                                            <figcaption>
-                                                <h5 class="from-top mb-0">Dowiedź się więcej</h5>
-                                            </figcaption>
-                                        </figure>
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border">
+                                        <!-- Klikalny obrazek -->
+                                        <a href="{{ route('blog.show.guest', ['post' => $post]) }}" class="text-decoration-none">
+                                            <div class="ratio ratio-16x9 bg-light overflow-hidden rounded-top">
+                                                <img
+                                                    src="{{ $post->getPostImage() }}"
+                                                    alt="{{ $post->post_title }}"
+                                                    class="img-fluid object-fit-cover w-100 h-100"
+                                                >
+                                            </div>
+                                        </a>
+
+                                        <!-- Treść karty (również klikalna) -->
                                         <div class="card-body d-flex flex-column">
-                                            <div class="post-header">
-                                                <div class="post-category h3">
-                                                    <a href="{{route('blog.show.guest', ['post' => $post])}}" class="hover text-yellow" rel="category">{{$post->post_title}}</a>
-                                                </div>
+                                            <a href="{{ route('blog.show.guest', ['post' => $post]) }}" class="text-decoration-none text-dark">
+                                                <h5 class="card-title text-yellow">{{ $post->post_title }}</h5>
+                                            </a>
+                                            <p class="card-text flex-grow-1 text-truncate-3">
+                                                {{ Str::limit(strip_tags($post->post_text), 100) }}
+                                            </p>
+                                            <div class="mt-auto">
+                                                <small class="text-muted">
+                                                    <i class="far fa-calendar-alt me-1"></i>
+                                                    {{ $post->created_at->format('d.m.Y') }}
+                                                </small>
                                             </div>
-                                            <div class="post-content flex-grow-1">
-                                                <!-- Ustawienie maksymalnej wysokości dla tekstu -->
-                                                <p class="text-break" style="height: 5em; overflow: hidden;">
-                                                    {{ Str::limit(strip_tags($post->post_text), 151) }}
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="card-footer mt-auto">
-                                            <ul class="post-meta d-flex mb-0">
-                                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>{{$post->created_at}}</span></li>
-                                            </ul>
                                         </div>
                                     </div>
-                                </article>
-                                <!-- /.post -->
+                                </div>
                             @endforeach
                         @else
-                            <p>Brak postów do wyświetlenia</p>
+                            <div class="col-12">
+                                <div class="alert alert-info">Brak postów</div>
+                            </div>
                         @endif
-
                     </div>
                     <!-- /.row -->
                     @if ($showAll === false && $posts->count() > 0)
