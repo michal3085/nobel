@@ -12,7 +12,6 @@
                             @foreach($posts as $post)
                                 <div class="col-md-4">
                                     <div class="card h-100 shadow-sm border">
-                                        <!-- Klikalny obrazek -->
                                         <a href="{{ route('blog.show.guest', ['post' => $post]) }}" class="text-decoration-none">
                                             <div class="ratio ratio-16x9 bg-light overflow-hidden rounded-top">
                                                 <img
@@ -22,8 +21,6 @@
                                                 >
                                             </div>
                                         </a>
-
-                                        <!-- Treść karty (również klikalna) -->
                                         <div class="card-body d-flex flex-column">
                                             <a href="{{ route('blog.show.guest', ['post' => $post]) }}" class="text-decoration-none text-dark">
                                                 <h5 class="card-title text-yellow">{{ $post->post_title }}</h5>
