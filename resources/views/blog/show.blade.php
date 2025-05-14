@@ -13,7 +13,8 @@
 
         <div class="container-fluid p-0">
             <div class="banner">
-                <img src="{{$post->getPostImage()}}" class="img-fluid w-100 rounded" alt="{{$post->post_title}}" style="height: 250px; object-fit: cover;">
+{{--                <img src="{{$post->getPostImage()}}" class="img-fluid w-100 rounded" alt="{{$post->post_title}}" style="height: 250px; object-fit: cover;">--}}
+                <img src="{{$post->getPostImage()}}" class="img-fluid w-100 rounded" alt="{{$post->post_title}}" style="height: 250px; object-fit: fill;">
             </div>
         </div>
 
