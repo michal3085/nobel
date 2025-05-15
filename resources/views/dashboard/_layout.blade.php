@@ -49,8 +49,7 @@
 <!-- JS -->
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
-<script src="https://cdn.tiny.cloud/1/3mk8nrczubit374hm9lh47j023qt3h3sg9p273m8ng7c78gq/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
-
+<script src="https://cdn.tiny.cloud/1/{{ env('TINY_MC_API_KEY') }}/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 @yield('adminjs')
 
 <!-- Inicjalizacja Trumbowyg -->
