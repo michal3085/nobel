@@ -15,7 +15,6 @@ use App\Http\Controllers\ReadyCompanyController;
 use App\Http\Controllers\RegAndPoliticsController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\VirtualOfficeController;
-use App\Http\Controllers\WiswygController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MainPageController::class, 'index'])->name('main');
