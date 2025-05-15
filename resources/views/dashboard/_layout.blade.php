@@ -59,8 +59,6 @@
         selector: 'textarea',
         plugins: 'code table lists image link',
         toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | image link',
-        images_upload_url: '/upload-image',
-        automatic_uploads: true,
         file_picker_types: 'image',
         image_title: true,
         paste_data_images: true,
