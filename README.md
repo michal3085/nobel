@@ -57,6 +57,13 @@ DB_DATABASE=nobel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+- [ ] Integracja z https://www.tiny.cloud/, aby edytory w panelu admina działały, potrzebujemy uzyskać api key z tej strony i wstawić go do tej zmiennej w .env:
+
+```
+TINY_MC_API_KEY=
+```
+
 - --------------------
 # MIGRACJA BAZY DANYCH
 
