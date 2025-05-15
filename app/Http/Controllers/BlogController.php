@@ -92,6 +92,20 @@ class BlogController extends Controller
             $post->post_author = Auth::user()->name;
             $post->post_active  = $request['post_active'];
             $post->author_id = auth()->user()->id;
+
+            if ($request->hasFile('post_image')) {
+                $prevPostImage = $post->post_image;
+                $file = $request->file('post_image');
+                $extension = $file->getClientOriginalExtension();
+                $fileName = Str::uuid() . '.' . $extension;
+                $file->storeAs($post->getPostFileDirectoryPath(), $fileName, Post::DISK_NAME);
+                $post->post_image = $fileName;
+
+                if (Storage::disk(Post::DISK_NAME)->exists($post->getPostFileDirectoryPath() . '/' . $prevPostImage)) {
+                    Storage::disk(Post::DISK_NAME)->delete($post->getPostFileDirectoryPath() . '/' . $prevPostImage);
+                }
+            }
+
             $post->save();
         } catch (\Exception $exception) {
             DB::rollBack();
