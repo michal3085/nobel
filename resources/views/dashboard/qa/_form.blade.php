@@ -58,26 +58,40 @@
         const previewTitle = document.getElementById('preview-title');
         const previewContent = document.getElementById('preview-content');
         const titleInput = document.getElementById('qa_title');
-        const summernote = $('#summernote');
-
-        // Inicjalizacja Summernote
-        summernote.summernote({
-            height: 500,
-            callbacks: {
-                onChange: function(contents) {
-                    previewContent.innerHTML = contents.trim() || 'Brak treści';
-                }
-            }
-        });
 
         // Aktualizacja podglądu tytułu
         titleInput.addEventListener('input', () => {
             previewTitle.textContent = titleInput.value.trim() || 'Brak tytułu';
         });
 
-        // Ustawienie początkowej wartości
+        // Inicjalizacja TinyMCE z obsługą podglądu
+        if (typeof tinymce !== 'undefined') {
+            tinymce.init({
+                selector: '#summernote',
+                setup: function(editor) {
+                    editor.on('init', function() {
+                        // Ustaw początkową treść podglądu
+                        updatePreviewContent(editor);
+                    });
+
+                    editor.on('change keyup NodeChange', function() {
+                        // Aktualizuj podgląd przy każdej zmianie
+                        updatePreviewContent(editor);
+                    });
+                }
+            });
+        }
+
+        function updatePreviewContent(editor) {
+            const content = editor.getContent({format: 'html'}).trim();
+            previewContent.innerHTML = content || 'Brak treści';
+
+            // Jeśli masz problemy z formatowaniem, możesz dodać:
+            // previewContent.innerHTML = tinymce.activeEditor.getContent();
+        }
+
+        // Ustaw początkowy tytuł
         previewTitle.textContent = titleInput.value.trim() || 'Brak tytułu';
-        previewContent.innerHTML = summernote.summernote('code').trim() || 'Brak treści';
     });
 </script>
 

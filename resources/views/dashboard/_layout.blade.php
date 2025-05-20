@@ -9,21 +9,19 @@
     <meta name="author" content="elemis">
     <title>NOBEL - Dashboard</title>
 
-    <!-- Domyślne favicon (dla przeglądarek, które nie obsługują prefers-color-scheme) -->
+    <!-- Favicons -->
     <link rel="shortcut icon" href="{{asset('/assets/img/logo/favicon.png')}}" id="default-favicon">
-
-    <!-- Favicon dla trybu jasnego -->
     <link rel="icon" href="{{asset('/assets/img/logo/favicon_black.png')}}" media="(prefers-color-scheme: light)">
-
-    <!-- Favicon dla trybu ciemnego -->
     <link rel="icon" href="{{asset('/assets/img/logo/favicon.png')}}" media="(prefers-color-scheme: dark)">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/plugins.css">
     <link rel="stylesheet" href="/assets/css/styleV2.css">
     <link rel="stylesheet" href="/assets/css/colors/pink.css">
-    <link rel="stylesheet" href="/vendors/summernote-0.8.18-dist/summernote-lite.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- jQuery (ważne aby był przed Trumbowyg) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
 <body>
@@ -47,10 +45,39 @@
 
 @include('components.success')
 @include('components.error')
+
+<!-- JS -->
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/theme.js"></script>
-<script src="/vendors/summernote-0.8.18-dist/summernote-lite.js"></script>
+<script src="https://cdn.tiny.cloud/1/{{ env('TINY_MC_API_KEY') }}/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 @yield('adminjs')
-</body>
 
+<!-- Inicjalizacja Trumbowyg -->
+<script>
+    tinymce.init({
+        selector: 'textarea',
+        plugins: 'code table lists image link',
+        toolbar: 'undo redo | blocks | bold italic | alignleft aligncenter alignright | indent outdent | bullist numlist | code | table | image link',
+        file_picker_types: 'image',
+        image_title: true,
+        paste_data_images: true,
+        file_picker_callback: function (callback, value, meta) {
+            if (meta.filetype === 'image') {
+                const input = document.createElement('input');
+                input.setAttribute('type', 'file');
+                input.setAttribute('accept', 'image/*');
+                input.onchange = function () {
+                    const file = this.files[0];
+                    const reader = new FileReader();
+                    reader.onload = function () {
+                        callback(reader.result, { alt: file.name });
+                    };
+                    reader.readAsDataURL(file);
+                };
+                input.click();
+            }
+        }
+    });
+</script>
+</body>
 </html>

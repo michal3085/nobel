@@ -10,7 +10,7 @@
 
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Edycja/{{$post->post_title}}</h5>
+            <h5 class="card-title">Edycja / {{$post->post_title}}</h5>
             <form method="POST" action="{{route('blog.update', $post)}}" autocomplete="off" enctype="multipart/form-data">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <input type="hidden" name="_method" value="PUT">
