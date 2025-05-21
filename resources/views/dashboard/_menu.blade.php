@@ -18,6 +18,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Moduły</a>
                                 <ul class="dropdown-menu">
+                                    @can('view', \Illuminate\Support\Facades\Auth::user())
+                                        <li class="nav-item"><a class="dropdown-item" href="{{ route('user.index') }}">Użytkownicy</a></li>
+                                    @endcan
                                     <li class="nav-item"><a class="dropdown-item" href="{{ route('dashboard') }}">Blog</a></li>
                                     <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Newsletter</a>
                                         <ul class="dropdown-menu">
@@ -29,8 +32,8 @@
                                 </ul>
                             </li>
                         </ul>
-
                     </div>
+
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100 text-end">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">

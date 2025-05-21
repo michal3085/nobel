@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\User;
+use App\Policies\UserPolicy;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -14,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        Gate::policy(User::class, UserPolicy::class);
     }
 
     /**
