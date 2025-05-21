@@ -35,24 +35,24 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($users as $key => $item)
+                    @foreach($users as $key => $user)
                         <tr class="align-middle">
                             <td>
                                 {{ $key+1 }}
                             </td>
                             <td>
-{{--                                <a href="{{ route('newsletter.edit', $user) }}">--}}
-                                    {{$item->name}}
-{{--                                </a>--}}
+                                <a href="{{ route('user.edit', $user) }}">
+                                    {{$user->name}}
+                                </a>
                             </td>
                             <td>
-                                {{$item->email}}
+                                {{$user->email}}
                             </td>
                             <td>
-                                {{$item->getRoleString()}}
+                                {{$user->getRoleString()}}
                             </td>
                             <td>
-                                {{$item->created_at}}
+                                {{$user->created_at}}
                             </td>
                             <td>
 {{--                                <form action="{{ route('newsletter.delete', $newsletter) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">--}}

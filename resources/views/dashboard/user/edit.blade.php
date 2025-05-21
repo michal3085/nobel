@@ -13,7 +13,7 @@
             <h5 class="card-title">Edycja użytkownika - {{ $user->name }}</h5>
             <form method="POST" action="{{route('user.update', ['user' => $user])}}" autocomplete="off" enctype="multipart/form-data">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <input type="hidden" name="_method" value="POST">
+                <input type="hidden" name="_method" value="PUT">
 
                 <div class="row">
                     @include('dashboard.user._form', ['formObject' => $user, 'update' => false])

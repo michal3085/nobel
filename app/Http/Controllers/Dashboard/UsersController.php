@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\User\StoreRequest;
+use App\Http\Requests\User\UpdateRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
@@ -59,8 +60,30 @@ class UsersController extends Controller
         return view('dashboard.user.edit', $this->data);
     }
 
-    public function update(User $user)
+    public function update(UpdateRequest $request, User $user)
     {
-        dd('ads');
+        Gate::authorize('create', Auth::user());
+
+        DB::beginTransaction();
+        try {
+            $data = $request->validated();
+
+            // Jeśli hasło nie zostało podane, usuwamy je z danych do aktualizacji
+            if (empty($data['password'])) {
+                unset($data['password']);
+            }
+
+            $user->fill($data);
+            $user->save();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
+
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie aktualizacji użytkownika');
+        }
+        DB::commit();
+
+        return redirect()->route('user.edit', ['user' => $user])
+            ->with('success', 'Użytkownik został zaktualizowany');
     }
 }
