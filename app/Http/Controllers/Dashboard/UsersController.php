@@ -64,7 +64,7 @@ class UsersController extends Controller
 
     public function update(UpdateRequest $request, User $user)
     {
-        Gate::authorize('create', Auth::user());
+        Gate::authorize('update', $user);
 
         DB::beginTransaction();
         try {
