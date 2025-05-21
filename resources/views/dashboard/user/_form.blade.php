@@ -42,6 +42,7 @@
                 <input type="password" name="password"
                        class="form-control form-control-sm @error('password') is-invalid @enderror">
             </div>
+            <small>Polityka haseł (minimum): 8 znaków, 1 duża litera,1 mała litera, 1 cyfra, 1 znak specjalny</small>
         </div>
     </div>
 </div>

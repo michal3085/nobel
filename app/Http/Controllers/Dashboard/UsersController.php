@@ -86,4 +86,9 @@ class UsersController extends Controller
         return redirect()->route('user.edit', ['user' => $user])
             ->with('success', 'Użytkownik został zaktualizowany');
     }
+
+    public function delete(User $user)
+    {
+
+    }
 }

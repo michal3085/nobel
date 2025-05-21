@@ -55,13 +55,13 @@
                                 {{$user->created_at}}
                             </td>
                             <td>
-{{--                                <form action="{{ route('newsletter.delete', $newsletter) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">--}}
-{{--                                    @csrf--}}
-{{--                                    @method('DELETE')--}}
-{{--                                    <button type="submit" class="btn btn-sm text-danger">--}}
-{{--                                        <i class="bi bi-trash3"></i>--}}
-{{--                                    </button>--}}
-{{--                                </form>--}}
+                                <form action="{{ route('user.delete', $user) }}" method="POST" onsubmit="return confirmDelete();" style="display:inline;">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-sm text-danger">
+                                        <i class="bi bi-trash3"></i>
+                                    </button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach
@@ -73,7 +73,7 @@
 
     <script>
         function confirmDelete() {
-            return confirm('Czy na pewno chcesz usunąć?');
+            return confirm('Czy na pewno chcesz usunąć użytkownika?');
         }
     </script>
 @endsection
