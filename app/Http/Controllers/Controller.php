@@ -13,6 +13,6 @@ abstract class Controller
         $this->data['mainMenu'] = '';
         $this->data['subMenu'] = '';
         $this->data['tabMenu'] = '';
-        $this->data['authUser'] = (Auth::check()) ? Auth::user()['name'] : null;
+        $this->data['authUser'] = (Auth::check()) ? Auth::user() : null;
     }
 }

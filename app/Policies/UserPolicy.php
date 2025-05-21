@@ -23,6 +23,11 @@ class UserPolicy
         return $user->isAdmin();
     }
 
+    public function edit(User $user, User $model): bool
+    {
+        return $user->isAdmin() || $user->id === $model->id;
+    }
+
     /**
      * Determine whether the user can create models.
      */

@@ -55,6 +55,8 @@ class UsersController extends Controller
 
     public function edit(User $user)
     {
+        Gate::authorize('edit', $user);
+
         $this->data['user'] = $user;
 
         return view('dashboard.user.edit', $this->data);

@@ -2,7 +2,11 @@
 
 @section('buttons')
     <div class="col-auto">
-        <a href="{{ route('user.index') }}" class="btn btn-success me-1 mb-1">Powrót</a>
+        @if ($authUser->isAdmin())
+            <a href="{{ route('user.index') }}" class="btn btn-success me-1 mb-1">Powrót</a>
+        @else
+            <a href="{{ route('dashboard') }}" class="btn btn-success me-1 mb-1">Powrót</a>
+        @endif
     </div>
 @endsection
 
