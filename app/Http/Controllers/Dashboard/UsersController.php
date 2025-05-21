@@ -89,6 +89,17 @@ class UsersController extends Controller
 
     public function delete(User $user)
     {
+        DB::beginTransaction();
+        try {
+            $user->delete();
+        } catch (Exception $e) {
+            Log::error($e->getMessage());
+            DB::rollBack();
 
+            return redirect()->back()->withInput()->with('error', 'Błąd w trakcie usuwania użytkownika');
+        }
+        DB::commit();
+
+        return redirect()->back()->with('success', 'Użytkownik usunięty');
     }
 }
