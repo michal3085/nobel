@@ -87,6 +87,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/user/list', [UsersController::class, 'index'])->name('user.index');
     Route::get('/user/create', [UsersController::class, 'create'])->name('user.create');
     Route::post('/user/store', [UsersController::class, 'store'])->name('user.store');
+    Route::get('/user/{user}/edit', [UsersController::class, 'edit'])->name('user.edit');
+    Route::put('/user/{user}/update', [UsersController::class, 'update'])->name('user.update');
 });
 
 // READY COMPANY

@@ -37,7 +37,7 @@
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100 text-end">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ $user }}</a>
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">{{ $authUser }}</a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
