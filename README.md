@@ -69,12 +69,13 @@ TINY_MC_API_KEY=
 
 - [ ] Migracje i seedy
 - [ ] w pliku ../database/seeders/UserTableSeeder należy utworzyć użytkowników - jest tam przykładowy użytkownik
+- [ ] Jednak nie polecam tego rozwiązania, najlepjej w dashboardzie, zalogować się na poniższego użytkownika i tworzyć użytkowników z poziomu dashboardu.
 ```
 DB::table('users')->insert([
             'name' => 'nobel001',
             'email' => 'nobel001@test.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('jakiesTrudneHaslo'),
+            'password' => Hash::make('password123'),
             'remember_token' => Str::random(10),
             'created_at' => now(),
             'updated_at' => now(),
