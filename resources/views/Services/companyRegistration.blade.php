@@ -13,21 +13,26 @@
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
                     <div class="col-12">
-                        <h3 class="display-6 mb-4">Wykorzystaj naszą wiedzę a Twoja firma powstanie w kilku krokach.</h3>
-{{--                        <p class="mb-4">Twoja firma powstanie w kilku prostych krokach:</p>--}}
+                        <h3 class="display-6 mb-4">Prosty Proces z Naszym Wsparciem</h3>
+                        <p class="mb-4" style="text-align: justify">Marzysz o założeniu własnej firmy, ale obawiasz się biurokracji i formalności? Z nami
+                            proces zakładania spółki jest prosty, szybki i bezpieczny. Dzięki naszemu
+                            doświadczeniu przeprowadzimy Cię przez każdy etap, zapewniając odpowiednie wsparcie i
+                            minimum formalności. Dzięki temu Ty możesz skupić się na tym, co najważniejsze –
+                            rozwoju swojego biznesu.</p>
                     </div>
 
                     <div class="col-lg-6">
+                        <h3 class="display-6 mb-4">Dlaczego warto wybrać Nobel?</h3>
                         <ul class="icon-list bullet-bg bullet-soft-orange">
-                            <li><span><i class="uil uil-check"></i></span><span><b>Analiza Twoich potrzeb</b> – wstępna konsultacja</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Przygotowanie dokumentów</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Rejestracja spółki w KRS</b> – pełen proces rejestracji.</span></li>
-                            <li><span><i class="uil uil-check"></i></span><span><b>Obsługa notarialna</b> – współpracujemy z zaufanymi notariuszami.</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Wsparcie po rejestracji</b> – zgłoszenie do US, VAT, PCC3, CRBR, księgowość.</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span><b>Minimum formalności</b> – zajmujemy się wszystkim za Ciebie, oszczędzając
+Twój czas i energię.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Kompleksowe wsparcie</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span><b>Bezpieczeństwo i zgodność z przepisami</b> – dbamy o poprawność
+dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt=""></figure>
                     </div>
                 </div>

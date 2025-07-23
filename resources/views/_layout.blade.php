@@ -126,7 +126,7 @@
 
                     <div class="d-flex gap-4">
                     </div>
-                    <a href="mailto:#">nobel@nobel.pro</a><br />
+                    <a href="mailto:#">nobel@nobel.pro</a><br/>
                     +48 22 499 99 00<br>
                     +48 885 588 511
                 </div>
