@@ -149,8 +149,8 @@
             <!-- /column -->
             <div class="col-md-12 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Newsletter</h4>
-                    <p class="mb-5">Dołącz do naszego newslettera aby otrzymywać najnowsze informacje</p>
+                    <h4 class="widget-title text-white mb-3">Dołącz do grupy mailingowej</h4>
+                    <p class="mb-5">w celu otrzymywania najnowszych wiadomości</p>
                     <div class="newsletter-wrapper">
                         <!-- Begin Mailchimp Signup Form -->
                             <form action="{{ route('newsletter.add.subscriber') }}" method="post" class="validate dark-fields">
