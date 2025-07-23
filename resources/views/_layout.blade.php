@@ -99,7 +99,7 @@
                     <p class="mb-4" style="font-size: 12px;">© 2025</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
                     <nav class="nav social">
 {{--                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>--}}
-                        <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
+                        <a href="https://www.facebook.com/Nobel.pro"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
 {{--                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>--}}
                         <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
 {{--                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>--}}
