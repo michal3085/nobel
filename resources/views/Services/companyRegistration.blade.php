@@ -138,9 +138,9 @@ dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
 
                 {{--    /PRICE    --}}
 
-
+{{-- dodac teksty w istniejacym layoucie--}}
                 <div class="col-12">
-                    <h3 class="display-6 mb-4 text-orange">Może Ci się przydać</h3>
+                    <h3 class="display-6 mb-4 text-orange">Dodatkowe usługi, które mogą Ci się przydać</h3>
                 </div>
 
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-14 mb-md-18">

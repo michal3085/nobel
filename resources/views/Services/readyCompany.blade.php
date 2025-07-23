@@ -7,14 +7,16 @@
             <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
                 <div class="col-lg-12 text-center text-lg-start">
                     <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
-                        <span class="underline-3 style-2 purple">Gotowa spółka</span>
+{{--                    TODO    POPRACOWAC NAD PODKRESLENIEM --}}
+                        <span class="underline-3 style-2 purple" style="font-size: 35px;">Gotowe Spółki na Sprzedaż – Bezpieczny Start Twojego
+Biznesu</span>
                     </h3>
                 </div>
-                <div class="col-lg-12">
-                    <h3 class="display-1 fs-45 lh-xxs mb-4 fw-bold text-purple">
-                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.
-                    </h3>
-                </div>
+{{--                <div class="col-lg-12">--}}
+{{--                    <h3 class="display-1 fs-45 lh-xxs mb-4 fw-bold text-purple">--}}
+{{--                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.--}}
+{{--                    </h3>--}}
+{{--                </div>--}}
             </div>
             <!-- /.row -->
 
@@ -43,6 +45,7 @@
         <!-- /.container-fluid -->
     </section>
 
+{{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
         <div class="row gy-6 mt-3 mt-md-5">
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
@@ -92,6 +95,7 @@
         </div>
     </div>
 
+{{--    TODO PODMINIC NA JAKIE KORZYSCI ZYSKUJESZ Z WORK WYMIENIC--}}
     <div class="tab-content mt-6 mt-lg-8">
         <div class="tab-pane fade show active" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
