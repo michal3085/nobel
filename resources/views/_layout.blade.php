@@ -110,17 +110,18 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-4">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Kontakt</h4>
+                    <h4 class="widget-title text-white mb-3">NOBEL Biuro Obsługi Klienta</h4>
                     <div class="d-flex gap-4">
                         <address>
                             Nobel.pro Sp. z o.o.<br>
                             Ul. Chałubińskiego 8<br>
+                            Piętro 22, lokal 22.52<br>
                             00-613 Warszawa<br>
                         </address>
-                        <address>
-                            NIP: 7010225520<br>
-                            KRS: 0000353244<br>
-                        </address>
+{{--                        <address>--}}
+{{--                            NIP: 7010225520<br>--}}
+{{--                            KRS: 0000353244<br>--}}
+{{--                        </address>--}}
                     </div>
 
                     <div class="d-flex gap-4">

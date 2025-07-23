@@ -97,7 +97,7 @@
                                                 <div class="icon text-primary fs-28 me-4 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
                                             </div>
                                             <div class="align-self-start justify-content-start">
-                                                <h5 class="mb-1">Nobel sp. z o.o.</h5>
+                                                <h5 class="mb-1">Nobel Sp. z o.o.</h5>
                                                 <address>Plac Defilad 1 <br> 00-901 Warszawa
                                                     <br class="d-none d-md-block" />NIP: 5213150329
                                                     <br class="d-none d-md-block" />KRS: 0000005899
@@ -139,10 +139,10 @@
                                             </div>
                                             <div>
                                                 <h5 class="mb-1" style="font-size: 15px;">Bank Millennium S.A.</h5>
-                                                <p class="mb-0"><b>NOBEL</b></p>
+                                                <p class="mb-0"><b>NOBEL Sp. z o.o.</b></p>
                                                 <p class="mb-0">IBAN: PL 06 1160 2202 0000 0002 4444 8553</p>
                                                 <p class="mb-0">SWIFT: BIGBPLPW</p>
-                                                <p class="mb-0"><b>NOBEL.PRO</b></p>
+                                                <p class="mb-0"><b>NOBEL.PRO sp. z o.o.</b></p>
                                                 <p class="mb-0">IBAN: PL 77 1160 2202 0000 0001 5966 5298</p>
                                                 <p class="mb-0">SWIFT: BIGBPLPW</p>
                                             </div>
@@ -233,7 +233,7 @@
         <div class="row mt-5">
             <div class="row mt-5">
                 <div class="col-12 text-center">
-                    <h3><span class="display-5">Nasze biura wirtualne</span></h3>
+                    <h3><span class="display-5">Nasze Biura Obsługi Klienta</span></h3>
                 </div>
             </div>
 
@@ -241,8 +241,8 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Warszawa - Centrum</h5>
-                        <p class="card-text">ul. Chałubińskiego 8 <br> 00-613 Warszawa</p>
+                        <h5 class="card-title">Warszawa - Śródmieście</h5>
+                        <p class="card-text">ul. Chałubińskiego 8 (piętro 22)<br> 00-613 Warszawa</p>
                         <p class="card-text">Tel: +48 22 456 19 10</p>
                         <p class="card-text">E-mail: <a href="mailto:biuro.o@nobel.pro">biuro.o@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
@@ -256,7 +256,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Warszawa - Wola</h5>
-                        <p class="card-text">ul. Pańska 96/83 <br> 00-837 Warszawa</p>
+                        <p class="card-text">ul. Pańska 96/83 (piętro 7)<br> 00-837 Warszawa</p>
                         <p class="card-text">Tel: +48 22 432 08 10</p>
                         <p class="card-text">E-mail: <a href="mailto:biuro.p@nobel.pro">biuro.p@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
@@ -270,7 +270,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Warszawa - Mokotów</h5>
-                        <p class="card-text">ul. Pory 78 <br> 02-757 Warszawa</p>
+                        <p class="card-text">ul. Pory 78 (piętro 12)<br> 02-757 Warszawa</p>
                         <p class="card-text">Tel: +48 22 456 18 90</p>
                         <p class="card-text">E-mail: <a href="mailto:biuro.c@nobel.pro">biuro.c@nobel.pro</a></p>
                         <p class="card-text" style="font-size: 14px;">XIII Wydział Gospodarczy - Krajowy Rejestr Sądowy</p>
