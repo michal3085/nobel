@@ -86,7 +86,7 @@
                                     <!-- Map - Left Column -->
                                     <div class="col-md-6">
                                         <div class="map map-full rounded-top rounded-lg-start">
-                                            <iframe <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6447211065997!2d21.00369207685547!3d52.23167225753624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xf86c6e0220f71f19!2sNobel%20-%20gotowe%20sp.%20z%20o.o.%20z%20VAT%2C%20sp.k.%2C%20rejestracja%20sp%C3%B3%C5%82ek%20S24!5e0!3m2!1spl!2spl!4v1753262643385!5m2!1spl!2spl" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6447211065997!2d21.00369207685547!3d52.23167225753624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc8c92692e49%3A0xf86c6e0220f71f19!2sNobel%20-%20gotowe%20sp.%20z%20o.o.%20z%20VAT%2C%20sp.k.%2C%20rejestracja%20sp%C3%B3%C5%82ek%20S24!5e0!3m2!1spl!2spl!4v1753262643385!5m2!1spl!2spl" style="width:100%; height: 100%; border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
 
@@ -129,7 +129,7 @@
                                             </div>
                                             <div>
                                                 <h5 class="mb-1">E-mail</h5>
-                                                <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">nobel@nobel.pro</a></p>
+                                                <p class="mb-0"><a href="mailto:nobel@nobel.pro" class="link-body">nobel@nobel.pro</a></p>
                                             </div>
                                         </div>
                                         <br>

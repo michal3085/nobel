@@ -91,6 +91,7 @@
                             <br>
                             <b>Najczęstsze aktualizacje dotyczą:</b>
                         </p>
+{{--                        TODO USUNAC SLOWA ZMIANA --}}
                         <div class="row gy-3">
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-orange mb-0">
@@ -136,6 +137,7 @@
             <!-- /.container -->
         </section>
 
+{{--        TODO ZMIANIC NA CO NAS WYROZNIA--}}
         <section class="wrapper bg-light">
             <div class="container pt-10 pt-md-12 pb-4 pb-md-10">
                 <div class="row gy-10 gy-sm-13 gx-lg-3 mb-12 mb-md-14 align-items-center">
