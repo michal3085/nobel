@@ -33,17 +33,17 @@
                                 <a id="gotoweBiuroToggle"
                                    class="nav-link dropdown-toggle"
                                    href="{{ route('service.route.dispatch', ['service' => 'gotowe-biura']) }}">
-                                    Gotowe biuro
+                                    Biura
                                 </a>
                                 <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Centrum Pańska 96</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'piekna'])}}">Śródmieście Piękna 15</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
@@ -60,29 +60,7 @@
                                 </ul>
                             </li>
 
-                            <!-- Wirtualne biuro dropdown -->
-                            <li class="nav-item dropdown">
-                                <a id="wirtualneBiuroToggle"
-                                   class="nav-link dropdown-toggle"
-                                   href="{{ route('service.route.dispatch', ['service' => 'wirtualne-biuro']) }}">
-                                    Wirtualne biuro
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 | coworking</a>
-                                    </li>
-                                </ul>
-                            </li>
-
+                            <!-- Coworking dropdown -->
                             <li class="nav-item dropdown">
                                 <a id="coworkingToggle"
                                    class="nav-link dropdown-toggle"
@@ -94,13 +72,30 @@
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}">Wola Pańska 96</a>
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Wirtualne biuro dropdown -->
+                            <li class="nav-item dropdown">
+                                <a id="wirtualneBiuroToggle"
+                                   class="nav-link dropdown-toggle"
+                                   href="{{ route('service.route.dispatch', ['service' => 'wirtualne-biuro']) }}">
+                                    Wirtualne biuro
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}">Centrum Pańska 96</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Mokotów Pory 78</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15 | coworking</a>
+                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15</a>
                                     </li>
                                 </ul>
                             </li>
@@ -110,13 +105,13 @@
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}">Zmiany w KRS</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółek</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Sprzedaż spółek</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółki</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{route('contact.index')}}">Blog</a>
+                                <a class="nav-link" href="{{route('blog.show.all')}}">Blog</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('contact.index')}}">Kontakt</a>

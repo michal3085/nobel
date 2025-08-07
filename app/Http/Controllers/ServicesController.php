@@ -19,6 +19,7 @@ class ServicesController extends Controller
         'rejestracja-spolki' => 'companyRegistration',
         'gotowe-biura' => 'readyOffice',
         'zmiany-krs' => 'krsChanges',
+        'coworking' => 'coworkingOffice',
     ];
 
     public function __construct()
