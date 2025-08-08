@@ -13,14 +13,14 @@
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
+                            <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
                         <div class="post-header">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
+                                <a class="link-dark" href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -58,8 +58,6 @@
 
             </div>
         </div>
-
-        @include('Services.components.virtualOfficePricing')
 
         <hr class="bg-violet border-2 border-top border-violet"/>
 
@@ -252,7 +250,7 @@
         </section>
 
         <div class="mt-4">
-            @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])
+            @include('qa.display', ['section' => 'coworkingOffice', 'title' => 'Q&A'])
         </div>
         <!-- /section -->
         <!-- /section -->
