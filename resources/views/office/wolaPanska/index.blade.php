@@ -3,7 +3,7 @@
 @section('content')
     @include('Services.modal._officesModal')
 
-    @include('office._returnButton', ['color' => 'blue'])
+    @include('office._returnButton', ['color' => 'blue', 'title' => $mainMenu === 'virtualOffices' ? 'Wirtualne biuro' : 'Biura'])
 
     <section class="wrapper bg-light">
         <div class="container py-5">

@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'purple'])
+    @include('office._returnButton', ['color' => 'blue', 'title' => $mainMenu === 'virtualOffices' ? 'Wirtualne biuro' : 'Biura'])
 
     <section class="wrapper bg-light">
 
