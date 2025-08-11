@@ -85,7 +85,75 @@
             <!-- /.row -->
         </div>
 
-        <hr class="bg-violet border-2 border-top border-violet"/>
+        <div class="pricing-wrapper position-relative mt-8">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+                <span class="underline-3 style-2 violet">Cennik</span>
+            </h3>
+            <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
+            <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>
+
+            <div class="row gy-6 mt-3 mt-md-5 justify-content-center">
+
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="pricing card text-center w-100 h-100">
+                        <div class="card-body d-flex flex-column align-items-center h-100">
+                            <div>
+                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+                                <h4 class="card-title">Coworking</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">750</span> <span class="price-duration">mc</span></div>
+                                </div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start flex-grow-1">
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Stanowisko pracy w biurze wieloosobowym</span></li>
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne 24/7</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="pricing card text-center w-100 h-100">
+                        <div class="card-body d-flex flex-column align-items-center h-100">
+                            <div>
+                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
+                                <h4 class="card-title">Co-office</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">750</span> <span class="price-duration">mc</span></div>
+                                </div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start flex-grow-1">
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Biuro 1-os przez 1 dzień w tygodniu</span></li>
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne w dni powszednie w godz. 9-16</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="pricing card text-center w-100 h-100">
+                        <div class="card-body d-flex flex-column align-items-center h-100">
+                            <div>
+                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <h4 class="card-title">Co-office Plus</h4>
+                                <div class="prices text-dark">
+                                    <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1250</span> <span class="price-duration">mc</span></div>
+                                </div>
+                            </div>
+                            <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start flex-grow-1">
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Biuro 1-os przez 2 dni w tygodniu</span></li>
+                                <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne w dni powszednie w godz. 9-20</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <hr class="bg-violet border-2 border-top border-green"/>
 
         <style>
             .image-wrapper {
