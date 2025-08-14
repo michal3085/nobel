@@ -50,11 +50,13 @@ class QASectionSeeder extends Seeder
             'updated_at' => now(),
         ]);
 
-        DB::table('qa_section')->insert([
-            'qa_section_name' => 'Coworking',
-            'qa_section_code' => 'coworkingOffice',
-            'created_at' => now(),
-            'updated_at' => now(),
-        ]);
+        if (!DB::table('qa_section')->where('qa_section_code', 'coworkingOffice')->exists()) {
+            DB::table('qa_section')->insert([
+                'qa_section_name' => 'Coworking',
+                'qa_section_code' => 'coworkingOffice',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+        }
     }
 }
