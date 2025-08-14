@@ -96,6 +96,10 @@
 
                 <div class="col-md-6 col-lg-4 d-flex">
                     <div class="pricing card text-center w-100 h-100">
+                        <div class="ribbon-rounded">
+                            Zawiera cały pakiet WB
+                            <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
+                        </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
                                 <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
@@ -114,6 +118,10 @@
 
                 <div class="col-md-6 col-lg-4 d-flex">
                     <div class="pricing card text-center w-100 h-100">
+                        <div class="ribbon-rounded">
+                            Zawiera cały pakiet WB
+                            <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
+                        </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
                                 <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
@@ -132,6 +140,10 @@
 
                 <div class="col-md-6 col-lg-4 d-flex">
                     <div class="pricing card text-center w-100 h-100">
+                        <div class="ribbon-rounded">
+                            Zawiera cały pakiet WB
+                            <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
+                        </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
                                 <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
