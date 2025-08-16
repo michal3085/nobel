@@ -19,6 +19,8 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 
+require __DIR__.'/auth.php';
+
 Route::get('/', [MainPageController::class, 'index'])->name('main');
 
 // SERVICES
@@ -103,5 +105,3 @@ Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'
 
 // REG'S AND POLITICS
 Route::get('/politics/private', [RegAndPoliticsController::class, 'privatePolitics'])->name('politics.private');
-
-require __DIR__.'/auth.php';

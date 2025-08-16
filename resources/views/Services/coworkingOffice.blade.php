@@ -36,7 +36,7 @@
                         </figure>
                         <header class="post-header">
                             <h2 class="post-title h5 mb-0">
-                                <a class="link-dark" href="{{ route('coworking.office.route.dispatch', ['office' => 'oxford-tower']) }}">
+                                <a class="link-dark" href="{{ route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}s">
                                     Chałubińskiego 8 — Śródmieście
                                 </a>
                             </h2>
@@ -47,7 +47,7 @@
                 <div class="col-12 col-sm-8 col-md-6 col-lg-3 d-flex">
                     <article class="w-100 text-center">
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{ route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}">
+                            <a href="{{ route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}">
                                 <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="Klimczaka 15 Wilanów" class="img-fluid rounded" />
                             </a>
                             <figcaption>

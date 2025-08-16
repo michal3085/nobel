@@ -69,10 +69,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Śródmieście Chałubińskiego 8</a>
+                                        <a class="dropdown-item" href="{{ route('coworking.office.route.dispatch', ['office' => 'oxford-tower']) }}">Śródmieście Chałubińskiego 8</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="dropdown-item" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Wilanów Klimczaka 15</a>
+                                        <a class="dropdown-item" href={{ route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}>Wilanów Klimczaka 15</a>
                                     </li>
                                 </ul>
                             </li>
