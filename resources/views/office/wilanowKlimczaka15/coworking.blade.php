@@ -73,7 +73,6 @@
 
         <hr class="bg-violet border-2 border-top border-purple"/>
 
-
         <div class="row justify-content-center gy-10">
             <div class="col-lg-10">
                 <div class="row justify-content-center gx-lg-8 align-items-center">
