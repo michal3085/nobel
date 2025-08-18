@@ -129,6 +129,24 @@
                         <li><i class="uil uil-check"></i><b>Sale konferencyjne i biura serwisowane</b> – gdy potrzebujesz fizycznej
                             przestrzeni do pracy lub spotkań biznesowych,</li>
                     </ul>
+
+                    <span class="underline-3 style-2 violet" style="font-size: 15px;">
+                        <b>Dlaczego warto wybrać Wirtualne Biuro?</b>
+                    </span>
+
+                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
+                        <li><i class="uil uil-check"></i>Redukujesz koszty związane z utrzymaniem tradycyjnego biura i <b>płacisz tylko za to, czego faktycznie potrzebujesz.</b></li>
+                        <li><i class="uil uil-check"></i>Zyskujesz profesjonalny wizerunek i prestiżowy adres w atrakcyjnej lokalizacji.</li>
+                        <li><i class="uil uil-check"></i>Korzystasz z pełnej obsługi administracyjnej, oszczędzając czas i energię.</li>
+                    </ul>
+
+                    <p style="font-size: 15px;">
+                        <b>
+                            Wirtualne Biuro to więcej niż tylko adres. To elastyczność, wygoda i wsparcie,
+                            które pozwolą Ci skupić się na rozwoju Twojej firmy. Zacznij działać bez ograniczeń
+                            już dziś!
+                        </b>
+                    </p>
                 </div>
                 <!--/column -->
             </div>
