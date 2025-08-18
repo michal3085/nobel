@@ -16,7 +16,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
+                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 , 22 piętro</h2>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
@@ -28,8 +28,20 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro w ścisłym centrum Warszawy na <b>22 piętrze</b> jednego z pierwszych warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca <b>Oxford Tower</b> (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
-                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, Warsaw Presidential Hotel (kiedyś Marriott) i Pałacu Kultury i Nauki. W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
+                                                    Przenieś swoją firmę na 22. piętro słynnego Oxford Tower – jednego z pierwszych
+                                                    warszawskich drapaczy chmur. Prestiżowy adres w sąsiedztwie Pałacu Kultury i
+                                                    Nauki, Warsaw Presidential Hotel (dawniej Marriott) oraz Dworca Centralnego
+                                                    podkreśli profesjonalizm Twojej działalności.
+
+{{--                                            TODO OPISY INNE     --}}
+                                            <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
+                                                <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – zarejestruj firmę pod adresem
+                                                    Twojego biura i buduj wiarygodność w oczach klientów.</li>
+                                                <li><i class="uil uil-check"></i><b>Obsługa korespondencji</b> – podczas Twojej nieobecności odbierzemy
+                                                    przesyłki i poinformujemy Cię o każdej z nich.</li>
+                                                <li><i class="uil uil-check"></i><b>Elastyczne możliwości</b> – oprócz coworkingu, możesz skorzystać z Biura
+                                                    Serwisowanego lub usługi Biuro Wirtualne.</li>
+                                            </ul>
                                                 @else
                                                     W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
                                                     <br>
