@@ -4,7 +4,7 @@
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
             <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
-                <span class="underline-3 style-2 violet">Wirtualne biuro</span>
+                <span class="underline-3 style-2 violet">Wirtualne Biuro - Twoja Firma, Bez Ograniczeń</span>
             </h3>
         </div>
 
@@ -112,22 +112,22 @@
                 {{--                <div class="col-lg-6">--}}
                 <div class="col-lg-12">
                     <p style="font-size: 18px; text-align: justify;">
-                        <b>Wirtualne biuro</b> to usługa, która umożliwia prowadzenie firmy bez konieczności
-                        wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
-                        freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
-                        działalność na skalę krajową lub międzynarodową.
+                        Zapewnij swojej firmie profesjonalny wizerunek i pełną elastyczność, <b>jednocześnie
+                        unikając kosztów związanych z wynajmem tradycyjnego biura.</b>
                     </p>
 
                     <p style="font-size: 15px;">
-                        <b>Wirtualnego Biuro</b> to więcej niż tylko adres. Otrzymasz dostęp do
-                        pełnej obsługi administracyjnej:
+                        <b>Wirtualne Biuro</b> to rozwiązanie, które daje Ci swobodę działania i oszczędność,
+                        oferując wszystko, czego potrzebujesz, by rozwijać biznes na własnych zasadach.
                     </p>
                     <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i><b>Adres do rejestracji firmy</b> – który możesz umieścić na dokumentach, wizytówkach oraz stronie internetowej.</li>
-                        <li><i class="uil uil-check"></i><b>Odbiór i przechowywanie korespondencji</b> – odbieramy przesyłki i informujemy Cię o każdej nowej wiadomości.</li>
-                        <li><i class="uil uil-check"></i><b>Skanowanie i przekazywanie korespondencji</b> – na życzenie skanujemy dokumenty i wysyłamy je na Twój e-mail.</li>
-                        <li><i class="uil uil-check"></i><b>Obsługa telefoniczna</b> – opcjonalna usługa, dzięki której nasi pracownicy będą odbierać telefony w imieniu Twojej firmy.</li>
-                        <li><i class="uil uil-check"></i><b>Możliwość wynajmu sali konferencyjnej</b> – na spotkania biznesowe, gdy potrzebujesz fizycznej przestrzeni do pracy.</li>
+                        <li><i class="uil uil-check"></i><b>Prestiżowy adres</b> – buduje wiarygodność w oczach klientów i partnerów.</li>
+                        <li><i class="uil uil-check"></i><b>Kompleksowa obsługa korespondencji</b> – odbieramy, przechowujemy,
+                            skanujemy i przekazujemy Twoją korespondencję.</li>
+                        <li><i class="uil uil-check"></i><b>Opcjonalna obsługa telefoniczna</b> – nasi pracownicy zapewniają
+                            profesjonalną obsługę klientów w imieniu Twojej firmy.</li>
+                        <li><i class="uil uil-check"></i><b>Sale konferencyjne i biura serwisowane</b> – gdy potrzebujesz fizycznej
+                            przestrzeni do pracy lub spotkań biznesowych,</li>
                     </ul>
                 </div>
                 <!--/column -->
