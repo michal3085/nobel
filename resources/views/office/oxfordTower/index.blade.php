@@ -17,6 +17,9 @@
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 green">Chałubińskiego 8 , 22 piętro</h2>
+                                            <p class="text-muted">
+                                                Prestiż i widok na sukces
+                                            </p>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
