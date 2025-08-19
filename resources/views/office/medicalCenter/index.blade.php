@@ -17,6 +17,9 @@
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
+                                            <p class="text-muted">
+                                                Carolina – Prestiżowy adres na zielonym Mokotowie
+                                            </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
                                                     <h3 class="text-yellow">od 2500 PLN</h3>
@@ -27,14 +30,27 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na <b>Mokotowie</b> to doskonała opcja dla firm pragnących skorzystać z prestiżowego adresu w jednej z najbardziej pożądanych dzielnic Warszawy.
-                                                    Mokotów jest znany z doskonałej infrastruktury, bliskości do centrum miasta oraz licznych parków, co czyni go idealnym <b>miejscem do prowadzenia działalności biznesowej</b>.
+                                                <p style="text-align: justify">
+                                                    Umieść swoją firmę w jednej z najbardziej pożądanych lokalizacji w Warszawie.
+                                                    Wirtualne biuro na Mokotowie to idealne rozwiązanie dla tych, którzy cenią doskonałą
+                                                    infrastrukturę, bliskość centrum oraz otoczenie zieleni.
+                                                </p>
+
+                                                <ul class="icon-list bullet-bg bullet-soft-yellow" style="font-size: 15px;">
+                                                    <li><i class="uil uil-check"></i><b>Prestiżowa lokalizacja</b> - podkreśl profesjonalizm swojej firmy dzięki
+                                                        znanemu adresowi na Mokotowie.</li>
+                                                    <li><i class="uil uil-check"></i><b>Idealne miejsce do pracy i rozwoju</b> – dzielnica łączy biznesowy charakter z
+                                                        komfortem codziennego funkcjonowania.</li>
+                                                    <li><i class="uil uil-check"></i><b>Biura serwisowane</b> – w pełni umeblowane gabinety gotowe do pracy od
+                                                        zaraz, dostępne na elastycznych zasadach.</li>
+                                                </ul>
                                                 @else
+                                                <p style="text-align: justify">
                                                     Serwisowane biura zlokalizowane w Multis Plaza usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: <b>Wawer, Wilanów i Ursynów</b>. Na warszawskim Mokotowie czeka na Ciebie <b>kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna</b>. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
                                                     <br>
                                                     W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
+                                                </p>
                                                 @endif
-                                            </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
