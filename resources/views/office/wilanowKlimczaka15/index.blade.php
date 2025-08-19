@@ -46,7 +46,8 @@
                                                        class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
                                                        data-office="KLIMCZAKA 15 WILANÓW"
                                                        data-bs-toggle="modal"
-                                                       data-bs-target="#modal-offices">
+                                                       data-bs-target="#modal-offices"
+                                                    >
                                                         Zapytaj o dostępność
                                                     </a>
                                                 </span>
