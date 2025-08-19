@@ -33,14 +33,11 @@
                                                     Nauki, Warsaw Presidential Hotel (dawniej Marriott) oraz Dworca Centralnego
                                                     podkreśli profesjonalizm Twojej działalności.
 
-{{--                                            TODO OPISY INNE     --}}
                                             <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
-                                                <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – zarejestruj firmę pod adresem
-                                                    Twojego biura i buduj wiarygodność w oczach klientów.</li>
-                                                <li><i class="uil uil-check"></i><b>Obsługa korespondencji</b> – podczas Twojej nieobecności odbierzemy
-                                                    przesyłki i poinformujemy Cię o każdej z nich.</li>
-                                                <li><i class="uil uil-check"></i><b>Elastyczne możliwości</b> – oprócz coworkingu, możesz skorzystać z Biura
-                                                    Serwisowanego lub usługi Biuro Wirtualne.</li>
+                                                <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – idealny dla budowania wizerunku Twojej firmy.</li>
+                                                <li><i class="uil uil-check"></i><b>Elastyczne możliwości pracy</b> – skorzystaj z coworkingu lub w pełni umeblowanych gabinetów gotowych do pracy od zaraz.</li>
+                                                <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji
+                                                        miejskiej, restauracji i usług.</li>
                                             </ul>
                                                 @else
                                                     W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
