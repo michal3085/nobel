@@ -17,7 +17,12 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 blue">Wola Pańska 96</h2>
+                                            <h2 class="underline-3 style-2 blue">
+                                                Wola Pańska 96
+                                            </h2>
+                                            <p class="text-muted">
+                                                rozwijaj swój biznes w najlepszym otoczeniu
+                                            </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
                                                     <h3 class="text-blue">od 2500 PLN</h3>
@@ -26,17 +31,26 @@
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na Woli to doskonałe rozwiązanie jeżeli chcesz być <b>w samym centrum biznesowym stolicy</b>, które obecnie znajduje się w obrębie ulic: Towarowa, Prosta, aleja Jana Pawła II i Aleje Jerozolimskie. Widok na zrewitalizowaną, zabytkową Fabrykę Norblina, w której poza licznymi restauracjami i kawiarniami, znajdują się także kino, muzea i sale zabaw.
-                                                    W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
+                                                <p style="text-align: justify">
+                                                    Zarejestruj swoją firmę w jednym z najbardziej dynamicznych miejsc w Warszawie.
+                                                    Pańska 96 to prestiżowy adres w sąsiedztwie ulic Towarowej, Prostej, alei Jana
+                                                    Pawła II oraz Alej Jerozolimskich, a także zrewitalizowanej Fabryki Norblina.
+                                                </p>
+
+                                                    <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
+                                                        <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – idealny dla budowania wizerunku Twojej firmy.</li>
+                                                        <li><i class="uil uil-check"></i><b>Elastyczne możliwości pracy</b> – skorzystaj z coworkingu lub w pełni umeblowanych gabinetów gotowych do pracy od zaraz.</li>
+                                                        <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji miejskiej, restauracji i usług.</li>
+                                                    </ul>
                                                 @else
+                                                <p style="text-align: justify">
                                                 Pańska 96 to ponad <b>25 w pełni umeblowanych gabinetów na 600 m2 powierzchni</b>. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w <b>topowej lokalizacji przy ul. Pańskiej 96</b>, naprzeciwko kultowej Fabryki Norblina.
                                                 Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.
                                                     <br>
                                                     W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Wirtualne Biuro</b></a>.
+                                                </p>
                                             @endif
-                                            </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
