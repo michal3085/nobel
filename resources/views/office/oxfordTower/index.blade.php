@@ -44,9 +44,9 @@
                                             </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                    Biuro zlokalizowane na 22. piętrze w wieżowcu Oxford Tower to idealna przestrzeń dla
+                                                    Biuro zlokalizowane na <b>22. piętrze w wieżowcu Oxford Tower</b> to idealna przestrzeń dla
                                                     nowoczesnych firm.
-                                                    Panoramiczny widok, wysoki standard, <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>coworking</b></a> i <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>wirtualne biuro</b></a> – wszystko w jednym
+                                                    <b>Panoramiczny widok, wysoki standard,</b> <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>coworking</b></a> i <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>wirtualne biuro</b></a> – wszystko w jednym
                                                     miejscu.
                                                 </p>
                                                 @endif
