@@ -111,7 +111,7 @@
         <div class="row text-center">
             <div class="col-xl-11 col-xxl-9 mx-auto">
                 <h3 class="display-1 mb-8 px-lg-8 text-white" style="font-size: 25px;">
-                    Oferujemy pełen zakres usług związanych ze zmianami <br> w KRS w systemach PRS i S24. <br><br> Nasze wsparcie obejmuje przygotowanie uchwał, umów zbycia udziałów/akcji oraz dopilnowanie ostatecznej aktualizacji wpisów <br> w KRS.
+                    Oferujemy pełen zakres usług związanych ze zmianami w KRS w systemach PRS i S24. Nasze wsparcie obejmuje przygotowanie uchwał, umów zbycia udziałów/akcji oraz dopilnowanie ostatecznej aktualizacji wpisów w KRS.
                 </h3>
             </div>
             <!-- /column -->

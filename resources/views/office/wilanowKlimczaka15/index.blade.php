@@ -86,64 +86,6 @@
 
         <hr class="bg-violet border-2 border-top border-purple"/>
 
-        <div class="tab-pane fade show active mt-15" id="tab2-1">
-
-            <div class="project-details d-flex justify-content-center flex-column">
-                <div class="post-header">
-                    <div class="post-category text-purple">Coworking</div>
-                    <h2 class="">Wilanów Klimczaka 15</h2>
-                    <div class="mb-3">
-                        @if ($mainMenu !== 'virtualOffices')
-                            <h3 class="text-purple">od 500 PLN</h3>
-                        @endif
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                                <div class="col-lg-6">
-                                    <figure class="rounded shadow-lg"><img src="{{asset('assets/img/offices/klimczaka/cowo/klimczaka-15-nobel-4.jpg')}}" srcset="{{asset('assets/img/offices/klimczaka/cowo/klimczaka-15-nobel-4.jpg')}}" alt=""></figure>
-                                </div>
-{{--                <!--/column -->--}}
-                                <div class="col-lg-6">
-                <div class="col-lg-12">
-                    <p style="font-size: 18px; text-align: justify;">
-                        Stanowiska pracy są dedykowane i wybierane przez Klienta.
-                        <br>
-                    </p>
-
-                    <p style="font-size: 15px;">
-                        Oferujemy:
-                    </p>
-
-                    <ul class="icon-list bullet-bg bullet-soft-purple" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i>nieograniczony dostęp do wybranego przez siebie stanowiska pracy (biurko, fotel, kontener)</li>
-                        <li><i class="uil uil-check"></i>przestronny lokal z dostępem do części wspólnych (aneks kuchenny oraz toalety)</li>
-                        <li><i class="uil uil-check"></i>możliwość rejestracji Państwa Firmy pod tym adresem</li>
-                        <li><i class="uil uil-check"></i>dostęp do drukarki (limit wydruków na każdego użytkownika)</li>
-                        <li><i class="uil uil-check"></i>Internet</li>
-                        <li><i class="uil uil-check"></i>kawa/herbata bez limitu</li>
-                        <li><i class="uil uil-check"></i>serwis sprzątający</li>
-                    </ul>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
-                <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                                                <span>
-                                                    <a href="#"
-                                                       class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
-                                                       data-office="KLIMCZAKA 15 WILANÓW COWORKING"
-                                                       data-bs-toggle="modal"
-                                                       data-bs-target="#modal-offices">
-                                                        Zapytaj o dostępność
-                                                    </a>
-                                                </span>
-                </div>
-        </div>
-
-        <hr class="bg-violet border-2 border-top border-purple"/>
-
             @if ($mainMenu === 'virtualOffices')
                 @include('Services.components.virtualOfficePricing')
             @endif

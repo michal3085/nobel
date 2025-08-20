@@ -24,17 +24,18 @@
                                         <!-- Dodanie ceny 2500 PLN -->
                                         <div class="mb-3">
                                             @if ($mainMenu !== 'virtualOffices')
-                                                <h3 class="text-green">od 1500 PLN</h3>
+                                                <h3 class="text-green">od 1 500 PLN</h3>
                                             @endif
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
+                                                <p style="text-align: justify">
                                                     Przenieś swoją firmę na 22. piętro słynnego Oxford Tower – jednego z pierwszych
                                                     warszawskich drapaczy chmur. Prestiżowy adres w sąsiedztwie Pałacu Kultury i
                                                     Nauki, Warsaw Presidential Hotel (dawniej Marriott) oraz Dworca Centralnego
                                                     podkreśli profesjonalizm Twojej działalności.
+                                                </p>
 
                                             <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
                                                 <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – idealny dla budowania wizerunku Twojej firmy.</li>
@@ -42,11 +43,12 @@
                                                 <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji miejskiej, restauracji i usług.</li>
                                             </ul>
                                                 @else
+                                                <p style="text-align: justify">
                                                     W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
                                                     <br>
                                                     W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
+                                                </p>
                                                 @endif
-                                            </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
