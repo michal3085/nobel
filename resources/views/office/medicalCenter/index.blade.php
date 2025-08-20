@@ -18,11 +18,15 @@
                                             <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
                                             <p class="text-muted">
-                                                Carolina – Prestiżowy adres na zielonym Mokotowie
+                                                @if ($mainMenu === 'offices')
+                                                    12. piętro z widokiem i wygodą
+                                                @else
+                                                    Carolina – Prestiżowy adres na zielonym Mokotowie
+                                                @endif
                                             </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-yellow">od 2500 PLN</h3>
+                                                    <h3 class="text-yellow">od 2 500 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
@@ -46,9 +50,12 @@
                                                 </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                    Serwisowane biura zlokalizowane w Multis Plaza usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: <b>Wawer, Wilanów i Ursynów</b>. Na warszawskim Mokotowie czeka na Ciebie <b>kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna</b>. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
-                                                    <br>
-                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
+                                                    Biura na 12. piętrze Multis Plaza, w pobliżu ul. Sobieskiego i Sikorskiego.
+                                                    Doskonałe miejsce dla zespołów, z obsługą biura, salą konferencyjną i widokiem na
+                                                    Warszawę.
+                                                    Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>, dopasowanej do Twoich
+                                                    potrzeb.
+
                                                 </p>
                                                 @endif
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
@@ -94,7 +101,56 @@
             <!-- /.row -->
         </div>
 
-        @if ($mainMenu === 'virtualOffices')
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-yellow"/>
+
+            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                <!-- O lokalizacji -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-map-marker icon-svg-md text-yellow mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-yellow text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Powierzchnia – ponad 200 m² nowoczesnej przestrzeni z dużą liczbą gabinetów</li>
+                            <li><i class="uil uil-check"></i>Układ pomieszczeń – biura indywidualne, sala konferencyjna</li>
+                            <li><i class="uil uil-check"></i>Wykończenie – funkcjonalne, biurowe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-wrench icon-svg-md text-yellow mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-yellow text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Obsługa – korespondencja, sala konferencyjna</li>
+                            <li><i class="uil uil-check"></i>Parking – garaż podziemny, parking zewnętrzny</li>
+                            <li><i class="uil uil-check"></i>Bezpieczeństwo – recepcja, monitoring, ochrona 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-briefcase icon-svg-md text-yellow mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-yellow text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Lokalizacja – dogodny dojazd z Wilanowa, Mokotowa, Ursynowa</li>
+                            <li><i class="uil uil-check"></i>Komunikacja – tramwaje, autobusy</li>
+                            <li><i class="uil uil-check"></i>Komfort – klimatyzacja, szybki internet symetryczny, sala konferencyjna, aneks kuchenny z dostępem do kawy i herbaty, serwis sprzątający</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-yellow"/>
+        @endif
+
+    @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')
         @endif
 
