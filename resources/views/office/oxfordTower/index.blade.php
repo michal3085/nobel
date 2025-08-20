@@ -44,9 +44,10 @@
                                             </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                    W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
-                                                    <br>
-                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
+                                                    Biuro zlokalizowane na 22. piętrze w wieżowcu Oxford Tower to idealna przestrzeń dla
+                                                    nowoczesnych firm.
+                                                    Panoramiczny widok, wysoki standard, <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>coworking</b></a> i <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>wirtualne biuro</b></a> – wszystko w jednym
+                                                    miejscu.
                                                 </p>
                                                 @endif
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
@@ -138,6 +139,56 @@
                 </div>
             </div>
         </div>
+
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-green"/>
+
+            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                <!-- O lokalizacji -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-map-marker icon-svg-md text-green mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-green text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Powierzchnia – dla małego lub średniego zespołu</li>
+                            <li><i class="uil uil-check"></i>Układ pomieszczeń – biura indywidualne, sala konferencyjna</li>
+                            <li><i class="uil uil-check"></i>Wykończenie – funkcjonalne, biurowe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-wrench icon-svg-md text-green mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-green text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Obsługa – korespondencja, wsparcie sali konferencyjnej</li>
+                            <li><i class="uil uil-check"></i>Parking – podziemny i zewnętrzne opcje w pobliżu</li>
+                            <li><i class="uil uil-check"></i>Bezpieczeństwo – recepcja, monitoring, ochrona 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-briefcase icon-svg-md text-green mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-green text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Centralna lokalizacja – obok Presidential (dawny Marriott), PKiN, Dworzec Centralny</li>
+                            <li><i class="uil uil-check"></i>Komunikacja – 200 m do Dworca, 600 m do metra</li>
+                            <li><i class="uil uil-check"></i>Komfort pracy – widok na Warszawę, klimatyzacja, szybki internet symetryczny, aneks kuchenny, serwis sprzątający</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-green"/>
+        @endif
+
 
         @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')

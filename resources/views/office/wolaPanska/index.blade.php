@@ -45,10 +45,12 @@
                                                     </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                Pańska 96 to ponad <b>25 w pełni umeblowanych gabinetów na 600 m2 powierzchni</b>. Biura gotowe do wprowadzenia się ,,od zaraz” zlokalizowane w <b>topowej lokalizacji przy ul. Pańskiej 96</b>, naprzeciwko kultowej Fabryki Norblina.
-                                                Niedalekie sąsiedztwo dwóch linii metra, linii tramwajowych oraz bliskość przystanków autobusowych ułatwią dojazd do pracy, bez konieczności szukania miejsca parkingowego w centrum miasta.
-                                                    <br>
-                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Wirtualne Biuro</b></a>.
+                                                    <b>Nowoczesne biura</b> w sercu stołecznego biznesu — ponad <b>600 m²</b> gotowej do
+                                                    pracy przestrzeni, złożonej z <b>25 umeblowanych gabinetów.</b>
+                                                    Biuro znajduje się na <b>7. piętrze</b>, z widokiem na <b>Fabrykę Norblina.</b>
+                                                    Doskonała lokalizacja, <b>blisko drugiej linii metra</b>
+                                                    <br><br>
+                                                    Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Wirtualne Biuro</b></a>.
                                                 </p>
                                             @endif
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
@@ -101,7 +103,7 @@
                     <!-- O lokalizacji -->
                     <div class="col-lg-4">
                         <div class="px-3">
-                            <i class="uil uil-map-marker icon-svg-md text-primary mb-3" style="font-size: 42px;"></i>
+                            <i class="uil uil-map-marker icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
                             <h4 class="fw-bold mb-4">O lokalizacji</h4>
                             <ul class="icon-list bullet-bg bullet-soft-primary text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
                                 <li><i class="uil uil-check"></i>Powierzchnia: 600 m² – ponad 25 niezależnych gabinetów</li>
@@ -114,7 +116,7 @@
                     <!-- Dodatkowe udogodnienia -->
                     <div class="col-lg-4">
                         <div class="px-3">
-                            <i class="uil uil-wrench icon-svg-md text-primary mb-3" style="font-size: 42px;"></i>
+                            <i class="uil uil-wrench icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
                             <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
                             <ul class="icon-list bullet-bg bullet-soft-purple text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
                                 <li><i class="uil uil-check"></i>Obsługa administracyjna – odbiór korespondencji, wsparcie sali konferencyjnej</li>
@@ -127,7 +129,7 @@
                     <!-- Korzyści dla najemcy -->
                     <div class="col-lg-4">
                         <div class="px-3">
-                            <i class="uil uil-briefcase icon-svg-md text-dark mb-3" style="font-size: 42px;"></i>
+                            <i class="uil uil-briefcase icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
                             <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
                             <ul class="icon-list bullet-bg bullet-soft-success text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
                                 <li><i class="uil uil-check"></i>Lokalizacja – centrum biznesowe między Rondem ONZ a Rondem Daszyńskiego, przy Fabryce Norblina</li>
