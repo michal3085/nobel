@@ -25,7 +25,7 @@
                                             </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-blue">od 2500 PLN</h3>
+                                                    <h3 class="text-blue">od 2 500 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
@@ -93,7 +93,56 @@
             </div>
             <br>
 
-            @if ($mainMenu === 'virtualOffices')
+            @if ($mainMenu === 'offices')
+                <hr class="bg-violet border-2 border-top border-blue"/>
+
+                <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                    <!-- O lokalizacji -->
+                    <div class="col-lg-4">
+                        <div class="px-3">
+                            <i class="uil uil-map-marker icon-svg-md text-primary mb-3" style="font-size: 42px;"></i>
+                            <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                            <ul class="icon-list bullet-bg bullet-soft-primary text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                                <li><i class="uil uil-check"></i>Powierzchnia: 600 m² – ponad 25 niezależnych gabinetów</li>
+                                <li><i class="uil uil-check"></i>Układ pomieszczeń: elastyczny – gabinety dla 1–5 osób, open space, sala konferencyjna</li>
+                                <li><i class="uil uil-check"></i>Wykończenie: wysoki standard, biurowe</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Dodatkowe udogodnienia -->
+                    <div class="col-lg-4">
+                        <div class="px-3">
+                            <i class="uil uil-wrench icon-svg-md text-primary mb-3" style="font-size: 42px;"></i>
+                            <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                            <ul class="icon-list bullet-bg bullet-soft-purple text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                                <li><i class="uil uil-check"></i>Obsługa administracyjna – odbiór korespondencji, wsparcie sali konferencyjnej</li>
+                                <li><i class="uil uil-check"></i>Miejsca parkingowe – dostępne w garażu podziemnym</li>
+                                <li><i class="uil uil-check"></i>Bezpieczeństwo – recepcja, monitoring, ochrona 24/7</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Korzyści dla najemcy -->
+                    <div class="col-lg-4">
+                        <div class="px-3">
+                            <i class="uil uil-briefcase icon-svg-md text-dark mb-3" style="font-size: 42px;"></i>
+                            <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                            <ul class="icon-list bullet-bg bullet-soft-success text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                                <li><i class="uil uil-check"></i>Lokalizacja – centrum biznesowe między Rondem ONZ a Rondem Daszyńskiego, przy Fabryce Norblina</li>
+                                <li><i class="uil uil-check"></i>Komunikacja – II linia metra, tramwaje, autobusy</li>
+                                <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna, serwis sprzątający</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="bg-violet border-2 border-top border-blue"/>
+            @endif
+
+        @if ($mainMenu === 'virtualOffices')
                 @include('Services.components.virtualOfficePricing')
             @endif
 
