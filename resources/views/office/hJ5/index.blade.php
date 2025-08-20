@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
+    @include('office._returnButton', ['color' => 'sky', 'title' => _getOfficeTitle($mainMenu)])
 
     <section class="wrapper bg-light">
         <div class="container py-5">
