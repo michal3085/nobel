@@ -24,8 +24,8 @@
                                                 rozwijaj swój biznes w najlepszym otoczeniu
                                             </p>
                                             <div class="mb-3">
-                                                @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-blue">od 2 500 PLN</h3>
+                                                @if ($mainMenu === 'offices')
+                                                    <h3 class="text-blue">od 2 000 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
