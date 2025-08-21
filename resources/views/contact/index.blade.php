@@ -143,7 +143,7 @@
                                                 <p class="mb-0"><b>NOBEL Sp. z o.o.</b></p>
                                                 <p class="mb-0">IBAN: PL 06 1160 2202 0000 0002 4444 8553</p>
                                                 <p class="mb-0">SWIFT: BIGBPLPW</p>
-                                                <p class="mb-0"><b>NOBEL.PRO sp. z o.o.</b></p>
+                                                <p class="mb-0"><b>NOBEL.PRO Sp. z o.o.</b></p>
                                                 <p class="mb-0">IBAN: PL 77 1160 2202 0000 0001 5966 5298</p>
                                                 <p class="mb-0">SWIFT: BIGBPLPW</p>
                                             </div>
