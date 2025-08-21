@@ -17,14 +17,16 @@
                                             <div class="post-category text-blue mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 blue">KATOWICE SOKOLSKA 30</h2>
                                             <div class="mb-3">
-                                                <h3 class="text-blue">od 1400 PLN</h3>
+                                                <h3 class="text-blue">od 1 400 PLN</h3>
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                <b>Nowoczesna przestrzeń biurowa</b> dla firm poszukujących w pełni wyposażonych i komfortowych biur w atrakcyjnej części miasta. Przyszli najemcy mogą liczyć na nowoczesne wnętrza, szybki internet, salę konferencyjną oraz szereg udogodnień, które ułatwią codzienną pracę.
-                                                <b>Lokalizacja</b> ta to doskonały wybór zarówno dla <b>startupów</b>, jak i dla <b>większych firm</b> szukających elastycznych rozwiązań biurowych w dynamicznie rozwijających się <b>Katowicach</b>.
+                                                Prestiżowa inwestycja Sokolska 30 Towers to miejsce, które łączy nowoczesność,
+                                                komfort i doskonałą lokalizację w Katowicach. <b>W pełni wyposażone biura</b> zaprojektowane z myślą o wygodzie i funkcjonalności,
+                                                gotowe do pracy od zaraz. <b>Wyjątkowe udogodnienia</b>, jak przestronne lobby z recepcją oraz zielone atrium na
+                                                dachu sprzyja relaksowi i inspiracji.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
@@ -94,6 +96,56 @@
             </div>
             <!-- /.container-fluid -->
         </section>
+
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-blue"/>
+
+            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                <!-- O lokalizacji -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-map-marker icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Powierzchnia – 4 gabinety</li>
+                            <li><i class="uil uil-check"></i>Układ pomieszczeń – biurowe, gotowe do pracy</li>
+                            <li><i class="uil uil-check"></i>Wykończenie – nowoczesne, wysoki standard</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-wrench icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Elastyczność – możliwość wynajmu dodatkowych gabinetów</li>
+                            <li><i class="uil uil-check"></i>Parking – garaż podziemny i miejsca zewnętrzne</li>
+                            <li><i class="uil uil-check"></i>Bezpieczeństwo – recepcja, monitoring, ochrona 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-briefcase icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Lokalizacja – centrum Katowic, ul. Sokolska</li>
+                            <li><i class="uil uil-check"></i>Komunikacja – blisko Dworzec Główny, tramwaje, autobusy</li>
+                            <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, internet, strefa kuchenna dla najemców, zielone atrium</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-blue"/>
+        @endif
+
 
         <div class="modal fade" id="virtualTourModal" tabindex="-1" aria-labelledby="virtualTourModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
