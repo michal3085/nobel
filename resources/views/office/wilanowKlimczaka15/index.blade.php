@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
+    @include('office._returnButton', ['color' => 'purple', 'title' => _getOfficeTitle($mainMenu)])
 
     <section class="wrapper bg-light">
 
@@ -43,13 +43,13 @@
                                                     rozpoczęcia pracy gabinety – <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">biura.</a></b>
                                                 @else
                                                     Przestrzeń biurowa zlokalizowana u zbiegu alei Rzeczypospolitej i ulicy Klimczaka to
-                                                    elastyczne i atrakcyjne cenowo miejsca do pracy blisko miejsca zamieszkania.
-                                                    Gabinety i coworking to przestrzenie dopasowane do potrzeb zarówno freelancerów, jak i
+                                                    <b>elastyczne i atrakcyjne cenowo</b> miejsca do pracy blisko miejsca zamieszkania.
+                                                    <b>Gabinety i coworking</b> to przestrzenie dopasowane do potrzeb zarówno freelancerów, jak i
                                                     mniejszych zespołów.
-                                                    Bliskość miejsca zamieszkania to idealne rozwiązanie dla osób i firm z okolicy
+                                                    <b>Bliskość miejsca zamieszkania</b> to idealne rozwiązanie dla osób i firm z okolicy
                                                     ceniących czas i wygodę.
                                                 <br><br>
-                                                    Elastyczne opcje: usługa Coworking oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
+                                                    Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Coworking</b></a> oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
                                                 @endif
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
@@ -96,9 +96,57 @@
             <!-- /.row -->
         </div>
 
-        <hr class="bg-violet border-2 border-top border-purple"/>
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-purple"/>
 
-            @if ($mainMenu === 'virtualOffices')
+            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                <!-- O lokalizacji -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-map-marker icon-svg-md text-purple mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-purple text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Powierzchnia – 4 gabinety + coworking (kilkanaście stanowisk)</li>
+                            <li><i class="uil uil-check"></i>Układ pomieszczeń – elastyczny: gabinetowe i coworking</li>
+                            <li><i class="uil uil-check"></i>Wykończenie – nowoczesne, biurowe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-wrench icon-svg-md text-purple mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-purple text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Elastyczność – możliwość powiększenia biura</li>
+                            <li><i class="uil uil-check"></i>Parking – garaż podziemny</li>
+                            <li><i class="uil uil-check"></i>Bezpieczeństwo – monitoring, ochrona 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-briefcase icon-svg-md text-purple mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-purple text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Lokalizacja – 100 m do tramwaju, w budynku kawiarnie i restauracje</li>
+                            <li><i class="uil uil-check"></i>Komunikacja – autobus, tramwaj, rower, hulajnoga, pieszo</li>
+                            <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, szybki internet symetryczny, strefa kuchenna dla najemców, serwis sprzątający</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-purple"/>
+        @endif
+
+
+    @if ($mainMenu === 'virtualOffices')
                 @include('Services.components.virtualOfficePricing')
             @endif
 
