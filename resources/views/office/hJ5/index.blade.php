@@ -23,8 +23,13 @@
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tu o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
-                                                <b>25 klimatyzowanych biur</b>, które urzekają oryginalnym charakterem. W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
+                                                Biura serwisowane w niskiej zabudowie <b>Miasteczka Wilanów</b>, w pobliżu <b>Południowej
+                                                Obwodnicy Warszawy.</b>
+                                                <b>Ponad 20 gabinetów</b> w designerskim stylu z betonu architektonicznego.
+                                                <br>
+                                                <br>
+                                                <b>Komfortowe otoczenie biznesowe</b> oraz bliskość licznych kawiarni, restauracji i usług, to
+                                                idealne miejsca na lunch, spotkania biznesowe lub chwilę relaksu po pracy.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
@@ -107,6 +112,56 @@
                 </div>
             </div>
         </div>
+
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-sky"/>
+
+            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+
+                <!-- O lokalizacji -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-map-marker icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Powierzchnia – 350 m², ponad 20 gabinetów</li>
+                            <li><i class="uil uil-check"></i>Układ pomieszczeń – elastyczny: gabinetowe, jednoosobowe lub zespołowe</li>
+                            <li><i class="uil uil-check"></i>Wykończenie – nowoczesne, beton architektoniczny</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-wrench icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Elastyczność – możliwość powiększenia przestrzeni</li>
+                            <li><i class="uil uil-check"></i>Parking – garaż podziemny i miejsca zewnętrzne</li>
+                            <li><i class="uil uil-check"></i>Bezpieczeństwo – monitoring, ochrona 24/7</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-4">
+                    <div class="px-3">
+                        <i class="uil uil-briefcase icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
+                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
+                            <li><i class="uil uil-check"></i>Lokalizacja – na uboczu, blisko usług i kawiarni</li>
+                            <li><i class="uil uil-check"></i>Komunikacja – blisko tramwaju Miasteczko Wilanów, autobusy, obwodnica</li>
+                            <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna dla najemców, serwis sprzątający</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-sky"/>
+        @endif
+
 
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
