@@ -18,11 +18,19 @@
                                             <div class="post-category text-purple mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 purple">Wilanów Klimczaka 15</h2>
                                             <p class="text-muted">
-                                                Wirtualne biuro w sercu Miasteczka Wilanów
+                                                @switch($mainMenu)
+                                                    @case('virtualOffices')
+                                                        Wirtualne biuro w sercu Miasteczka Wilanów
+                                                        @break
+
+                                                    @case('offices')
+                                                        Elastyczna przestrzeń do pracy w sercu Miasteczka Wilanów
+                                                        @break
+                                                @endswitch
                                             </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-purple">od 2000 PLN</h3>
+                                                    <h3 class="text-purple">od 2 000 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
@@ -34,10 +42,14 @@
                                                     Wilanów, u zbiegu alei Rzeczypospolitej i Klimczaka. Klimczaka 15 to także <b>elastyczna przestrzeń <a href="{{route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">coworking</a> oraz gotowe do natychmiastowego
                                                     rozpoczęcia pracy gabinety – <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">biura.</a></b>
                                                 @else
-                                                Lokalizacja w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka. W przestrzeni oprócz <b>gotowych do pracy gabinetów</b> znajdziesz także <b>przestrzeń coworkingową</b>, którą możesz dzielić ze znajomymi sąsiadami z osiedla.
-                                                Wynajem dedykowanego biurka w większej przestrzeni jest idealnym rozwiązaniem dla osób i firm poszukujących niedrogiego, ale elastycznego i inspirującego miejsca do pracy w pobliżu miejsca zamieszkania. Ponadto, <b>coworking w Wilanowie</b> to również świetna okazja do nawiązywania wartościowych kontaktów biznesowych i współpracy z innymi profesjonalistami.
-                                                <br>
-                                                W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
+                                                    Przestrzeń biurowa zlokalizowana u zbiegu alei Rzeczypospolitej i ulicy Klimczaka to
+                                                    elastyczne i atrakcyjne cenowo miejsca do pracy blisko miejsca zamieszkania.
+                                                    Gabinety i coworking to przestrzenie dopasowane do potrzeb zarówno freelancerów, jak i
+                                                    mniejszych zespołów.
+                                                    Bliskość miejsca zamieszkania to idealne rozwiązanie dla osób i firm z okolicy
+                                                    ceniących czas i wygodę.
+                                                <br><br>
+                                                    Elastyczne opcje: usługa Coworking oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
                                                 @endif
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
