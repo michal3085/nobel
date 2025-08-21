@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Log;
 class ServicesController extends Controller
 {
     private $views = [
-        'gotowe-spolki' => 'readyCompany',
+        'sprzedaz-spolek' => 'saleOfCompanies',
         'wirtualne-biuro' => 'virtualOffice',
         'rejestracja-spolki' => 'companyRegistration',
         'gotowe-biura' => 'readyOffice',

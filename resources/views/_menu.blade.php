@@ -108,7 +108,7 @@
                                 <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'rejestracja-spolki'])}}">Rejestracja spółek</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'gotowe-spolki'])}}">Sprzedaż spółek</a>
+                                <a class="nav-link" href="{{route('service.route.dispatch', ['service' => 'sprzedaz-spolek'])}}">Sprzedaż spółek</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{route('blog.show.all')}}">Blog</a>
