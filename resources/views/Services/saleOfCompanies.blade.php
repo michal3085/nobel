@@ -2,48 +2,104 @@
 
 @section('content')
 
-    <section class="wrapper p-5" style="border-radius: 10px;">
-        <div class="container pb-5 pb-md-7">
-            <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-13">
-                <div class="col-lg-12 text-center text-lg-start">
-                    <h3 class="display-3 mb-5 pe-xl-10 pe-xxl-15">
-                        <span class="underline-3 style-2 purple" style="font-size: 35px;">Sprzedaż spółek – Bezpieczny Start Twojego Biznesu</span>
-                    </h3>
-                </div>
-{{--                <div class="col-lg-12">--}}
-{{--                    <h3 class="display-1 fs-45 lh-xxs mb-4 fw-bold text-purple">--}}
-{{--                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.--}}
-{{--                    </h3>--}}
-{{--                </div>--}}
-            </div>
-            <!-- /.row -->
-
+    <!-- Sekcja tytułowa -->
+    <section class="wrapper p-5 text-center bg-light" style="border-radius: 10px;">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="fs-30 fw-bold text-purple">Co zyskujesz?</h2>
-                    <ul class="icon-list bullet-bg bullet-soft-violet">
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple ">Start biznesu w dniu zakupu</strong> – od dnia zakupu spółki z aktywnym VAT wystawiasz faktury VAT i podpisujesz umowy w imieniu spółki.</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Bezpieczeństwo</strong> – gotowa spółka bez historii nie prowadziła wcześniej działalności gospodarczej, przez co masz pewność, że nie jest zadłużona.</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Gotowe dokumenty</strong> – otrzymujesz wszystkie numery rejestrowe niezbędne do rozpoczęcia działania tj.: KRS, NIP, REGON, aktywny rachunek bankowy lub EORI, jeżeli tego wymagasz.</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Oszczędność czasu</strong> – gotową spółkę otrzymasz za pośrednictwem notariusza lub systemu S24 tj. podpisem elektronicznym, bez wychodzenia z domu.</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Gotowe konto bankowe</strong>* dla nabywanej spółki.</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i><strong class="text-purple">Adres rejestrowy</strong> siedziby spółki w tzw. Wirtualnym Biurze.</li>
-                    </ul>
+                <div class="col-lg-12">
+                    <h1 class="display-3 fw-bold mb-4">
+                        <span class="underline-3 style-2 purple" style="font-size: 40px;">
+                            Sprzedaż spółek – Bezpieczny Start Twojego Biznesu
+                        </span>
+                    </h1>
+{{--                    <p class="lead fs-lg mx-auto" style="max-width: 900px;">--}}
+{{--                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.--}}
+{{--                        Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa.--}}
+{{--                    </p>--}}
                 </div>
-
-                <div class="col-lg-6 d-flex align-items-stretch">
-                    <figure class="rounded mb-md-5 h-100 w-100">
-                        <img src="./assets/img/photos/about18.jpg" srcset="./assets/img/photos/about18@2x.jpg 2x" alt="" class="img-fluid h-100 w-100 object-fit-cover"/>
-                    </figure>
-                </div>
-
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container-fluid -->
     </section>
 
-{{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
+    <!-- Sekcja główna -->
+    <section class="wrapper bg-light">
+        <div class="container py-10 py-md-12">
+
+            <!-- Nagłówek -->
+            <div class="row mb-10">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h2 class="display-4 mb-4">
+                        Chcesz rozpocząć działalność bez zbędnych formalności i opóźnień?
+                    </h2>
+                    <p class="lead fs-lg mb-0">
+                        Oferujemy gotowe spółki, które możesz uruchomić już pierwszego dnia.
+                        Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
+                        i profesjonalizmu na każdym etapie transakcji.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Treść + zdjęcie -->
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                <!-- Listy benefitów -->
+                <div class="col-lg-6">
+                    <div class="mb-6">
+                        <h4 class="mb-3">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                            <li><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
+                            <li><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
+                            <li><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="mb-3">Każda spółka jest przygotowana do startu i posiada:</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                            <li><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
+                            <li><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
+                            <li><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
+                            <li><i class="uil uil-check"></i> Wpis w CRBR</li>
+                            <li><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="mb-3">Jakie korzyści zyskujesz?</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                            <li><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
+                            <li><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
+                            <li><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Obrazek -->
+                <div class="col-lg-6">
+                    <figure class="rounded shadow-lg mb-0">
+                        <img src="{{ asset('assets/img/photos/about18.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded">
+                    </figure>
+                </div>
+            </div>
+
+            <!-- Zakończenie -->
+            <div class="row mt-10">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead fw-bold mb-5">
+                        Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa. Skontaktuj się z
+                        nami i rozpocznij działalność już dziś!
+                    </p>
+{{--                    <a href="#kontakt" class="btn btn-primary btn-lg rounded-pill">Skontaktuj się z nami</a>--}}
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    {{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
         <div class="row gy-6 mt-3 mt-md-5">
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
