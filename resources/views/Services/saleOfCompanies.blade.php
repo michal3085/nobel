@@ -23,7 +23,7 @@
 
     <!-- Sekcja główna -->
     <section class="wrapper bg-light">
-        <div class="container py-10 py-md-12">
+        <div class="container py-10 py-md-11">
 
             <!-- Nagłówek -->
             <div class="row mb-10">
@@ -96,8 +96,7 @@
     </section>
 
 
-
-
+    <hr class="bg-violet border-2 border-top border-purple"/>
 
     {{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
