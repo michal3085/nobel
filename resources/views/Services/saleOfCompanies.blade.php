@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Sekcja tytułowa -->
-    <section class="wrapper p-5 text-center bg-light" style="border-radius: 10px;">
+    <section class="wrapper p-5 bg-light" style="border-radius: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -31,11 +31,12 @@
                     <h2 class="display-4 mb-4">
                         Chcesz rozpocząć działalność bez zbędnych formalności i opóźnień?
                     </h2>
-                    <p class="lead fs-lg mb-0">
+                    <p class="lead fs-lg mb-0" style="font-size: 15px !important;">
                         Oferujemy gotowe spółki, które możesz uruchomić już pierwszego dnia.
                         Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
                         i profesjonalizmu na każdym etapie transakcji.
                     </p>
+
                 </div>
             </div>
 
@@ -44,31 +45,31 @@
                 <!-- Listy benefitów -->
                 <div class="col-lg-6">
                     <div class="mb-6">
-                        <h4 class="mb-3">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
+                        <h4 class="mb-3" style="font-size: 15px;">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
                         <ul class="icon-list bullet-bg bullet-soft-primary">
-                            <li><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
-                            <li><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
-                            <li><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
                         </ul>
                     </div>
 
                     <div class="mb-6">
-                        <h4 class="mb-3">Każda spółka jest przygotowana do startu i posiada:</h4>
+                        <h4 class="mb-3" style="font-size: 15px;">Każda spółka jest przygotowana do startu i posiada:</h4>
                         <ul class="icon-list bullet-bg bullet-soft-primary">
-                            <li><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
-                            <li><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
-                            <li><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
-                            <li><i class="uil uil-check"></i> Wpis w CRBR</li>
-                            <li><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Wpis w CRBR</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
                         </ul>
                     </div>
 
                     <div>
-                        <h4 class="mb-3">Jakie korzyści zyskujesz?</h4>
+                        <h4 class="mb-3" style="font-size: 15px;">Jakie korzyści zyskujesz?</h4>
                         <ul class="icon-list bullet-bg bullet-soft-primary">
-                            <li><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
-                            <li><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
-                            <li><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
                         </ul>
                     </div>
                 </div>
@@ -84,7 +85,7 @@
             <!-- Zakończenie -->
             <div class="row mt-10">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="lead fw-bold mb-5">
+                    <p class="lead fw-bold mb-5" style="font-size: 20px; !important;">
                         Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa. Skontaktuj się z
                         nami i rozpocznij działalność już dziś!
                     </p>
