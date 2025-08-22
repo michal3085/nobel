@@ -48,7 +48,7 @@ class ServicesController extends Controller
             Session::flash('success', 'Wiadomość wysłana');
             return response()->json(['success' => true], 200);
         }
-        return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zpytania'], 500);
+        return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zapytania'], 500);
     }
 
     public function krsMailSend(KrsMailRequest $request)
@@ -60,7 +60,7 @@ class ServicesController extends Controller
             Log::info('[ZMIANY W KRS] - WYSYŁKA MAILA');
             Log::error($exception->getMessage());
             Session::flash('success', 'Wiadomość nie została wysłana');
-            return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zpytania'], 500);
+            return response()->json(['success' => false, 'msg' => 'Błąd wysyłki zapytania'], 500);
         }
         return response()->json(['success' => true], 200);
     }
