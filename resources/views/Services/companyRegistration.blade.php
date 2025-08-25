@@ -24,11 +24,9 @@
                     <div class="col-lg-6">
                         <h3 class="display-6 mb-4">Dlaczego warto wybrać Nobel?</h3>
                         <ul class="icon-list bullet-bg bullet-soft-orange">
-                            <li><span><i class="uil uil-check"></i></span><span><b>Minimum formalności</b> – zajmujemy się wszystkim za Ciebie, oszczędzając
-Twój czas i energię.</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Kompleksowe wsparcie</b> – sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki, wniosek do Krajowego Rejestru Sądowego (KRS).</span></li>
-                            <li><span><i class="uil uil-check"></i></span><span><b>Bezpieczeństwo i zgodność z przepisami</b> – dbamy o poprawność
-dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span><b>Minimum formalności</b> – zajmujemy się wszystkim za Ciebie, oszczędzając Twój czas i energię.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Kompleksowe wsparcie</b> – od pierwszych kroków aż po rejestrację i dalsze działania, jesteśmy z Tobą na każdym etapie.</span></li>
+                            <li><span><i class="uil uil-check"></i></span><span><b>Bezpieczeństwo i zgodność z przepisami</b> – dbamy o poprawność dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
                         </ul>
                     </div>
 
@@ -37,12 +35,74 @@ dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
                     </div>
                 </div>
 
+                <div class="row gy-6 gx-lg-4 mb-10 mt-6 align-items-center">
+                    <!-- kolumna ze zdjęciem -->
+                    <div class="col-md-5 col-lg-5 position-relative"> <!-- mniejsza kolumna -->
+                        <div class="shape bg-dot orange rellax w-10 h-12" data-rellax-speed="1" style="top: -1rem; left: -1rem;"></div>
+                        <div class="shape rounded rellax d-md-block" data-rellax-speed="0" style="bottom: -1rem; right: -1rem; width: 60%; height: 65%;"></div>
+                        <figure class="rounded">
+                            <img src="./assets/img/photos/about7.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" class="img-fluid w-60"/> <!-- zdjęcie mniejsze -->
+                        </figure>
+                    </div>
 
+                    <!-- kolumna z tekstem -->
+                    <div class="col-md-7 col-lg-7">
+                        <h2 class="fs-16 text-uppercase text-line text-orange mb-4">Jak to działa?</h2>
+
+                        <div class="d-flex flex-row mb-4">
+                            <div>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number">1</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-2" style="font-size:16px;">Analiza Twoich potrzeb:</h4>
+                                <p class="mb-0" style="font-size:14px;">Zaczynamy od wstępnej konsultacji, podczas której dokładnie poznamy Twoje cele i dobierzemy najlepsze rozwiązanie dla Twojej firmy.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row mb-4">
+                            <div>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number">2</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-2" style="font-size:16px;">Przygotowanie dokumentów:</h4>
+                                <p class="mb-0" style="font-size:14px;">Sporządzamy wszystkie niezbędne dokumenty, w tym umowę spółki oraz wniosek do KRS, dbając o ich poprawność i zgodność z przepisami.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row mb-4">
+                            <div>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number">3</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-2" style="font-size:16px;">Rejestracja spółki w KRS:</h4>
+                                <p class="mb-0" style="font-size:14px;">Zajmujemy się całym procesem rejestracji w KRS, monitorując jego przebieg i informując Cię na bieżąco o postępach.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row mb-4">
+                            <div>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number">4</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-2" style="font-size:16px;">Obsługa notarialna:</h4>
+                                <p class="mb-0" style="font-size:14px;">Współpracujemy z zaufanymi notariuszami, co gwarantuje sprawną i bezpieczną obsługę wszelkich czynności notarialnych.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-block btn-soft-orange pe-none me-4"><span class="number">5</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-2" style="font-size:16px;">Wsparcie po rejestracji:</h4>
+                                <p class="mb-0" style="font-size:14px;">Po zarejestrowaniu spółki nie zostawiamy Cię samego! Pomożemy w zgłoszeniach do US (VAT, PCC-3), do CRBR, a także zapewnimy profesjonalne wsparcie księgowe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--/.row -->
 
                 {{--    PRICE    --}}
-
-
                 <div class="container pt-5 pb-5">
                     <div class="pricing-wrapper position-relative mt-5 mt-md-6 mb-12 mb-md-15">
                         <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
