@@ -26,7 +26,7 @@
                                                 <h5 class="card-title text-yellow">{{ $post->post_title }}</h5>
                                             </a>
                                             <p class="card-text flex-grow-1 text-truncate-3">
-                                                {{ Str::limit(strip_tags($post->post_text), 100) }}
+                                                {!! Str::limit(strip_tags($post->post_text), 100) !!}
                                             </p>
                                             <div class="mt-auto">
                                                 <small class="text-muted">
