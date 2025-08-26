@@ -16,9 +16,9 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 , 22 piętro</h2>
+                                            <h2 class="underline-3 style-2 green">Śródmieście Chałubińskiego 8</h2>
                                             <p class="text-muted">
-                                                Prestiż i widok na sukces
+                                                22 piętro z widokiem na sukces.
                                             </p>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
@@ -44,10 +44,13 @@
                                             </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                    Biuro zlokalizowane na <b>22. piętrze w wieżowcu Oxford Tower</b> to idealna przestrzeń dla
+                                                    Biuro zlokalizowane na <b>22 piętrze w wieżowcu Oxford Tower</b> to idealna przestrzeń dla
                                                     nowoczesnych firm.
-                                                    <b>Panoramiczny widok, wysoki standard,</b> <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>coworking</b></a> i <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>wirtualne biuro</b></a> – wszystko w jednym
+                                                    <b>Panoramiczny widok, wysoki standard</b> – wszystko w jednym
                                                     miejscu.
+
+                                                    <br><br>
+                                                    Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Coworking</b></a> oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
                                                 </p>
                                                 @endif
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">

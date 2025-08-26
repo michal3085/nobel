@@ -18,7 +18,7 @@
                                             <div class="post-category text-yellow mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 yellow">Śródmieście Piękna 15</h2>
                                             <p class="text-muted">
-                                                Biuro w jednej z najbardziej pożądanych lokalizacji Warszawy
+                                                Biuro w jednej z najbardziej pożądanych lokalizacji Warszawy.
                                             </p>
                                         </div>
                                         <!-- /.post-header -->

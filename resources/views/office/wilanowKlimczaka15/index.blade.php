@@ -20,11 +20,11 @@
                                             <p class="text-muted">
                                                 @switch($mainMenu)
                                                     @case('virtualOffices')
-                                                        Wirtualne biuro w sercu Miasteczka Wilanów
+                                                        Wirtualne biuro w sercu Miasteczka Wilanów.
                                                         @break
 
                                                     @case('offices')
-                                                        Elastyczna przestrzeń do pracy w sercu Miasteczka Wilanów
+                                                        Elastyczna przestrzeń do pracy w sercu Miasteczka Wilanów.
                                                         @break
                                                 @endswitch
                                             </p>

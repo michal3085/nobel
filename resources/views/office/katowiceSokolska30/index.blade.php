@@ -15,7 +15,10 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-blue mb-3">Lokalizacja</div>
-                                            <h2 class="underline-3 style-2 blue">KATOWICE SOKOLSKA 30</h2>
+                                            <h2 class="underline-3 style-2 blue">Katowice Sokolska 30</h2>
+                                            <p class="text-muted">
+                                                Nowoczesna przestrzeń biznesowa w sercu Katowic.
+                                            </p>
                                             <div class="mb-3">
                                                 <h3 class="text-blue">od 1 200 PLN</h3>
                                             </div>

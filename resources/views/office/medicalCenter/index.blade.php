@@ -19,9 +19,9 @@
                                             <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
                                             <p class="text-muted">
                                                 @if ($mainMenu === 'offices')
-                                                    12. piętro z widokiem i wygodą
+                                                    12 piętro z widokiem i wygodą.
                                                 @else
-                                                    Carolina – Prestiżowy adres na zielonym Mokotowie
+                                                    Carolina – Prestiżowy adres na zielonym Mokotowie.
                                                 @endif
                                             </p>
                                             <div class="mb-3">
@@ -50,9 +50,9 @@
                                                 </ul>
                                                 @else
                                                 <p style="text-align: justify">
-                                                    Biura na 12. piętrze Multis Plaza, w pobliżu ul. Sobieskiego i Sikorskiego.
-                                                    Doskonałe miejsce dla zespołów, z obsługą biura, salą konferencyjną i widokiem na
-                                                    Warszawę.
+                                                    Biura na <b>12 piętrze</b> Multis Plaza, w pobliżu ul. Sobieskiego i Sikorskiego.
+                                                    Doskonałe miejsce dla zespołów, z <b>obsługą biura, salą konferencyjną i widokiem na
+                                                    Warszawę.</b>
                                                     Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>, dopasowanej do Twoich
                                                     potrzeb.
 

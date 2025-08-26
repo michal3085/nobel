@@ -16,6 +16,9 @@
                                         <div class="post-header">
                                             <div class="post-category text-sky mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5</h2>
+                                            <p class="text-muted">
+                                                Spokojna przestrzeń do pracy w Wilanowie.
+                                            </p>
                                             <div class="mb-3">
                                                 <h3 class="text-sky">od 1 500 PLN</h3>
                                             </div>

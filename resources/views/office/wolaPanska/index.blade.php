@@ -18,10 +18,10 @@
                                         <div class="post-header">
                                             <div class="post-category text-blue mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 blue">
-                                                Wola Pańska 96
+                                                Centrum Pańska 96
                                             </h2>
                                             <p class="text-muted">
-                                                rozwijaj swój biznes w najlepszym otoczeniu
+                                                rozwijaj swój biznes w najlepszym otoczeniu.
                                             </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu === 'offices')
