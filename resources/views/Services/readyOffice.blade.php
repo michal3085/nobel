@@ -137,35 +137,38 @@
                 </div>
 
 
-                <h1 class="mb-4 underline-3 style-2 green">Dostarczamy rozwiązania, które ułatwiają życie naszym klientom.</h1>
+                <h1 class="mb-4 underline-3 style-2 green">Dostarczamy rozwiązania, które ułatwiają życie.</h1>
                 <div class="tab-pane fade show active" id="tab2-1">
                     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
                         <div class="col-lg-6">
-                            <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt=""></figure>
+                            <figure class="rounded shadow-lg">
+                                <img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt="Biuro serwisowane">
+                            </figure>
                         </div>
                         <!--/column -->
                         <div class="col-lg-6">
-                            <p style="font-size: 15px;">Biuro serwisowane to w pełni wyposażona przestrzeń do pracy, która łączy komfort,
-                                elastyczność i dogodną lokalizację. Jeśli jesteś samotnym wilkiem, mamy dla Ciebie
-                                idealne biuro jednoosobowe – przestrzeń, w której możesz pracować w ciszy i spokoju. Jeśli
-                                natomiast pracujesz w zespole, oferujemy większe biura 2-3 lub nawet 6 osobowe
-                                zapewniając przestrzeń do efektywnej pracy w grupie.</p>
+                            <p style="font-size: 15px;">
+                                Szukasz wygodnego, profesjonalnego miejsca do pracy bez zbędnych formalności? Biura serwisowane to rozwiązanie, które pozwala skupić się na tym, co najważniejsze – Twoim biznesie.
+                            </p>
+                            <p style="font-size: 15px;">
+                                Biura serwisowane to:
+                            </p>
                             <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
-                                <li><i class="uil uil-check"></i><b>Elastyczność</b> – możliwość wynajmu na krótkie okresy, dopasowanie do potrzeb.</li>
-                                <li><i class="uil uil-check"></i><b>Wyposażenie</b> – w pełni umeblowane przestrzenie gotowe do pracy.</li>
-                                <li><i class="uil uil-check"></i><b>Koszty</b> – opłaty zawarte w jednej miesięcznej fakturze (czynsz, media,
-                                    sprzątanie).</li>
-                                <li><i class="uil uil-check"></i><b>Lokalizacja</b></li>
-                                <li><i class="uil uil-check"></i><b>Usługi dodatkowe</b> – recepcja, obsługa poczty, sala konferencyjna.</li>
-                                <li><i class="uil uil-check"></i><b>Współpraca</b> – otoczenie innych firm, sprzyjające networkingowi.</li>
-                                <li><i class="uil uil-check"></i><b>Skalowalność</b> – możliwość zwiększania lub zmniejszania przestrzeni wraz z
-                                    rozwojem firmy.</li>
+                                <li><i class="uil uil-check"></i><b>Gotowe do pracy od zaraz</b> – w pełni umeblowane i nowoczesne przestrzenie, idealne zarówno dla jednej osoby, jak i całego zespołu.</li>
+                                <li><i class="uil uil-check"></i><b>Różnorodne lokalizacje</b> – w centrum miasta, w dzielnicach biznesowych lub w spokojnych okolicach z dogodnym dojazdem. Wybierz miejsce, które najlepiej pasuje do Twoich potrzeb.</li>
+                                <li><i class="uil uil-check"></i><b>Pełen pakiet udogodnień</b> – obsługa administracyjna, szybki internet, sale konferencyjne, recepcja i serwis sprzątający – wszystko w jednym miejscu.</li>
+                                <li><i class="uil uil-check"></i><b>Formuła „plug & work”</b> – rozpocznij działalność tego samego dnia, bez remontów, zakupów i organizacji. To oszczędność czasu, elastyczność i profesjonalny wizerunek w jednym.</li>
+                                <li><i class="uil uil-check"></i><b>Pracuj tak, jak lubisz</b> – my zajmiemy się resztą.</li>
                             </ul>
+                            <p style="font-size: 15px;">
+                                Biura serwisowane to wygoda i gotowość do działania od pierwszej chwili.
+                            </p>
                         </div>
                         <!--/column -->
                     </div>
                     <!--/.row -->
                 </div>
+
             </section>
 
         </div>
