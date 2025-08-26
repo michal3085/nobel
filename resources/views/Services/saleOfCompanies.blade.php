@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="display-3 fw-bold mb-4">
-                        <span class="underline-3 style-2 purple" style="font-size: 40px;">
+                        <span class="underline-3 style-2 pink" style="font-size: 40px;">
                             Sprzedaż spółek – Bezpieczny Start Twojego Biznesu
                         </span>
                     </h1>
@@ -46,7 +46,7 @@
                 <div class="col-lg-6">
                     <div class="mb-6">
                         <h4 class="mb-3" style="font-size: 15px;">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                        <ul class="icon-list bullet-bg bullet-soft-pink">
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
@@ -55,7 +55,7 @@
 
                     <div class="mb-6">
                         <h4 class="mb-3" style="font-size: 15px;">Każda spółka jest przygotowana do startu i posiada:</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                        <ul class="icon-list bullet-bg bullet-soft-pink">
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
@@ -66,7 +66,7 @@
 
                     <div>
                         <h4 class="mb-3" style="font-size: 15px;">Jakie korzyści zyskujesz?</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-primary">
+                        <ul class="icon-list bullet-bg bullet-soft-pink">
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
                             <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
@@ -97,7 +97,7 @@
     </section>
 
 
-    <hr class="bg-violet border-2 border-top border-purple"/>
+    <hr class="bg-violet border-2 border-top border-pink"/>
 
     {{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
@@ -105,7 +105,7 @@
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
-                        <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-purple mb-3" alt="" />
+                        <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
                         <h4 class="card-title">Gotowa spółka bez VAT</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span></div>
@@ -120,7 +120,7 @@
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
-                        <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-purple mb-3" alt="" />
+                        <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
                         <h4 class="card-title">Gotowa spółka z VAT/VAT UE</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2500</span></div>
@@ -135,7 +135,7 @@
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
-                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-purple mb-3" alt="" />
+                        <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
                         <h4 class="card-title">Gotowa Spółka z adresem</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
@@ -158,7 +158,7 @@
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
-{{--                    <h2 class="mb-3 text-purple">Nasze gotowe spółki</h2>--}}
+{{--                    <h2 class="mb-3 text-pink">Nasze gotowe spółki</h2>--}}
                     <p>Spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS możemy
                         dokonać w tym systemie lub notarialnie. Nasze wieloletnie doświadczenie pomaga nam pewnie działać w
                         obu systemach sądowych i z sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.</p>
@@ -169,12 +169,12 @@
                     </p>
                     <b>Każda spółka posiada: </b>
                     <ul class="icon-list bullet-bg bullet-soft-fuchsia">
-                        <li><i class="uil uil-check bg-purple text-white"></i>Adres siedziby w Warszawie</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i>Kapitał zakładowy 5000 zł</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i>Numer KRS</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i>Numer REGON</li>
-                        <li><i class="uil uil-check bg-purple text-white"></i>Pełna rejestracja dla celów podatkowych (CIT, VAT/VAT EU)</li>
-{{--                        <li><i class="uil uil-check bg-purple text-white"></i>Dostosowujemy dane w KRS, tj. skład zarządu, wspólnicy, nazwa, PKD itp.</li>--}}
+                        <li><i class="uil uil-check bg-pink text-white"></i>Adres siedziby w Warszawie</li>
+                        <li><i class="uil uil-check bg-pink text-white"></i>Kapitał zakładowy 5000 zł</li>
+                        <li><i class="uil uil-check bg-pink text-white"></i>Numer KRS</li>
+                        <li><i class="uil uil-check bg-pink text-white"></i>Numer REGON</li>
+                        <li><i class="uil uil-check bg-pink text-white"></i>Pełna rejestracja dla celów podatkowych (CIT, VAT/VAT EU)</li>
+{{--                        <li><i class="uil uil-check bg-pink text-white"></i>Dostosowujemy dane w KRS, tj. skład zarządu, wspólnicy, nazwa, PKD itp.</li>--}}
                     </ul>
                 </div>
                 <!--/column -->

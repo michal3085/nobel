@@ -51,13 +51,13 @@
                 <div class="card shadow-lg h-100">
                     <div class="card-body text-center d-flex flex-column align-items-center">
                         <div class="mb-3">
-                            <i class="bi bi-hourglass fs-40 text-warning"></i>
+                            <i class="bi bi-hourglass fs-40 text-yellow"></i>
                         </div>
                         <h4>ZMIANY W KRS</h4>
                         <p class="mb-2 flex-grow-1 text-center">
                             Wieloletnie doświadczenie z zakresu dokonywania wpisów w KRS.
                         </p>
-                        <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-warning mt-auto">Poznaj ofertę</a>
+                        <a href="{{route('service.route.dispatch', ['service' => 'zmiany-krs'])}}" class="more hover link-yellow mt-auto">Poznaj ofertę</a>
                     </div>
                 </div>
             </div>
