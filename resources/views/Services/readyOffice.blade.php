@@ -5,7 +5,7 @@
         <div class="container pb-3 pb-md-7">
             <div class="col-lg-12 text-center text-lg-start">
                 <h3 class="display-3 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 green">Biura - Znajdz swoje miejsce u nas</span>
+                    <span class="underline-3 style-2 green">Biura</span>
                 </h3>
             </div>
 {{--            @include('Services.components._offices')--}}
@@ -13,157 +13,129 @@
             <section class="wrapper bg-light angled upper-end mb-3 mt-2">
                 <div class="container pb-5 pb-md-7">
                     <div class="row g-4">
+                        <!-- 1. Pańska 96 -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}"> <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}" style="font-size: 20px;">
+                                        <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}" style="font-size: 20px;">Pańska 96 Centrum</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>cena od 1500 PLN</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
+
+                        <!-- 2. Chałubińskiego -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'piekna'])}}"> <img src="./assets/img/offices/piekna/piekna.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">
+                                        <img src="./assets/img/offices/oxf/4_new.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'piekna'])}}">Piękna 15
-                                            Śródmieście</a>
+                                        <a class="link-dark" style="font-size: 20px;" href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
+
+                        <!-- 3. Piękna -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'piekna'])}}" style="font-size: 20px;">
+                                        <img src="./assets/img/offices/piekna/piekna.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}">Pańska 96
-                                            Wola</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'piekna'])}}" style="font-size: 20px;">Piękna 15 Śródmieście</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>Cena od 2500 PLN</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
+
+                        <!-- 4. Pory -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">
+                                        <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Pory 78 Mokotów</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'carolina-medical-center'])}}" style="font-size: 20px;">Pory 78 Mokotów</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>cena od 2500</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
                     </div>
+
                     <div class="row g-4 mt-2 justify-content-center">
+                        <!-- 5. Herbu Janina -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}"> <img src="./assets/img/offices/HJ5/HJ5-above-nobel-2.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">
+                                        <img src="./assets/img/offices/HJ5/HJ5-above-nobel-2.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}">Herbu Janina 5
-                                            Wilanów</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'herbu-jana-5'])}}" style="font-size: 20px;">Herbu Janina 5 Wilanów</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>cena od 1800</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
 
+                        <!-- 6. Klimczaka -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}"> <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">
+                                        <img src="./assets/img/offices/klimczaka/klimczaka-15-nobel-19.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15
-                                            Wilanów</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" style="font-size: 20px;">Klimczaka 15 Wilanów</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>cena od 2000</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
 
+                        <!-- 7. Sokolska -->
                         <div class="col-md-6 col-lg-3">
                             <article>
                                 <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                                    <a href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}"> <img src="./assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-32.jpg" alt="" class="img-fluid" /></a>
-                                    <figcaption>
-                                        <h5 class="from-top mb-0">Zobacz</h5>
-                                    </figcaption>
+                                    <a href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">
+                                        <img src="./assets/img/offices/sokolska/katowice-sokolska-30-18-nobel-32.jpg" alt="" class="img-fluid" />
+                                    </a>
+                                    <figcaption><h5 class="from-top mb-0">Zobacz</h5></figcaption>
                                 </figure>
                                 <div class="post-header">
                                     <h2 class="post-title h3 mb-3">
-                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}">Sokolska 30
-                                            Katowice</a>
+                                        <a class="link-dark" href="{{route('office.route.dispatch', ['office' => 'katowice-sokolska-30'])}}" style="font-size: 20px;">Sokolska 30 Katowice</a>
                                     </h2>
-                                </div>
-                                <div class="post-footer">
-                                    <ul class="post-meta">
-{{--                                        <li class="post-date"><span>cena od 2000</span></li>--}}
-                                    </ul>
                                 </div>
                             </article>
                         </div>
                     </div>
                 </div>
+
 
                 <h1 class="mb-4 underline-3 style-2 green">Dostarczamy rozwiązania, które ułatwiają życie naszym klientom.</h1>
                 <div class="tab-pane fade show active" id="tab2-1">
