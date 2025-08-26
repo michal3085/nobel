@@ -19,14 +19,14 @@
                         <div class="price price-hide price-hidden"><span class="price-currency">$</span><span class="price-value">499</span> <span class="price-duration">yr</span></div>
                     </div>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8 text-start">
-                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;">Adres rejestrowy</span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;">Adres rejestrowy</span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres do korespondencji</span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Odbieranie korespondencji oraz przesyłek kurierskich </span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Informowanie mailem o odebranych przesyłkach</span></li>
                         <li><i class="uil uil-check"></i><span style="font-size: 15px;">Skanowanie </span></li>
-                        <li class="text-muted"><i class="uil uil-check"></i><span style="font-size: 15px;">e-Doręczenia</span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;">e-Doręczenia</span></li>
                         <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Nazwa firmy w holu </span></li>
-                        <li class="text-muted"><i class="uil uil-check"></i><span style="font-size: 15px;"> Sala konferencyjna 60 zł/h</span></li>
+                        <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Sala konferencyjna 60 zł/h</span></li>
                         <li class="text-muted"><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 15px;"> Indywidualny numer telefonu</span></li>
                         {{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Zmiana adresu w KRS </strong></span></li>--}}
                         {{--                        <li><i class="uil uil-times bullet-soft-red"></i><span style="font-size: 13px;"><strong> Wszystkie zmiany w KRS </strong></span></li>--}}
