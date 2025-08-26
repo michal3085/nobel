@@ -316,7 +316,7 @@
                                     <div class="price price-hide price-hidden justify-content-start"><span class="price-currency"></span><span class="price-value">S24</span></div>
                                 </div>
                                 <!--/.prices -->
-                                <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8">
+                                <ul class="icon-list bullet-bg bullet-soft-orange mt-7 mb-8">
                                     <li><i class="uil uil-check"></i><span><strong>Szybkość rejestracji spółki</strong> - już w ciągu 1-3 dni otrzymujesz
 KRS, REGON, NIP </span></li>
                                     <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 350 PLN </span></li>
@@ -339,7 +339,7 @@ spółce również przez internet (S24),</span></li>
                                     <div class="price price-show justify-content-start"><span class="price-currency"></span><span class="price-value">PRS</span></div>
                                     <div class="price price-hide price-hidden justify-content-start"><span class="price-currency"></span><span class="price-value">PRS</span></div>
                                 </div>
-                                <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8">
+                                <ul class="icon-list bullet-bg bullet-soft-orange mt-7 mb-8">
                                     <li><i class="uil uil-check"></i><span><strong>2-4 tygodni w trybie tradycyjnym tj. z udziałem notariusza</strong></span></li>
                                     <li><i class="uil uil-check"></i><span><strong>Opłata sądowa</strong> 600 PLN </span></li>
                                     <li><i class="uil uil-check"></i><span><strong>Opłata notarialna</strong></span></li>
@@ -358,6 +358,8 @@ spółce również przez internet (S24),</span></li>
             <!--/column -->
         </div>
     </section>
+
+    <hr class="bg-grape border-2 border-top border-orange"/>
 
     <div class="mt-4">
         @include('qa.display', ['section' => 'companyRegistration', 'title' => 'Q&A'])

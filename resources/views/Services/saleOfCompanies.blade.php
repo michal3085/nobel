@@ -226,6 +226,8 @@
         <!--/.tab-pane -->
     </div>
 
+    <hr class="bg-grape border-2 border-top border-pink"/>
+
     <div class="mt-4">
         @include('qa.display', ['section' => 'readyCompany', 'title' => 'Q&A'])
     </div>
