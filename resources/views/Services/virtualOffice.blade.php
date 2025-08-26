@@ -4,7 +4,7 @@
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
             <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
-                <span class="underline-3 style-2 violet">Wirtualne Biuro</span>
+                <span class="underline-3 style-2 grape">Wirtualne Biuro</span>
             </h3>
         </div>
 
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-        @include('Services.components.virtualOfficePricing')
+        @include('Services.components.virtualOfficePricing', ['color' => 'grape'])
 
         <div class="row mb-5">
             <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
@@ -115,7 +115,7 @@
                     <div class="card-body p-6">
                         <div class="d-flex flex-row">
                             <div>
-                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">01</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">Prestiżowy adres</h4>
@@ -130,7 +130,7 @@
                     <div class="card-body p-6">
                         <div class="d-flex flex-row">
                             <div>
-                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">02</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">Kompleksowa obsługa korespondencji</h4>
@@ -145,7 +145,7 @@
                     <div class="card-body p-6">
                         <div class="d-flex flex-row">
                             <div>
-                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">03</span></span>
                             </div>
                             <div>
                                 <h4 class="mb-1">Sale konferencyjne i biura serwisowane</h4>
@@ -162,7 +162,7 @@
                 <h2 class="display-6 mb-3">Wirtualne Biuro?</h2>
                 <p>Rozwiązanie, które daje Ci swobodę działania i oszczędność, oferując wszystko, czego potrzebujesz, by rozwijać biznes na własnych zasadach.</p>
                 <p>Wirtualne Biuro to więcej niż tylko adres. To elastyczność, wygoda i wsparcie, które pozwolą Ci skupić się na rozwoju Twojej firmy. Zacznij działać bez ograniczeń już dziś!</p>
-                <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+{{--                <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>--}}
             </div>
             <!--/column -->
         </div>
@@ -206,7 +206,7 @@
                     <div class="col-md-6">
                         <div class="d-flex flex-row">
                             <div>
-                                <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
+                                <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-grape me-4" alt="" />
                             </div>
                             <div>
                                 <h4 class="mb-1">Profesjonalny wizerunek</h4>
@@ -322,7 +322,7 @@
             <!-- /.container -->
         </section>
 
-        <hr class="bg-violet border-2 border-top border-violet"/>
+        <hr class="bg-grape border-2 border-top border-grape"/>
 
         <div class="mt-4">
             @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])
