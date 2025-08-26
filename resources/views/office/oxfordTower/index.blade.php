@@ -81,7 +81,11 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
+                                            @if ($mainMenu === 'virtualOffices')
+                                                <img src="{{asset('assets/img/offices/oxf/wb/new1.jpg')}}" alt="" />
+                                            @else
+                                                <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
+                                            @endif
                                         </a>
                                     </figure>
                                 </div>
@@ -89,7 +93,11 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
+                                            @if ($mainMenu === 'virtualOffices')
+                                                <img src="{{asset('assets/img/offices/oxf/wb/new2.jpg')}}" alt="" />
+                                            @else
+                                                <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
+                                            @endif
                                         </a>
                                     </figure>
                                 </div>

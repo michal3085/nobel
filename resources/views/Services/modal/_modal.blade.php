@@ -10,7 +10,7 @@
 
                     <div class="form-floating mb-4">
                         <select class="form-control" name="vo_topic" id="nobel-vo-topic-id">
-                            <option value="ADRES OSOBISTY">ADRES OSOBISTY</option>
+                            <option value="ADRES DO KORESPONDENCJI">ADRES DO KORESPONDENCJI</option>
                             <option value="PRESTIŻOWY ADRES">PRESTIŻOWY ADRES</option>
                             <option value="PRESTIŻOWY ADRES PLUS">PRESTIŻOWY ADRES PLUS</option>
                             <option value="WIRTUALNE BIURO">WIRTUALNE BIURO</option>

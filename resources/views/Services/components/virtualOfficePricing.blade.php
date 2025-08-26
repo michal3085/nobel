@@ -12,7 +12,7 @@
             <div class="pricing card text-center">
                 <div class="card-body">
                     <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
-                    <h4 class="card-title">Adres Osobisty </h4>
+                    <h4 class="card-title">Adres do korespondencji</h4>
                     Osoba Fizyczna
                     <div class="prices text-dark">
                         <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">100</span> <span class="price-duration">mc</span></div>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="card-body">
                     <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
-                    <h4 class="card-title">Prestiżowy Adres </h4>
+                    <h4 class="card-title">Prestiżowy adres </h4>
                     Firma
                     <div class="prices text-dark">
                         <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">200</span> <span class="price-duration">mc</span></div>
@@ -133,7 +133,7 @@
 
             // Ustaw wartość w zależności od data-info
             if (info === '1') {
-                select.value = "ADRES OSOBISTY";
+                select.value = "ADRES DO KORESPONDENCJI";
             } else if (info === '2') {
                 select.value = "PRESTIŻOWY ADRES";
             } else if (info === '3') {
