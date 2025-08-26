@@ -250,7 +250,7 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.4551450736203!2d19.013645212092147!3d50.26475971076346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce3c028bc8b5%3A0xbdb20112242c5b59!2sSokolska%2030%2C%2040-086%20Katowice!5e0!3m2!1spl!2spl!4v1740772345567!5m2!1spl!2spl" >
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.469641601857!2d19.014536876923348!3d50.26448900073553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716cf432df50d69%3A0xa49f6b8b99a1e6d3!2sNobel!5e0!3m2!1spl!2spl!4v1756229556959!5m2!1spl!2spl" >
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>

@@ -264,7 +264,7 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.7483393312214!2d21.041544959024954!3d52.189671559957986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x19339477da44c6b9!2sSzpitale%20Carolina%20i%20Optimum!5e0!3m2!1spl!2spl!4v1740779867223!5m2!1spl!2spl" >
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.925659392281!2d21.039676593547842!3d52.190223988343455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x623876d7ca77603f!2sNobel!5e0!3m2!1spl!2spl!4v1756229319545!5m2!1spl!2spl" >
                         allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>
