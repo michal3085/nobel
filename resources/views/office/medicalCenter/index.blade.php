@@ -83,17 +83,32 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <a href="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" alt="" /></a>
+                                        @else
+                                            <a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <a href="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" alt="" /></a>
+                                        @else
+                                            <a href="{{asset('assets/img/offices/oxf/1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" /></a>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <a href="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" alt="" /></a>
+                                        @else
+                                            <a href="{{asset('assets/img/offices/oxf/2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" /></a>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
