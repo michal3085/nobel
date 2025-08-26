@@ -115,47 +115,130 @@
         @if ($mainMenu === 'offices')
             <hr class="bg-violet border-2 border-top border-sky"/>
 
-            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>Charakterystyka lokalizacji</h2>
 
-                <!-- O lokalizacji -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-map-marker icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Powierzchnia – 350 m², ponad 20 gabinetów</li>
-                            <li><i class="uil uil-check"></i>Układ pomieszczeń – elastyczny: gabinetowe, jednoosobowe lub zespołowe</li>
-                            <li><i class="uil uil-check"></i>Wykończenie – nowoczesne, beton architektoniczny</li>
-                        </ul>
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">350 m², ponad 20 gabinetów</p>
+                        </div>
                     </div>
                 </div>
+                <!-- /column -->
 
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">elastyczny: gabinetowe, jednoosobowe lub zespołowe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">nowoczesne, beton architektoniczny</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
                 <!-- Dodatkowe udogodnienia -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-wrench icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Elastyczność – możliwość powiększenia przestrzeni</li>
-                            <li><i class="uil uil-check"></i>Parking – garaż podziemny i miejsca zewnętrzne</li>
-                            <li><i class="uil uil-check"></i>Bezpieczeństwo – monitoring, ochrona 24/7</li>
-                        </ul>
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Elastyczność</h4>
+                            <p class="mb-0">Możliwość powiększenia przestrzeni</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Parking</h4>
+                            <p class="mb-0">Garaż podziemny i miejsca zewnętrzne</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Monitoring, ochrona 24/7</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Korzyści dla najemcy -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-briefcase icon-svg-md text-sky mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-sky text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Lokalizacja – na uboczu, blisko usług i kawiarni</li>
-                            <li><i class="uil uil-check"></i>Komunikacja – blisko tramwaju Miasteczko Wilanów, autobusy, obwodnica</li>
-                            <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna dla najemców, serwis sprzątający</li>
-                        </ul>
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">Na uboczu, blisko usług i kawiarni</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">Blisko tramwaju Miasteczko Wilanów, autobusy, obwodnica</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort pracy</h4>
+                            <p class="mb-0">Klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna dla najemców, serwis sprzątający</p>
+                        </div>
                     </div>
                 </div>
-
             </div>
 
             <hr class="bg-violet border-2 border-top border-sky"/>

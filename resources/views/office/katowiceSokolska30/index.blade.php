@@ -102,48 +102,132 @@
         @if ($mainMenu === 'offices')
             <hr class="bg-violet border-2 border-top border-blue"/>
 
-            <div class="row text-center gy-6 gx-lg-8 justify-content-center">
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>Charakterystyka lokalizacji</h2>
 
-                <!-- O lokalizacji -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-map-marker icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">O lokalizacji</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Powierzchnia – 4 gabinety</li>
-                            <li><i class="uil uil-check"></i>Układ pomieszczeń – biurowe, gotowe do pracy</li>
-                            <li><i class="uil uil-check"></i>Wykończenie – nowoczesne, wysoki standard</li>
-                        </ul>
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-blue pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">4 gabinety</p>
+                        </div>
                     </div>
                 </div>
+                <!-- /column -->
 
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-blue pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">Biurowe, gotowe do pracy</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-blue pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">Nowoczesne, wysoki standard</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
                 <!-- Dodatkowe udogodnienia -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-wrench icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">Dodatkowe udogodnienia</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Elastyczność – możliwość wynajmu dodatkowych gabinetów</li>
-                            <li><i class="uil uil-check"></i>Parking – garaż podziemny i miejsca zewnętrzne</li>
-                            <li><i class="uil uil-check"></i>Bezpieczeństwo – recepcja, monitoring, ochrona 24/7</li>
-                        </ul>
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Elastyczność</h4>
+                            <p class="mb-0">Możliwość wynajmu dodatkowych gabinetów</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Parking</h4>
+                            <p class="mb-0">Garaż podziemny i miejsca zewnętrzne</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Recepcja, monitoring, ochrona 24/7</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Korzyści dla najemcy -->
-                <div class="col-lg-4">
-                    <div class="px-3">
-                        <i class="uil uil-briefcase icon-svg-md text-blue mb-3" style="font-size: 42px;"></i>
-                        <h4 class="fw-bold mb-4">Korzyści dla najemcy</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-blue text-start d-inline-block" style="font-size: 15px; line-height:1.6; max-width: 320px;">
-                            <li><i class="uil uil-check"></i>Lokalizacja – centrum Katowic, ul. Sokolska</li>
-                            <li><i class="uil uil-check"></i>Komunikacja – blisko Dworzec Główny, tramwaje, autobusy</li>
-                            <li><i class="uil uil-check"></i>Komfort pracy – klimatyzacja, internet, strefa kuchenna dla najemców, zielone atrium</li>
-                        </ul>
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">Centrum Katowic, ul. Sokolska</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">Blisko Dworzec Główny, tramwaje, autobusy</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-blue pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort pracy</h4>
+                            <p class="mb-0">Klimatyzacja, internet, strefa kuchenna dla najemców, zielone atrium</p>
+                        </div>
                     </div>
                 </div>
-
             </div>
+
 
             <hr class="bg-violet border-2 border-top border-blue"/>
         @endif
