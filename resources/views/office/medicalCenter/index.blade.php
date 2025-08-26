@@ -87,7 +87,7 @@
                                         @if ($mainMenu === 'virtualOffices')
                                             <a href="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" alt="" /></a>
                                         @else
-                                            <a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
+                                            <a href="{{asset('assets/img/offices/carolina/pory16.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory16.jpg')}}" alt="" /></a>
                                         @endif
                                     </figure>
                                 </div>
@@ -97,7 +97,7 @@
                                         @if ($mainMenu === 'virtualOffices')
                                             <a href="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" alt="" /></a>
                                         @else
-                                            <a href="{{asset('assets/img/offices/oxf/1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" /></a>
+                                            <a href="{{asset('assets/img/offices/carolina/pory10.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory10.jpg')}}" alt="" /></a>
                                         @endif
                                     </figure>
                                 </div>
@@ -107,7 +107,7 @@
                                         @if ($mainMenu === 'virtualOffices')
                                             <a href="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" alt="" /></a>
                                         @else
-                                            <a href="{{asset('assets/img/offices/oxf/2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" /></a>
+                                            <a href="{{asset('assets/img/offices/carolina/pory9.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory9.jpg')}}" alt="" /></a>
                                         @endif
                                     </figure>
                                 </div>
