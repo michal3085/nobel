@@ -77,7 +77,7 @@
                 <!-- Obrazek -->
                 <div class="col-lg-6">
                     <figure class="rounded shadow-lg mb-0">
-                        <img src="{{ asset('assets/img/photos/about18.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded">
+                        <img src="{{ asset('assets/img/services/soc_1.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded">
                     </figure>
                 </div>
             </div>
@@ -154,7 +154,7 @@
         <div class="tab-pane fade show active" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
                 <div class="col-lg-6">
-                    <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt=""></figure>
+                    <figure class="rounded shadow-lg"><img src="{{ asset('assets/img/services/soc_2.jpg') }}" srcset="{{ asset('assets/img/services/soc_2.jpg') }}" alt=""></figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">

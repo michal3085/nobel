@@ -10,6 +10,7 @@
             </div>
             <br>
             <br>
+{{--            TODO WIEKSZE ZDJECIA ABY UZYSKAC SZACHOWNICE    --}}
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
                     <div class="col-12">
@@ -31,7 +32,7 @@
                     </div>
 
                     <div class="col-lg-5">
-                        <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt=""></figure>
+                        <figure class="rounded shadow-lg"><img src="{{asset('assets/img/services/rch_5.jpg')}}" srcset="{{asset('assets/img/services/rch_5.jpg')}}" alt=""></figure>
                     </div>
                 </div>
 
@@ -41,7 +42,7 @@
                         <div class="shape bg-dot orange rellax w-10 h-12" data-rellax-speed="1" style="top: -1rem; left: -1rem;"></div>
                         <div class="shape rounded rellax d-md-block" data-rellax-speed="0" style="bottom: -1rem; right: -1rem; width: 60%; height: 65%;"></div>
                         <figure class="rounded">
-                            <img src="./assets/img/photos/about7.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" class="img-fluid w-60"/> <!-- zdjęcie mniejsze -->
+                            <img src="{{asset('assets/img/services/rch_1.jpg')}}" srcset="{{asset('assets/img/services/rch_1.jpg')}}" alt="" class="img-fluid w-60"/> <!-- zdjęcie mniejsze -->
                         </figure>
                     </div>
 
