@@ -92,7 +92,7 @@
                                         @if ($mainMenu === 'virtualOffices')
                                             <a href="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}" alt="" /></a>
                                         @else
-                                            <a href="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.5.jpg')}}" alt="" /></a>
+                                            <a href="{{asset('assets/img/offices/panska/panska1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/panska1.jpg')}}" alt="" /></a>
                                         @endif
                                     </figure>
                                 </div>
