@@ -84,7 +84,7 @@
                                             @if ($mainMenu === 'virtualOffices')
                                                 <img src="{{asset('assets/img/offices/oxf/wb/new1.jpg')}}" alt="" />
                                             @else
-                                                <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
+                                                <img src="{{asset('assets/img/offices/oxf/oxf5.jpg')}}" alt="" />
                                             @endif
                                         </a>
                                     </figure>
