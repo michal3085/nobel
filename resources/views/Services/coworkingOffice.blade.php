@@ -37,7 +37,7 @@
                         <header class="post-header">
                             <h2 class="post-title h5 mb-0">
                                 <a class="link-dark" href="{{ route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}s">
-                                    Chałubińskiego 8 — Śródmieście
+                                    Chałubińskiego 8 Śródmieście
                                 </a>
                             </h2>
                         </header>
@@ -57,13 +57,44 @@
                         <header class="post-header">
                             <h2 class="post-title h5 mb-0">
                                 <a class="link-dark" href="{{ route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15']) }}">
-                                    Klimczaka 15 — Wilanów
+                                    Klimczaka 15 Wilanów
                                 </a>
                             </h2>
                         </header>
                     </article>
                 </div>
             </div>
+
+            <hr class="bg-violet border-2 border-top border-violet my-5" />
+
+            <h1 class="mb-4 underline-3 style-2 green">Tworzymy przestrzenie coworkingowe wspierające produktywność i współpracę.</h1>
+            <div class="tab-pane fade show active" id="tab2-1">
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                    <div class="col-lg-6">
+                        <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt="Coworking przestrzeń do pracy"></figure>
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <p style="font-size: 15px; text-align: justify;">
+                            Coworking to nowoczesna, w pełni wyposażona przestrzeń do pracy, łącząca komfort, elastyczność i doskonałą lokalizację.
+                            Niezależnie od tego, czy pracujesz indywidualnie, czy w zespole, znajdziesz idealne miejsce, które zapewnia efektywną współpracę oraz inspirującą atmosferę.
+                        </p>
+                        <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
+                            <li><i class="uil uil-check"></i><b>Elastyczność</b> – wynajem krótkoterminowy lub długoterminowy, dopasowany do Twoich potrzeb.</li>
+                            <li><i class="uil uil-check"></i><b>Wyposażenie</b> – w pełni umeblowane stanowiska gotowe do pracy od zaraz.</li>
+                            <li><i class="uil uil-check"></i><b>Koszty</b> – jedna miesięczna opłata obejmująca czynsz, media i sprzątanie.</li>
+                            <li><i class="uil uil-check"></i><b>Lokalizacja</b> – dogodny dojazd i bliskość usług w otoczeniu biura.</li>
+                            <li><i class="uil uil-check"></i><b>Usługi dodatkowe</b> – recepcja, obsługa poczty, sale konferencyjne i strefy relaksu.</li>
+                            <li><i class="uil uil-check"></i><b>Networking</b> – współpraca i wymiana doświadczeń z innymi firmami w coworkingu.</li>
+                            <li><i class="uil uil-check"></i><b>Skalowalność</b> – możliwość łatwego zwiększania lub zmniejszania powierzchni wraz z rozwojem firmy.</li>
+                        </ul>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+
+
 
             <hr class="bg-violet border-2 border-top border-violet my-5" />
 

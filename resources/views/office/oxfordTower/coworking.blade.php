@@ -16,7 +16,7 @@
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
                                             <div class="post-category text-green mb-3">Coworking</div>
-                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
+                                            <h2 class="underline-3 style-2 green">Śródmieście Chałubińskiego 8</h2>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
@@ -33,7 +33,10 @@
                                                 <li><i class="uil uil-check"></i><b>Elastyczne możliwości</b> – oprócz coworkingu, możesz skorzystać z Biura
                                                     Serwisowanego lub usługi Biuro Wirtualne.</li>
                                             </ul>
-                                            <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+
+                                            Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Coworking</b></a> oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
+
+                                            <div class="d-flex justify-content-center fs-9 mt-7" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
                                                        class="btn btn-sm btn-green rounded-pill me-2 nobel-contact-button"
