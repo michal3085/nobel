@@ -4,9 +4,10 @@
     <section class="wrapper bg-light">
         <div class="container pb-3 pb-md-7">
             <div class="col-lg-12 text-center text-lg-start">
-                <h3 class="display-3 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 green">Biura</span>
-                </h3>
+{{--                <h3 class="display-3 pe-xl-10 pe-xxl-15">--}}
+{{--                    <span class="underline-3 style-2 green">Biura</span>--}}
+{{--                </h3>--}}
+                <h1 class="display-1 underline-3 style-2 green text-white mb-4">Biura <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="Biura"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
             </div>
 {{--            @include('Services.components._offices')--}}
 <br>

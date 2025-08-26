@@ -3,9 +3,11 @@
 @section('content')
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
-            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
-                <span class="underline-3 style-2 grape">Wirtualne Biuro</span>
-            </h3>
+{{--            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">--}}
+{{--                <span class="underline-3 style-2 grape">Wirtualne Biuro</span>--}}
+{{--            </h3>--}}
+
+            <h1 class="display-1 underline-3 style-2 grape text-white mb-5">Wirtualne Biuro <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="Wirtualne Biuro"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
         </div>
 
         <div class="container pb-5 pb-md-7">
