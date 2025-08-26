@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-12 text-center text-lg-start mb-3">
                     <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-0">
-                        <span class="underline-3 style-2 yellow">Coworking</span>
+                        <span class="underline-3 style-2 ">Coworking</span>
                     </h3>
                 </div>
             </div>
