@@ -266,7 +266,6 @@
             </section>
         </div>
 
-
         <div class="row gx-lg-8 gx-xl-12 gy-10 mb-10 mb-md-12 align-items-center">
             <div class="col-lg-6 order-lg-2">
                 <div class="row gx-md-5 gy-5 align-items-center">
