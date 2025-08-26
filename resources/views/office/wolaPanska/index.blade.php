@@ -4,6 +4,13 @@
     @include('Services.modal._officesModal')
 
     @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
+    <style>
+        .image-wrapper {
+            width: 100vw; /* Pełna szerokość widoku */
+            margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+            margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+        }
+    </style>
 
     <section class="wrapper bg-light">
         <div class="container py-5">
@@ -146,7 +153,7 @@
 
         @if ($mainMenu === 'virtualOffices')
                 @include('Services.components.virtualOfficePricing')
-            @endif
+       @endif
 
             <div class="container-fluid px-md-6 mt-5">
                 <div class="row">

@@ -3,6 +3,13 @@
 @section('content')
     @include('office._returnButton', ['color' => 'purple', 'title' => _getOfficeTitle($mainMenu)])
 
+    <style>
+        .image-wrapper {
+            width: 100vw; /* Pełna szerokość widoku */
+            margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+            margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+        }
+    </style>
     <section class="wrapper bg-light">
 
         <div class="container py-5">
@@ -20,11 +27,11 @@
                                             <p class="text-muted">
                                                 @switch($mainMenu)
                                                     @case('virtualOffices')
-                                                        Wirtualne biuro w sercu Miasteczka Wilanów.
+                                                        Wirtualne biuro w sercu miasteczka Wilanów.
                                                         @break
 
                                                     @case('offices')
-                                                        Elastyczna przestrzeń do pracy w sercu Miasteczka Wilanów.
+                                                        Elastyczna przestrzeń do pracy w sercu miasteczka Wilanów.
                                                         @break
                                                 @endswitch
                                             </p>

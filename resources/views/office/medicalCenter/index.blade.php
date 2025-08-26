@@ -2,6 +2,13 @@
 
 @section('content')
     @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
+    <style>
+        .image-wrapper {
+            width: 100vw; /* Pełna szerokość widoku */
+            margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+            margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+        }
+    </style>
 
     <section class="wrapper bg-light">
 
