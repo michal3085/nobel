@@ -202,46 +202,66 @@
 {{-- dodac teksty w istniejacym layoucie--}}
                 <div class="col-12">
                     <h3 class="display-6 mb-4 text-orange">Dodatkowe usługi, które mogą Ci się przydać</h3>
+                    <p class="mb-6">Aby jeszcze bardziej ułatwić Ci prowadzenie biznesu, oferujemy szereg powiązanych usług.
+                        Poniżej przedstawiamy wybrane z nich, które mogą okazać się niezwykle pomocne na różnych etapach rozwoju Twojej firmy:</p>
                 </div>
 
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-14 mb-md-18">
+                    <!-- Księgowość -->
                     <div class="col-lg-4">
                         <div class="d-flex flex-row">
                             <div>
-                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">1</span> </div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4">
+                                    <span class="number fs-18">1</span>
+                                </div>
                             </div>
                             <div>
                                 <h4>Księgowość</h4>
-                                <p class="mb-2">od 550 PLN</p>
+                                <p class="mb-2"><strong>od 550 PLN / miesiąc</strong></p>
+                                <p class="mb-0">Zapewnij swojej firmie profesjonalne wsparcie księgowe.
+                                    Nasi partnerzy zadbają o wszystkie formalności, pozwalając Ci skupić się na swojej działalności.</p>
                             </div>
                         </div>
                     </div>
                     <!--/column -->
+
+                    <!-- ePUAP -->
                     <div class="col-lg-4">
                         <div class="d-flex flex-row">
                             <div>
-                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">2</span> </div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4">
+                                    <span class="number fs-18">2</span>
+                                </div>
                             </div>
                             <div>
                                 <h4>Założenie profilu zaufanego ePUAP</h4>
-                                <p class="mb-2">250 PLN</p>
+                                <p class="mb-2"><strong>250 PLN</strong></p>
+                                <p class="mb-0">Ułatw sobie kontakt z urzędami i załatwiaj sprawy online dzięki
+                                    szybkiemu założeniu profilu zaufanego ePUAP.</p>
                             </div>
                         </div>
                     </div>
                     <!--/column -->
+
+                    <!-- PESEL -->
                     <div class="col-lg-4">
                         <div class="d-flex flex-row">
                             <div>
-                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4"> <span class="number fs-18">3</span> </div>
+                                <div class="icon btn btn-circle pe-none btn-soft-orange me-4">
+                                    <span class="number fs-18">3</span>
+                                </div>
                             </div>
                             <div>
                                 <h4>Uzyskanie numeru PESEL</h4>
-                                <p class="mb-2">750 PLN</p>
+                                <p class="mb-2"><strong>750 PLN</strong></p>
+                                <p class="mb-0">Jeśli potrzebujesz numeru PESEL do prowadzenia działalności w Polsce,
+                                    pomożemy Ci go uzyskać sprawnie i bez zbędnych formalności.</p>
                             </div>
                         </div>
                     </div>
                     <!--/column -->
                 </div>
+
 
             </section>
         </div>
