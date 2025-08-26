@@ -2,25 +2,55 @@
 
 @section('content')
     <section class="wrapper bg-light">
-        <div class="container pb-5 pb-md-7">
+        <div class="container pb-5 pb-md-6">
+
+            <h1 class="display-1 underline-3 style-2 aqua text-white mb-4">Coworking <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="Coworking"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
+                <br>
+
+{{--            <section class="wrapper bg-aqua lower-start" style="border-radius: 100px 100px 100px 100px;">--}}
+{{--                <div class="container pt-7 pt-md-11 pb-8 mb-20">--}}
+{{--                    <div class="row gx-0 gy-10 align-items-center">--}}
+{{--                        <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="600">--}}
+{{--                            <h1 class="display-1 text-white mb-4">Coworking <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="miejsce do pracy"></span><span class="cursor text-primary" data-owner="typer"></span></h1>--}}
+{{--                            <p class="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">Unikaj kosztów wynajmu biura, płacąc tylko za to, czego faktycznie potrzebujesz.</p>--}}
+{{--                            <div>--}}
+{{--                                <a class="btn btn-lg btn-primary rounded">Zapytaj o dostępność</a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- /column -->--}}
+{{--                        <div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">--}}
+{{--                            <div class="position-relative">--}}
+{{--                                <a href="./assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>--}}
+{{--                                <figure class="rounded shadow-lg"><img src="./assets/img/photos/about13.jpg" srcset="./assets/img/photos/about13@2x.jpg 2x" alt=""></figure>--}}
+{{--                            </div>--}}
+{{--                            <!-- /div -->--}}
+{{--                        </div>--}}
+{{--                        <!-- /column -->--}}
+{{--                    </div>--}}
+{{--                    <!-- /.row -->--}}
+{{--                </div>--}}
+{{--                <!-- /.container -->--}}
+{{--            </section>--}}
+
+{{--            <hr class="bg-violet border-2 border-top border-aqua my-5" />--}}
 
             {{-- Tytuł --}}
-            <div class="row">
-                <div class="col-12 text-center text-lg-start mb-3">
-                    <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-0">
-                        <span class="underline-3 style-2 ">Coworking</span>
-                    </h3>
-                </div>
-            </div>
+{{--            <div class="row">--}}
+{{--                <div class="col-12 text-center text-lg-start mb-3">--}}
+{{--                    <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-0">--}}
+{{--                        <span class="underline-3 style-2 ">Coworking</span>--}}
+{{--                    </h3>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             {{-- Opis pod tytułem --}}
-            <div class="row">
-                <div class="col-12 text-center text-lg-start mb-5">
-                    <p class="lead mb-0">
-                        Unikaj kosztów wynajmu biura, płacąc tylko za to, czego faktycznie potrzebujesz.
-                    </p>
-                </div>
-            </div>
+{{--            <div class="row">--}}
+{{--                <div class="col-12 text-center text-lg-start mb-5">--}}
+{{--                    <p class="lead mb-0">--}}
+{{--                        Unikaj kosztów wynajmu biura, płacąc tylko za to, czego faktycznie potrzebujesz.--}}
+{{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             {{-- Kafelki (wyrównane do lewej) --}}
             <div class="row g-4">
@@ -65,36 +95,42 @@
                 </div>
             </div>
 
-            <hr class="bg-violet border-2 border-top border-violet my-5" />
+            <div class="container pt-10 pt-md-12 pb-10 pb-md-12">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <h2 class="fs-16 text-uppercase text-line text-aqua mb-3">Co robimy?</h2>
+                        <h3 class="display-4 mb-9 text-nowrap">Tworzymy przestrzenie coworkingowe wspierające produktywność i współpracę.</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
 
-            <h1 class="mb-4 underline-3 style-2 green">Tworzymy przestrzenie coworkingowe wspierające produktywność i współpracę.</h1>
-            <div class="tab-pane fade show active" id="tab2-1">
-                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                    <div class="col-lg-6">
-                        <figure class="rounded shadow-lg"><img src="./assets/img/photos/se5.jpg" srcset="./assets/img/photos/se5@2x.jpg 2x" alt="Coworking przestrzeń do pracy"></figure>
+                <div class="row gx-md-8 gy-8 mb-14 mb-md-10">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="icon btn btn-block btn-lg btn-soft-aqua pe-none mb-6"> <i class="uil uil-check"></i> </div>
+                        <h4>Elastyczność</h4>
+                        <p class="mb-3">Wynajem krótkoterminowy lub długoterminowy, dopasowany do Twoich potrzeb.</p>
                     </div>
                     <!--/column -->
-                    <div class="col-lg-6">
-                        <p style="font-size: 15px; text-align: justify;">
-                            Coworking to nowoczesna, w pełni wyposażona przestrzeń do pracy, łącząca komfort, elastyczność i doskonałą lokalizację.
-                            Niezależnie od tego, czy pracujesz indywidualnie, czy w zespole, znajdziesz idealne miejsce, które zapewnia efektywną współpracę oraz inspirującą atmosferę.
-                        </p>
-                        <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
-                            <li><i class="uil uil-check"></i><b>Elastyczność</b> – wynajem krótkoterminowy lub długoterminowy, dopasowany do Twoich potrzeb.</li>
-                            <li><i class="uil uil-check"></i><b>Wyposażenie</b> – w pełni umeblowane stanowiska gotowe do pracy od zaraz.</li>
-                            <li><i class="uil uil-check"></i><b>Koszty</b> – jedna miesięczna opłata obejmująca czynsz, media i sprzątanie.</li>
-                            <li><i class="uil uil-check"></i><b>Lokalizacja</b> – dogodny dojazd i bliskość usług w otoczeniu biura.</li>
-                            <li><i class="uil uil-check"></i><b>Usługi dodatkowe</b> – recepcja, obsługa poczty, sale konferencyjne i strefy relaksu.</li>
-                            <li><i class="uil uil-check"></i><b>Networking</b> – współpraca i wymiana doświadczeń z innymi firmami w coworkingu.</li>
-                            <li><i class="uil uil-check"></i><b>Skalowalność</b> – możliwość łatwego zwiększania lub zmniejszania powierzchni wraz z rozwojem firmy.</li>
-                        </ul>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="icon btn btn-block btn-lg btn-soft-aqua pe-none mb-6"> <i class="uil uil-shield-exclamation"></i> </div>
+                        <h4>Wyposażenie</h4>
+                        <p class="mb-3">W pełni umeblowane stanowiska gotowe do pracy od zaraz.</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="icon btn btn-block btn-lg btn-soft-aqua pe-none mb-6"> <i class="uil uil-location-point"></i> </div>
+                        <h4>Lokalizacja</h4>
+                        <p class="mb-3">Dogodny dojazd i bliskość usług w otoczeniu biura.</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="icon btn btn-block btn-lg btn-soft-aqua pe-none mb-6"> <i class="uil uil-users-alt"></i> </div>
+                        <h4>Networking</h4>
+                        <p class="mb-3">Współpraca i wymiana doświadczeń z innymi firmami w coworkingu.</p>
                     </div>
                     <!--/column -->
                 </div>
-                <!--/.row -->
             </div>
-
-
 
             <hr class="bg-violet border-2 border-top border-violet my-5" />
 
