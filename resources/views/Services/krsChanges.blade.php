@@ -188,6 +188,8 @@
             <!-- /.container -->
         </section>
 
+        <hr class="bg-grape border-2 border-top border-yellow"/>
+
         <div class="mt-2">
             @include('qa.display', ['section' => 'krsChanges', 'title' => 'Q&A'])
         </div>

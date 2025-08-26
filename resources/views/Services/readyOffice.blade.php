@@ -193,6 +193,8 @@
         <!-- /.wrapper -->
     </section>
 
+    <hr class="bg-grape border-2 border-top border-green"/>
+
     <div class="mt-4">
         @include('qa.display', ['section' => 'readyOffice', 'title' => 'Q&A'])
     </div>

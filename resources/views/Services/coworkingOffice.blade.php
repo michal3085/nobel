@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            <hr class="bg-violet border-2 border-top border-violet my-5" />
+            <hr class="bg-violet border-2 border-top border-aqua my-5" />
 
             <div class="mt-4">
                 @include('qa.display', ['section' => 'coworkingOffice', 'title' => 'Q&A'])
