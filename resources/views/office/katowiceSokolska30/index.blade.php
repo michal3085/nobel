@@ -27,9 +27,8 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 Prestiżowa inwestycja Sokolska 30 Towers to miejsce, które łączy nowoczesność,
-                                                komfort i doskonałą lokalizację w Katowicach. <b>W pełni wyposażone biura</b> zaprojektowane z myślą o wygodzie i funkcjonalności,
-                                                gotowe do pracy od zaraz. <b>Wyjątkowe udogodnienia</b>, jak przestronne lobby z recepcją oraz zielone atrium na
-                                                dachu sprzyja relaksowi i inspiracji.
+                                                komfort i doskonałą lokalizację w Katowicach. <b>W pełni wyposażone biura</b> zaprojektowane z myślą o wygodzie, funkcjonalności i gotowe do pracy od zaraz.
+                                                <b>Wyjątkowe udogodnienia</b>, jak przestronne lobby z recepcją oraz zielone atrium na dachu sprzyjają relaksowi i inspiracji.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
