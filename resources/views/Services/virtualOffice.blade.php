@@ -101,59 +101,72 @@
 
         @include('Services.components.virtualOfficePricing')
 
-        <hr class="bg-violet border-2 border-top border-violet"/>
-
-        <div class="tab-pane fade show active mt-15" id="tab2-1">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                {{--                <div class="col-lg-6">--}}
-                {{--                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>--}}
-                {{--                </div>--}}
-                <!--/column -->
-                {{--                <div class="col-lg-6">--}}
-                <div class="col-lg-12">
-                    <p style="font-size: 18px; text-align: justify;">
-                        Zapewnij swojej firmie profesjonalny wizerunek i pełną elastyczność, <b>jednocześnie
-                        unikając kosztów związanych z wynajmem tradycyjnego biura.</b>
-                    </p>
-
-                    <p style="font-size: 15px;">
-                        <b>Wirtualne Biuro</b> to rozwiązanie, które daje Ci swobodę działania i oszczędność,
-                        oferując wszystko, czego potrzebujesz, by rozwijać biznes na własnych zasadach.
-                    </p>
-                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i><b>Prestiżowy adres</b> – buduje wiarygodność w oczach klientów i partnerów.</li>
-                        <li><i class="uil uil-check"></i><b>Kompleksowa obsługa korespondencji</b> – odbieramy, przechowujemy,
-                            skanujemy i przekazujemy Twoją korespondencję.</li>
-                        <li><i class="uil uil-check"></i><b>Opcjonalna obsługa telefoniczna</b> – nasi pracownicy zapewniają
-                            profesjonalną obsługę klientów w imieniu Twojej firmy.</li>
-                        <li><i class="uil uil-check"></i><b>Sale konferencyjne i biura serwisowane</b> – gdy potrzebujesz fizycznej
-                            przestrzeni do pracy lub spotkań biznesowych,</li>
-                    </ul>
-
-                    <span class="underline-3 style-2 violet" style="font-size: 15px;">
-                        <b>Dlaczego warto wybrać Wirtualne Biuro?</b>
-                    </span>
-
-                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i>Redukujesz koszty związane z utrzymaniem tradycyjnego biura i <b>płacisz tylko za to, czego faktycznie potrzebujesz.</b></li>
-                        <li><i class="uil uil-check"></i>Zyskujesz profesjonalny wizerunek i prestiżowy adres w atrakcyjnej lokalizacji.</li>
-                        <li><i class="uil uil-check"></i>Korzystasz z pełnej obsługi administracyjnej, oszczędzając czas i energię.</li>
-                    </ul>
-
-                    <p style="font-size: 15px;">
-                        <b>
-                            Wirtualne Biuro to więcej niż tylko adres. To elastyczność, wygoda i wsparcie,
-                            które pozwolą Ci skupić się na rozwoju Twojej firmy. Zacznij działać bez ograniczeń
-                            już dziś!
-                        </b>
-                    </p>
-                </div>
-                <!--/column -->
+        <div class="row mb-5">
+            <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
+                <img src="./assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                <h2 class="display-4 mb-4 px-lg-14">Zapewnij swojej firmie profesjonalny wizerunek i pełną elastyczność.</h2>
             </div>
-            <!--/.row -->
+            <!-- /column -->
         </div>
-
-        <hr class="bg-violet border-2 border-top border-violet"/>
+        <!-- /.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="card me-lg-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">01</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Prestiżowy adres</h4>
+                                <p class="mb-0">Buduje wiarygodność w oczach klientów i partnerów.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+                <div class="card ms-lg-13 mt-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">02</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Kompleksowa obsługa korespondencji</h4>
+                                <p class="mb-0"> Odbieramy, przechowujemy, skanujemy i przekazujemy Twoją korespondencję.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+                <div class="card mx-lg-6 mt-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4"><span class="number">03</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Sale konferencyjne i biura serwisowane</h4>
+                                <p class="mb-0">Gdy potrzebujesz fizycznej przestrzeni do pracy lub spotkań biznesowych,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+                <h2 class="display-6 mb-3">Wirtualne Biuro?</h2>
+                <p>Rozwiązanie, które daje Ci swobodę działania i oszczędność, oferując wszystko, czego potrzebujesz, by rozwijać biznes na własnych zasadach.</p>
+                <p>Wirtualne Biuro to więcej niż tylko adres. To elastyczność, wygoda i wsparcie, które pozwolą Ci skupić się na rozwoju Twojej firmy. Zacznij działać bez ograniczeń już dziś!</p>
+                <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
 
         <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
             <div class="col-lg-6">
@@ -308,6 +321,8 @@
             </div>
             <!-- /.container -->
         </section>
+
+        <hr class="bg-violet border-2 border-top border-violet"/>
 
         <div class="mt-4">
             @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])
