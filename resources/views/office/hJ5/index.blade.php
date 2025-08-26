@@ -26,13 +26,9 @@
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Biura serwisowane w niskiej zabudowie <b>Miasteczka Wilanów</b>, w pobliżu <b>Południowej
-                                                Obwodnicy Warszawy.</b>
-                                                <b>Ponad 20 gabinetów</b> w designerskim stylu z betonu architektonicznego.
-                                                <br>
-                                                <br>
-                                                <b>Komfortowe otoczenie biznesowe</b> oraz bliskość licznych kawiarni, restauracji i usług, to
-                                                idealne miejsca na lunch, spotkania biznesowe lub chwilę relaksu po pracy.
+                                                Biura serwisowane w niskiej zabudowie <b>Miasteczka Wilanów</b>, blisko <b>Południowej Obwodnicy Warszawy</b>, oferują designerski styl z betonu architektonicznego w ponad 20 gabinetach.
+                                                <br><br>
+                                                <b>Komfortowe otoczenie biznesowe</b> oraz bliskość licznych kawiarni, restauracji i usług stanowią idealne miejsca na lunch, spotkania biznesowe lub chwilę relaksu po pracy.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
