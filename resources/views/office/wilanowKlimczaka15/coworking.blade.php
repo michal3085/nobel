@@ -71,9 +71,10 @@
             <!-- /.row -->
         </div>
 
-        <hr class="bg-violet border-2 border-top border-purple"/>
-
         <div class="row justify-content-center gy-10">
+            <h3 class="display-3 pe-xl-10 pe-xxl-15">
+                <span class="underline-3 style-2 purple">Cennik</span>
+            </h3>
             <div class="col-lg-10">
                 <div class="row justify-content-center gx-lg-8 align-items-center">
 
