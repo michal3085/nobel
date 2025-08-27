@@ -20,8 +20,6 @@
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
             <br>
             <br>
-
-
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3 align-items-center">
                     <!-- kolumna z tekstem -->
