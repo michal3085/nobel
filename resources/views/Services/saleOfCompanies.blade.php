@@ -3,19 +3,37 @@
 @section('content')
 
     <!-- Sekcja tytułowa -->
-    <section class="wrapper p-5 bg-light" style="border-radius: 10px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="display-3 fw-bold mb-4">
-                        <span class="underline-3 style-2 pink" style="font-size: 40px;">
-                            Sprzedaż spółek – Bezpieczny Start Twojego Biznesu
-                        </span>
-                    </h1>
+{{--    <section class="wrapper p-5 bg-light" style="border-radius: 10px;">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-lg-12">--}}
+{{--                    <h1 class="display-3 fw-bold mb-4">--}}
+{{--                        <span class="underline-3 style-2 pink" style="font-size: 40px;">--}}
+{{--                            Sprzedaż spółek – Bezpieczny Start Twojego Biznesu--}}
+{{--                        </span>--}}
+{{--                    </h1>--}}
 {{--                    <p class="lead fs-lg mx-auto" style="max-width: 900px;">--}}
 {{--                        Najlepsze rozwiązanie, jeśli chcesz szybko rozpocząć prowadzenie swojej działalności.--}}
 {{--                        Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa.--}}
 {{--                    </p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
+
+    <section class="wrapper bg-light mt-3">
+        <div class="container pt-4 pb-4 text-center">
+            <div class="row">
+                <div class="col-lg-10 col-xl-7 col-xxl-10 mx-auto" data-cues="slideInDown" data-group="page-title">
+                    <h1 class="display-1 fs-60 mb-4 px-md-15 px-lg-0">
+                        Sprzedaż spółek Bezpieczny Start<span class="underline-3 style-3 pink">Twojego Biznesu</span>
+                    </h1>
+                    <p class="lead fs-22 lh-sm mb-3 mx-md-13 mx-lg-12 justify-content-center" style="font-size: 20px;">
+                        Oferujemy gotowe spółki, które możesz uruchomić już pierwszego dnia.
+                        <br>
+                        Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
+                        i profesjonalizmu na każdym etapie transakcji.
+                    </p>
                 </div>
             </div>
         </div>
@@ -24,80 +42,45 @@
     <!-- Sekcja główna -->
     <section class="wrapper bg-light">
         <div class="container py-10 py-md-11">
-
-            <!-- Nagłówek -->
-            <div class="row mb-10">
-                <div class="col-lg-10 mx-auto text-center">
-                    <h2 class="display-4 mb-4">
-                        Chcesz rozpocząć działalność bez zbędnych formalności i opóźnień?
-                    </h2>
-                    <p class="lead fs-lg mb-0" style="font-size: 15px !important;">
-                        Oferujemy gotowe spółki, które możesz uruchomić już pierwszego dnia.
-                        Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
-                        i profesjonalizmu na każdym etapie transakcji.
-                    </p>
-
-                </div>
-            </div>
-
             <!-- Treść + zdjęcie -->
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+            <div class="row gx-lg-8 gx-xl-12 gy-6 align-items-center">
                 <!-- Listy benefitów -->
-                <div class="col-lg-6">
-                    <div class="mb-6">
-                        <h4 class="mb-3" style="font-size: 15px;">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-pink">
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
+                <div class="col-lg-4">
+
+                    <p class="mb-3" style="text-align: justify;">
+                        Spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS możemy
+                        dokonać w tym systemie lub notarialnie. Nasze wieloletnie doświadczenie pomaga nam pewnie działać w
+                        obu systemach sądowych i z sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.
+                    </p>
+                    <div class="mb-4">
+                        <h4 class="mb-2" style="font-size: 15px;">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-pink mb-0">
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Nigdy nie prowadziły działalności gospodarczej.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Nie posiadają żadnych aktywów i zobowiązań.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Nie zatrudniają osób.</li>
                         </ul>
                     </div>
-
-                    <div class="mb-6">
-                        <h4 class="mb-3" style="font-size: 15px;">Każda spółka jest przygotowana do startu i posiada:</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-pink">
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Wpis w CRBR</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 class="mb-3" style="font-size: 15px;">Jakie korzyści zyskujesz?</h4>
-                        <ul class="icon-list bullet-bg bullet-soft-pink">
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
-                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
+                    <div class="mb-4">
+                        <h4 class="mb-2" style="font-size: 15px;">Każda spółka jest przygotowana do startu i posiada:</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-pink mb-0">
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Wpis w CRBR</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Obrazek -->
-                <div class="col-lg-6">
-                    <figure class="rounded shadow-lg mb-0">
-                        <img src="{{ asset('assets/img/services/soc_1.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded">
+                <div class="col-lg-8 d-flex align-items-stretch">
+                    <figure class="rounded shadow-lg mb-0 w-100">
+                        <img src="{{ asset('assets/img/services/soc_1.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded w-100 h-100 object-fit-cover">
                     </figure>
                 </div>
             </div>
-
-            <!-- Zakończenie -->
-            <div class="row mt-10">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="lead fw-bold mb-5" style="font-size: 20px; !important;">
-                        Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa. Skontaktuj się z
-                        nami i rozpocznij działalność już dziś!
-                    </p>
-{{--                    <a href="#kontakt" class="btn btn-primary btn-lg rounded-pill">Skontaktuj się z nami</a>--}}
-                </div>
-            </div>
-
         </div>
     </section>
-
-
-    <hr class="bg-violet border-2 border-top border-pink"/>
 
     {{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
@@ -149,7 +132,6 @@
         </div>
     </div>
 
-{{--    TODO PODMINIC NA JAKIE KORZYSCI ZYSKUJESZ Z WORK WYMIENIC--}}
     <div class="tab-content mt-6 mt-lg-8">
         <div class="tab-pane fade show active" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -158,29 +140,35 @@
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
-{{--                    <h2 class="mb-3 text-pink">Nasze gotowe spółki</h2>--}}
-                    <p>Spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS możemy
-                        dokonać w tym systemie lub notarialnie. Nasze wieloletnie doświadczenie pomaga nam pewnie działać w
-                        obu systemach sądowych i z sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.</p>
-                    <p>
-                        Jedynym założycielem i udziałowcem w gotowych spółkach jest Nobel. Zapewniamy, że
-                        założone przez nas spółki nigdy nie prowadziły żadnej działalności gospodarczej, nie
-                        posiadają żadnych aktywów, nie zatrudniają osób, ani nie posiadają żadnych zobowiązań.
+                    <h2 class="display-4 mb-4">
+                        Chcesz rozpocząć działalność bez zbędnych formalności i opóźnień?
+                    </h2>
+                    <p class="justify-content-center" style="text-align: justify;">
+                        Sprzedaż spółek oraz przeniesienie udziałów realizujemy zarówno w systemie S24, jak i w formie notarialnej. Dzięki naszemu doświadczeniu w obrocie gotowymi spółkami, przeprowadzamy cały proces sprawnie i bezpiecznie, zapewniając wsparcie przy formalnościach, niezależnie czy sprawa jest prosta, czy wymaga bardziej skomplikowanych działań.
                     </p>
-                    <b>Każda spółka posiada: </b>
-                    <ul class="icon-list bullet-bg bullet-soft-fuchsia">
-                        <li><i class="uil uil-check bg-pink text-white"></i>Adres siedziby w Warszawie</li>
-                        <li><i class="uil uil-check bg-pink text-white"></i>Kapitał zakładowy 5000 zł</li>
-                        <li><i class="uil uil-check bg-pink text-white"></i>Numer KRS</li>
-                        <li><i class="uil uil-check bg-pink text-white"></i>Numer REGON</li>
-                        <li><i class="uil uil-check bg-pink text-white"></i>Pełna rejestracja dla celów podatkowych (CIT, VAT/VAT EU)</li>
-{{--                        <li><i class="uil uil-check bg-pink text-white"></i>Dostosowujemy dane w KRS, tj. skład zarządu, wspólnicy, nazwa, PKD itp.</li>--}}
-                    </ul>
+                    <div>
+                        <h4 class="mb-3" style="font-size: 15px;">Jakie korzyści zyskujesz?</h4>
+                        <ul class="icon-list bullet-bg bullet-soft-pink">
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Szybki start</strong> – działasz już pierwszego dnia.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Bezpieczeństwo</strong> – sprawna transakcja bez ryzyka.</li>
+                            <li style="font-size: 15px;"><i class="uil uil-check"></i> <strong>Wygoda i oszczędność czasu</strong> – formalności po naszej stronie.</li>
+                        </ul>
+                    </div>
                 </div>
                 <!--/column -->
             </div>
             <!--/.row -->
         </div>
+        <div class="row mt-10">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="lead fw-bold mb-5" style="font-size: 20px; !important;">
+                    Z nami zyskujesz solidne fundamenty dla swojego przedsiębiorstwa. Skontaktuj się z
+                    nami i rozpocznij działalność już dziś!
+                </p>
+                {{--                    <a href="#kontakt" class="btn btn-primary btn-lg rounded-pill">Skontaktuj się z nami</a>--}}
+            </div>
+        </div>
+
         <!--/.tab-pane -->
         <div class="tab-pane fade" id="tab2-2">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
