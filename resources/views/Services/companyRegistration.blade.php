@@ -20,7 +20,7 @@
                         <p class="mb-4" style="text-align: justify">
                             Marzysz o założeniu własnej firmy, ale obawiasz się biurokracji i formalności?
                             Z nami proces zakładania spółki jest prosty, szybki i bezpieczny.
-                            Dzięki naszemu doświadczeniu przeprowadzimy Cię przez każdy etap,
+                            <br>Dzięki naszemu doświadczeniu przeprowadzimy Cię przez każdy etap,
                             zapewniając odpowiednie wsparcie i minimum formalności.
                             Dzięki temu Ty możesz skupić się na tym, co najważniejsze – rozwoju swojego biznesu.
                         </p>
@@ -215,10 +215,9 @@
 
                 {{--    /PRICE    --}}
 
-{{-- dodac teksty w istniejacym layoucie--}}
                 <div class="col-12">
                     <h3 class="display-6 mb-4 text-orange">Dodatkowe usługi, które mogą Ci się przydać</h3>
-                    <p class="mb-6">Aby jeszcze bardziej ułatwić Ci prowadzenie biznesu, oferujemy szereg powiązanych usług.
+                    <p class="lead fs-lg">Aby jeszcze bardziej ułatwić Ci prowadzenie biznesu, oferujemy szereg powiązanych usług.
                         Poniżej przedstawiamy wybrane z nich, które mogą okazać się niezwykle pomocne na różnych etapach rozwoju Twojej firmy:</p>
                 </div>
 
@@ -311,16 +310,11 @@
                 <h2 class="display-4 mb-3 text-orange">Zapewniamy pełne wsparcie w zależności od Twoich potrzeb i planów biznesowych.</h2>
                 <p class="lead fs-lg">Specjalizujemy się w rejestracji</p>
                 <div class="row gy-3 gx-xl-8">
-                    <div class="col-xl-6">
-                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                    <div class="col-xl-12">
+                        <ul class="icon-list bullet-bg bullet-soft-orange mb-0">
                             <li><span><i class="uil uil-check"></i></span><span>Spółki z ograniczoną odpowiedzialnością</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki akcyjnej</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki jawnej</span></li>
-                        </ul>
-                    </div>
-                    <!--/column -->
-                    <div class="col-xl-6">
-                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
                             <li><span><i class="uil uil-check"></i></span><span>Spółki komandytowej</span></li>
                             <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Spółki komandytowo-akcyjnej</span></li>
                         </ul>
