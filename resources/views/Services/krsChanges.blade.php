@@ -36,19 +36,19 @@
                                 <div class="row gx-md-5 gy-5">
                                     <div class="col-md-10 offset-md-2">
                                         <figure class="rounded">
-                                            <img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                            <img src="{{asset('assets/img/services/divided/ab1.jpg')}}" srcset="{{asset('assets/img/services/divided/ab1.jpg')}}" alt="" class="img-fluid w-100 object-fit-cover">
                                         </figure>
                                     </div>
                                     <div class="col-md-12">
                                         <figure class="rounded">
-                                            <img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                            <img src="{{asset('assets/img/services/divided/ab2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab2.jpg')}}" alt="" class="img-fluid w-100 object-fit-cover">
                                         </figure>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <figure class="rounded">
-                                    <img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                    <img src="{{asset('assets/img/services/divided/ab3.jpg')}}" srcset="{{asset('assets/img/services/divided/ab3.jpg')}}" alt="" class="img-fluid w-100 object-fit-cover">
                                 </figure>
                             </div>
                         </div>
@@ -129,10 +129,10 @@
                     <div class="col-md-6 col-lg-5 position-relative">
                         <div class="shape bg-dot yellow rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
                         <div class="shape rounded bg-soft-yellow rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%;"></div>
-                        <figure class="rounded"><img src="./assets/img/photos/about7.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
+                        <figure class="rounded"><img src="{{asset('assets/img/services/krs_changes.jpg')}}" srcset="{{asset('assets/img/services/krs_changes.jpg')}}" alt="" /></figure>
                     </div>
                     <!--/column-->
-                    <div class="col-lg-8 col-xl-6 offset-lg-1">
+                    <div class="col-lg-7 col-xl-6 offset-lg-1">
                         <h3 class="display-4 mb-5">Spójrz jak działamy:</h3>
                         <div class="d-flex flex-row mb-5">
                             <div>

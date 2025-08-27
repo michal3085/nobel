@@ -291,16 +291,16 @@
         </div>
 
         <div class="row gx-lg-8 gx-xl-12 gy-10 mb-10 mb-md-12 align-items-center">
-            <div class="col-lg-6 order-lg-2">
+            <div class="col-lg-7 order-lg-2">
                 <div class="row gx-md-5 gy-5 align-items-center">
                     <div class="col-md-6">
                         <div class="row gx-md-5 gy-5">
                             <div class="col-md-10 offset-md-2" data-cue="fadeIn" data-delay="300">
-                                <figure class="rounded"><img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt=""></figure>
+                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab1_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab1_v2.jpg')}}" alt=""></figure>
                             </div>
                             <!--/column -->
                             <div class="col-md-12" data-cue="fadeIn" data-delay="900">
-                                <figure class="rounded"><img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt=""></figure>
+                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab2_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab2_v2.jpg')}}" alt=""></figure>
                             </div>
                             <!--/column -->
                         </div>
@@ -308,15 +308,15 @@
                     </div>
                     <!--/column -->
                     <div class="col-md-6" data-cue="fadeIn" data-delay="600">
-                        <figure class="rounded"><img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt=""></figure>
+                        <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab3_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab3_v2.jpg')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                 </div>
                 <!--/.row -->
             </div>
             <!--/column -->
-            <div class="col-lg-6">
-                <h2 class="display-4 mb-3 text-orange">Zapewniamy pełne wsparcie w zależności od Twoich potrzeb i planów biznesowych.</h2>
+            <div class="col-lg-5">
+                <h2 class="display-4 mb-3 fs-28 text-orange">Zapewniamy pełne wsparcie w zależności od Twoich potrzeb i planów biznesowych.</h2>
                 <p class="lead fs-lg">Specjalizujemy się w rejestracji</p>
                 <div class="row gy-3 gx-xl-8">
                     <div class="col-xl-12">
