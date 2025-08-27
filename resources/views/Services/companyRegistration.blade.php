@@ -1,16 +1,27 @@
 @extends('_layout')
 
 @section('content')
+    <section class="wrapper bg-light mt-3">
+        <div class="container pt-4 pb-4 text-center">
+            <div class="row">
+                <div class="col-lg-10 col-xl-7 col-xxl-10 mx-auto" data-cues="slideInDown" data-group="page-title">
+                    <h1 class="display-1 fs-60 mb-4 px-md-15 px-lg-0">
+                        Rejestracja Sółki Prosty Proces z <span class="underline-3 style-3 orange">Naszym Wspraciem</span>
+                    </h1>
+                    <p class="lead fs-20 lh-sm mb-3 mx-md-13 mx-lg-12 justify-content-center" style="font-size: 20px;">
+                        Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
+                        i profesjonalizmu na każdym etapie.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="wrapper bg-light">
         <div class="container pb-5 pb-md-7"> <!-- Zmniejszono padding-bottom -->
-            <div class="col-lg-12 text-center text-lg-start">
-                <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15">
-                    <span class="underline-3 style-2 orange">Rejestracja spółki</span>
-                </h3>
-            </div>
             <br>
             <br>
-{{--            TODO WIEKSZE ZDJECIA ABY UZYSKAC SZACHOWNICE    --}}
+
+
             <section class="wrapper bg-light">
                 <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3 align-items-center">
                     <!-- kolumna z tekstem -->
