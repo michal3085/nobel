@@ -1,6 +1,6 @@
 <header class="wrapper bg-soft-primary">
     <nav class="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container d-flex justify-content-between align-items-center flex-nowrap">
 
             <!-- Logo po lewej -->
             <div class="navbar-brand me-auto">
@@ -28,8 +28,8 @@
                         <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
-                    <div class="offcanvas-body d-lg-flex">
-                        <ul class="navbar-nav flex-column flex-lg-row flex-wrap">
+                    <div class="offcanvas-body d-lg-flex flex-nowrap">
+                        <ul class="navbar-nav flex-column flex-lg-row flex-nowrap">
                             <!-- Gotowe biuro dropdown -->
                             <li class="nav-item dropdown">
                                 <a id="gotoweBiuroToggle"
@@ -126,6 +126,27 @@
         </div>
     </nav>
 </header>
+
+<style>
+    /* Zapobiega zawijaniu menu i nadmiernym odstępom */
+    .navbar-collapse-wrapper,
+    .navbar-nav.flex-lg-row {
+        flex-wrap: nowrap !important;
+    }
+
+    .navbar-nav .nav-link {
+        white-space: nowrap;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+    }
+
+    @media (max-width: 991.98px) {
+        .navbar-nav.flex-lg-row {
+            flex-direction: column !important;
+            flex-wrap: wrap !important;
+        }
+    }
+</style>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {

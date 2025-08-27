@@ -39704,3 +39704,10 @@ footer.bg-dark.angled.upper-start:before {
     left: 0;
     top: 0;
 }
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}
