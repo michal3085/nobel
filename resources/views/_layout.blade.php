@@ -96,7 +96,8 @@
 
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <p class="mb-4" style="font-size: 12px;">© 2025</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <p class="mb-4" style="font-size: 12px;">© 2025</script> Nobel.pro Sp. z o.o.<br class="d-none d-lg-block" /> Wszystkie prawa zastrzeżone <br class="d-none d-lg-block" /><br class="d-none d-lg-block" />Wykonanie strony: <a href="mailto:michal.broszkiewicz@bmsoftware.com.pl" target="_blank" style="color: #fff;"> BMSOFTWARE</a>.
+                    </p>
                     <nav class="nav social">
 {{--                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>--}}
                         <a href="https://www.facebook.com/Nobel.pro"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
