@@ -1,4 +1,22 @@
+<style>
+    .image-wrapper {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 400px; /* stała wysokość sekcji */
+    }
 
+    .image-wrapper .card-body {
+        height: 100%;                /* wypełnij całą wysokość */
+        display: flex;               /* flexbox */
+        align-items: center;         /* pionowe wyśrodkowanie */
+        justify-content: center;     /* poziome wyśrodkowanie */
+        text-align: center;          /* dla bezpieczeństwa, żeby tekst był na środku */
+    }
+</style>
 
 
 <div class="pricing-wrapper position-relative mt-8">
@@ -106,20 +124,20 @@
 </div>
 
 
-<div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mb-12 mt-10" data-image-src="{{asset('/assets/img/photos/bg-bw.jpg')}}">
+<div class="card image-wrapper bg-overlay bg-overlay-300 mb-12 mt-10"
+     style="background-image: url('{{asset('/assets/img/services/vo_banner.jpg')}}');">
     <div class="card-body p-10 p-xl-12">
-        <div class="row text-center">
+        <div class="row">
             <div class="col-xl-11 col-xxl-9 mx-auto">
                 <h3 class="display-1 mb-8 px-lg-8 text-white" style="font-size: 25px;">
-                    Oferujemy pełen zakres usług związanych ze zmianami w KRS w systemach PRS i S24.<br> Nasze wsparcie obejmuje przygotowanie uchwał, umów zbycia udziałów/akcji oraz dopilnowanie ostatecznej aktualizacji wpisów w KRS.
+                    Oferujemy pełen zakres usług związanych ze zmianami w KRS w systemach PRS i S24.<br>
+                    Nasze wsparcie obejmuje przygotowanie uchwał, umów zbycia udziałów/akcji oraz dopilnowanie ostatecznej aktualizacji wpisów w KRS.
                 </h3>
             </div>
-            <!-- /column -->
         </div>
-        <!-- /.row -->
     </div>
-    <!--/.card-body -->
 </div>
+
 
 @include('Services.modal._modal')
 <script>
