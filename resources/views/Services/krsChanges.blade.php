@@ -47,79 +47,81 @@
             </div>
         </section>
 
-        <section class="wrapper bg-light">
-            <div class="container py-14 py-md-18">
-                <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center ">
+        <section class="wrapper bg-light mt-3">
+            <div class="container pt-4 pb-4 text-center">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-7 col-xxl-10 mx-auto" data-cues="slideInDown" data-group="page-title">
+                        <h1 class="display-1 fs-60 mb-4 px-md-15 px-lg-0">
+                            Profesjonalne Zmiany Danych w KRS Twoja Firma w <span class="underline-3 style-3 yellow">Dobrych Rękach</span>
+                        </h1>
+                        <p class="lead fs-22 lh-sm mb-4 mx-md-13 mx-lg-12 justify-content-center" style="font-size: 20px;">
+                            Potrzebujesz wprowadzić zmiany w Krajowym Rejestrze Sądowym? <br> Oddaj to w ręce ekspertów, którzy zadbają o każdy szczegół, oszczędzając Twój czas i energię. Z nami proces aktualizacji danych w KRS jest prosty, szybki i w pełni profesjonalny.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wrapper bg-light mb-3">
+            <div class="container pt-3 pb-3">
+                <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center">
+                    <!-- Kolumna ze zdjęciami -->
                     <div class="col-lg-6 position-relative">
-                        <div class="btn btn-circle btn-yellow pe-none position-absolute counter-wrapper flex-column d-none d-md-flex" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 170px; height: 170px;">
-                            <h3 class="text-white mb-1 mt-n3"><span class="counter counter-lg">25</span></h3>
-                            <p>Lat doświadczenia</p>
-                        </div>
                         <div class="row gx-md-5 gy-5 align-items-center">
-                            <div class="col-md-6">
+                            <div class="col-md-6 position-relative">
                                 <div class="row gx-md-5 gy-5">
                                     <div class="col-md-10 offset-md-2">
-                                        <figure class="rounded"><img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt=""></figure>
+                                        <figure class="rounded">
+                                            <img src="./assets/img/photos/ab1.jpg" srcset="./assets/img/photos/ab1@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                        </figure>
                                     </div>
-                                    <!--/column -->
                                     <div class="col-md-12">
-                                        <figure class="rounded"><img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt=""></figure>
+                                        <figure class="rounded">
+                                            <img src="./assets/img/photos/ab2.jpg" srcset="./assets/img/photos/ab2@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                        </figure>
                                     </div>
-                                    <!--/column -->
                                 </div>
-                                <!--/.row -->
                             </div>
-                            <!--/column -->
                             <div class="col-md-6">
-                                <figure class="rounded"><img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt=""></figure>
+                                <figure class="rounded">
+                                    <img src="./assets/img/photos/ab3.jpg" srcset="./assets/img/photos/ab3@2x.jpg 2x" alt="" class="img-fluid w-100 object-fit-cover">
+                                </figure>
                             </div>
-                            <!--/column -->
                         </div>
-                        <!--/.row -->
                     </div>
-                    <!--/column -->
+
+                    <!-- Kolumna z listą zmian -->
                     <div class="col-lg-6">
-                        <h3 class="display-4 mb-5">Przeprowadzamy kompleksowe zmiany w KRS</h3>
-                        <p class="mb-7"  style="text-align: justify;">
-                            Specjalizujemy się w procesach począwszy od rejestracji i sprzedaży spółek, poprzez aktualizacje,
-                            zawieszenia kończąc na likwidacjach i wykreśleniach z KRS. Obsługujemy także fundacje i stowarzyszenia
-                            oraz wszelkie inne podmioty wpisane do rejestru KRS.
-                            <br>
-                            W przypadku zmian w których niezbędne jest uzyskanie dokumentów potwierdzonych przez
-                            notariusza np. zbycie udziałów, zmiana umowy spółki w formie aktu notarialnego,
-                            zwyczajowo kontaktujemy się z notariuszem w imieniu klienta i ustalamy cały zakres
-                            <br>
+                        <p class="mb-7" style="text-align: justify;">
                             <b>Najczęstsze aktualizacje dotyczą:</b>
                         </p>
-{{--                        TODO USUNAC SLOWA ZMIANA --}}
+
                         <div class="row gy-3">
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-yellow mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany adresu siedziby</span></li>
-                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiana nazwy firmy</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany wspólników</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiana podwyższenia kapitału</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">adresu siedziby</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">nazwy firmy</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">wspólników</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">podwyższenia kapitału</span></li>
                                 </ul>
                             </div>
-                            <!--/column -->
                             <div class="col-xl-6">
                                 <ul class="icon-list bullet-bg bullet-soft-yellow mb-0">
-                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany członków zarządu</span></li>
-                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany sposobu reprezentacji</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany przedmiotu działalności (PKD)</span></li>
-                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zmiany umowy spółki</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">członków zarządu</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">sposobu reprezentacji</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">przedmiotu działalności (PKD)</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">umowy spółki</span></li>
                                 </ul>
                             </div>
-                            <!--/column -->
                         </div>
-                        <!--/.row -->
                     </div>
-                    <!--/column -->
                 </div>
-                <!--/.row -->
             </div>
-            <!-- /.container -->
         </section>
+
+
+
+
 
         <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="./assets/img/photos/bg10.jpg">
             <div class="container py-18">
@@ -137,7 +139,6 @@
             <!-- /.container -->
         </section>
 
-{{--        TODO ZMIANIC NA CO NAS WYROZNIA--}}
         <section class="wrapper bg-light">
             <div class="container pt-10 pt-md-12 pb-4 pb-md-10">
                 <div class="row gy-10 gy-sm-13 gx-lg-3 mb-12 mb-md-14 align-items-center">
@@ -147,7 +148,7 @@
                         <figure class="rounded"><img src="./assets/img/photos/about7.jpg" srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
                     </div>
                     <!--/column-->
-                    <div class="col-lg-7 col-xl-6 offset-lg-1">
+                    <div class="col-lg-8 col-xl-6 offset-lg-1">
                         <h3 class="display-4 mb-5">Spójrz jak działamy:</h3>
                         <div class="d-flex flex-row mb-5">
                             <div>
@@ -155,8 +156,8 @@
                             </div>
                             <div>
                                 <h4 class="mb-1">1. Weryfikacja</h4>
-                                <p class="mb-0">- danych i sposobu przeprowadzenia zmiany,</p>
-                                <p class="mb-0">- wszelkich dokumentów wewnętrznych spółki,</p>
+                                <p class="mb-0 dot-item">danych i sposobu przeprowadzenia zmiany,</p>
+                                <p class="mb-0 dot-item">wszelkich dokumentów wewnętrznych spółki,</p>
                             </div>
                         </div>
                         <div class="d-flex flex-row mb-5">
@@ -165,8 +166,8 @@
                             </div>
                             <div>
                                 <h4 class="mb-1">2. Przygotowanie</h4>
-                                <p class="mb-0">- niezbędnych dokumentów oraz przedłożenie ich do podpisu,</p>
-                                <p class="mb-0">- wniosku sądowego, opłacenie* i wysłanie do właściwego wydziału KRS,</p>
+                                <p class="mb-0 dot-item">niezbędnych dokumentów oraz przedłożenie ich do podpisu,</p>
+                                <p class="mb-0 dot-item">wniosku sądowego, opłacenie* i wysłanie do właściwego wydziału KRS,</p>
                             </div>
                         </div>
                         <div class="d-flex flex-row">
@@ -175,9 +176,9 @@
                             </div>
                             <div>
                                 <h4 class="mb-1">3. Kontrola KRS</h4>
-                                <p class="mb-0">- przebieg postępowania sądowego wraz ze złożeniem wniosków ponaglających postępowanie,</p>
-                                <p class="mb-0">- przesłanie nowego odpisu z KRS z wprowadzonymi zmianami po zakończeniu postępowania,</p>
-                                <p class="mb-0">- przekazanie informacji o następnych obowiązkowych etapach po wprowadzeniu zmiany w KRS takich jak: aktualizacja w rejestrze CRBR, Urzędzie Skarbowym, ZUS, banku.</p>
+                                <p class="mb-0 dot-item">przebieg postępowania sądowego wraz ze złożeniem wniosków ponaglających postępowanie,</p>
+                                <p class="mb-0 dot-item">przesłanie nowego odpisu z KRS z wprowadzonymi zmianami po zakończeniu postępowania,</p>
+                                <p class="mb-0 dot-item">przekazanie informacji o następnych obowiązkowych etapach po wprowadzeniu zmiany w KRS takich jak: aktualizacja w rejestrze CRBR, Urzędzie Skarbowym, ZUS, banku.</p>
                             </div>
                         </div>
                     </div>
