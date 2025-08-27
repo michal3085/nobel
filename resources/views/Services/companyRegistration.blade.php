@@ -12,42 +12,58 @@
             <br>
 {{--            TODO WIEKSZE ZDJECIA ABY UZYSKAC SZACHOWNICE    --}}
             <section class="wrapper bg-light">
-                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3">
-                    <div class="col-12">
-                        <h3 class="display-6 mb-4">Prosty Proces z Naszym Wsparciem</h3>
-                        <p class="mb-4" style="text-align: justify">Marzysz o założeniu własnej firmy, ale obawiasz się biurokracji i formalności? Z nami
-                            proces zakładania spółki jest prosty, szybki i bezpieczny. Dzięki naszemu
-                            doświadczeniu przeprowadzimy Cię przez każdy etap, zapewniając odpowiednie wsparcie i
-                            minimum formalności. Dzięki temu Ty możesz skupić się na tym, co najważniejsze –
-                            rozwoju swojego biznesu.</p>
-                    </div>
-
+                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-3 align-items-center">
+                    <!-- kolumna z tekstem -->
                     <div class="col-lg-6">
                         <h3 class="display-6 mb-4">Dlaczego warto wybrać Nobel?</h3>
+
+                        <p class="mb-4" style="text-align: justify">
+                            Marzysz o założeniu własnej firmy, ale obawiasz się biurokracji i formalności?
+                            Z nami proces zakładania spółki jest prosty, szybki i bezpieczny.
+                            Dzięki naszemu doświadczeniu przeprowadzimy Cię przez każdy etap,
+                            zapewniając odpowiednie wsparcie i minimum formalności.
+                            Dzięki temu Ty możesz skupić się na tym, co najważniejsze – rozwoju swojego biznesu.
+                        </p>
+
                         <ul class="icon-list bullet-bg bullet-soft-orange">
-                            <li><span><i class="uil uil-check"></i></span><span><b>Minimum formalności</b> – zajmujemy się wszystkim za Ciebie, oszczędzając Twój czas i energię.</span></li>
-                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span><b>Kompleksowe wsparcie</b> – od pierwszych kroków aż po rejestrację i dalsze działania, jesteśmy z Tobą na każdym etapie.</span></li>
-                            <li><span><i class="uil uil-check"></i></span><span><b>Bezpieczeństwo i zgodność z przepisami</b> – dbamy o poprawność dokumentów i współpracujemy z zaufanymi notariuszami</span></li>
+                            <li><span><i class="uil uil-check"></i></span>
+                                <span><b>Minimum formalności</b> – zajmujemy się wszystkim za Ciebie, oszczędzając Twój czas i energię.</span>
+                            </li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span>
+                                <span><b>Kompleksowe wsparcie</b> – od pierwszych kroków aż po rejestrację i dalsze działania, jesteśmy z Tobą na każdym etapie.</span>
+                            </li>
+                            <li><span><i class="uil uil-check"></i></span>
+                                <span><b>Bezpieczeństwo i zgodność z przepisami</b> – dbamy o poprawność dokumentów i współpracujemy z zaufanymi notariuszami</span>
+                            </li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-5">
-                        <figure class="rounded shadow-lg"><img src="{{asset('assets/img/services/rch_5.jpg')}}" srcset="{{asset('assets/img/services/rch_5.jpg')}}" alt=""></figure>
+                    <!-- kolumna ze zdjęciem -->
+                    <div class="col-lg-6">
+                        <figure class="rounded shadow-lg">
+                            <img src="{{asset('assets/img/services/rch_5.jpg')}}"
+                                 srcset="{{asset('assets/img/services/rch_5.jpg')}}"
+                                 alt="" class="img-fluid w-100 h-100 object-fit-cover">
+                        </figure>
                     </div>
                 </div>
 
                 <div class="row gy-6 gx-lg-4 mb-10 mt-6 align-items-center">
                     <!-- kolumna ze zdjęciem -->
-                    <div class="col-md-5 col-lg-5 position-relative"> <!-- mniejsza kolumna -->
-                        <div class="shape bg-dot orange rellax w-10 h-12" data-rellax-speed="1" style="top: -1rem; left: -1rem;"></div>
-                        <div class="shape rounded rellax d-md-block" data-rellax-speed="0" style="bottom: -1rem; right: -1rem; width: 60%; height: 65%;"></div>
-                        <figure class="rounded">
-                            <img src="{{asset('assets/img/services/rch_1.jpg')}}" srcset="{{asset('assets/img/services/rch_1.jpg')}}" alt="" class="img-fluid w-60"/> <!-- zdjęcie mniejsze -->
+                    <div class="col-md-6 col-lg-6 position-relative">
+                        <div class="shape bg-dot orange rellax w-10 h-12"
+                             data-rellax-speed="1" style="top: -1rem; left: -1rem;"></div>
+                        <div class="shape rounded rellax d-md-block"
+                             data-rellax-speed="0" style="bottom: -1rem; right: -1rem; width: 60%; height: 65%;"></div>
+                        <figure class="rounded shadow-lg">
+                            <img src="{{asset('assets/img/services/rch_1.jpg')}}"
+                                 srcset="{{asset('assets/img/services/rch_1.jpg')}}"
+                                 alt="" class="img-fluid w-100 h-100 object-fit-cover">
                         </figure>
                     </div>
 
                     <!-- kolumna z tekstem -->
-                    <div class="col-md-7 col-lg-7">
+                    <div class="col-md-6 col-lg-6">
                         <h2 class="fs-16 text-uppercase text-line text-orange mb-4">Jak to działa?</h2>
 
                         <div class="d-flex flex-row mb-4">
