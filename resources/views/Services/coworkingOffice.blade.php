@@ -7,51 +7,6 @@
             <h1 class="display-1 underline-3 style-2 aqua text-white mb-4">Coworking <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="Coworking"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
                 <br>
 
-{{--            <section class="wrapper bg-aqua lower-start" style="border-radius: 100px 100px 100px 100px;">--}}
-{{--                <div class="container pt-7 pt-md-11 pb-8 mb-20">--}}
-{{--                    <div class="row gx-0 gy-10 align-items-center">--}}
-{{--                        <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="600">--}}
-{{--                            <h1 class="display-1 text-white mb-4">Coworking <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="miejsce do pracy"></span><span class="cursor text-primary" data-owner="typer"></span></h1>--}}
-{{--                            <p class="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">Unikaj kosztów wynajmu biura, płacąc tylko za to, czego faktycznie potrzebujesz.</p>--}}
-{{--                            <div>--}}
-{{--                                <a class="btn btn-lg btn-primary rounded">Zapytaj o dostępność</a>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <!-- /column -->--}}
-{{--                        <div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">--}}
-{{--                            <div class="position-relative">--}}
-{{--                                <a href="./assets/media/movie.mp4" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>--}}
-{{--                                <figure class="rounded shadow-lg"><img src="./assets/img/photos/about13.jpg" srcset="./assets/img/photos/about13@2x.jpg 2x" alt=""></figure>--}}
-{{--                            </div>--}}
-{{--                            <!-- /div -->--}}
-{{--                        </div>--}}
-{{--                        <!-- /column -->--}}
-{{--                    </div>--}}
-{{--                    <!-- /.row -->--}}
-{{--                </div>--}}
-{{--                <!-- /.container -->--}}
-{{--            </section>--}}
-
-{{--            <hr class="bg-violet border-2 border-top border-aqua my-5" />--}}
-
-            {{-- Tytuł --}}
-{{--            <div class="row">--}}
-{{--                <div class="col-12 text-center text-lg-start mb-3">--}}
-{{--                    <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-0">--}}
-{{--                        <span class="underline-3 style-2 ">Coworking</span>--}}
-{{--                    </h3>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
-            {{-- Opis pod tytułem --}}
-{{--            <div class="row">--}}
-{{--                <div class="col-12 text-center text-lg-start mb-5">--}}
-{{--                    <p class="lead mb-0">--}}
-{{--                        Unikaj kosztów wynajmu biura, płacąc tylko za to, czego faktycznie potrzebujesz.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-
             {{-- Kafelki (wyrównane do lewej) --}}
             <div class="row g-4">
                 <div class="col-12 col-sm-8 col-md-6 col-lg-3 d-flex">
@@ -104,7 +59,7 @@
                     <!-- /column -->
                 </div>
 
-                <div class="row gx-md-8 gy-8 mb-14 mb-md-10">
+                <div class="row gx-md-8 gy-8 mb-14 mb-md-10 justify-content-center text-center">
                     <div class="col-md-6 col-lg-3">
                         <div class="icon btn btn-block btn-lg btn-soft-aqua pe-none mb-6"> <i class="uil uil-check"></i> </div>
                         <h4>Elastyczność</h4>
