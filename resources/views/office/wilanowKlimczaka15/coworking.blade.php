@@ -101,6 +101,13 @@
                                     <li><i class="uil uil-check"></i><span style="font-size: 15px;">Stanowisko pracy w biurze wieloosobowym</span></li>
                                     <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne 24/7</span></li>
                                 </ul>
+                                <a href="#"
+                                   class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
+                                   data-office="KLIMCZAKA 15 WILANÓW"
+                                   data-bs-toggle="modal"
+                                   data-bs-target="#modal-offices">
+                                    Zapytaj o dostępność
+                                </a>
                             </div>
                         </div>
                     </div>
