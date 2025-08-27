@@ -29,7 +29,7 @@
         <div class="col-md-6 col-lg-4">
             <div class="pricing card text-center">
                 <div class="card-body">
-                    <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+                    <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                     <h4 class="card-title">Adres do korespondencji</h4>
                     Osoba Fizyczna
                     <div class="prices text-dark">
@@ -62,7 +62,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
                 </div>
                 <div class="card-body">
-                    <img src="{{asset('./assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
+                    <img src="{{asset('assets/img/icons/lineal/home.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                     <h4 class="card-title">Prestiżowy adres </h4>
                     Firma
                     <div class="prices text-dark">
@@ -95,7 +95,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ikona prezentu">
                 </div>
                 <div class="card-body">
-                    <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                    <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                     <h4 class="card-title">Wirtualne biuro</h4>
                     Firma
                     <div class="prices text-dark">

@@ -105,7 +105,7 @@
                         </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
-                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+                                <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                 <h4 class="card-title">Coworking</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">750</span> <span class="price-duration">mc</span></div>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
-                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
+                                <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
                                 <h4 class="card-title">Co-office</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">750</span> <span class="price-duration">mc</span></div>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="card-body d-flex flex-column align-items-center h-100">
                             <div>
-                                <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                                <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
                                 <h4 class="card-title">Co-office Plus</h4>
                                 <div class="prices text-dark">
                                     <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1250</span> <span class="price-duration">mc</span></div>

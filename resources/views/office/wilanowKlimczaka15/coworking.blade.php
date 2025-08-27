@@ -86,7 +86,7 @@
                             </div>
                             <div class="card-body d-flex flex-column align-items-center h-100">
                                 <div>
-                                    <img src="{{asset('./assets/img/icons/lineal/briefcase-2.svg')}}"
+                                    <img src="{{asset('assets/img/icons/lineal/briefcase-2.svg')}}"
                                          class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
                                     <h4 class="card-title">Coworking</h4>
                                     <div class="prices text-dark">
