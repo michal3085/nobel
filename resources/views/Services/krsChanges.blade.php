@@ -92,7 +92,28 @@
 
                     <!-- Kolumna z listą zmian -->
                     <div class="col-lg-6">
-                        <p class="mb-7" style="text-align: justify;">
+                        <!-- Nowy opis, taki sam styl jak poprzedni tytuł -->
+                        <p class="mb-n3 mt-n8" style="text-align: justify;">
+                            <b>Obsługujemy pełen zakres zmian dla spółek, fundacji, stowarzyszeń i innych podmiotów wpisanych do KRS, w tym:</b>
+                        </p>
+
+                        <div class="row gy-3">
+                            <div class="col-xl-6">
+                                <ul class="icon-list bullet-bg bullet-soft-yellow mb-0">
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Rejestracje i sprzedaż spółek</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Aktualizacje danych (np. zmiana adresu, zarządu, PKD)</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-6">
+                                <ul class="icon-list bullet-bg bullet-soft-yellow mb-0">
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Zawieszenia działalności</span></li>
+                                    <li><span><i class="uil uil-check"></i></span><span style="font-size: 13px;">Likwidacje i wykreślenia</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Oryginalna lista -->
+                        <p class="mb-n3 mt-3" style="text-align: justify;">
                             <b>Najczęstsze aktualizacje dotyczą:</b>
                         </p>
 
@@ -115,6 +136,9 @@
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
         </section>
