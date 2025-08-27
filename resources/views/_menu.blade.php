@@ -5,7 +5,9 @@
             <!-- Logo po lewej -->
             <div class="navbar-brand me-auto">
                 <a href="/">
-                    <img class="logo-dark" src="{{ asset('/assets/img/logo/logo_purple_121x32.png') }}" alt="Logo" />
+                    <img class="logo-dark img-fluid"
+                         src="{{ asset('/assets/img/logo/logo_purple.png') }}"
+                         alt="Logo" style="max-height:40px; width:auto;" />
                 </a>
             </div>
 
