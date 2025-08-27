@@ -60,8 +60,8 @@
                                                     Biura na <b>12 piętrze</b> Multis Plaza, w pobliżu ul. Sobieskiego i Sikorskiego.
                                                     Doskonałe miejsce dla zespołów, z <b>obsługą biura, salą konferencyjną i widokiem na
                                                     Warszawę.</b>
-                                                    Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>, dopasowanej do Twoich
-                                                    potrzeb.
+                                                    <br><br>
+                                                    Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
 
                                                 </p>
                                                 @endif
