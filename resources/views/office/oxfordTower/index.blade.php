@@ -15,14 +15,14 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
+                                            <div class="post-category text-green mb-1">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 green">Śródmieście Chałubińskiego 8</h2>
                                             <p class="text-muted">
                                                 22 piętro z widokiem na sukces.
                                             </p>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
-                                        <div class="mb-3">
+                                        <div class="mb-n2">
                                             @if ($mainMenu !== 'virtualOffices')
                                                 <h3 class="text-green">od 1 500 PLN</h3>
                                             @endif
@@ -31,10 +31,8 @@
                                         <div class="post-content">
                                                 @if ($mainMenu === 'virtualOffices')
                                                 <p style="text-align: justify">
-                                                    Przenieś swoją firmę na 22. piętro słynnego Oxford Tower – jednego z pierwszych
-                                                    warszawskich drapaczy chmur. Prestiżowy adres w sąsiedztwie Pałacu Kultury i
-                                                    Nauki, Warsaw Presidential Hotel (dawniej Marriott) oraz Dworca Centralnego
-                                                    podkreśli profesjonalizm Twojej działalności.
+                                                    Przenieś firmę na 22. piętro Oxford Tower – jednego z pierwszych warszawskich drapaczy chmur.
+                                                    Prestiżowa lokalizacja obok Pałacu Kultury i Nauki oraz Dworca Centralnego.
                                                 </p>
 
                                             <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
@@ -42,6 +40,9 @@
                                                 <li><i class="uil uil-check"></i><b>Elastyczne możliwości pracy</b> – skorzystaj z coworkingu lub w pełni umeblowanych gabinetów gotowych do pracy od zaraz.</li>
                                                 <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji miejskiej, restauracji i usług.</li>
                                             </ul>
+
+                                                Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Coworking</b></a> oraz <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Biuro</b></a>.
+                                                    <br><br>
                                                 @else
                                                 <p style="text-align: justify">
                                                     Biuro zlokalizowane na <b>22 piętrze w wieżowcu Oxford Tower</b> to idealna przestrzeń dla

@@ -50,6 +50,9 @@
                                                         <li><i class="uil uil-check"></i><b>Elastyczne możliwości pracy</b> – skorzystaj z coworkingu lub w pełni umeblowanych gabinetów gotowych do pracy od zaraz.</li>
                                                         <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji miejskiej, restauracji i usług.</li>
                                                     </ul>
+
+                                                Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Coworking</b></a> oraz <a href="{{route('office.route.dispatch', ['office' => 'wola-panska-96'])}}" class="text-blue"><b>Biuro</b></a>.
+                                                <br><br>
                                                 @else
                                                 <p style="text-align: justify">
                                                     <b>Nowoczesne biura</b> w sercu stołecznego biznesu — ponad <b>600 m²</b> gotowej do
