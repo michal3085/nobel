@@ -121,7 +121,7 @@
                 <hr class="bg-violet border-2 border-top border-blue"/>
 
                 <div class="row gx-md-8 gx-xl-12 gy-10">
-                    <h2>Charakterystyka lokalizacji</h2>
+                    <h2>O lokalizacji</h2>
 
                     <!-- Powierzchnia -->
                     <div class="col-lg-6">
