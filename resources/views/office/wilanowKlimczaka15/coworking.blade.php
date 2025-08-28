@@ -32,7 +32,7 @@
                                                 <span>
                                                     <a href="#"
                                                        class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
-                                                       data-office="KLIMCZAKA 15 WILANÓW"
+                                                       data-office="KLIMCZAKA 15 WILANÓW COWORKING"
                                                        data-bs-toggle="modal"
                                                        data-bs-target="#modal-offices">
                                                         Zapytaj o dostępność
@@ -104,7 +104,7 @@
                                 </ul>
                                 <a href="#"
                                    class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
-                                   data-office="KLIMCZAKA 15 WILANÓW"
+                                   data-office="KLIMCZAKA 15 WILANÓW COWORKING"
                                    data-bs-toggle="modal"
                                    data-bs-target="#modal-offices">
                                     Zapytaj o dostępność

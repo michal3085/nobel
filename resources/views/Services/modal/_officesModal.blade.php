@@ -8,7 +8,7 @@
                     <h2 class="mb-3 text-start">{{ _getOfficeTitle($mainMenu) }} - skontaktuj się z nami</h2>
                     <p class="lead mb-6 text-start">Wypełnij i wyślij formularz</p>
 
-                    <input type="hidden" name="formType" value="@if ($mainMenu === 'virtualOffices') virtualOffice @else readyOffice @endif">
+                    <input type="hidden" name="formType" value="{{ $mainMenu }}">
 
                     <div class="form-floating mb-4">
                         <select class="form-control" name="office_topic" id="nobel-office-topic-id">
