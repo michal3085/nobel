@@ -25,8 +25,8 @@
         <div class="container pt-4 pb-4 text-center">
             <div class="row">
                 <div class="col-lg-10 col-xl-7 col-xxl-10 mx-auto" data-cues="slideInDown" data-group="page-title">
-                    <h1 class="display-1 fs-60 mb-4 px-md-15 px-lg-0">
-                        Sprzedaż spółek Bezpieczny Start<span class="underline-3 style-3 pink">Twojego Biznesu</span>
+                    <h1 class="display-1 fs-50 mb-4 px-md-15 px-lg-0">
+                        Sprzedaż spółek Bezpieczny <br>Start<span class="underline-3 style-3 pink"> Twojego Biznesu</span>
                     </h1>
                     <p class="lead fs-22 lh-sm mb-3 mx-md-13 mx-lg-12 justify-content-center" style="font-size: 20px;">
                         Oferujemy gotowe spółki, które możesz uruchomić już pierwszego dnia.
@@ -82,7 +82,6 @@
         </div>
     </section>
 
-    {{--    TODO LISTA TEGO CO ZAWIERA CENA--}}
     <div class="pricing-wrapper position-relative mt-5 mb-12 mb-md-15">
         <div class="row gy-6 mt-3 mt-md-5">
             <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
@@ -93,6 +92,10 @@
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span></div>
                         </div>
+                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 1 miesiąc </span></li>
+                        </ul>
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka bez VAT">KUP</a>
                         </div>
@@ -108,6 +111,10 @@
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2500</span></div>
                         </div>
+                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 1 miesiąc </span></li>
+                        </ul>
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka z VAT/VAT UE">KUP</a>
                         </div>
@@ -119,15 +126,29 @@
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
                         <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
-                        <h4 class="card-title">Gotowa Spółka z adresem</h4>
+                        <h4 class="card-title">Gotowa Spółka sprzedaż w kancelarii notarialnej</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
+                        <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z VAT / VAT UE</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 6 miesięcy </span></li>
+                        </ul>
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa Spółka z adresem">KUP</a>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="text-start" style="margin-left: 170px;">
+                <small class="text-start d-inline-block">
+                    Cena nie zawiera<br>
+                    - opłata sądowa KRS 300 / 350 zł<br>
+                    - Opłata notarialna<br>
+                    - podatek PCC3 (0,5% wartości kapitału) tj. 23 zł przy kapitale 5000 zł
+                </small>
             </div>
         </div>
     </div>

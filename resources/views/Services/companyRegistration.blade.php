@@ -5,8 +5,8 @@
         <div class="container pt-4 pb-4 text-center">
             <div class="row">
                 <div class="col-lg-10 col-xl-7 col-xxl-10 mx-auto" data-cues="slideInDown" data-group="page-title">
-                    <h1 class="display-1 fs-60 mb-4 px-md-15 px-lg-0">
-                        Rejestracja Sółki Prosty Proces z <span class="underline-3 style-3 orange">Naszym Wspraciem</span>
+                    <h1 class="display-1 fs-50 mb-4 px-md-15 px-lg-0">
+                        Rejestracja Spółki Prosty Proces<br> z <span class="underline-3 style-3 orange">Naszym Wspraciem</span>
                     </h1>
                     <p class="lead fs-20 lh-sm mb-3 mx-md-13 mx-lg-12 justify-content-center" style="font-size: 20px;">
                         Nasze <strong>25-letnie doświadczenie</strong> to gwarancja bezpieczeństwa
