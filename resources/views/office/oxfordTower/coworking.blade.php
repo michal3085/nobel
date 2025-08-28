@@ -90,7 +90,7 @@
 
         <div class="pricing-wrapper position-relative mt-8">
             <h3 class="display-3 pe-xl-10 pe-xxl-15">
-                <span class="underline-3 style-2 green">Cennik</span>
+                <span class="underline-3 style-2 green">Pakiety</span>
             </h3>
             <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1" style="top: 2rem; right: -2.4rem;"></div>
             <div class="shape rounded-circle bg-line red rellax w-18 h-18 d-none d-lg-block" data-rellax-speed="1" style="bottom: 0.5rem; left: -2.5rem;"></div>

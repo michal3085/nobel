@@ -20,7 +20,7 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
                                 <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" style="font-size: 20px;">Pańska 96
                                     Centrum</a>
@@ -41,7 +41,7 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
                                 <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" style="font-size: 20px;">Chałubińskiego 8 Śródmieście</a>
                             </h2>
@@ -61,7 +61,7 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
                                 <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" style="font-size: 20px;">Pory 78 Mokotów</a>
                             </h2>
@@ -81,7 +81,7 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
                                 <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" style="font-size: 20px;">Klimczaka 15
                                     Wilanów</a>

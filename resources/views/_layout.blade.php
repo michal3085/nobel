@@ -102,7 +102,7 @@
 {{--                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>--}}
                         <a href="https://www.facebook.com/Nobel.pro"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
 {{--                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>--}}
-                        <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
+                        <a href="https://www.instagram.com/nobel_pro?igsh=MTV0cXE4NmQ1b3hpNA=="><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
 {{--                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>--}}
                     </nav>
                 </div>
@@ -139,7 +139,7 @@
                     <h4 class="widget-title text-white mb-3">Nasze linki</h4>
                     <ul class="list-unstyled  mb-0">
                         <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
-                        <li><a href="https://ekrs.ms.gov.pl/s24/">E-KRS</a></li>
+                        <li><a href="https://prs.ms.gov.pl/krs">E-KRS</a></li>
                         <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
                         <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
                         <li><a href="{{ route('politics.private') }}">Polityka Prywatności</a></li>
