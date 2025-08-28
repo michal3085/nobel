@@ -55,7 +55,7 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('/assets/img/photos/cs4-full.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2">
+                                        <a href="{{asset('assets/img/offices/oxf/coworking/cow7.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
                                             <img src="{{asset('assets/img/offices/oxf/coworking/cow7.jpg')}}" alt="" />
                                         </a>
                                     </figure>
@@ -63,7 +63,7 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
+                                        <a href="{{asset('assets/img/offices/oxf/coworking/cow14.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
                                             <img src="{{asset('assets/img/offices/oxf/coworking/cow14.jpg')}}" alt="" />
                                         </a>
                                     </figure>
@@ -71,7 +71,7 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
+                                        <a href="{{asset('assets/img/offices/oxf/new/2.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
                                             <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
                                         </a>
                                     </figure>
