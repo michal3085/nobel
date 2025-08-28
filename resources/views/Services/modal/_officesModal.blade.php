@@ -13,6 +13,7 @@
                     <div class="form-floating mb-4">
                         <select class="form-control" name="office_topic" id="nobel-office-topic-id">
                             <option value="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8">ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8</option>
+                            <option value="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING">ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING</option>
                             <option value="ŚRÓDMIEŚCIE PIĘKNA 15">ŚRÓDMIEŚCIE PIĘKNA 15</option>
                             <option value="PAŃSKA 96 WOLA">PAŃSKA 96 WOLA</option>
                             <option value="MOKOTÓW PORY 78">MOKOTÓW PORY 78</option>

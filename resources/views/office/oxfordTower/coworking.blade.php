@@ -40,7 +40,7 @@
                                                 <span>
                                                     <a href="#"
                                                        class="btn btn-sm btn-green rounded-pill me-2 nobel-contact-button"
-                                                       data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8"
+                                                       data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING"
                                                        data-bs-toggle="modal"
                                                        data-bs-target="#modal-offices">
                                                         Zapytaj o dostępność
@@ -115,8 +115,13 @@
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Stanowisko pracy w biurze wieloosobowym</span></li>
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne 24/7</span></li>
                             </ul>
-                            <a class="btn btn-soft-green rounded-pill mt-1" data-info="2"
-                               data-bs-toggle="modal" data-bs-target="#modal-offices">Zapytaj o dostępność</a>
+                            <a href="#"
+                               class="btn btn-soft-green rounded-pill mt-1 nobel-contact-button"
+                               data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING"
+                               data-bs-toggle="modal"
+                               data-bs-target="#modal-offices">
+                                Zapytaj o dostępność
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -139,8 +144,13 @@
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Biuro 1-os przez 1 dzień w tygodniu</span></li>
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne w dni powszednie w godz. 9-16</span></li>
                             </ul>
-                            <a class="btn btn-soft-green rounded-pill mt-1" data-info="2"
-                               data-bs-toggle="modal" data-bs-target="#modal-offices">Zapytaj o dostępność</a>
+                            <a href="#"
+                               class="btn btn-soft-green rounded-pill mt-1 nobel-contact-button"
+                               data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING"
+                               data-bs-toggle="modal"
+                               data-bs-target="#modal-offices">
+                                Zapytaj o dostępność
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -163,8 +173,13 @@
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Biuro 1-os przez 2 dni w tygodniu</span></li>
                                 <li><i class="uil uil-check"></i><span style="font-size: 15px;">Dostępne w dni powszednie w godz. 9-20</span></li>
                             </ul>
-                            <a class="btn btn-soft-green rounded-pill mt-1" data-info="2"
-                               data-bs-toggle="modal" data-bs-target="#modal-offices">Zapytaj o dostępność</a>
+                            <a href="#"
+                               class="btn btn-soft-green rounded-pill mt-1 nobel-contact-button"
+                               data-office="ŚRÓDMIEŚCIE CHAŁBIŃSKIEGO 8 COWORKING"
+                               data-bs-toggle="modal"
+                               data-bs-target="#modal-offices">
+                                Zapytaj o dostępność
+                            </a>
                         </div>
                     </div>
                 </div>
