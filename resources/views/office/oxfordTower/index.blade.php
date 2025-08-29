@@ -73,34 +73,92 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('/assets/img/photos/cs4-full.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/6.jpg')}}" alt="" />
+                                        <a href="{{ asset('assets/img/offices/oxf/6.jpg') }}"
+                                           data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/oxf/6_600.jpg') }}"
+                                                srcset="
+                                                  {{ asset('assets/img/offices/oxf/6_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/6_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Biuro Oxford Tower"
+                                                loading="lazy" />
                                         </a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
-                                            @if ($mainMenu === 'virtualOffices')
-                                                <img src="{{asset('assets/img/offices/oxf/wb/new1.jpg')}}" alt="" />
-                                            @else
-                                                <img src="{{asset('assets/img/offices/oxf/oxf5.jpg')}}" alt="" />
-                                            @endif
-                                        </a>
-                                    </figure>
+                                    @if ($mainMenu === 'virtualOffices')
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/wb/new1.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }}"
+                                                    srcset="
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_1200.jpg') }} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @else
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/oxf5.jpg')}}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/oxf5_600.jpg') }}"
+                                                    srcset="
+                                                  {{ asset('assets/img/offices/oxf/oxf5_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/oxf5_1200.jpg') }} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @endif
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            @if ($mainMenu === 'virtualOffices')
-                                                <img src="{{asset('assets/img/offices/oxf/wb/new2.jpg')}}" alt="" />
-                                            @else
-                                                <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
-                                            @endif
-                                        </a>
-                                    </figure>
+                                    @if ($mainMenu === 'virtualOffices')
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/wb/new2.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }}"
+                                                    srcset="
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_1200.jpg') }} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @else
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/new/2.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{asset('assets/img/offices/oxf/new/2_600.jpg')}}"
+                                                    srcset="
+                                                  {{asset('assets/img/offices/oxf/new/2_600.jpg')}} 600w,
+                                                  {{asset('assets/img/offices/oxf/new/2_1200.jpg')}} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @endif
                                 </div>
                                 <!-- /.item -->
                             </div>
