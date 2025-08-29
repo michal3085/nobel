@@ -81,21 +81,78 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/panska/WB/p_new_1.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/WB/p_new_1.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/panska/p_new_1.jpg')}}}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/p_new_1_600.jpg') }}"
+                                                        srcset="
+                                                  {{ asset('assets/img/offices/panska/p_new_1_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/panska/p_new_1_1200.jpg') }} 1200w
+                                                "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Biuro Oxford Tower"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @else
-                                            <a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/biuro_85.4_600.jpg') }}"
+                                                        srcset=
+                                                            "
+                                                              {{ asset('assets/img/offices/panska/biuro_85.4_600.jpg') }} 600w,
+                                                              {{ asset('assets/img/offices/panska/biuro_85.4_1200.jpg') }} 1200w
+                                                            "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Biuro Oxford Tower"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
-                                    </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/WB/p_new_2_600.jpg') }}"
+                                                        srcset=
+                                                            "
+                                                              {{ asset('assets/img/offices/panska/WB/p_new_2_600.jpg') }} 600w,
+                                                              {{ asset('assets/img/offices/panska/WB/p_new_2_1200.jpg') }} 1200w
+                                                            "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Biuro Oxford Tower"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @else
-                                            <a href="{{asset('assets/img/offices/panska/panska1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/panska1.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/panska/panska1.jpg')}}}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/panska1_600.jpg') }}"
+                                                        srcset=
+                                                            "
+                                                              {{ asset('assets/img/offices/panska/panska1_600.jpg') }} 600w,
+                                                              {{ asset('assets/img/offices/panska/panska1_1200.jpg') }} 1200w
+                                                            "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Biuro Oxford Tower"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
                                     </figure>
                                 </div>
