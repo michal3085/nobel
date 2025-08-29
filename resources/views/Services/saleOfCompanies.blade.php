@@ -90,14 +90,22 @@
                         <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
                         <h4 class="card-title">Gotowa spółka bez VAT</h4>
                         <div class="prices text-dark">
-                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1500</span></div>
+                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1800</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 1 miesiąc </span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. bez rejestracji VAT</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) w systemie S24 lub notarialnie</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 1 miesiąc gratis</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
                         </ul>
+                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm rozpoczynających działalność bez konieczności rejestracji VAT</p>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka bez VAT">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
+                               data-bs-toggle="modal" data-bs-target="#modal-ready-company"
+                               data-office="Gotowa spółka bez VAT">KUP</a>
                         </div>
                     </div>
                 </div>
@@ -107,16 +115,25 @@
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
                         <img src="./assets/img/icons/lineal/home.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
-                        <h4 class="card-title">Gotowa spółka z VAT/VAT UE</h4>
+                        <h4 class="card-title">Gotowa spółka z VAT / VAT-UE</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2500</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 1 miesiąc </span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. z aktywnym numerem VAT i VAT-UE (VIES)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) w systemie S24 lub notarialnie</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 1 miesiąc gratis</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – bez zaległości, bez pracowników</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
                         </ul>
+                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm gotowych do natychmiastowego działania na rynku krajowym i europejskim</p>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa spółka z VAT/VAT UE">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
+                               data-bs-toggle="modal" data-bs-target="#modal-ready-company"
+                               data-office="Gotowa spółka z VAT/VAT UE">KUP</a>
                         </div>
                     </div>
                 </div>
@@ -131,12 +148,20 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z VAT / VAT UE</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres Wirtualne Biuro 6 miesięcy </span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. z aktywnym numerem VAT i VAT-UE (VIES)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) już podczas wizyty u notariusza</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Kompleksowa aktualizacja w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 3 miesiące gratis</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – bez zaległości, bez pracowników</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
                         </ul>
+                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla wymagających klientów, oczekujących formalnej i prestiżowej transakcji, gotowości operacyjnej i dłuższego okresu rejestracji</p>
                         <div class="mt-auto w-100">
-                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button" data-bs-toggle="modal" data-bs-target="#modal-ready-company" data-office="Gotowa Spółka z adresem">KUP</a>
+                            <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
+                               data-bs-toggle="modal" data-bs-target="#modal-ready-company"
+                               data-office="Gotowa Spółka z adresem">KUP</a>
                         </div>
                     </div>
                 </div>
@@ -151,6 +176,7 @@
                 </small>
             </div>
         </div>
+
     </div>
 
     <div class="tab-content mt-6 mt-lg-8">

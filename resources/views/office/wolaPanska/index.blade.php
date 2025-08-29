@@ -83,7 +83,7 @@
                                 <div class="item col-md-6">
                                         @if ($mainMenu === 'virtualOffices')
                                             <figure class="itooltip itooltip-light hover-scale rounded">
-                                                <a href="{{asset('assets/img/offices/panska/p_new_1.jpg')}}}"
+                                                <a href="{{asset('assets/img/offices/panska/p_new_1.jpg')}}"
                                                    data-glightbox="title: Centrum Pańska 96"
                                                    data-gallery="project-2">
                                                     <img
@@ -99,8 +99,8 @@
                                             </figure>
                                         @else
                                             <figure class="itooltip itooltip-light hover-scale rounded">
-                                                <a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}}"
-                                                   data-glightbox="title: Centrum Pańska 96"
+                                                <a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}"
+                                                   data-glightbox="title: Centrum Pańska 96 m"
                                                    data-gallery="project-2">
                                                     <img
                                                         src="{{ asset('assets/img/offices/panska/biuro_85.4_600.jpg') }}"
@@ -121,7 +121,7 @@
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
                                             <figure class="itooltip itooltip-light hover-scale rounded">
-                                                <a href="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}}"
+                                                <a href="{{asset('assets/img/offices/panska/WB/p_new_2.jpg')}}"
                                                    data-glightbox="title: Centrum Pańska 96"
                                                    data-gallery="project-2">
                                                     <img

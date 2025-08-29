@@ -108,7 +108,7 @@
                                         </figure>
                                     @else
                                         <figure class="itooltip itooltip-light hover-scale rounded">
-                                            <a href="{{asset('assets/img/offices/oxf/oxf5.jpg')}}}"
+                                            <a href="{{asset('assets/img/offices/oxf/oxf5.jpg')}}"
                                                data-glightbox="title: Śródmieście Chałubińskiego 8"
                                                data-gallery="project-2">
                                                 <img
