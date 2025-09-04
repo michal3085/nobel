@@ -143,7 +143,7 @@
                     <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
                         <div class="col-lg-6">
                             <figure class="rounded shadow-lg">
-                                <img src="{{asset('assets/img/services/ro_1.jpg')}}" srcset="{{asset('assets/img/services/ro_1.jpg')}}" alt="Biuro serwisowane">
+                                <img src="{{asset('assets/img/services/ro_1_1200.jpg')}}" srcset="{{asset('assets/img/services/ro_1_1200.jpg')}}" alt="Biuro serwisowane">
                             </figure>
                         </div>
                         <!--/column -->

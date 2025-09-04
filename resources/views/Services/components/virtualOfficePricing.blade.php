@@ -125,7 +125,7 @@
 
 
 <div class="card image-wrapper bg-overlay bg-overlay-300 mb-12 mt-10"
-     style="background-image: url('{{asset('/assets/img/services/vo_banner.jpg')}}');">
+     style="background-image: url('{{asset('/assets/img/services/vo_banner_1200.jpg')}}');">
     <div class="card-body p-10 p-xl-12">
         <div class="row">
             <div class="col-xl-11 col-xxl-9 mx-auto">
