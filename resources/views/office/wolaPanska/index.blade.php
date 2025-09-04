@@ -138,7 +138,7 @@
                                             </figure>
                                         @else
                                             <figure class="itooltip itooltip-light hover-scale rounded">
-                                                <a href="{{asset('assets/img/offices/panska/panska1.jpg')}}}"
+                                                <a href="{{asset('assets/img/offices/panska/panska1.jpg')}}"
                                                    data-glightbox="title: Centrum Pańska 96"
                                                    data-gallery="project-2">
                                                     <img
