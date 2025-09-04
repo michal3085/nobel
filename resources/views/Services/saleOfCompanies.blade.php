@@ -92,13 +92,14 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">990</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. bez rejestracji VAT</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) w systemie S24 lub notarialnie</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup online S24 lub w naszym biurze</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 1 miesiąc gratis</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 1 miesiąc</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
                         <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm rozpoczynających działalność bez konieczności rejestracji VAT</p>
                         <div class="mt-auto w-100">
@@ -119,14 +120,14 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">2500</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. z aktywnym numerem VAT i VAT-UE (VIES)</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) w systemie S24 lub notarialnie</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup online S24 lub w naszym biurze</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 1 miesiąc gratis</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – bez zaległości, bez pracowników</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 3 miesiące</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
                         <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm gotowych do natychmiastowego działania na rynku krajowym i europejskim</p>
                         <div class="mt-auto w-100">
@@ -147,14 +148,14 @@
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. z aktywnym numerem VAT i VAT-UE (VIES)</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Sprzedaż udziałów + możliwość zmian (nazwa, siedziba, PKD) już podczas wizyty u notariusza</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Kompleksowa aktualizacja w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Adres rejestrowy (wirtualne biuro) – 3 miesiące gratis</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwość dalszego korzystania z adresu po okresie promocyjnym</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa, uchwały, zgłoszenia, PCC)</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – bez zaległości, bez pracowników</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Księgowość od 550 zł</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup w kancelarii notarialnej</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 3 miesiące</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
+                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
                         <p class="text-start"><strong>➡ Dla kogo:</strong> dla wymagających klientów, oczekujących formalnej i prestiżowej transakcji, gotowości operacyjnej i dłuższego okresu rejestracji</p>
                         <div class="mt-auto w-100">
@@ -165,6 +166,7 @@
                     </div>
                 </div>
             </div>
+
 
             <div class="text-start" style="margin-left: 170px;">
                 <small class="text-start d-inline-block">
