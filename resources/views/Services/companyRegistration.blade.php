@@ -50,8 +50,8 @@
                     <!-- kolumna ze zdjęciem -->
                     <div class="col-lg-6">
                         <figure class="rounded shadow-lg">
-                            <img src="{{asset('assets/img/services/rch_5.jpg')}}"
-                                 srcset="{{asset('assets/img/services/rch_5.jpg')}}"
+                            <img src="{{asset('assets/img/services/rch_01_1200.jpg')}}"
+                                 srcset="{{asset('assets/img/services/rch_01_1200.jpg')}}"
                                  alt="" class="img-fluid w-100 h-100 object-fit-cover">
                         </figure>
                     </div>
@@ -65,8 +65,8 @@
                         <div class="shape rounded rellax d-md-block"
                              data-rellax-speed="0" style="bottom: -1rem; right: -1rem; width: 60%; height: 65%;"></div>
                         <figure class="rounded shadow-lg">
-                            <img src="{{asset('assets/img/services/rch_1.jpg')}}"
-                                 srcset="{{asset('assets/img/services/rch_1.jpg')}}"
+                            <img src="{{asset('assets/img/services/rch_02_1200.jpg')}}"
+                                 srcset="{{asset('assets/img/services/rch_02_1200.jpg')}}"
                                  alt="" class="img-fluid w-100 h-100 object-fit-cover">
                         </figure>
                     </div>
@@ -296,11 +296,11 @@
                     <div class="col-md-6">
                         <div class="row gx-md-5 gy-5">
                             <div class="col-md-10 offset-md-2" data-cue="fadeIn" data-delay="300">
-                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab1_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab1_v2.jpg')}}" alt=""></figure>
+                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab1_v3.jpg')}}" srcset="{{asset('assets/img/services/divided/ab1_v3.jpg')}}" alt=""></figure>
                             </div>
                             <!--/column -->
                             <div class="col-md-12" data-cue="fadeIn" data-delay="900">
-                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab2_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab2_v2.jpg')}}" alt=""></figure>
+                                <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab2_v3.jpg')}}" srcset="{{asset('assets/img/services/divided/ab2_v3.jpg')}}" alt=""></figure>
                             </div>
                             <!--/column -->
                         </div>
@@ -308,7 +308,7 @@
                     </div>
                     <!--/column -->
                     <div class="col-md-6" data-cue="fadeIn" data-delay="600">
-                        <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab3_v2.jpg')}}" srcset="{{asset('assets/img/services/divided/ab3_v2.jpg')}}" alt=""></figure>
+                        <figure class="rounded"><img src="{{asset('assets/img/services/divided/ab3_v3.jpg')}}" srcset="{{asset('assets/img/services/divided/ab3_v3.jpg')}}" alt=""></figure>
                     </div>
                     <!--/column -->
                 </div>

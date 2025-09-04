@@ -74,7 +74,7 @@
                 <!-- Obrazek -->
                 <div class="col-lg-8 d-flex align-items-stretch">
                     <figure class="rounded shadow-lg mb-0 w-100">
-                        <img src="{{ asset('assets/img/services/soc_1.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded w-100 h-100 object-fit-cover">
+                        <img src="{{ asset('assets/img/services/soc_01_1200.jpg') }}" alt="Gotowe spółki – Nobel" class="img-fluid rounded w-100 h-100 object-fit-cover">
                     </figure>
                 </div>
             </div>
@@ -184,7 +184,7 @@
         <div class="tab-pane fade show active" id="tab2-1">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
                 <div class="col-lg-6">
-                    <figure class="rounded shadow-lg"><img src="{{ asset('assets/img/services/soc_2.jpg') }}" srcset="{{ asset('assets/img/services/soc_2.jpg') }}" alt=""></figure>
+                    <figure class="rounded shadow-lg"><img src="{{ asset('assets/img/services/soc_02_1200.jpg') }}" srcset="{{ asset('assets/img/services/soc_02_1200.jpg') }}" alt=""></figure>
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
@@ -216,49 +216,6 @@
                 </p>
                 {{--                    <a href="#kontakt" class="btn btn-primary btn-lg rounded-pill">Skontaktuj się z nami</a>--}}
             </div>
-        </div>
-
-        <!--/.tab-pane -->
-        <div class="tab-pane fade" id="tab2-2">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <figure class="rounded shadow-lg"><img src="./assets/img/photos/se6.jpg" srcset="./assets/img/photos/se6@2x.jpg 2x" alt=""></figure>
-                </div>
-                <!--/column -->
-                <div class="col-lg-6">
-                    <h2 class="mb-3">Data Analysis</h2>
-                    <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
-                    <ul class="icon-list bullet-bg bullet-soft-violet">
-                        <li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
-                        <li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
-                        <li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
-                    </ul>
-                    <a href="#" class="btn btn-violet mt-2">Learn More</a>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
-        </div>
-        <!--/.tab-pane -->
-        <div class="tab-pane fade" id="tab2-3">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                <div class="col-lg-6">
-                    <figure class="rounded shadow-lg"><img src="./assets/img/photos/se7.jpg" srcset="./assets/img/photos/se7@2x.jpg 2x" alt=""></figure>
-                </div>
-                <!--/column -->
-                <div class="col-lg-6">
-                    <h2 class="mb-3">Finalize Product</h2>
-                    <p>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna.</p>
-                    <ul class="icon-list bullet-bg bullet-soft-green">
-                        <li><i class="uil uil-check"></i>Aenean eu leo quam. Pellentesque ornare.</li>
-                        <li><i class="uil uil-check"></i>Nullam quis risus eget urna mollis ornare.</li>
-                        <li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
-                    </ul>
-                    <a href="#" class="btn btn-green mt-2">Learn More</a>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
         </div>
         <!--/.tab-pane -->
     </div>
