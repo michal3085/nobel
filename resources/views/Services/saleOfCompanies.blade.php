@@ -48,9 +48,8 @@
                 <div class="col-lg-4">
 
                     <p class="mb-3" style="text-align: justify;">
-                        Spółki rejestrowane są w systemie S24, zbycia udziałów oraz wszelkich zmian w KRS możemy
-                        dokonać w tym systemie lub notarialnie. Nasze wieloletnie doświadczenie pomaga nam pewnie działać w
-                        obu systemach sądowych i z sukcesem realizować wnioski nieco łatwiejsze jak i te trudne i skomplikowane.
+                        Spółki przeznaczone do sprzedaży rejestrujemy w systemie <b>S24</b>. Zbycie udziałów oraz wszelkie zmiany w Krajowym Rejestrze Sądowym (KRS) realizujemy zarówno cyfrowo (online), jak i notarialnie. Nasze wieloletnie doświadczenie pozwala nam pewnie działać w obu tych systemach.
+                        Z powodzeniem przeprowadzamy zarówno standardowe, jak i najbardziej skomplikowane wnioski, gwarantując sukces każdej operacji.
                     </p>
                     <div class="mb-4">
                         <h4 class="mb-2" style="font-size: 15px;">Dlaczego warto wybrać spółki od <span class="text-primary">Nobel</span>?</h4>
@@ -90,7 +89,7 @@
                         <img src="./assets/img/icons/lineal/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
                         <h4 class="card-title">Gotowa spółka bez VAT</h4>
                         <div class="prices text-dark">
-                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">1800</span></div>
+                            <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">990</span></div>
                         </div>
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Spółka z o.o. bez rejestracji VAT</span></li>
@@ -143,7 +142,7 @@
                 <div class="pricing card text-center w-100 d-flex flex-column">
                     <div class="card-body d-flex flex-column align-items-center text-center flex-grow-1">
                         <img src="./assets/img/icons/lineal/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-pink mb-3" alt="" />
-                        <h4 class="card-title">Gotowa Spółka sprzedaż w kancelarii notarialnej</h4>
+                        <h4 class="card-title">Gotowa spółka sprzedaż w kancelarii notarialnej</h4>
                         <div class="prices text-dark">
                             <div class="price price-show"><span class="price-currency">PLN</span><span class="price-value">3900</span></div>
                         </div>
@@ -171,7 +170,7 @@
                 <small class="text-start d-inline-block">
                     Cena nie zawiera<br>
                     - opłata sądowa KRS 300 / 350 zł<br>
-                    - Opłata notarialna<br>
+                    - opłaty notarialnej (w przypadku transakcji w kancelarii notarialnej)<br>
                     - podatek PCC3 (0,5% wartości kapitału) tj. 23 zł przy kapitale 5000 zł
                 </small>
             </div>
@@ -191,7 +190,8 @@
                         Chcesz rozpocząć działalność bez zbędnych formalności i opóźnień?
                     </h2>
                     <p class="justify-content-center" style="text-align: justify;">
-                        Sprzedaż spółek oraz przeniesienie udziałów realizujemy zarówno w systemie S24, jak i w formie notarialnej. Dzięki naszemu doświadczeniu w obrocie gotowymi spółkami, przeprowadzamy cały proces sprawnie i bezpiecznie, zapewniając wsparcie przy formalnościach, niezależnie czy sprawa jest prosta, czy wymaga bardziej skomplikowanych działań.
+                        Sprzedaż spółek realizujemy poprzez przeniesienie udziałów zarówno w systemie S24, jak i w formie notarialnej.
+                        Dzięki naszemu doświadczeniu w obrocie gotowymi spółkami, przeprowadzamy cały proces sprawnie i bezpiecznie, zapewniając wsparcie przy formalnościach, niezależnie czy sprawa jest prosta, czy wymaga bardziej skomplikowanych działań.
                     </p>
                     <div>
                         <h4 class="mb-3" style="font-size: 15px;">Jakie korzyści zyskujesz?</h4>
