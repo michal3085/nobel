@@ -85,6 +85,12 @@
                     </div>
                     <!--/column -->
                 </div>
+                <h3 class="justify-content-center text-center">Coworking w Warszawie – elastyczna przestrzeń do pracy</h3>
+                <p class="justify-content-center text-center">
+                    Oferujemy nowoczesny coworking w&nbsp;Warszawie, idealny dla freelancerów, startupów oraz małych firm. Nasza elastyczna przestrzeń do pracy zapewnia komfort, szybki internet, dostęp do sal konferencyjnych oraz możliwość korzystania z&nbsp;adresu rejestrowego i&nbsp;korespondencyjnego.
+                    Dzięki elastycznym pakietom wynajmu – na godziny, dni lub miesiące – coworking to wygodne i&nbsp;ekonomiczne rozwiązanie dla osób, które szukają profesjonalnego środowiska pracy bez długoterminowych zobowiązań.
+                    Skorzystaj z&nbsp;coworkingu w&nbsp;naszej lokalizacji w&nbsp;centrum Warszawy i pracuj tak, jak lubisz – w pełni wyposażonym biurze, gotowym na Twoje potrzeby.
+                </p>
             </div>
 
             <hr class="bg-violet border-2 border-top border-aqua my-5" />
