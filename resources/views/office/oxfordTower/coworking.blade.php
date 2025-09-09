@@ -55,24 +55,56 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('assets/img/offices/oxf/coworking/cow7.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/coworking/cow7.jpg')}}" alt="" />
+                                        <a href="{{ asset('assets/img/offices/oxf/coworking/cow7_1200.jpg') }}"
+                                           data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/oxf/coworking/cow7_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/oxf/coworking/cow7_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/oxf/coworking/cow7_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Śródmieście Chałubińskiego 8"
+                                                loading="lazy" />
                                         </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('assets/img/offices/oxf/coworking/cow14.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/coworking/cow14.jpg')}}" alt="" />
+                                        <a href="{{ asset('assets/img/offices/oxf/coworking/cow14_1200.jpg') }}"
+                                           data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/oxf/coworking/cow14_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/oxf/coworking/cow14_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/oxf/coworking/cow14_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Śródmieście Chałubińskiego 8"
+                                                loading="lazy" />
                                         </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('assets/img/offices/oxf/new/2.jpg')}}" data-glightbox="title: Śródmieście Chałubińskiego 8" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
+                                        <a href="{{asset('assets/img/offices/oxf/new/2.jpg')}}"
+                                           data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{asset('assets/img/offices/oxf/new/2_600.jpg')}}"
+                                                srcset="
+                                                  {{asset('assets/img/offices/oxf/new/2_600.jpg')}} 600w,
+                                                  {{asset('assets/img/offices/oxf/new/2_1200.jpg')}} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Biuro Oxford Tower"
+                                                loading="lazy" />
                                         </a>
                                     </figure>
                                 </div>

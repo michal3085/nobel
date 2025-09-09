@@ -98,9 +98,9 @@
                                                 <img
                                                     src="{{ asset('assets/img/offices/oxf/wb/new2_600.jpg') }}"
                                                     srcset="
-                                                  {{ asset('assets/img/offices/oxf/wb/new2_600.jpg') }} 600w,
-                                                  {{ asset('assets/img/offices/oxf/wb/new2_1200.jpg') }} 1200w
-                                                "
+                                                      {{ asset('assets/img/offices/oxf/wb/new2_600.jpg') }} 600w,
+                                                      {{ asset('assets/img/offices/oxf/wb/new2_1200.jpg') }} 1200w
+                                                    "
                                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
                                                     alt="Biuro Oxford Tower"
                                                     loading="lazy" />
