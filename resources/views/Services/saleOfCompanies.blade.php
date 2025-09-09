@@ -62,11 +62,11 @@
                     <div class="mb-4">
                         <h4 class="mb-2" style="font-size: 15px;">Każda spółka jest przygotowana do startu i posiada:</h4>
                         <ul class="icon-list bullet-bg bullet-soft-pink mb-0">
-                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Adres siedziby w Warszawie</li>
-                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł</li>
-                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT</li>
-                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Wpis w CRBR</li>
-                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Rachunek bankowy (na życzenie)</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Adres siedziby w Warszawie.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Kapitał zakładowy 5000 zł.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Numery KRS, REGON, NIP / VAT.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Wpis w CRBR.</li>
+                            <li style="font-size: 15px; margin-bottom: 0.25rem;"><i class="uil uil-check"></i> Rachunek bankowy (na życzenie).</li>
                         </ul>
                     </div>
                 </div>
@@ -94,14 +94,14 @@
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup online S24 lub w naszym biurze</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+{{--                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>--}}
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 1 miesiąc</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
-                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm rozpoczynających działalność bez konieczności rejestracji VAT</p>
+{{--                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm rozpoczynających działalność bez konieczności rejestracji VAT</p>--}}
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
                                data-bs-toggle="modal" data-bs-target="#modal-ready-company"
@@ -122,14 +122,14 @@
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup online S24 lub w naszym biurze</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+{{--                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>--}}
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 3 miesiące</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
-                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm gotowych do natychmiastowego działania na rynku krajowym i europejskim</p>
+{{--                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla firm gotowych do natychmiastowego działania na rynku krajowym i europejskim</p>--}}
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
                                data-bs-toggle="modal" data-bs-target="#modal-ready-company"
@@ -150,14 +150,14 @@
                         <ul class="icon-list bullet-bg bullet-soft-green mt-7 mb-8 text-start">
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Zakup w kancelarii notarialnej</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Aktualizacja danych w KRS i CRBR</span></li>
-                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>
+{{--                            <li><i class="uil uil-check"></i><span style="font-size: 15px;">Możliwa zmiana nazwy, PKD, umowy spółki oraz innych danych</span></li>--}}
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">(Wirtualne biuro) – adres rejestrowy – 3 miesiące</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Komplet dokumentów (umowa spółki, uchwały, zgłoszenie US, PCC)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Czysta historia – brak zaległości</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Konto bankowe (po uzgodnieniu)</span></li>
                             <li><i class="uil uil-check"></i><span style="font-size: 15px;">Numer Eori lub licencja (po uzgodnieniu)</span></li>
                         </ul>
-                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla wymagających klientów, oczekujących formalnej i prestiżowej transakcji, gotowości operacyjnej i dłuższego okresu rejestracji</p>
+{{--                        <p class="text-start"><strong>➡ Dla kogo:</strong> dla wymagających klientów, oczekujących formalnej i prestiżowej transakcji, gotowości operacyjnej i dłuższego okresu rejestracji</p>--}}
                         <div class="mt-auto w-100">
                             <a href="#" class="btn btn-primary rounded-pill w-100 nobel-contact-button"
                                data-bs-toggle="modal" data-bs-target="#modal-ready-company"
@@ -171,9 +171,10 @@
             <div class="text-start" style="margin-left: 170px;">
                 <small class="text-start d-inline-block">
                     Cena nie zawiera<br>
-                    - opłata sądowa KRS 300 / 350 zł<br>
+                    - opłaty sądowej KRS 300 / 350 zł<br>
                     - opłaty notarialnej (w przypadku transakcji w kancelarii notarialnej)<br>
-                    - podatek PCC3 (0,5% wartości kapitału) tj. 23 zł przy kapitale 5000 zł
+                    - podatku PCC3 (1%) np. 50 zł przy transakcji o wartości 5000 zł<br>
+                    - otwarcia rachunku bankowego
                 </small>
             </div>
         </div>
