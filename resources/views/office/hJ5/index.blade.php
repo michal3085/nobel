@@ -48,18 +48,60 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/hj1.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/hj1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj1.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj1_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj1_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj1_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Purus Tellus Magna"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/hj6.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/hj6.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj6.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj6_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj6_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj6_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Fusce Ipsum Vestibulum"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/hj8.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/hj8.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj8.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj8_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj8_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj8_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt=""
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                             </div>
