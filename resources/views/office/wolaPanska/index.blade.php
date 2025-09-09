@@ -82,22 +82,23 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <figure class="itooltip itooltip-light hover-scale rounded">
-                                                <a href="{{asset('assets/img/offices/panska/p_new_1.jpg')}}"
-                                                   data-glightbox="title: Centrum Pańska 96"
-                                                   data-gallery="project-2">
-                                                    <img
-                                                        src="{{ asset('assets/img/offices/panska/p_new_1_600.jpg') }}"
-                                                        srcset="
-                                                  {{ asset('assets/img/offices/panska/p_new_1_600.jpg') }} 600w,
-                                                  {{ asset('assets/img/offices/panska/p_new_1_1200.jpg') }} 1200w
-                                                "
-                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
-                                                        alt="Biuro Oxford Tower"
-                                                        loading="lazy" />
-                                                </a>
-                                            </figure>
-                                        @else
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{ asset('assets/img/offices/panska/WB/p_new_1.jpg') }}"
+                                               data-glightbox="title: Centrum Pańska 96"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/panska/WB/p_new_1_600.jpg') }}"
+                                                    srcset="
+                                                        {{ asset('assets/img/offices/panska/WB/p_new_1_600.jpg') }} 600w,
+                                                        {{ asset('assets/img/offices/panska/WB/p_new_1_1200.jpg') }} 1200w
+                                                    "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Centrum Pańska 96"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+
+                                    @else
                                             <figure class="itooltip itooltip-light hover-scale rounded">
                                                 <a href="{{asset('assets/img/offices/panska/biuro_85.4.jpg')}}"
                                                    data-glightbox="title: Centrum Pańska 96 m"
@@ -160,9 +161,38 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/panska/WB/p_new_3.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/WB/p_new_3.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/panska/WB/p_new_3_1200.jpg') }}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/WB/p_new_3_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/panska/WB/p_new_3_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/panska/WB/p_new_3_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Centrum Pańska 96"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+
                                         @else
-                                            <a href="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/panska/biuro_85.7.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/panska/biuro_85.7_1200.jpg') }}"
+                                                   data-glightbox="title: Centrum Pańska 96"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/panska/biuro_85.7_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/panska/biuro_85.7_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/panska/biuro_85.7_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Centrum Pańska 96"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
                                     </figure>
                                 </div>
