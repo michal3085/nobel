@@ -3,13 +3,36 @@
 @section('content')
     <section class="wrapper bg-light">
         <div class="col-lg-12 text-center text-lg-start">
-            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">
-                <span class="underline-3 style-2 violet">Wirtualne biuro</span>
-            </h3>
+{{--            <h3 class="display-3 pe-xl-10 pe-xxl-15 mb-10">--}}
+{{--                <span class="underline-3 style-2 grape">Wirtualne Biuro</span>--}}
+{{--            </h3>--}}
+
+            <h1 class="display-1 underline-3 style-2 grape text-white mb-5">Wirtualne Biuro <br /><span class="typer text-primary text-nowrap" data-delay="100" data-words="Wirtualne Biuro"></span><span class="cursor text-primary" data-owner="typer"></span></h1>
         </div>
 
         <div class="container pb-5 pb-md-7">
             <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <article>
+                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
+                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
+                            <figcaption>
+                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
+                            </figcaption>
+                        </figure>
+                        <div class="post-header justify-content-center text-center">
+                            <h2 class="post-title h3 mb-3">
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}" style="font-size: 20px;">Pańska 96
+                                    Centrum</a>
+                            </h2>
+                        </div>
+                        <div class="post-footer">
+                            <ul class="post-meta">
+                                {{--                                <li class="post-date"><span>Cena od 2500 PLN</span></li>--}}
+                            </ul>
+                        </div>
+                    </article>
+                </div>
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
@@ -18,9 +41,9 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}">Chałubińskiego 8 Śródmieście</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" style="font-size: 20px;">Chałubińskiego 8 Śródmieście</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -33,35 +56,14 @@
                 <div class="col-md-6 col-lg-3">
                     <article>
                         <figure class="overlay overlay-1 hover-scale rounded mb-4">
-                            <a href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}"> <img src="./assets/img/offices/panska/Budynek_Pańska_96.jpg" alt="" class="img-fluid" /></a>
-                            <figcaption>
-                                <h5 class="from-top mb-0">Dowiedz się więcej</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="post-header">
-                            <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wola-panska-96'])}}">Pańska 96
-                                    Wola</a>
-                            </h2>
-                        </div>
-                        <div class="post-footer">
-                            <ul class="post-meta">
-{{--                                <li class="post-date"><span>Cena od 2500 PLN</span></li>--}}
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <article>
-                        <figure class="overlay overlay-1 hover-scale rounded mb-4">
                             <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}"> <img src="./assets/img/offices/carolina/BUDYNEK_PORY78.jpg" alt="" class="img-fluid" /></a>
                             <figcaption>
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}">Pory 78 Mokotów</a>
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" style="font-size: 20px;">Pory 78 Mokotów</a>
                             </h2>
                         </div>
                         <div class="post-footer">
@@ -79,9 +81,9 @@
                                 <h5 class="from-top mb-0">Dowiedz się więcej</h5>
                             </figcaption>
                         </figure>
-                        <div class="post-header">
+                        <div class="post-header justify-content-center text-center">
                             <h2 class="post-title h3 mb-3">
-                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">Klimczaka 15 | coworking
+                                <a class="link-dark" href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" style="font-size: 20px;">Klimczaka 15
                                     Wilanów</a>
                             </h2>
                         </div>
@@ -99,43 +101,74 @@
             </div>
         </div>
 
-        @include('Services.components.virtualOfficePricing')
+        @include('Services.components.virtualOfficePricing', ['color' => 'grape'])
 
-        <hr class="bg-violet border-2 border-top border-violet"/>
-
-        <div class="tab-pane fade show active mt-15" id="tab2-1">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                {{--                <div class="col-lg-6">--}}
-                {{--                    <figure class="rounded shadow-lg"><img src="./assets/img/services/wirtualne_biuro1.jpg" srcset="./assets/img/services/wirtualne_biuro1.jpg" alt=""></figure>--}}
-                {{--                </div>--}}
-                <!--/column -->
-                {{--                <div class="col-lg-6">--}}
-                <div class="col-lg-12">
-                    <p style="font-size: 18px; text-align: justify;">
-                        <b>Wirtualne biuro</b> to usługa, która umożliwia prowadzenie firmy bez konieczności
-                        wynajmu tradycyjnej przestrzeni biurowej. To doskonałe rozwiązanie dla
-                        freelancerów, małych firm, startupów, a także przedsiębiorstw, które prowadzą
-                        działalność na skalę krajową lub międzynarodową.
-                    </p>
-
-                    <p style="font-size: 15px;">
-                        <b>Wirtualnego Biuro</b> to więcej niż tylko adres. Otrzymasz dostęp do
-                        pełnej obsługi administracyjnej:
-                    </p>
-                    <ul class="icon-list bullet-bg bullet-soft-violet" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i><b>Adres do rejestracji firmy</b> – który możesz umieścić na dokumentach, wizytówkach oraz stronie internetowej.</li>
-                        <li><i class="uil uil-check"></i><b>Odbiór i przechowywanie korespondencji</b> – odbieramy przesyłki i informujemy Cię o każdej nowej wiadomości.</li>
-                        <li><i class="uil uil-check"></i><b>Skanowanie i przekazywanie korespondencji</b> – na życzenie skanujemy dokumenty i wysyłamy je na Twój e-mail.</li>
-                        <li><i class="uil uil-check"></i><b>Obsługa telefoniczna</b> – opcjonalna usługa, dzięki której nasi pracownicy będą odbierać telefony w imieniu Twojej firmy.</li>
-                        <li><i class="uil uil-check"></i><b>Możliwość wynajmu sali konferencyjnej</b> – na spotkania biznesowe, gdy potrzebujesz fizycznej przestrzeni do pracy.</li>
-                    </ul>
-                </div>
-                <!--/column -->
+        <div class="row mb-5">
+            <div class="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
+                <img src="./assets/img/icons/lineal/list.svg" class="svg-inject icon-svg icon-svg-md mb-4" alt="" />
+                <h2 class="display-4 mb-4 px-lg-14">Zapewnij swojej firmie profesjonalny wizerunek i pełną elastyczność.</h2>
             </div>
-            <!--/.row -->
+            <!-- /column -->
         </div>
-
-        <hr class="bg-violet border-2 border-top border-violet"/>
+        <!-- /.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="card me-lg-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">01</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Prestiżowy adres</h4>
+                                <p class="mb-0">Buduje wiarygodność w oczach klientów i partnerów.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+                <div class="card ms-lg-13 mt-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">02</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Kompleksowa obsługa korespondencji</h4>
+                                <p class="mb-0"> Odbieramy, przechowujemy, skanujemy i przekazujemy Twoją korespondencję.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+                <div class="card mx-lg-6 mt-6">
+                    <div class="card-body p-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <span class="icon btn btn-circle btn-lg btn-soft-grape pe-none me-4"><span class="number">03</span></span>
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Sale konferencyjne i biura serwisowane</h4>
+                                <p class="mb-0">Gdy potrzebujesz fizycznej przestrzeni do pracy lub spotkań biznesowych,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.card-body -->
+                </div>
+                <!--/.card -->
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+                <h2 class="display-6 mb-3">Wirtualne Biuro?</h2>
+                <p>Rozwiązanie, które daje Ci swobodę działania i oszczędność, oferując wszystko, czego potrzebujesz, by rozwijać biznes na własnych zasadach.</p>
+                <p>Wirtualne Biuro to więcej niż tylko adres. To elastyczność, wygoda i wsparcie, które pozwolą Ci skupić się na rozwoju Twojej firmy. Zacznij działać bez ograniczeń już dziś!</p>
+{{--                <a href="#" class="btn btn-primary rounded-pill mb-0">Learn More</a>--}}
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
 
         <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mt-17">
             <div class="col-lg-6">
@@ -175,7 +208,7 @@
                     <div class="col-md-6">
                         <div class="d-flex flex-row">
                             <div>
-                                <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
+                                <img src="./assets/img/icons/solid/bulb.svg" class="svg-inject icon-svg icon-svg-xs solid-mono text-grape me-4" alt="" />
                             </div>
                             <div>
                                 <h4 class="mb-1">Profesjonalny wizerunek</h4>
@@ -290,6 +323,8 @@
             </div>
             <!-- /.container -->
         </section>
+
+        <hr class="bg-grape border-2 border-top border-grape"/>
 
         <div class="mt-4">
             @include('qa.display', ['section' => 'virtualOffice', 'title' => 'Q&A'])

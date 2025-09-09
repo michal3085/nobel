@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CompanyRegistrationController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CoworkingController;
 use App\Http\Controllers\Dashboard\Newsletter\NewsletterController;
 use App\Http\Controllers\Dashboard\Newsletter\SubscribersController;
 use App\Http\Controllers\Dashboard\QA\QaSectionController;
@@ -18,6 +19,8 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\VirtualOfficeController;
 use Illuminate\Support\Facades\Route;
 
+require __DIR__.'/auth.php';
+
 Route::get('/', [MainPageController::class, 'index'])->name('main');
 
 // SERVICES
@@ -25,10 +28,11 @@ Route::get('/{service}', [ServicesController::class, 'routeDispatch'])->name('se
 Route::post('/sendMail', [ServicesController::class, 'sendMail'])->name('service.send.mail');
 Route::post('/sendKrsMail', [ServicesController::class, 'krsMailSend'])->name('service.send.krs');
 
-// OFFiCES
+// OFFICES
 Route::get('/biuro/{office}', [OfficeController::class, 'routeDispatch'])->name('office.route.dispatch');
 Route::post('/sendOfficeMail', [OfficeController::class, 'sendMail'])->name('office.send.mail');
 Route::get('/wirtualne/biuro/{office}', [VirtualOfficeController::class, 'routeDispatch'])->name('virtual.office.route.dispatch');
+Route::get('/coworking/{office}', [CoworkingController::class, 'routeDispatch'])->name('coworking.office.route.dispatch');
 
 // Q&A
 Route::get('/pytania/odpowiedzi', [QuestionAnswerController::class, 'index'])->name('faq.index');
@@ -101,5 +105,3 @@ Route::post('/newsletter/add/subscriber', [SubscribersController::class, 'store'
 
 // REG'S AND POLITICS
 Route::get('/politics/private', [RegAndPoliticsController::class, 'privatePolitics'])->name('politics.private');
-
-require __DIR__.'/auth.php';

@@ -19,7 +19,7 @@
     <link rel="icon" href="{{asset('/assets/img/logo/favicon.png')}}" media="(prefers-color-scheme: dark)">
 
     <link rel="stylesheet" href="/assets/css/plugins.css">
-    <link rel="stylesheet" href="/assets/css/styleV2.css">
+    <link rel="stylesheet" href="/assets/css/styleV4.css">
     <link rel="stylesheet" href="/assets/css/colors/nobel.css">
     <link rel="preload" href="/assets/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -96,12 +96,13 @@
 
             <div class="col-md-4 col-lg-2">
                 <div class="widget">
-                    <p class="mb-4" style="font-size: 12px;">© 2025</script> BMSOFTWARE <br class="d-none d-lg-block" />All rights reserved.</p>
+                    <p class="mb-4" style="font-size: 12px;">© 2025</script> Nobel.pro Sp. z o.o.<br class="d-none d-lg-block" /> Wszystkie prawa zastrzeżone <br class="d-none d-lg-block" /><br class="d-none d-lg-block" />Wykonanie strony: <a href="mailto:michal.broszkiewicz@bmsoftware.com.pl" target="_blank" style="color: #fff;"> BMSOFTWARE</a>.
+                    </p>
                     <nav class="nav social">
 {{--                        <a href="#"><i class="uil uil-twitter" style="color: #1DA1F2;"></i></a>--}}
-                        <a href="#"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
+                        <a href="https://www.facebook.com/Nobel.pro"><i class="uil uil-facebook-f" style="color: #1877F2;"></i></a>
 {{--                        <a href="#"><i class="uil uil-dribbble" style="color: #EA4C89;"></i></a>--}}
-                        <a href="#"><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
+                        <a href="https://www.instagram.com/nobel_pro?igsh=MTV0cXE4NmQ1b3hpNA=="><i class="uil uil-instagram" style="color: #E4405F;"></i></a>
 {{--                        <a href="#"><i class="uil uil-youtube" style="color: #FF0000;"></i></a>--}}
                     </nav>
                 </div>
@@ -110,22 +111,25 @@
             <!-- /column -->
             <div class="col-md-4 col-lg-4">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Kontakt</h4>
+                    <h4 class="widget-title text-white mb-3">NOBEL Biuro Obsługi Klienta</h4>
                     <div class="d-flex gap-4">
                         <address>
                             Nobel.pro Sp. z o.o.<br>
-                            Ul. Chałubińskiego 8<br>
+                            ul. Chałubińskiego 8<br>
+                            Piętro 22, lokal 22.52<br>
                             00-613 Warszawa<br>
                         </address>
-                        <address>
-                            NIP: 7010225520<br>
-                            KRS: 0000353244<br>
-                        </address>
+{{--                        <address>--}}
+{{--                            NIP: 7010225520<br>--}}
+{{--                            KRS: 0000353244<br>--}}
+{{--                        </address>--}}
                     </div>
 
                     <div class="d-flex gap-4">
                     </div>
-                    <a href="mailto:#">nobel@nobel.pro</a><br /> +48 22 499 99 00
+                    <a href="mailto:#">nobel@nobel.pro</a><br/>
+                    +48 22 499 99 00<br>
+                    +48 885 588 511
                 </div>
             </div>
 
@@ -135,7 +139,7 @@
                     <h4 class="widget-title text-white mb-3">Nasze linki</h4>
                     <ul class="list-unstyled  mb-0">
                         <li><a href="https://wyszukiwarka-krs.ms.gov.pl/">Wyszukiwarka KRS</a></li>
-                        <li><a href="https://ekrs.ms.gov.pl/s24/">E-KRS</a></li>
+                        <li><a href="https://prs.ms.gov.pl/krs">E-KRS</a></li>
                         <li><a href="https://www.gov.pl/web/sprawiedliwosc/">Ministerstwo Sprawiedliwości</a></li>
                         <li><a href="https://crbr.podatki.gov.pl/adcrbr/#/">Centralny Rejestr Beneficjentów Rzeczywistych</a></li>
                         <li><a href="{{ route('politics.private') }}">Polityka Prywatności</a></li>
@@ -146,8 +150,8 @@
             <!-- /column -->
             <div class="col-md-12 col-lg-3">
                 <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Newsletter</h4>
-                    <p class="mb-5">Dołącz do naszego newslettera aby otrzymywać najnowsze informacje</p>
+                    <h4 class="widget-title text-white mb-3">Dołącz do grupy mailingowej</h4>
+                    <p class="mb-5">w celu otrzymywania najnowszych wiadomości</p>
                     <div class="newsletter-wrapper">
                         <!-- Begin Mailchimp Signup Form -->
                             <form action="{{ route('newsletter.add.subscriber') }}" method="post" class="validate dark-fields">

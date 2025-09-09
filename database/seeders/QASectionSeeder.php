@@ -49,5 +49,15 @@ class QASectionSeeder extends Seeder
             'created_at' => now(),
             'updated_at' => now(),
         ]);
+
+        // Na wypadek gdyby ktos po migracji z ta sekcja, wykonywał seedery - sekcja nie bedzie zdublowana.
+        if (! DB::table('qa_section')->where('qa_section_code', 'coworkingOffice')->exists()) {
+            DB::table('qa_section')->insert([
+                'qa_section_name' => 'Coworking',
+                'qa_section_code' => 'coworkingOffice',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+        }
     }
 }

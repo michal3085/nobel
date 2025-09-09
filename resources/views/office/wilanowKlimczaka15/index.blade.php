@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'purple'])
+    @include('office._returnButton', ['color' => 'purple', 'title' => _getOfficeTitle($mainMenu)])
 
     <section class="wrapper bg-light">
 
@@ -17,9 +17,20 @@
                                         <div class="post-header">
                                             <div class="post-category text-purple mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 purple">Wilanów Klimczaka 15</h2>
+                                            <p class="text-muted">
+                                                @switch($mainMenu)
+                                                    @case('virtualOffices')
+                                                        Wirtualne biuro w sercu miasteczka Wilanów.
+                                                        @break
+
+                                                    @case('offices')
+                                                        Elastyczna przestrzeń do pracy w sercu miasteczka Wilanów.
+                                                        @break
+                                                @endswitch
+                                            </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-purple">od 2000 PLN</h3>
+                                                    <h3 class="text-purple">od 2 000 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
@@ -27,13 +38,18 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Lokalizacja w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka.
-                                                    W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy <b>Coworking w Wilanowie</b>\ lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro
+                                                    Zarejestruj swoją firmę w jednej z najbardziej prestiżowych lokalizacji w Miasteczku
+                                                    Wilanów, u zbiegu alei Rzeczypospolitej i Klimczaka. Klimczaka 15 to także <b>elastyczna przestrzeń <a href="{{route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">coworking</a> oraz gotowe do natychmiastowego
+                                                    rozpoczęcia pracy gabinety – <a href="{{route('office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}">biura.</a></b>
                                                 @else
-                                                Lokalizacja w samym sercu Miasteczka Wilanów u zbiegu alei Rzeczypospolitej i Klimczaka. W przestrzeni oprócz <b>gotowych do pracy gabinetów</b> znajdziesz także <b>przestrzeń coworkingową</b>, którą możesz dzielić ze znajomymi sąsiadami z osiedla.
-                                                Wynajem dedykowanego biurka w większej przestrzeni jest idealnym rozwiązaniem dla osób i firm poszukujących niedrogiego, ale elastycznego i inspirującego miejsca do pracy w pobliżu miejsca zamieszkania. Ponadto, <b>coworking w Wilanowie</b> to również świetna okazja do nawiązywania wartościowych kontaktów biznesowych i współpracy z innymi profesjonalistami.
-                                                <br>
-                                                W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
+                                                    Przestrzeń biurowa zlokalizowana u zbiegu alei Rzeczypospolitej i ulicy Klimczaka to
+                                                    <b>elastyczne i atrakcyjne cenowo</b> miejsca do pracy blisko miejsca zamieszkania.
+                                                    <b>Gabinety i coworking</b> to przestrzenie dopasowane do potrzeb zarówno freelancerów, jak i
+                                                    mniejszych zespołów.
+                                                    <b>Bliskość miejsca zamieszkania</b> to idealne rozwiązanie dla osób i firm z okolicy
+                                                    ceniących czas i wygodę.
+                                                <br><br>
+                                                    Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Coworking</b></a> oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'wilanow-klimczaka-15'])}}" class="text-purple"><b>Wirtualne Biuro</b></a>.
                                                 @endif
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
@@ -42,7 +58,8 @@
                                                        class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
                                                        data-office="KLIMCZAKA 15 WILANÓW"
                                                        data-bs-toggle="modal"
-                                                       data-bs-target="#modal-offices">
+                                                       data-bs-target="#modal-offices"
+                                                    >
                                                         Zapytaj o dostępność
                                                     </a>
                                                 </span>
@@ -54,18 +71,60 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-6_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-8_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/klimczaka-15-nobel-7_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                             </div>
@@ -79,75 +138,149 @@
             <!-- /.row -->
         </div>
 
-        <hr class="bg-violet border-2 border-top border-purple"/>
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-purple"/>
 
-        <div class="tab-pane fade show active mt-15" id="tab2-1">
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>O lokalizacji</h2>
 
-            <div class="project-details d-flex justify-content-center flex-column">
-                <div class="post-header">
-                    <div class="post-category text-purple">Coworking</div>
-                    <h2 class="">Wilanów Klimczaka 15</h2>
-                    <div class="mb-3">
-                        @if ($mainMenu !== 'virtualOffices')
-                            <h3 class="text-purple">od 500 PLN</h3>
-                        @endif
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-purple pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">4 gabinety + coworking (kilkanaście stanowisk)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-purple pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">Elastyczny: gabinetowe i coworking</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-purple pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">Nowoczesne, biurowe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Elastyczność</h4>
+                            <p class="mb-0">Możliwość powiększenia biura</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Parking</h4>
+                            <p class="mb-0">Garaż podziemny</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Monitoring, ochrona 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">100 m do tramwaju, w budynku kawiarnie i restauracje</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">Autobus, tramwaj, rower, hulajnoga, pieszo</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-purple pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort pracy</h4>
+                            <p class="mb-0">Klimatyzacja, szybki internet symetryczny, strefa kuchenna dla najemców, serwis sprzątający</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-                                <div class="col-lg-6">
-                                    <figure class="rounded shadow-lg"><img src="{{asset('assets/img/offices/klimczaka/cowo/klimczaka-15-nobel-4.jpg')}}" srcset="{{asset('assets/img/offices/klimczaka/cowo/klimczaka-15-nobel-4.jpg')}}" alt=""></figure>
-                                </div>
-{{--                <!--/column -->--}}
-                                <div class="col-lg-6">
-                <div class="col-lg-12">
-                    <p style="font-size: 18px; text-align: justify;">
-                        Stanowiska pracy są dedykowane i wybierane przez Klienta.
-                        <br>
-                    </p>
 
-                    <p style="font-size: 15px;">
-                        Oferujemy:
-                    </p>
+            <hr class="bg-violet border-2 border-top border-purple"/>
+        @endif
 
-                    <ul class="icon-list bullet-bg bullet-soft-purple" style="font-size: 15px;">
-                        <li><i class="uil uil-check"></i>nieograniczony dostęp do wybranego przez siebie stanowiska pracy (biurko, fotel, kontener)</li>
-                        <li><i class="uil uil-check"></i>przestronny lokal z dostępem do części wspólnych (aneks kuchenny oraz toalety)</li>
-                        <li><i class="uil uil-check"></i>możliwość rejestracji Państwa Firmy pod tym adresem</li>
-                        <li><i class="uil uil-check"></i>dostęp do drukarki (limit wydruków na każdego użytkownika)</li>
-                        <li><i class="uil uil-check"></i>Internet</li>
-                        <li><i class="uil uil-check"></i>kawa/herbata bez limitu</li>
-                        <li><i class="uil uil-check"></i>serwis sprzątający</li>
-                    </ul>
-                </div>
-                <!--/column -->
-            </div>
-            <!--/.row -->
-                <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-                                                <span>
-                                                    <a href="#"
-                                                       class="btn btn-sm btn-purple rounded-pill me-2 nobel-contact-button"
-                                                       data-office="KLIMCZAKA 15 WILANÓW COWORKING"
-                                                       data-bs-toggle="modal"
-                                                       data-bs-target="#modal-offices">
-                                                        Zapytaj o dostępność
-                                                    </a>
-                                                </span>
-                </div>
-        </div>
 
-        <hr class="bg-violet border-2 border-top border-purple"/>
-
-            @if ($mainMenu === 'virtualOffices')
+    @if ($mainMenu === 'virtualOffices')
                 @include('Services.components.virtualOfficePricing')
-            @endif
+    @endif
 
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.6083799687517!2d21.071689844278474!3d52.15963136611365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d5d3500fdcb%3A0xe24d39a432c49fd3!2sKlimczaka%2015%2C%2002-797%20Warszawa!5e0!3m2!1spl!2spl!4v1740766816197!5m2!1spl!2spl"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.547513744705!2d21.072382777008734!3d52.16073816276565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d857f85d97f%3A0xe2ccef08aedf7049!2sNobel!5e0!3m2!1spl!2spl!4v1756229512679!5m2!1spl!2spl"
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>

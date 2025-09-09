@@ -1,7 +1,14 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'yellow'])
+    @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
+    <style>
+        .image-wrapper {
+            width: 100vw; /* Pełna szerokość widoku */
+            margin-left: calc(-50vw + 50%); /* Centrowanie sekcji */
+            margin-right: calc(-50vw + 50%); /* Centrowanie sekcji */
+        }
+    </style>
 
     <section class="wrapper bg-light">
 
@@ -17,9 +24,16 @@
                                         <div class="post-header">
                                             <div class="post-category text-yellow mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
                                             <h2 class="underline-3 style-2 yellow">Mokotów Pory 78</h2>
+                                            <p class="text-muted">
+                                                @if ($mainMenu === 'offices')
+                                                    12 piętro z widokiem i wygodą.
+                                                @else
+                                                    Carolina – Prestiżowy adres na zielonym Mokotowie.
+                                                @endif
+                                            </p>
                                             <div class="mb-3">
                                                 @if ($mainMenu !== 'virtualOffices')
-                                                    <h3 class="text-yellow">od 2500 PLN</h3>
+                                                    <h3 class="text-yellow">od 2 000 PLN</h3>
                                                 @endif
                                             </div>
                                         </div>
@@ -27,14 +41,29 @@
                                         <div class="post-content">
                                             <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro na <b>Mokotowie</b> to doskonała opcja dla firm pragnących skorzystać z prestiżowego adresu w jednej z najbardziej pożądanych dzielnic Warszawy.
-                                                    Mokotów jest znany z doskonałej infrastruktury, bliskości do centrum miasta oraz licznych parków, co czyni go idealnym <b>miejscem do prowadzenia działalności biznesowej</b>.
+                                                <p style="text-align: justify">
+                                                    Umieść swoją firmę w jednej z najbardziej pożądanych lokalizacji w Warszawie.
+                                                    Wirtualne biuro na Mokotowie to idealne rozwiązanie dla tych, którzy cenią doskonałą
+                                                    infrastrukturę, bliskość centrum oraz otoczenie zieleni.
+                                                </p>
+
+                                                <ul class="icon-list bullet-bg bullet-soft-yellow" style="font-size: 15px;">
+                                                    <li><i class="uil uil-check"></i><b>Prestiżowa lokalizacja</b> - podkreśl profesjonalizm swojej firmy dzięki
+                                                        znanemu adresowi na Mokotowie.</li>
+                                                    <li><i class="uil uil-check"></i><b>Idealne miejsce do pracy i rozwoju</b> – dzielnica łączy biznesowy charakter z
+                                                        komfortem codziennego funkcjonowania.</li>
+                                                    <li><i class="uil uil-check"></i><b>Biura serwisowane</b> – w pełni umeblowane gabinety gotowe do pracy od
+                                                        zaraz, dostępne na elastycznych zasadach.</li>
+                                                </ul>
                                                 @else
-                                                    Serwisowane biura zlokalizowane w Multis Plaza usytuowane w zacisznym i malowniczym zakątku Warszawy w pobliżu dzielnic: <b>Wawer, Wilanów i Ursynów</b>. Na warszawskim Mokotowie czeka na Ciebie <b>kilkanaście wyposażonych i gotowych do pracy gabinetów oraz sala konferencyjna</b>. Miła obsługa odbierze Twoją korespondencję oraz przywita gości.
-                                                    <br>
-                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
+                                                <p style="text-align: justify">
+                                                    Zlokalizowane na 12 piętrze <b>Multis Plaza przy ulicy Pory 78</b> biuro serwisowane łączy <b>funkcjonalność z wyjątkową obsługą.</b>
+                                                    Kilkanaście gabinetów gotowych do natychmiastowego rozpoczęcia pracy, a także sala konferencyjna to idealne warunki do rozwoju.
+                                                    <br><br>
+                                                    Elastyczne opcje: możliwość skorzystania z usługi <a href="{{route('virtual.office.route.dispatch', ['office' => 'carolina-medical-center'])}}" class="text-yellow"><b>Wirtualne Biuro</b></a>.
+
+                                                </p>
                                                 @endif
-                                            </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
@@ -53,17 +82,117 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/WIDOK.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new3_600.jpg') }}"
+                                                        srcset="
+                                                  {{ asset('assets/img/offices/carolina/wb/new3_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/carolina/wb/new3_1200.jpg') }} 1200w
+                                                "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Mokotów Pory 78"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+                                        @else
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/carolina/pory16.jpg')}}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory16_600.jpg') }}"
+                                                        srcset="
+                                                  {{ asset('assets/img/offices/carolina/pory16_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/carolina/pory16_1200.jpg') }} 1200w
+                                                "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Mokotów Pory 78"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/wb/new2.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new2_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/wb/new2_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/wb/new2_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Purus Tellus Magna"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+                                        @else
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/pory10.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory10_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/pory10_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/pory10_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Fusce Ipsum Vestibulum"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/oxf/2.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/oxf/2.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        @if ($mainMenu === 'virtualOffices')
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/wb/new1.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new1_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/wb/new1_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/wb/new1_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Purus Tellus Magna"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+
+                                        @else
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/pory9.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory9_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/pory9_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/pory9_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Condimentum Parturient Ligula"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+                                        @endif
                                     </figure>
                                 </div>
                                 <!-- /.item -->
@@ -78,7 +207,140 @@
             <!-- /.row -->
         </div>
 
-        @if ($mainMenu === 'virtualOffices')
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-yellow"/>
+
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>O lokalizacji</h2>
+
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">ponad 200 m² nowoczesnej przestrzeni z dużą liczbą gabinetów</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">biura indywidualne, sala konferencyjna</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-yellow pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">funkcjonalne, biurowe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Obsługa</h4>
+                            <p class="mb-0">Korespondencja, sala konferencyjna</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Parking</h4>
+                            <p class="mb-0">Garaż podziemny, parking zewnętrzny</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Recepcja, monitoring, ochrona 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">Dogodny dojazd z Wilanowa, Mokotowa, Ursynowa</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">Tramwaje, autobusy</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-yellow pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort</h4>
+                            <p class="mb-0">Klimatyzacja, szybki internet symetryczny, sala konferencyjna, aneks kuchenny z dostępem do kawy i herbaty, serwis sprzątający</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="bg-violet border-2 border-top border-yellow"/>
+        @endif
+
+    @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')
         @endif
 
@@ -86,7 +348,7 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.7483393312214!2d21.041544959024954!3d52.189671559957986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x19339477da44c6b9!2sSzpitale%20Carolina%20i%20Optimum!5e0!3m2!1spl!2spl!4v1740779867223!5m2!1spl!2spl" >
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.925659392281!2d21.039676593547842!3d52.190223988343455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd358459b459%3A0x623876d7ca77603f!2sNobel!5e0!3m2!1spl!2spl!4v1756229319545!5m2!1spl!2spl" >
                         allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>

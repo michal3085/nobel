@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'green'])
+    @include('office._returnButton', ['color' => 'blue', 'title' => _getOfficeTitle($mainMenu)])
 
     <section class="wrapper bg-light">
 
@@ -15,27 +15,45 @@
                                 <div class="item col-md-6">
                                     <div class="project-details d-flex justify-content-center flex-column">
                                         <div class="post-header">
-                                            <div class="post-category text-green mb-3">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
-                                            <h2 class="underline-3 style-2 green">Chałubińskiego 8 Śródmieście</h2>
+                                            <div class="post-category text-green mb-1">@if ($mainMenu === 'virtualOffices') Wirtualne biuro @else Lokalizacja @endif</div>
+                                            <h2 class="underline-3 style-2 green">Śródmieście Chałubińskiego 8</h2>
+                                            <p class="text-muted">
+                                                22 piętro z widokiem na sukces.
+                                            </p>
                                         </div>
                                         <!-- Dodanie ceny 2500 PLN -->
-                                        <div class="mb-3">
+                                        <div class="mb-n2">
                                             @if ($mainMenu !== 'virtualOffices')
-                                                <h3 class="text-green">od 1500 PLN</h3>
+                                                <h3 class="text-green">od 1 500 PLN</h3>
                                             @endif
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
-                                            <p style="text-align: justify">
                                                 @if ($mainMenu === 'virtualOffices')
-                                                    Wirtualne biuro w ścisłym centrum Warszawy na <b>22 piętrze</b> jednego z pierwszych warszawskich drapaczy chmur - słynnego z wielu produkcji filmowych biurowca <b>Oxford Tower</b> (Elektrim i Intraco II to nazwy biurowca z lat 90 tych).
-                                                    Bezpośrednie sąsiedztwo dworca PKP Warszawa Centralna, Warsaw Presidential Hotel (kiedyś Marriott) i Pałacu Kultury i Nauki. W budynku poza usługą wirtualnego adresu i wynajmu sali konferencyjnej dodatkowo możesz wynająć stanowisko pracy lub gotowy do pracy, w pełni umeblowany i z dostępem do internetu gabinet tzw. gotowe biuro.
+                                                <p style="text-align: justify">
+                                                    Przenieś firmę na 22. piętro Oxford Tower – jednego z pierwszych warszawskich drapaczy chmur.
+                                                    Prestiżowa lokalizacja obok Pałacu Kultury i Nauki oraz Dworca Centralnego.
+                                                </p>
+
+                                            <ul class="icon-list bullet-bg bullet-soft-green" style="font-size: 15px;">
+                                                <li><i class="uil uil-check"></i><b>Prestiżowy adres w centrum Warszawy</b> – idealny dla budowania wizerunku Twojej firmy.</li>
+                                                <li><i class="uil uil-check"></i><b>Elastyczne możliwości pracy</b> – skorzystaj z coworkingu lub w pełni umeblowanych gabinetów gotowych do pracy od zaraz.</li>
+                                                <li><i class="uil uil-check"></i><b>Bliskość kluczowych punktów Warszawy</b> – łatwy dostęp do komunikacji miejskiej, restauracji i usług.</li>
+                                            </ul>
+
+                                                Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Coworking</b></a> oraz <a href="{{route('office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Biuro</b></a>.
+                                                    <br><br>
                                                 @else
-                                                    W pełni wyposażone <b>biura w samym sercu Warszawy</b>. Doskonała lokalizacja – <b>kultowy biurowiec przy ulicy Chałubińskiego 8</b>. Doskonały dojazd z i do każdej części miasta, liczne lokale usługowe, gastronomiczne w bliskim sąsiedztwie oraz sala konferencyjna gwarancja idealnego miejsca do prowadzenia Twojej działalności.
-                                                    <br>
-                                                    W tej lokalizacji gwarantujemy również <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
+                                                <p style="text-align: justify">
+                                                    Biuro zlokalizowane na <b>22 piętrze w wieżowcu Oxford Tower</b> to idealna przestrzeń dla
+                                                    nowoczesnych firm.
+                                                    <b>Panoramiczny widok, wysoki standard</b> – wszystko w jednym
+                                                    miejscu.
+
+                                                    <br><br>
+                                                    Elastyczne opcje: usługa <a href="{{route('coworking.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Coworking</b></a> oraz <a href="{{route('virtual.office.route.dispatch', ['office' => 'oxford-tower'])}}" class="text-green"><b>Wirtualne Biuro</b></a>.
+                                                </p>
                                                 @endif
-                                            </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
                                                     <a href="#"
@@ -55,26 +73,92 @@
                                 <!-- /.item -->
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="{{asset('/assets/img/photos/cs4-full.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/6.jpg')}}" alt="" />
+                                        <a href="{{ asset('assets/img/offices/oxf/6.jpg') }}"
+                                           data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/oxf/6_600.jpg') }}"
+                                                srcset="
+                                                  {{ asset('assets/img/offices/oxf/6_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/6_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Biuro Oxford Tower"
+                                                loading="lazy" />
                                         </a>
                                     </figure>
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs5-full.jpg" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/new/3.jpg')}}" alt="" />
-                                        </a>
-                                    </figure>
+                                    @if ($mainMenu === 'virtualOffices')
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/wb/new2.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/wb/new2_600.jpg') }}"
+                                                    srcset="
+                                                      {{ asset('assets/img/offices/oxf/wb/new2_600.jpg') }} 600w,
+                                                      {{ asset('assets/img/offices/oxf/wb/new2_1200.jpg') }} 1200w
+                                                    "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @else
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/oxf5.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/oxf5_600.jpg') }}"
+                                                    srcset="
+                                                  {{ asset('assets/img/offices/oxf/oxf5_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/oxf5_1200.jpg') }} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @endif
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded">
-                                        <a href="/assets/img/photos/cs6-full.jpg" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2">
-                                            <img src="{{asset('assets/img/offices/oxf/new/2.jpg')}}" alt="" />
-                                        </a>
-                                    </figure>
+                                    @if ($mainMenu === 'virtualOffices')
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/wb/new1.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }}"
+                                                    srcset="
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/oxf/wb/new1_1200.jpg') }} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @else
+                                        <figure class="itooltip itooltip-light hover-scale rounded">
+                                            <a href="{{asset('assets/img/offices/oxf/new/2.jpg')}}"
+                                               data-glightbox="title: Śródmieście Chałubińskiego 8"
+                                               data-gallery="project-2">
+                                                <img
+                                                    src="{{asset('assets/img/offices/oxf/new/2_600.jpg')}}"
+                                                    srcset="
+                                                  {{asset('assets/img/offices/oxf/new/2_600.jpg')}} 600w,
+                                                  {{asset('assets/img/offices/oxf/new/2_1200.jpg')}} 1200w
+                                                "
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                    alt="Biuro Oxford Tower"
+                                                    loading="lazy" />
+                                            </a>
+                                        </figure>
+                                    @endif
                                 </div>
                                 <!-- /.item -->
                             </div>
@@ -126,6 +210,139 @@
             </div>
         </div>
 
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-green"/>
+
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>O lokalizacji</h2>
+
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-green pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">dla małego lub średniego zespołu</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-green pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">biura indywidualne, sala konferencyjna</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-green pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">funkcjonalne, biurowe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Obsługa administracyjna</h4>
+                            <p class="mb-0">Odbiór korespondencji, wsparcie sali konferencyjnej</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Miejsca parkingowe</h4>
+                            <p class="mb-0">Dostępne w garażu podziemnym</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Recepcja, monitoring, ochrona 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">Centrum biznesowe między Rondem ONZ a Rondem Daszyńskiego, przy Fabryce Norblina</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">II linia metra, tramwaje, autobusy</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-green pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort pracy</h4>
+                            <p class="mb-0">Klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna, serwis sprzątający</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-green"/>
+        @endif
+
+
         @if ($mainMenu === 'virtualOffices')
             @include('Services.components.virtualOfficePricing')
         @endif
@@ -134,7 +351,7 @@
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2443.9477567338554!2d21.00104917691333!3d52.22616695794225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sOXFORD%20TOWER%20CH8%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cfigure%20class%3D%22rounded%20overflow-hidden%22%20style%3D%22aspect-ratio%3A%201%2F1%3B%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20src%3D%22%7B%7Basset(&#39;assets%2Fimg%2Foffices%2Foxf%2F3.jpg&#39;)%7D%7D%22%20alt%3D%22%22%20class%3D%22img-fluid%20w-100%20h-100%20object-fit-cover%22%20%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Ffigure%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E!5e0!3m2!1spl!2spl!4v1738712996309!5m2!1spl!2spl"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.9349373632017!2d21.00099307701171!3d52.226399857924875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc92b7e0c023%3A0xc0d63c10567d85c8!2sNobel!5e0!3m2!1spl!2spl!4v1756229185539!5m2!1spl!2spl"
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>

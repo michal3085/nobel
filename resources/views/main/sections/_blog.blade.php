@@ -3,7 +3,7 @@
     <div class="container pb-14 pb-md-6">
         <div class="row">
             <div class="col-lg-12 mx-auto"> <!-- Zmiana z col-lg-10 na col-lg-12 -->
-                
+
                     <div class="col-lg-12 text-center text-lg-start"> <!-- Zmiana z col-lg-7 na col-lg-12 -->
                         <h3 class="display-3 mb-0 pe-xl-10 pe-xxl-15"><span class="underline-3 style-2 yellow">Blog</span> </h3>
                     </div>
@@ -26,7 +26,7 @@
                                                 <h5 class="card-title text-yellow">{{ $post->post_title }}</h5>
                                             </a>
                                             <p class="card-text flex-grow-1 text-truncate-3">
-                                                {{ Str::limit(strip_tags($post->post_text), 100) }}
+                                                {!! Str::limit(strip_tags($post->post_text), 100) !!}
                                             </p>
                                             <div class="mt-auto">
                                                 <small class="text-muted">
@@ -51,7 +51,7 @@
                                 <a class="btn btn-yellow rounded-pill" href="{{route('blog.show.all')}}">Pozostałe posty</a>
                             </span>
                         </div>
-                    @else
+                    @elseif ($showAll)
                         <div class="d-flex justify-content-center">
                             <span>
                                 <a class="btn btn-yellow rounded-pill" href="{{route('main')}}">Strona główna</a>

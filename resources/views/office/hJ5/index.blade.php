@@ -1,7 +1,7 @@
 @extends('_layout')
 
 @section('content')
-    @include('office._returnButton', ['color' => 'sky'])
+    @include('office._returnButton', ['color' => 'sky', 'title' => _getOfficeTitle($mainMenu)])
 
     <section class="wrapper bg-light">
         <div class="container py-5">
@@ -16,15 +16,19 @@
                                         <div class="post-header">
                                             <div class="post-category text-sky mb-3">Lokalizacja</div>
                                             <h2 class="underline-3 style-2 sky">Wilanów Herbu Janina 5</h2>
+                                            <p class="text-muted">
+                                                Spokojna przestrzeń do pracy w Wilanowie.
+                                            </p>
                                             <div class="mb-3">
-                                                <h3 class="text-sky">od 1800 PLN</h3>
+                                                <h3 class="text-sky">od 1 500 PLN</h3>
                                             </div>
                                         </div>
                                         <!-- /.post-header -->
                                         <div class="post-content">
                                             <p style="text-align: justify">
-                                                Lokalizacja położona na Błoniach Wilanowskich w Miasteczku Wilanów. Zapomnisz tu o zgiełku rozpędzonego miasta, a czas w biurze upłynie w spokojnej atmosferze.
-                                                <b>25 klimatyzowanych biur</b>, które urzekają oryginalnym charakterem. W okolicy znajdziesz wiele kawiarni i restauracji, które w przerwie od pracy serwują pyszny lunch.
+                                                Biura serwisowane w niskiej zabudowie <b>Miasteczka Wilanów</b>, blisko <b>Południowej Obwodnicy Warszawy</b>, oferują designerski styl z betonu architektonicznego w ponad 20 gabinetach.
+                                                <br><br>
+                                                <b>Komfortowe otoczenie biznesowe</b> oraz bliskość licznych kawiarni, restauracji i usług stanowią idealne miejsca na lunch, spotkania biznesowe lub chwilę relaksu po pracy.
                                             </p>
                                             <div class="d-flex justify-content-center fs-9" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
                                                 <span>
@@ -44,18 +48,60 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-above-nobel-2.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj1.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj1_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj1_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj1_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Purus Tellus Magna"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U05-nobel-1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj6.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj6_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj6_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj6_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Fusce Ipsum Vestibulum"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" data-glightbox="title:" data-gallery="project-2"> <img src="{{asset('assets/img/offices/HJ5/HJ5-U04-nobel-9.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/HJ5/hj8.jpg') }}"
+                                           data-glightbox="title: Wilanów Herbu Janina 5"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/HJ5/hj8_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/HJ5/hj8_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/HJ5/hj8_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt=""
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                             </div>
@@ -108,11 +154,144 @@
             </div>
         </div>
 
+        @if ($mainMenu === 'offices')
+            <hr class="bg-violet border-2 border-top border-sky"/>
+
+            <div class="row gx-md-8 gx-xl-12 gy-10">
+                <h2>O lokalizacji</h2>
+
+                <!-- Powierzchnia -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-map-marker text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Powierzchnia</h4>
+                            <p class="mb-0">350 m², ponad 20 gabinetów</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Układ pomieszczeń -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-wrench text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Układ pomieszczeń</h4>
+                            <p class="mb-0">elastyczny: gabinetowe, jednoosobowe lub zespołowe</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+
+                <!-- Wykończenie -->
+                <div class="col-lg-6">
+                    <div class="d-flex flex-row">
+                        <div>
+                <span class="icon btn btn-sm btn-circle btn-sky pe-none me-5">
+                    <i class="uil uil-briefcase text-white"></i>
+                </span>
+                        </div>
+                        <div>
+                            <h4>Wykończenie</h4>
+                            <p class="mb-0">nowoczesne, beton architektoniczny</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /column -->
+            </div>
+
+            <hr>
+
+            <div class="row mt-7 mb-5">
+                <!-- Dodatkowe udogodnienia -->
+                <div class="col-lg-6">
+                    <h3 class="display-4 mb-7">Dodatkowe udogodnienia</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Elastyczność</h4>
+                            <p class="mb-0">Możliwość powiększenia przestrzeni</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Parking</h4>
+                            <p class="mb-0">Garaż podziemny i miejsca zewnętrzne</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Bezpieczeństwo</h4>
+                            <p class="mb-0">Monitoring, ochrona 24/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Korzyści dla najemcy -->
+                <div class="col-lg-6 border-start">
+                    <h3 class="display-4 mb-7">Korzyści dla najemcy</h3>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">1</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Lokalizacja</h4>
+                            <p class="mb-0">Na uboczu, blisko usług i kawiarni</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row mb-6">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">2</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komunikacja</h4>
+                            <p class="mb-0">Blisko tramwaju Miasteczko Wilanów, autobusy, obwodnica</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div>
+                            <span class="icon btn btn-circle btn-soft-sky pe-none me-5"><span class="number fs-18">3</span></span>
+                        </div>
+                        <div>
+                            <h4 class="mb-1">Komfort pracy</h4>
+                            <p class="mb-0">Klimatyzacja, szybki internet symetryczny, sala konferencyjna, strefa kuchenna dla najemców, serwis sprzątający</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-violet border-2 border-top border-sky"/>
+        @endif
+
+
         <div class="container-fluid px-md-6 mt-4">
             <div class="row">
                 <div class="col-12">
                     <iframe class="w-100 d-block" style="height: 450px; border:0;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.9398552250823!2d21.0783524!3d52.153603499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d69587dd79d%3A0x290d77a9039c1fd2!2sHerbu%20Janina%205%2C%2002-972%20Warszawa!5e0!3m2!1spl!2spl!4v1744270401405!5m2!1spl!2spl"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.936618435617!2d21.076013177008395!3d52.153662363287005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192d3f9ca2f069%3A0x3e483bd0ea005faf!2sNobel!5e0!3m2!1spl!2spl!4v1756229426337!5m2!1spl!2spl"
                             allowfullscreen="" aria-hidden="false" tabindex="0">
                     </iframe>
                 </div>
