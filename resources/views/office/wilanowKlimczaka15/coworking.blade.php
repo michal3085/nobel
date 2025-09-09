@@ -46,18 +46,60 @@
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/cowo/klim4.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/cowo/klim4.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/cowo/klim4_1200.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/cowo/klim4_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim4_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim4_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/cowo/klim1.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/cowo/klim1.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/cowo/klim1_1200.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/cowo/klim1_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim1_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim1_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                                 <div class="item col-md-6">
-                                    <figure class="itooltip itooltip-light hover-scale rounded"><a href="{{asset('assets/img/offices/klimczaka/cowo/klim3.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/klimczaka/cowo/klim3.jpg')}}" alt="" /></a>
+                                    <figure class="itooltip itooltip-light hover-scale rounded">
+                                        <a href="{{ asset('assets/img/offices/klimczaka/cowo/klim3_1200.jpg') }}"
+                                           data-glightbox="title: Wilanów Klimczaka 15"
+                                           data-gallery="project-2">
+                                            <img
+                                                src="{{ asset('assets/img/offices/klimczaka/cowo/klim3_600.jpg') }}"
+                                                srcset="
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim3_600.jpg') }} 600w,
+                                                    {{ asset('assets/img/offices/klimczaka/cowo/klim3_1200.jpg') }} 1200w
+                                                "
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                alt="Wilanów Klimczaka 15"
+                                                loading="lazy" />
+                                        </a>
                                     </figure>
+
                                 </div>
                                 <!-- /.item -->
                             </div>
