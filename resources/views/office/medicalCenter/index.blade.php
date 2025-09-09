@@ -84,9 +84,37 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/carolina/wb/new3.jpg')}}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new3_600.jpg') }}"
+                                                        srcset="
+                                                  {{ asset('assets/img/offices/carolina/wb/new3_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/carolina/wb/new3_1200.jpg') }} 1200w
+                                                "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Mokotów Pory 78"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @else
-                                            <a href="{{asset('assets/img/offices/carolina/pory16.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory16.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{asset('assets/img/offices/carolina/pory16.jpg')}}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory16_600.jpg') }}"
+                                                        srcset="
+                                                  {{ asset('assets/img/offices/carolina/pory16_600.jpg') }} 600w,
+                                                  {{ asset('assets/img/offices/carolina/pory16_1200.jpg') }} 1200w
+                                                "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Mokotów Pory 78"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
                                     </figure>
                                 </div>
@@ -94,9 +122,37 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new2.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/wb/new2.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new2_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/wb/new2_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/wb/new2_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Purus Tellus Magna"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @else
-                                            <a href="{{asset('assets/img/offices/carolina/pory10.jpg')}}" data-glightbox="title: Fusce Ipsum Vestibulum" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory10.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/pory10.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory10_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/pory10_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/pory10_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Fusce Ipsum Vestibulum"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
                                     </figure>
                                 </div>
@@ -104,9 +160,38 @@
                                 <div class="item col-md-6">
                                     <figure class="itooltip itooltip-light hover-scale rounded">
                                         @if ($mainMenu === 'virtualOffices')
-                                            <a href="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" data-glightbox="title: Purus Tellus Magna" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/wb/new1.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/wb/new1.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/wb/new1_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/wb/new1_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/wb/new1_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Purus Tellus Magna"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
+
                                         @else
-                                            <a href="{{asset('assets/img/offices/carolina/pory9.jpg')}}" data-glightbox="title: Condimentum Parturient Ligula" data-gallery="project-2"> <img src="{{asset('assets/img/offices/carolina/pory9.jpg')}}" alt="" /></a>
+                                            <figure class="itooltip itooltip-light hover-scale rounded">
+                                                <a href="{{ asset('assets/img/offices/carolina/pory9.jpg') }}"
+                                                   data-glightbox="Mokotów Pory 78"
+                                                   data-gallery="project-2">
+                                                    <img
+                                                        src="{{ asset('assets/img/offices/carolina/pory9_600.jpg') }}"
+                                                        srcset="
+                                                            {{ asset('assets/img/offices/carolina/pory9_600.jpg') }} 600w,
+                                                            {{ asset('assets/img/offices/carolina/pory9_1200.jpg') }} 1200w
+                                                        "
+                                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1200px"
+                                                        alt="Condimentum Parturient Ligula"
+                                                        loading="lazy" />
+                                                </a>
+                                            </figure>
                                         @endif
                                     </figure>
                                 </div>
